@@ -1,0 +1,3 @@
+paddockcommand.com
+
+Rename this file to CNAME only when you are ready to activate the custom domain in GitHub Pages.

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06101f"/><stop offset="1" stop-color="#0b2742"/></linearGradient>
+    <linearGradient id="blue" x1="0" x2="1"><stop stop-color="#4ca7ff"/><stop offset="1" stop-color="#95d8ff"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <path d="M0 515 L1200 330 L1200 630 L0 630Z" fill="#071827" opacity=".9"/>
+  <path d="M0 545 L1200 360" stroke="#2e8fd3" stroke-width="4" opacity=".45"/>
+  <path d="M0 580 L1200 395" stroke="#154b73" stroke-width="2" opacity=".55"/>
+  <rect x="76" y="76" width="118" height="118" rx="24" fill="#0b233a" stroke="#66bdff" stroke-width="3"/>
+  <text x="95" y="153" fill="#56b3ff" font-family="Arial,Helvetica,sans-serif" font-size="61" font-style="italic" font-weight="900">P</text>
+  <text x="132" y="153" fill="#eef8ff" font-family="Arial,Helvetica,sans-serif" font-size="61" font-style="italic" font-weight="900">C</text>
+  <text x="230" y="125" fill="#eff8ff" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="900" letter-spacing="8">PADDOCK</text>
+  <text x="230" y="186" fill="url(#blue)" font-family="Arial,Helvetica,sans-serif" font-size="50" font-weight="900" font-style="italic" letter-spacing="12">COMMAND</text>
+  <text x="78" y="330" fill="#f5fbff" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="900">RACE INTELLIGENCE.</text>
+  <text x="78" y="405" fill="url(#blue)" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="900">BUILT FOR FANS.</text>
+  <text x="80" y="485" fill="#91a9bd" font-family="Arial,Helvetica,sans-serif" font-size="30">Standings · Live weekends · History · Predictions · Analysis</text>
+  <text x="80" y="580" fill="#6cbcff" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700">paddockcommand.com</text>
+</svg>
