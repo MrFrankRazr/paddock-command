@@ -63,3 +63,8 @@ The static pages use `contact@paddockcommand.com`. Configure that address or Clo
 ## Legal note
 
 Paddock Command is an unofficial independent fan site. Formula 1 and related marks are referenced editorially and remain the property of their respective owners. This repository does not include official Formula 1 logos or circuit-outline artwork.
+
+
+## Analytics
+
+Cloudflare Web Analytics is enabled on all public HTML pages using the site beacon for `paddockcommand.com`. Traffic data is available in the Cloudflare dashboard under Web Analytics.
