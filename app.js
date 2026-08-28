@@ -160,6 +160,7 @@ async function getCircuitIntel(circuitId){
 function openCircuitShell(){ const modal=$('#circuitModal');modal.classList.add('open');modal.setAttribute('aria-hidden','false');document.body.classList.add('modal-open'); }
 async function openCircuitIntel(circuitId){
   const race=seasonRaceForCircuit(circuitId)||state.races.find(r=>r.Circuit?.circuitId===circuitId); if(!race) return;
+  trackEvent('circuit_intel_open',{circuit_id:circuitId,season:state.season,round:Number(race.round)||0});
   const c=race.Circuit,loc=c.Location,content=$('#circuitModalContent'); openCircuitShell();
   content.innerHTML=`<div class="profile-loading"><p class="eyebrow">CIRCUIT INTELLIGENCE</p><h2 id="circuitModalTitle">${esc(c.circuitName)}</h2><p>${esc(loc.locality)}, ${esc(loc.country)}</p><div class="skeleton tall"></div></div>`;
   try{
@@ -362,9 +363,9 @@ function favoriteMeta(kind,id){
 }
 function addFavorite(kind,id){
   if(!id)return; const f=loadFavorites(), key=kind==='driver'?'drivers':kind==='constructor'?'constructors':'circuits';
-  if(!f[key].some(x=>x.id===id)) f[key].push(favoriteMeta(kind,id)); saveFavorites(f); renderMyF1(); toast('Added to My F1');
+  if(!f[key].some(x=>x.id===id)){ f[key].push(favoriteMeta(kind,id)); trackEvent('favorite_add',{kind,id,season:state.season}); } saveFavorites(f); renderMyF1(); toast('Added to My Paddock');
 }
-function removeFavorite(kind,id){ const f=loadFavorites(),key=kind==='driver'?'drivers':kind==='constructor'?'constructors':'circuits'; f[key]=f[key].filter(x=>x.id!==id); saveFavorites(f);renderMyF1();toast('Removed from My F1'); }
+function removeFavorite(kind,id){ const f=loadFavorites(),key=kind==='driver'?'drivers':kind==='constructor'?'constructors':'circuits'; f[key]=f[key].filter(x=>x.id!==id); saveFavorites(f);renderMyF1();trackEvent('favorite_remove',{kind,id,season:state.season});toast('Removed from My Paddock'); }
 function renderFavoriteSelectors(){
   const ds=$('#favoriteDriverSelect'),ts=$('#favoriteTeamSelect'),cs=$('#favoriteCircuitSelect');
   if(ds) ds.innerHTML=state.drivers.map(d=>`<option value="${esc(d.Driver.driverId)}">${esc(driverFullName(d))}</option>`).join('');
@@ -461,7 +462,7 @@ function initSeasonSelector(){
   const select=$('#seasonSelect'); if(!select) return;
   select.innerHTML=Array.from({length:CURRENT_YEAR-1949},(_,i)=>CURRENT_YEAR-i).map(y=>`<option value="${y}" ${y===state.season?'selected':''}>${y}${y===CURRENT_YEAR?' · Current':''}</option>`).join('');
   select.addEventListener('change',()=>{
-    state.season=Number(select.value); state.filter='all'; state.weekendCache.clear(); state.profileCache.clear(); state.circuitCache.clear(); state.liveCenter.lastRound=null; state.compareA=null; state.compareB=null; state.scenario.a=null; state.scenario.b=null;
+    state.season=Number(select.value); trackEvent('season_change',{season:state.season}); state.filter='all'; state.weekendCache.clear(); state.profileCache.clear(); state.circuitCache.clear(); state.liveCenter.lastRound=null; state.compareA=null; state.compareB=null; state.scenario.a=null; state.scenario.b=null;
     $$('.filter-btn').forEach(x=>x.classList.toggle('active',x.dataset.filter==='all'));
     loadData(false); switchView('home');
   });
@@ -519,6 +520,7 @@ function openProfileShell(){
 }
 async function openDriverProfile(driverId){
   const standing=state.drivers.find(d=>d.Driver.driverId===driverId); if(!standing) return;
+  trackEvent('driver_profile_open',{driver_id:driverId,season:state.season,position:Number(standing.position)||0});
   const d=standing.Driver, team=constructorOfDriver(standing), content=$('#profileModalContent'); openProfileShell();
   content.innerHTML=`<div class="profile-loading"><p class="eyebrow">DRIVER PROFILE</p><h2 id="profileModalTitle">${esc(driverFullName(standing))}</h2><div class="skeleton tall"></div></div>`;
   try{
@@ -530,6 +532,7 @@ async function openDriverProfile(driverId){
 }
 async function openConstructorProfile(constructorId){
   const standing=state.teams.find(t=>t.Constructor.constructorId===constructorId); if(!standing) return;
+  trackEvent('constructor_profile_open',{constructor_id:constructorId,season:state.season,position:Number(standing.position)||0});
   const c=standing.Constructor, content=$('#profileModalContent'); openProfileShell();
   content.innerHTML=`<div class="profile-loading"><p class="eyebrow">CONSTRUCTOR PROFILE</p><h2 id="profileModalTitle">${esc(c.name)}</h2><div class="skeleton tall"></div></div>`;
   try{
@@ -688,6 +691,7 @@ function buildSessionTimeline(r){
   }).join('');
 }
 async function openRaceWeekend(round){
+  trackEvent('race_weekend_open',{round:Number(round)||0,season:state.season});
   const r=state.races.find(x=>String(x.round)===String(round)) || state.winners.find(x=>String(x.round)===String(round));
   if(!r) return;
   const modal=$('#raceModal'), content=$('#raceModalContent'), loc=r.Circuit.Location;
@@ -712,14 +716,14 @@ function closeRaceWeekend(){
 
 $$('.nav-link').forEach(b=>b.addEventListener('click',()=>switchView(b.dataset.view)));
 $$('.filter-btn').forEach(b=>b.addEventListener('click',()=>{state.filter=b.dataset.filter; $$('.filter-btn').forEach(x=>x.classList.toggle('active',x===b)); renderCalendar();}));
-$('#refreshBtn').addEventListener('click',()=>loadData(true));
-const liveRefresh=$('#liveCenterRefresh'); if(liveRefresh) liveRefresh.addEventListener('click',()=>{toast('Refreshing race weekend center…');renderLiveCenter(true);});
-const newsRefresh=$('#newsRefresh'); if(newsRefresh) newsRefresh.addEventListener('click',()=>loadNews(true));
+$('#refreshBtn').addEventListener('click',()=>{trackEvent('data_refresh',{source:'main',season:state.season});loadData(true);});
+const liveRefresh=$('#liveCenterRefresh'); if(liveRefresh) liveRefresh.addEventListener('click',()=>{trackEvent('data_refresh',{source:'live_center',season:state.season});toast('Refreshing race weekend center…');renderLiveCenter(true);});
+const newsRefresh=$('#newsRefresh'); if(newsRefresh) newsRefresh.addEventListener('click',()=>{trackEvent('data_refresh',{source:'news',season:state.season});loadNews(true);});
 const compareA=$('#compareSelectA'), compareB=$('#compareSelectB');
-if(compareA) compareA.addEventListener('change',()=>{ state.compareA=compareA.value; if(state.compareA===state.compareB){const alt=compareOptions().find(x=>x.id!==state.compareA); if(alt) state.compareB=alt.id;} renderCompare(); });
-if(compareB) compareB.addEventListener('change',()=>{ state.compareB=compareB.value; if(state.compareB===state.compareA){const alt=[...compareOptions()].reverse().find(x=>x.id!==state.compareB); if(alt) state.compareA=alt.id;} renderCompare(); });
+if(compareA) compareA.addEventListener('change',()=>{ state.compareA=compareA.value; if(state.compareA===state.compareB){const alt=compareOptions().find(x=>x.id!==state.compareA); if(alt) state.compareB=alt.id;} renderCompare(); trackEvent('comparison_update',{kind:state.compareType,a:state.compareA,b:state.compareB,season:state.season}); });
+if(compareB) compareB.addEventListener('change',()=>{ state.compareB=compareB.value; if(state.compareB===state.compareA){const alt=[...compareOptions()].reverse().find(x=>x.id!==state.compareB); if(alt) state.compareA=alt.id;} renderCompare(); trackEvent('comparison_update',{kind:state.compareType,a:state.compareA,b:state.compareB,season:state.season}); });
 
-const scenarioReset=$('#scenarioReset'); if(scenarioReset) scenarioReset.addEventListener('click',()=>{state.scenario={a:state.drivers[0]?.Driver?.driverId||null,b:state.drivers[1]?.Driver?.driverId||null,raceA:1,raceB:2,sprintA:1,sprintB:2};renderScenario();});
+const scenarioReset=$('#scenarioReset'); if(scenarioReset) scenarioReset.addEventListener('click',()=>{state.scenario={a:state.drivers[0]?.Driver?.driverId||null,b:state.drivers[1]?.Driver?.driverId||null,raceA:1,raceB:2,sprintA:1,sprintB:2};renderScenario();trackEvent('scenario_reset',{season:state.season});});
 document.addEventListener('change',(e)=>{
   const id=e.target?.id;
   if(id==='scenarioDriverA'){state.scenario.a=e.target.value;if(state.scenario.a===state.scenario.b)state.scenario.b=state.drivers.find(d=>d.Driver.driverId!==state.scenario.a)?.Driver.driverId;renderScenario();}
@@ -728,6 +732,7 @@ document.addEventListener('change',(e)=>{
   else if(id==='scenarioRaceB'){state.scenario.raceB=Number(e.target.value);if(state.scenario.raceB===state.scenario.raceA)state.scenario.raceA=state.scenario.raceB===1?2:1;renderScenario();}
   else if(id==='scenarioSprintA'){state.scenario.sprintA=Number(e.target.value);if(state.scenario.sprintA&&state.scenario.sprintA===state.scenario.sprintB)state.scenario.sprintB=state.scenario.sprintA===1?2:1;renderScenario();}
   else if(id==='scenarioSprintB'){state.scenario.sprintB=Number(e.target.value);if(state.scenario.sprintB&&state.scenario.sprintB===state.scenario.sprintA)state.scenario.sprintA=state.scenario.sprintB===1?2:1;renderScenario();}
+  if(id?.startsWith('scenario')) trackEvent('scenario_update',{field:id,season:state.season,a:state.scenario.a||'',b:state.scenario.b||'',race_a:state.scenario.raceA,race_b:state.scenario.raceB,sprint_a:state.scenario.sprintA,sprint_b:state.scenario.sprintB});
   else if(id==='pickP1'){state.predictor.p1=e.target.value;}
   else if(id==='pickP2'){state.predictor.p2=e.target.value;}
   else if(id==='pickP3'){state.predictor.p3=e.target.value;}
@@ -757,10 +762,10 @@ document.addEventListener('click',(e)=>{
   if(constructorBtn){ e.preventDefault(); openConstructorProfile(constructorBtn.dataset.constructorId); return; }
 
   const compareTypeBtn=e.target.closest('[data-compare-type]');
-  if(compareTypeBtn){ state.compareType=compareTypeBtn.dataset.compareType; state.compareA=null; state.compareB=null; renderCompare(); return; }
+  if(compareTypeBtn){ state.compareType=compareTypeBtn.dataset.compareType; state.compareA=null; state.compareB=null; renderCompare(); trackEvent('comparison_type',{kind:state.compareType,season:state.season}); return; }
 
   const trendBtn=e.target.closest('[data-trend-type]');
-  if(trendBtn){ state.trendType=trendBtn.dataset.trendType; $$('.analytics-toggle').forEach(x=>x.classList.toggle('active',x===trendBtn)); renderTrendChart(); return; }
+  if(trendBtn){ state.trendType=trendBtn.dataset.trendType; $$('.analytics-toggle').forEach(x=>x.classList.toggle('active',x===trendBtn)); renderTrendChart(); trackEvent('trend_toggle',{kind:state.trendType,season:state.season}); return; }
 
   const raceBtn=e.target.closest('[data-race-round]');
   if(raceBtn){ e.preventDefault(); openRaceWeekend(raceBtn.dataset.raceRound); return; }
@@ -779,10 +784,15 @@ installBtn?.addEventListener('click',async()=>{if(!deferredInstallPrompt)return;
 window.addEventListener('appinstalled',()=>{if(installBtn)installBtn.hidden=true;trackEvent('pwa_installed');});
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(err=>console.warn('Service worker registration failed',err)));}
 function trackEvent(name,detail={}){
-  window.dispatchEvent(new CustomEvent('paddockcommand:analytics',{detail:{name,...detail}}));
-  if(typeof window.plausible==='function') window.plausible(name,{props:detail});
+  const payload={...detail,path:location.pathname,view:document.querySelector('.view.active')?.id?.replace('view-','')||'unknown'};
+  window.dispatchEvent(new CustomEvent('paddockcommand:analytics',{detail:{name,...payload}}));
+  try{ if(window.zaraz?.track) window.zaraz.track(name,payload); }catch(err){ console.debug('Zaraz event skipped',err); }
+  if(typeof window.plausible==='function') window.plausible(name,{props:payload});
 }
-document.addEventListener('click',(event)=>{const nav=event.target.closest('[data-view],[data-jump]');if(nav)trackEvent('navigation',{target:nav.dataset.view||nav.dataset.jump});});
+document.addEventListener('click',(event)=>{
+  const nav=event.target.closest('[data-view],[data-jump]');if(nav)trackEvent('navigation',{target:nav.dataset.view||nav.dataset.jump});
+  const link=event.target.closest('a[href]');if(link){try{const u=new URL(link.href,location.href);if(u.hostname&&u.hostname!==location.hostname)trackEvent('outbound_click',{host:u.hostname,label:(link.textContent||'').trim().slice(0,80)});}catch(_){}}
+});
 const copyrightYear=document.getElementById('copyrightYear');if(copyrightYear)copyrightYear.textContent=String(new Date().getFullYear());
 setInterval(()=>{renderNextRace(); if($('#view-live')?.classList.contains('active')) renderLiveTimeline(focusRace()||{});},1000); setInterval(()=>{if(state.season===CURRENT_YEAR)loadData(false);},5*60*1000);
 loadData();
@@ -905,9 +915,9 @@ function renderPredictor(){
 function saveCurrentPick(){
   const race=predictorRace();if(!race||raceDateTime(race).getTime()<=Date.now())return toast('This prediction is locked');
   const podium=[$('#pickP1')?.value,$('#pickP2')?.value,$('#pickP3')?.value];if(new Set(podium).size!==3)return toast('Choose three different drivers');
-  let picks=loadPicks();const key=pickKey(state.season,race.round);const entry={key,season:state.season,round:Number(race.round),raceName:race.raceName,podium,podiumNames:podium.map(nameForDriverId),savedAt:Date.now()};const idx=picks.findIndex(p=>p.key===key);if(idx>=0)picks[idx]=entry;else picks.push(entry);savePicks(picks);toast('Fan Pick saved');renderPredictor();
+  let picks=loadPicks();const key=pickKey(state.season,race.round);const entry={key,season:state.season,round:Number(race.round),raceName:race.raceName,podium,podiumNames:podium.map(nameForDriverId),savedAt:Date.now()};const idx=picks.findIndex(p=>p.key===key);if(idx>=0)picks[idx]=entry;else picks.push(entry);savePicks(picks);trackEvent('fan_pick_save',{season:state.season,round:Number(race.round)||0,p1:podium[0],p2:podium[1],p3:podium[2],updated:idx>=0});toast('Fan Pick saved');renderPredictor();
 }
-function clearCurrentPick(){const race=predictorRace();if(!race)return;savePicks(loadPicks().filter(p=>p.key!==pickKey(state.season,race.round)));toast('Fan Pick cleared');renderPredictor()}
+function clearCurrentPick(){const race=predictorRace();if(!race)return;savePicks(loadPicks().filter(p=>p.key!==pickKey(state.season,race.round)));trackEvent('fan_pick_clear',{season:state.season,round:Number(race.round)||0});toast('Fan Pick cleared');renderPredictor()}
 
 
 // v1.9.0 — News, Form/Streaks/Milestones, Share Cards
@@ -1011,10 +1021,11 @@ async function shareCanvas(canvas,filename,title){
   const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=filename;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);toast('Share card downloaded');
 }
 function shareComparisonCard(){
-  if(!state.compareA||!state.compareB)return toast('Choose two competitors first');const kind=state.compareType,A=compareStatsFor(state.compareA,kind),B=compareStatsFor(state.compareB,kind),an=comparisonName(state.compareA,kind),bn=comparisonName(state.compareB,kind);
+  if(!state.compareA||!state.compareB)return toast('Choose two competitors first');
+  trackEvent('share_card',{type:'comparison',kind:state.compareType,season:state.season,a:state.compareA,b:state.compareB});const kind=state.compareType,A=compareStatsFor(state.compareA,kind),B=compareStatsFor(state.compareB,kind),an=comparisonName(state.compareA,kind),bn=comparisonName(state.compareB,kind);
   const canvas=buildShareCanvas({kicker:`${state.season} · HEAD-TO-HEAD`,title:`${an} vs ${bn}`,subtitle:kind==='constructors'?'Constructor comparison':'Driver comparison',columns:[{label:an,value:`${A.points} PTS · P${A.standing?.position||'—'}`},{label:bn,value:`${B.points} PTS · P${B.standing?.position||'—'}`}],stats:[`Wins  ${A.wins} — ${B.wins}`,`Podiums  ${A.podiums} — ${B.podiums}`,`Poles  ${A.poles} — ${B.poles}`,`Fastest laps  ${A.fastest} — ${B.fastest}`]});shareCanvas(canvas,`paddock-command-${state.season}-${an}-vs-${bn}.png`.replace(/[^a-z0-9.-]+/gi,'-').toLowerCase(),'Paddock Command Head-to-Head');
 }
 function sharePredictionCard(key){
-  const pick=loadPicks().find(p=>p.key===key);if(!pick)return toast('Saved prediction not found');const scored=scorePick(pick),names=pick.podiumNames||pick.podium.map(nameForDriverId),subtitle=scored?`Result scored · ${scored.score} / 9 points`:'Prediction saved · awaiting race result';
+  const pick=loadPicks().find(p=>p.key===key);if(!pick)return toast('Saved prediction not found');trackEvent('share_card',{type:'fan_pick',season:Number(pick.season)||0,round:Number(pick.round)||0,scored:!!scorePick(pick)});const scored=scorePick(pick),names=pick.podiumNames||pick.podium.map(nameForDriverId),subtitle=scored?`Result scored · ${scored.score} / 9 points`:'Prediction saved · awaiting race result';
   const canvas=buildShareCanvas({kicker:`${pick.season} · FAN PICKS`,title:pick.raceName||'Grand Prix prediction',subtitle,columns:names.map((n,i)=>({label:`P${i+1}`,value:n})),stats:scored?[`${scored.exact} exact podium position${scored.exact===1?'':'s'}`,scored.score===9?'PERFECT PODIUM · 9 / 9':'Paddock Command prediction score']:['Locked at scheduled race start','3 pts exact · 1 pt podium driver'],footer:'Paddock Command · Fan Picks'});shareCanvas(canvas,`paddock-command-pick-${pick.season}-round-${pick.round}.png`,'Paddock Command Fan Pick');
 }

@@ -1,3 +1,7 @@
+## Paddock Command v2.0.2
+
+This release adds structured engagement-event instrumentation for Cloudflare Zaraz and restores the full PWA/SEO support file set (manifest, service worker, favicon, robots, sitemap, CNAME, .nojekyll). Cloudflare Web Analytics remains enabled for aggregate page traffic.
+
 # Paddock Command v2.0.0
 
 Paddock Command is an independent, static-hosted motorsport intelligence dashboard. This release rebrands the F1 Pulse project and adds a production-readiness layer while retaining the established race-data features.
