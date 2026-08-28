@@ -20,3 +20,14 @@ Core events:
 - `pwa_install_prompt` / `pwa_installed`
 
 Events intentionally exclude email addresses, names entered by visitors, account IDs, IP addresses, or other first-party identity fields.
+
+
+## Monetization events (v2.3.0)
+
+| Event | Purpose | Key properties |
+|---|---|---|
+| `affiliate_click` | Measures approved affiliate-link engagement | `placement`, `affiliate_key`, `merchant`, `campaign` |
+| `sponsor_click` | Measures labeled sponsor-link engagement | `sponsor`, `placement` |
+| `outbound_click` | Measures ordinary external links separately from paid links | `host`, `path`, `placement` |
+
+Commercial events are emitted by `monetization.js`; paid features remain disabled by default in `monetization-config.js`.

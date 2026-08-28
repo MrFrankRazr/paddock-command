@@ -1,4 +1,4 @@
-# Paddock Command v2.2.2 — SEO & Content Expansion
+# Paddock Command v2.3.0 — Monetization Foundation
 
 This release expands Paddock Command from a primarily single-page application into a search-friendly publishing surface while preserving the interactive command center.
 
@@ -10,13 +10,13 @@ This release expands Paddock Command from a primarily single-page application in
 - Expanded internal linking from the main site footer
 - Expanded `sitemap.xml` from the small legal/support set to the full public content surface
 - Restored/verified PWA support files: `manifest.webmanifest`, `sw.js`, `favicon.svg`, `.nojekyll`, `CNAME`, `robots.txt`
-- Service-worker cache bumped to v2.2.2
-- App and stylesheet cache-busting bumped to v2.2.2
+- Current service-worker cache: v2.3.0
+- Current app and stylesheet cache-busting: v2.3.0
 - Existing analytics retained; `trackEvent()` now sends custom events to Zaraz when available
 
 ## Search Console after deployment
 
-Resubmit `https://paddockcommand.com/sitemap.xml`, then use URL Inspection on several high-value pages such as `/standings.html`, `/drivers.html`, `/calendar.html`, `/records.html` and `/articles/`. Indexing is controlled by Google and can take time even after successful sitemap discovery.
+Resubmit `https://paddockcommand.com/sitemap.xml`, then use URL Inspection on several high-value pages such as `/standings.html`, `/drivers.html`, `/calendar.html`, `/records.html` and `/articles.html`. Indexing is controlled by Google and can take time even after successful sitemap discovery.
 
 ---
 
@@ -133,3 +133,17 @@ Primary navigation now uses canonical HTML URLs for every major section while cl
 - Editorial hub is now `/articles.html`.
 - Articles is included in the primary top navigation.
 - `/articles/` remains a compatibility redirect only.
+
+
+## v2.3.0 — Monetization Foundation
+
+This release adds a disabled-by-default commercial framework so revenue features can be activated deliberately after partner approval.
+
+- `monetization-config.js` centralizes ad/affiliate/sponsor activation.
+- `monetization.js` handles disclosure-aware affiliate links and Zaraz commercial events.
+- Reserved ad inventory remains hidden until an approved ad provider is integrated.
+- Affiliate recommendation modules remain hidden until a configured approved destination exists.
+- `MONETIZATION-SETUP.md` documents activation and testing.
+- `ads.txt.example` is provided for future ad-network setup; do not rename it to `ads.txt` until a network supplies a real publisher record.
+- Commercial clicks are separated from ordinary outbound source links in analytics.
+- App/PWA cache version is v2.3.0.

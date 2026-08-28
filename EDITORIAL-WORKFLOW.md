@@ -39,3 +39,12 @@
 ## Analytics
 
 Monitor article landing pages in Cloudflare Web Analytics and track outbound/internal engagement with Zaraz. Useful growth KPIs: article → Live Center, article → Standings, article → Fan Picks, article → Compare, and returning visitors around race weekends.
+
+
+## Commercial independence
+
+- Editorial conclusions are written independently of affiliate, advertising or sponsorship relationships.
+- Never alter statistics, rankings or race analysis to favor a commercial partner.
+- Keep affiliate disclosures adjacent to commercial recommendation modules.
+- Paid/sponsored content must be labeled before the reader enters the sponsored section.
+- Source/reference links are not affiliate links unless they are explicitly labeled and configured through the monetization layer.
