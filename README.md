@@ -1,4 +1,4 @@
-# Paddock Command v2.1.0 — SEO & Content Expansion
+# Paddock Command v2.1.1 — SEO & Content Expansion
 
 This release expands Paddock Command from a primarily single-page application into a search-friendly publishing surface while preserving the interactive command center.
 
@@ -10,8 +10,8 @@ This release expands Paddock Command from a primarily single-page application in
 - Expanded internal linking from the main site footer
 - Expanded `sitemap.xml` from the small legal/support set to the full public content surface
 - Restored/verified PWA support files: `manifest.webmanifest`, `sw.js`, `favicon.svg`, `.nojekyll`, `CNAME`, `robots.txt`
-- Service-worker cache bumped to v2.1.0
-- App and stylesheet cache-busting bumped to v2.1.0
+- Service-worker cache bumped to v2.1.1
+- App and stylesheet cache-busting bumped to v2.1.1
 - Existing analytics retained; `trackEvent()` now sends custom events to Zaraz when available
 
 ## Search Console after deployment
@@ -99,3 +99,7 @@ Cloudflare Web Analytics is enabled on all public HTML pages using the site beac
 ## v2.0.3
 
 Adds manual Cloudflare Zaraz loading from `https://analytics.paddockcommand.com/cdn-cgi/zaraz/i.js` for the DNS-only GitHub Pages deployment. Existing Cloudflare Web Analytics remains enabled. Engagement events continue to use `zaraz.track()` when Zaraz is available.
+
+
+## v2.1.1 corrective release
+Major SEO routes now render the complete live Paddock Command application rather than static-only landing pages. Editorial article pages retain crawlable long-form content with expanded navigation and corrected brand sizing.

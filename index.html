@@ -1,1 +1,323 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#06101f"/><meta name="robots" content="index,follow,max-image-preview:large"/><title>Motorsport Intelligence Articles | Paddock Command</title><meta name="description" content="Original Paddock Command guides and race-intelligence explainers for Formula 1 fans who want more context behind the numbers."/><link rel="canonical" href="https://paddockcommand.com/articles/"/><meta property="og:type" content="website"/><meta property="og:site_name" content="Paddock Command"/><meta property="og:title" content="Motorsport Intelligence Articles | Paddock Command"/><meta property="og:description" content="Original Paddock Command guides and race-intelligence explainers for Formula 1 fans who want more context behind the numbers."/><meta property="og:url" content="https://paddockcommand.com/articles/"/><meta property="og:image" content="https://paddockcommand.com/social-card.png"/><meta name="twitter:card" content="summary_large_image"/><link rel="icon" href="/favicon.svg" type="image/svg+xml"/><link rel="stylesheet" href="/styles.css?v=2.1.0"/><link rel="stylesheet" href="/seo.css?v=2.1.0"/><script src="https://analytics.paddockcommand.com/cdn-cgi/zaraz/i.js" referrerpolicy="origin"></script></head><body><a class="skip-link" href="#content">Skip to main content</a><div class="seo-shell"><div class="seo-topbar"><a class="seo-brand" href="/"><img src="/logo.svg" alt=""/><strong>PADDOCK <span>COMMAND</span></strong></a><nav class="seo-topnav" aria-label="SEO site navigation"><a href="/standings.html">Standings</a><a href="/calendar.html">Calendar</a><a href="/records.html">Records</a><a href="/articles/">Articles</a></nav></div><main id="content"><div class="seo-hero"><p class="seo-kicker">PADDOCK COMMAND EDITORIAL</p><h1>Race Intelligence Articles</h1><p>Original Paddock Command guides and race-intelligence explainers for Formula 1 fans who want more context behind the numbers.</p></div><div class="article-list"><article class="article-card"><small>CHAMPIONSHIP GUIDE</small><h2>How to Read Formula 1 Championship Standings</h2><p>A practical guide to reading driver and constructor standings, points gaps, wins and the context behind a championship table.</p><a href="/articles/understanding-f1-standings.html">Read guide →</a></article><article class="article-card"><small>FORM GUIDE</small><h2>How to Read Driver Form Beyond the Last Result</h2><p>A framework for reading recent Formula 1 form using finishes, scoring streaks, qualifying consistency and context.</p><a href="/articles/reading-driver-form.html">Read guide →</a></article><article class="article-card"><small>RACE WEEKEND GUIDE</small><h2>How to Use Race Weekend Data Without Confusing It With Live Timing</h2><p>Understand the difference between schedules, published classifications, weather context and official real-time Formula 1 timing.</p><a href="/articles/using-race-weekend-data.html">Read guide →</a></article></div><section class="seo-section"><h2>What comes next</h2><p>This editorial hub is designed to expand with race-weekend previews, post-race debriefs, championship-watch reports, circuit guides and records analysis. The goal is to add original interpretation around the live tools rather than merely reproduce public data.</p></section></main><footer class="seo-footer"><nav><a href="/about.html">About</a><a href="/data-sources.html">Data Sources</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="/disclosures.html">Disclosures</a><a href="/contact.html">Contact</a></nav><p>Paddock Command is an unofficial, independent motorsport fan site and is not affiliated with Formula 1, the FIA, any team, driver, or rights holder. Formula 1 and related marks belong to their respective owners.</p></footer></div><!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9d15c70925cf4a25bcc187e2603683f0"}'></script><!-- End Cloudflare Web Analytics --></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#06101f" />
+  <meta name="description" content="Paddock Command is an independent race intelligence hub for Formula 1 standings, results, schedules, circuits, historical data, predictions and fan analysis." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://paddockcommand.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Paddock Command" />
+  <meta property="og:title" content="Paddock Command | Race Intelligence for Fans" />
+  <meta property="og:description" content="Live race-weekend intelligence, standings, historical data, records, predictions and fan tools in one independent motorsport command center." />
+  <meta property="og:url" content="https://paddockcommand.com/" />
+  <meta property="og:image" content="https://paddockcommand.com/social-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Paddock Command | Race Intelligence for Fans" />
+  <meta name="twitter:description" content="Race data, championship intelligence, predictions and analysis built for fans." />
+  <meta name="twitter:image" content="https://paddockcommand.com/social-card.png" />
+  <meta name="application-name" content="Paddock Command" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>Paddock Command | Race Intelligence for Fans</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="preconnect" href="https://api.jolpi.ca" crossorigin />
+  <link rel="preconnect" href="https://api.open-meteo.com" crossorigin />
+  <link rel="stylesheet" href="styles.css?v=2.1.1" />
+  <script src="https://analytics.paddockcommand.com/cdn-cgi/zaraz/i.js" referrerpolicy="origin"></script>
+</head>
+<body>
+  <a class="skip-link" href="#mainContent">Skip to main content</a>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand brand-v2" href="#home" aria-label="Paddock Command home">
+      <span class="brand-mark pc-mark" aria-hidden="true"><span>P</span><span>C</span></span>
+      <span class="brand-lockup"><strong>PADDOCK</strong><em>COMMAND</em></span>
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <button class="nav-link active" data-view="home">Race Control</button>
+      <button class="nav-link" data-view="live">Live Center</button>
+      <button class="nav-link" data-view="news">News</button>
+      <button class="nav-link" data-view="drivers">Drivers</button>
+      <button class="nav-link" data-view="teams">Constructors</button>
+      <button class="nav-link" data-view="form">Form</button>
+      <button class="nav-link" data-view="trends">Trends</button>
+      <button class="nav-link" data-view="compare">Compare</button>
+      <button class="nav-link" data-view="scenario">Scenario</button>
+      <button class="nav-link" data-view="myf1">My Paddock</button>
+      <button class="nav-link" data-view="records">Records</button>
+      <button class="nav-link" data-view="predictor">Fan Picks</button>
+      <button class="nav-link" data-view="winners">Winners</button>
+      <button class="nav-link" data-view="calendar">Calendar</button>
+      <button class="nav-link" data-view="circuits">Circuits</button>
+    </nav>
+    <div class="header-controls">
+      <button class="install-btn" id="installAppBtn" type="button" hidden aria-label="Install Paddock Command app">Install App</button>
+      <label class="season-control" for="seasonSelect"><span>Season</span><select id="seasonSelect" aria-label="Select Formula 1 season"></select></label>
+      <div class="live-status" title="Data refresh status">
+      <span class="status-dot" id="statusDot"></span>
+        <span id="statusText">Connecting</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="mainContent">
+    <section class="hero view active" id="view-home" data-view-panel="home">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow"><span id="seasonLabel">CURRENT SEASON</span> · PADDOCK COMMAND</p>
+          <h1>RACE INTELLIGENCE.<br><span>COMMAND THE GRID.</span></h1>
+          <p class="hero-copy">Live race-weekend context, championship data, historical intelligence, fan predictions and every circuit on the calendar — built for people who follow every lap.</p>
+          <div class="hero-actions">
+            <button class="primary-btn" data-jump="drivers">View Standings</button>
+            <button class="ghost-btn" id="refreshBtn">Refresh Data</button>
+          </div>
+        </div>
+        <aside class="next-race-card" id="nextRaceCard">
+          <div class="skeleton tall"></div>
+        </aside>
+      </div>
+
+      <div class="stat-strip" id="leaderStrip">
+        <div class="mini-stat skeleton"></div><div class="mini-stat skeleton"></div><div class="mini-stat skeleton"></div><div class="mini-stat skeleton"></div>
+      </div>
+
+      <div class="section-head">
+        <div><p class="eyebrow">CHAMPIONSHIP SNAPSHOT</p><h2>Front of the field</h2></div>
+        <button class="text-btn" data-jump="drivers">Full standings →</button>
+      </div>
+      <div class="dashboard-grid">
+        <div class="panel"><div class="panel-head"><h3>Drivers</h3><span>Top 5</span></div><div id="homeDrivers"></div></div>
+        <div class="panel"><div class="panel-head"><h3>Constructors</h3><span>Top 5</span></div><div id="homeTeams"></div></div>
+      </div>
+
+      <div class="section-head recent-head">
+        <div><p class="eyebrow">LAST TIME OUT</p><h2>Latest race podium</h2></div>
+        <button class="text-btn" data-jump="winners">Season winners →</button>
+      </div>
+      <div id="latestPodium" class="podium-wrap"><div class="skeleton tall"></div></div>
+    </section>
+
+    <section class="view content-view live-center-view" id="view-live" data-view-panel="live">
+      <div class="page-title live-center-title"><div><p class="eyebrow">RACE WEEKEND COMMAND</p><h1>Live Race Weekend Center</h1><p class="page-subtitle">Session clock, latest published classifications, circuit context and weather in one race-weekend view.</p></div><span class="season-chip" id="liveSeasonChip"></span></div>
+      <div id="liveCenterHero" class="live-center-hero"><div class="skeleton tall"></div></div>
+      <div class="live-center-grid">
+        <section class="analytics-panel live-session-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">SESSION CLOCK</p><h2>Weekend timeline</h2></div><button class="text-btn" id="liveCenterRefresh" type="button">Refresh center</button></div><div id="liveSessionTimeline"><div class="skeleton tall"></div></div></section>
+        <section class="analytics-panel weather-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">TRACK WEATHER</p><h2>Weekend conditions</h2></div></div><div id="liveWeather"><div class="skeleton tall"></div></div></section>
+      </div>
+      <div class="live-center-grid lower">
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">LATEST PUBLISHED DATA</p><h2>Classification</h2></div></div><div id="liveClassification"><div class="skeleton tall"></div></div></section>
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">WEEKEND STORY</p><h2>What matters now</h2></div></div><div id="liveWeekendStory"><div class="skeleton tall"></div></div></section>
+      </div>
+      <p class="live-data-note">Paddock Command shows the latest classifications published by Jolpica. It does not claim to provide official real-time lap timing or telemetry.</p>
+    </section>
+
+    <section class="view content-view" id="view-news" data-view-panel="news">
+      <div class="page-title"><div><p class="eyebrow">PADDOCK WIRE</p><h1>F1 News & Headlines</h1><p class="page-subtitle">Fresh Formula 1 headlines with direct links to the original publisher. News stays current regardless of the historical season selector.</p></div><span class="season-chip">LIVE NEWS</span></div>
+      <section class="news-source-bar">
+        <div><strong>Latest paddock coverage</strong><span id="newsUpdated">Loading headlines…</span></div>
+        <div class="news-source-links"><a href="https://www.formula1.com/en/latest" target="_blank" rel="noopener">Formula1.com ↗</a><a href="https://www.fia.com/media-center/press_release/name/F1" target="_blank" rel="noopener">FIA F1 releases ↗</a><button class="ghost-btn small" id="newsRefresh" type="button">Refresh news</button></div>
+      </section>
+      <div id="newsGrid" class="news-grid"><div class="skeleton tall"></div><div class="skeleton tall"></div><div class="skeleton tall"></div></div>
+      <p class="intel-note">Headline feed is loaded independently from championship data. If the news provider is unavailable, the rest of Paddock Command remains fully functional.</p>
+    </section>
+
+    <section class="view content-view" id="view-form" data-view-panel="form">
+      <div class="page-title"><div><p class="eyebrow">MOMENTUM WATCH</p><h1>Form, Streaks & Milestones</h1><p class="page-subtitle">See who is hot, which teams are gaining momentum, and the season milestones reached round by round.</p></div><span class="season-chip" id="formSeasonChip"></span></div>
+      <div id="formHero" class="form-hero-grid"><div class="skeleton tall"></div></div>
+      <div class="form-layout">
+        <section class="analytics-panel form-driver-panel"><div class="analytics-panel-head"><div><p class="eyebrow">LAST FIVE ROUNDS</p><h2>Driver form guide</h2><p>Recent Grand Prix finishing positions with race + sprint points across the last five completed rounds.</p></div></div><div id="driverFormGuide"><div class="skeleton tall"></div></div></section>
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">CONSTRUCTOR MOMENTUM</p><h2>Team form</h2></div></div><div id="teamFormLeaders" class="leaderboard-list"><div class="skeleton tall"></div></div></section>
+      </div>
+      <section class="analytics-panel milestone-feed-panel"><div class="analytics-panel-head"><div><p class="eyebrow">SEASON MARKERS</p><h2>Recent milestones</h2><p>Notable firsts and threshold achievements detected from the selected season results.</p></div></div><div id="formMilestones" class="form-milestone-feed"><div class="skeleton tall"></div></div></section>
+    </section>
+
+    <section class="view content-view" id="view-drivers" data-view-panel="drivers">
+      <div class="page-title"><div><p class="eyebrow">WORLD CHAMPIONSHIP</p><h1>Driver Standings</h1></div><span class="season-chip" id="driverSeasonChip"></span></div>
+      <div class="table-shell"><div id="driverTable" class="data-table"><div class="skeleton tall"></div></div></div>
+    </section>
+
+    <section class="view content-view" id="view-teams" data-view-panel="teams">
+      <div class="page-title"><div><p class="eyebrow">CONSTRUCTOR BATTLE</p><h1>Team Standings</h1></div><span class="season-chip" id="teamSeasonChip"></span></div>
+      <div id="teamCards" class="team-grid"><div class="skeleton tall"></div></div>
+    </section>
+
+
+    <section class="view content-view" id="view-trends" data-view-panel="trends">
+      <div class="page-title"><div><p class="eyebrow">SEASON INTELLIGENCE</p><h1>Championship Trends</h1></div><span class="season-chip" id="trendSeasonChip"></span></div>
+
+      <div id="seasonLeaderCards" class="analytics-hero-grid">
+        <div class="skeleton tall"></div>
+      </div>
+
+      <section class="analytics-panel trend-panel">
+        <div class="analytics-panel-head">
+          <div><p class="eyebrow">POINTS PROGRESSION</p><h2>Championship battle by round</h2><p>Race + sprint points accumulated through each completed round.</p></div>
+          <div class="trend-toggle" role="group" aria-label="Championship trend type">
+            <button class="analytics-toggle active" type="button" data-trend-type="drivers">Drivers</button>
+            <button class="analytics-toggle" type="button" data-trend-type="constructors">Constructors</button>
+          </div>
+        </div>
+        <div id="trendLegend" class="trend-legend"></div>
+        <div id="trendChart" class="trend-chart-shell"><div class="skeleton tall"></div></div>
+      </section>
+
+      <div class="analytics-grid">
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">ONE-LAP PACE</p><h2>Poles</h2></div></div><div id="poleLeaders" class="leaderboard-list"></div></section>
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">RACE PACE</p><h2>Fastest Laps</h2></div></div><div id="fastestLapLeaders" class="leaderboard-list"></div></section>
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">CONSISTENCY</p><h2>Podiums</h2></div></div><div id="podiumLeaders" class="leaderboard-list"></div></section>
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">MOMENTUM</p><h2>Last 5 Rounds</h2></div></div><div id="formLeaders" class="leaderboard-list"></div></section>
+      </div>
+    </section>
+
+
+    <section class="view content-view" id="view-compare" data-view-panel="compare">
+      <div class="page-title"><div><p class="eyebrow">HEAD-TO-HEAD</p><h1>Compare the Grid</h1><p class="page-subtitle">Put two drivers or constructors side by side across the selected season.</p></div><span class="season-chip" id="compareSeasonChip"></span></div>
+      <section class="analytics-panel compare-control-panel">
+        <div class="compare-toolbar">
+          <div class="compare-toolbar-actions">
+            <div class="trend-toggle" role="group" aria-label="Comparison type">
+            <button class="analytics-toggle active" type="button" data-compare-type="drivers">Drivers</button>
+            <button class="analytics-toggle" type="button" data-compare-type="constructors">Constructors</button>
+            </div>
+            <button class="share-btn" type="button" data-share-compare>Share comparison card</button>
+          </div>
+          <div class="compare-selectors">
+            <label><span>Competitor A</span><select id="compareSelectA" aria-label="Select first competitor"></select></label>
+            <div class="versus-badge">VS</div>
+            <label><span>Competitor B</span><select id="compareSelectB" aria-label="Select second competitor"></select></label>
+          </div>
+        </div>
+      </section>
+      <div id="compareHero" class="compare-hero"><div class="skeleton tall"></div></div>
+      <div id="compareStats" class="compare-stat-grid"><div class="skeleton tall"></div></div>
+      <section class="analytics-panel compare-round-panel">
+        <div class="analytics-panel-head"><div><p class="eyebrow">ROUND BY ROUND</p><h2>Season battle</h2><p>Race finishes and points for both competitors across completed Grands Prix.</p></div></div>
+        <div id="compareRounds" class="compare-rounds"><div class="skeleton tall"></div></div>
+      </section>
+    </section>
+
+
+    <section class="view content-view" id="view-scenario" data-view-panel="scenario">
+      <div class="page-title"><div><p class="eyebrow">TITLE FIGHT LAB</p><h1>Championship Scenario Calculator</h1><p class="page-subtitle">Set hypothetical race and sprint finishes, then see how the selected season standings would move.</p></div><span class="season-chip" id="scenarioSeasonChip"></span></div>
+      <div class="scenario-layout">
+        <section class="analytics-panel scenario-control-panel">
+          <div class="analytics-panel-head"><div><p class="eyebrow">SCENARIO SETUP</p><h2>Build the next result</h2><p id="scenarioRaceLabel">Select competitors and finishing positions.</p></div><button class="ghost-btn small" id="scenarioReset" type="button">Reset</button></div>
+          <div class="scenario-fields">
+            <label><span>Driver A</span><select id="scenarioDriverA"></select></label>
+            <label><span>Race finish</span><select id="scenarioRaceA"></select></label>
+            <label class="scenario-sprint-field"><span>Sprint finish</span><select id="scenarioSprintA"></select></label>
+            <label><span>Driver B</span><select id="scenarioDriverB"></select></label>
+            <label><span>Race finish</span><select id="scenarioRaceB"></select></label>
+            <label class="scenario-sprint-field"><span>Sprint finish</span><select id="scenarioSprintB"></select></label>
+          </div>
+          <p class="intel-note" id="scenarioRuleNote"></p>
+        </section>
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">PROJECTED ORDER</p><h2>Championship impact</h2></div></div><div id="scenarioResults"><div class="skeleton tall"></div></div></section>
+      </div>
+    </section>
+
+    <section class="view content-view" id="view-myf1" data-view-panel="myf1">
+      <div class="page-title"><div><p class="eyebrow">YOUR PADDOCK</p><h1>My Paddock</h1><p class="page-subtitle">Pin favorite drivers, constructors and circuits to your personal command board. Favorites stay on this device in your browser.</p></div><span class="season-chip" id="myf1SeasonChip"></span></div>
+      <section class="analytics-panel favorites-add-panel">
+        <div class="favorites-add-grid">
+          <label><span>Add driver</span><div><select id="favoriteDriverSelect"></select><button type="button" data-add-favorite="driver">Pin</button></div></label>
+          <label><span>Add constructor</span><div><select id="favoriteTeamSelect"></select><button type="button" data-add-favorite="constructor">Pin</button></div></label>
+          <label><span>Add circuit</span><div><select id="favoriteCircuitSelect"></select><button type="button" data-add-favorite="circuit">Pin</button></div></label>
+        </div>
+      </section>
+      <div id="myF1Dashboard" class="myf1-grid"><div class="skeleton tall"></div></div>
+    </section>
+
+
+
+    <section class="view content-view" id="view-records" data-view-panel="records">
+      <div class="page-title"><div><p class="eyebrow">HALL OF SPEED</p><h1>Formula Racing Records & Milestones</h1><p class="page-subtitle">Explore Formula 1's all-time leaders, championship dynasties and selected-season milestones.</p></div><span class="season-chip" id="recordsSeasonChip"></span></div>
+      <div id="recordsHero" class="records-hero"><div class="skeleton tall"></div></div>
+      <div class="records-grid">
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">ALL-TIME</p><h2>Grand Prix Wins</h2></div></div><div id="recordWins" class="leaderboard-list"><div class="skeleton tall"></div></div></section>
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">ALL-TIME</p><h2>Podiums</h2></div></div><div id="recordPodiums" class="leaderboard-list"><div class="skeleton tall"></div></div></section>
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">ALL-TIME</p><h2>Pole Positions</h2></div></div><div id="recordPoles" class="leaderboard-list"><div class="skeleton tall"></div></div></section>
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">ALL-TIME</p><h2>Drivers' Titles</h2></div></div><div id="recordDriverTitles" class="leaderboard-list"><div class="skeleton tall"></div></div></section>
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">ALL-TIME</p><h2>Constructor Wins</h2></div></div><div id="recordTeamWins" class="leaderboard-list"><div class="skeleton tall"></div></div></section>
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">ALL-TIME</p><h2>Constructors' Titles</h2></div></div><div id="recordTeamTitles" class="leaderboard-list"><div class="skeleton tall"></div></div></section>
+      </div>
+      <section class="analytics-panel records-milestones"><div class="analytics-panel-head"><div><p class="eyebrow">SELECTED SEASON</p><h2 id="milestoneTitle">Season milestones</h2><p>Leader snapshots derived from the season currently selected in Paddock Command.</p></div></div><div id="seasonMilestones" class="milestone-grid"></div></section>
+      <p class="intel-note">All-time record leaderboards use a verified snapshot dated Aug 26, 2026 for reliability; selected-season milestones continue to update from the live Jolpica/Ergast-compatible data service.</p>
+    </section>
+
+    <section class="view content-view" id="view-predictor" data-view-panel="predictor">
+      <div class="page-title"><div><p class="eyebrow">CALL THE PODIUM</p><h1>Race Predictor & Fan Picks</h1><p class="page-subtitle">Pick the podium before lights out, save it on this device, then return after the race to see your score.</p></div><span class="season-chip" id="predictorSeasonChip"></span></div>
+      <div class="predictor-layout">
+        <section class="analytics-panel predictor-card">
+          <div id="predictorRaceHead" class="analytics-panel-head"><div><p class="eyebrow">NEXT GRAND PRIX</p><h2>Loading race…</h2></div></div>
+          <div id="predictorForm" class="predictor-form"><div class="skeleton tall"></div></div>
+        </section>
+        <section class="analytics-panel"><div class="analytics-panel-head compact"><div><p class="eyebrow">YOUR RECORD</p><h2>Prediction scorecard</h2></div></div><div id="predictorScorecard"></div></section>
+      </div>
+      <section class="analytics-panel predictor-history-panel"><div class="analytics-panel-head"><div><p class="eyebrow">SEASON LOG</p><h2>Fan Picks History</h2><p>Saved locally in this browser. Scored automatically when official race classifications are published.</p></div></div><div id="predictorHistory" class="predictor-history"></div></section>
+    </section>
+
+    <section class="view content-view" id="view-winners" data-view-panel="winners">
+      <div class="page-title"><div><p class="eyebrow">VICTORY LANE</p><h1>Race Winners</h1></div><span class="season-chip" id="winnerSeasonChip"></span></div>
+      <div id="winnerGrid" class="winner-grid"><div class="skeleton tall"></div></div>
+    </section>
+
+    <section class="view content-view" id="view-calendar" data-view-panel="calendar">
+      <div class="page-title"><div><p class="eyebrow">AROUND THE WORLD</p><h1>Race Calendar & Venues</h1></div><span class="season-chip" id="calendarSeasonChip"></span></div>
+      <div class="calendar-tools"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="upcoming">Upcoming</button><button class="filter-btn" data-filter="completed">Completed</button></div>
+      <div id="calendarGrid" class="calendar-grid"><div class="skeleton tall"></div></div>
+    </section>
+    <section class="view content-view" id="view-circuits" data-view-panel="circuits">
+      <div class="page-title"><div><p class="eyebrow">TRACK INTELLIGENCE</p><h1>Circuits</h1></div><span class="season-chip" id="circuitSeasonChip"></span></div>
+      <div class="circuit-intro"><p>Explore every venue on the selected season calendar. Open Circuit Intel for historical Grand Prix count, first appearance, fastest recorded race lap, and derived track/race distance where data is available.</p></div>
+      <div id="circuitGrid" class="circuit-grid"><div class="skeleton tall"></div></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand"><strong>PADDOCK COMMAND</strong><span>Race intelligence. Championship data. Built for fans.</span></div>
+    <nav class="footer-links" aria-label="Explore Paddock Command"><a href="standings.html">Standings</a><a href="drivers.html">Drivers</a><a href="constructors.html">Constructors</a><a href="calendar.html">Calendar</a><a href="circuits.html">Circuits</a><a href="records.html">Records</a><a href="articles/">Articles</a></nav>
+    <nav class="footer-links" aria-label="Site information"><a href="about.html">About</a><a href="data-sources.html">Data Sources</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="disclosures.html">Disclosures</a><a href="contact.html">Contact</a></nav>
+    <p class="independent-disclaimer">Paddock Command is an unofficial, independent motorsport fan site. It is not affiliated with, endorsed by, or connected to Formula 1, the FIA, any team, driver, or rights holder. Formula 1 and related marks belong to their respective owners.</p>
+    <div class="footer-meta"><span>Data services include Jolpica, Open-Meteo and linked news publishers.</span><span id="lastUpdated">Waiting for data…</span></div>
+    <div class="monetization-slot" data-ad-slot="footer" aria-hidden="true"></div>
+    <p class="copyright">© <span id="copyrightYear">2026</span> Paddock Command. All site branding and original presentation reserved.</p>
+  </footer>
+
+  <div class="race-modal" id="raceModal" aria-hidden="true">
+    <div class="race-modal-backdrop" data-close-race-modal></div>
+    <section class="race-modal-panel" role="dialog" aria-modal="true" aria-labelledby="raceModalTitle">
+      <button class="modal-close" type="button" aria-label="Close race weekend" data-close-race-modal>×</button>
+      <div id="raceModalContent"><div class="skeleton tall"></div></div>
+    </section>
+  </div>
+
+  <div class="profile-modal" id="profileModal" aria-hidden="true">
+    <div class="profile-modal-backdrop" data-close-profile-modal></div>
+    <section class="profile-modal-panel" role="dialog" aria-modal="true" aria-labelledby="profileModalTitle">
+      <button class="modal-close" type="button" aria-label="Close profile" data-close-profile-modal>×</button>
+      <div id="profileModalContent"><div class="skeleton tall"></div></div>
+    </section>
+  </div>
+
+
+  <div class="circuit-modal" id="circuitModal" aria-hidden="true">
+    <div class="circuit-modal-backdrop" data-close-circuit-modal></div>
+    <section class="circuit-modal-panel" role="dialog" aria-modal="true" aria-labelledby="circuitModalTitle">
+      <button class="modal-close" type="button" aria-label="Close circuit intelligence" data-close-circuit-modal>×</button>
+      <div id="circuitModalContent"><div class="skeleton tall"></div></div>
+    </section>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js?v=2.1.1" defer></script>
+  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9d15c70925cf4a25bcc187e2603683f0"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

@@ -1023,4 +1023,4 @@ function sharePredictionCard(key){
 }
 
 // v2.1.0 direct-section routing for SEO landing-page handoffs.
-window.addEventListener('DOMContentLoaded',()=>{const requested=new URLSearchParams(location.search).get('view');if(requested)setTimeout(()=>switchView(requested,{updateUrl:false}),0);});
+window.addEventListener('DOMContentLoaded',()=>{const requested=new URLSearchParams(location.search).get('view')||document.body.dataset.initialView;if(requested)setTimeout(()=>switchView(requested,{updateUrl:false}),0);});
