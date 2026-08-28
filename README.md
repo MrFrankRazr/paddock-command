@@ -1,4 +1,4 @@
-# Paddock Command v2.1.2 — SEO & Content Expansion
+# Paddock Command v2.1.3 — SEO & Content Expansion
 
 This release expands Paddock Command from a primarily single-page application into a search-friendly publishing surface while preserving the interactive command center.
 
@@ -10,8 +10,8 @@ This release expands Paddock Command from a primarily single-page application in
 - Expanded internal linking from the main site footer
 - Expanded `sitemap.xml` from the small legal/support set to the full public content surface
 - Restored/verified PWA support files: `manifest.webmanifest`, `sw.js`, `favicon.svg`, `.nojekyll`, `CNAME`, `robots.txt`
-- Service-worker cache bumped to v2.1.2
-- App and stylesheet cache-busting bumped to v2.1.2
+- Service-worker cache bumped to v2.1.3
+- App and stylesheet cache-busting bumped to v2.1.3
 - Existing analytics retained; `trackEvent()` now sends custom events to Zaraz when available
 
 ## Search Console after deployment
@@ -101,9 +101,18 @@ Cloudflare Web Analytics is enabled on all public HTML pages using the site beac
 Adds manual Cloudflare Zaraz loading from `https://analytics.paddockcommand.com/cdn-cgi/zaraz/i.js` for the DNS-only GitHub Pages deployment. Existing Cloudflare Web Analytics remains enabled. Engagement events continue to use `zaraz.track()` when Zaraz is available.
 
 
-## v2.1.2 corrective release
+## v2.1.3 corrective release
 Major SEO routes now render the complete live Paddock Command application rather than static-only landing pages. Editorial article pages retain crawlable long-form content with expanded navigation and corrected brand sizing.
 
 
-## v2.1.2 navigation correction
+## v2.1.3 navigation correction
 Primary navigation now uses canonical HTML URLs for every major section while client-side interception preserves instant in-app navigation. Added crawlable pages for Live Center, Form, Trends, My Paddock, and Winners; updated sitemap and service-worker cache.
+
+## v2.1.3 navigation visual correction
+
+- Restores the compact pill-style primary navigation used before the SEO routing change.
+- Removes browser-default underlines from canonical HTML navigation links.
+- Prevents desktop navigation labels from wrapping onto two lines.
+- Keeps every primary navigation item as a real crawlable `.html` URL.
+- Restores the accessibility skip link to its hidden-until-focused behavior.
+- Adds tighter responsive spacing for medium-width desktop displays.
