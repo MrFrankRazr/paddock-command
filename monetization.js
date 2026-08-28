@@ -6,12 +6,13 @@
     window.dispatchEvent(new CustomEvent('paddockcommand:analytics', {detail:{name,...detail}}));
   };
 
-  function configureCommercialLinks(){
-    document.querySelectorAll('[data-affiliate-key]').forEach(link => {
+  function configureCommercialLinks(scope=document){
+    scope.querySelectorAll?.('[data-affiliate-key]').forEach(link => {
       const key = link.dataset.affiliateKey;
       const item = cfg.affiliates?.links?.[key];
       if (!cfg.affiliates?.enabled || !item?.href) {
         link.hidden = true;
+        link.removeAttribute('href');
         return;
       }
       link.href = item.href;
@@ -46,6 +47,11 @@
     });
   }
 
+  function refresh(){
+    configureCommercialLinks(document);
+    configureAds();
+  }
+
   document.addEventListener('click', event => {
     const link = event.target.closest('a[href]');
     if (!link) return;
@@ -70,6 +76,16 @@
     } catch {}
   });
 
-  configureCommercialLinks();
-  configureAds();
+  refresh();
+  window.PCMonetization = Object.freeze({refresh, config:cfg});
+
+  // Circuit Intel and other panels are rendered after page load. Refresh commercial
+  // bindings when new affiliate markup appears without coupling monetization to app.js.
+  const observer = new MutationObserver(mutations => {
+    if (mutations.some(m => [...m.addedNodes].some(n => n.nodeType === 1 && (n.matches?.('[data-affiliate-key],[data-commerce-module]') || n.querySelector?.('[data-affiliate-key],[data-commerce-module]'))))) {
+      configureCommercialLinks(document);
+    }
+  });
+  if (document.body) observer.observe(document.body, {childList:true, subtree:true});
+  else document.addEventListener('DOMContentLoaded', () => observer.observe(document.body, {childList:true, subtree:true}), {once:true});
 })();

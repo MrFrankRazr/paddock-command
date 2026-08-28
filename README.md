@@ -147,3 +147,13 @@ This release adds a disabled-by-default commercial framework so revenue features
 - `ads.txt.example` is provided for future ad-network setup; do not rename it to `ads.txt` until a network supplies a real publisher record.
 - Commercial clicks are separated from ordinary outbound source links in analytics.
 - App/PWA cache version is v2.3.0.
+
+
+## v2.4.0 — Expedia Affiliate Launch
+
+- Activates Expedia as Paddock Command's first approved affiliate partner.
+- Adds disclosure-aware Race Weekend Travel modules to Live Center, Circuits, Circuit Intel and selected editorial pages.
+- Tracks Expedia referrals through Zaraz `affiliate_click` events.
+- Adds MutationObserver-based monetization refresh for dynamically rendered Circuit Intel content.
+- Keeps display advertising disabled.
+- App/PWA cache version is v2.4.0.

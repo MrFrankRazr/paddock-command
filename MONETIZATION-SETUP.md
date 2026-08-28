@@ -74,3 +74,19 @@ Existing product events remain unchanged.
 - Add or update `ads.txt` when the network supplies the required publisher record.
 - Validate layout shift and Core Web Vitals.
 - Keep ad density conservative during the growth phase.
+
+
+## v2.4.0 — Expedia Affiliate Launch
+
+Expedia is the first active Paddock Command affiliate partner.
+
+- Affiliate key: `expediaTravel`
+- Merchant: Expedia
+- Campaign: `race-weekend-travel`
+- Placements: Live Center, Circuits, Circuit Intel, Articles resources, Italian GP preview and Monza guide.
+- Every destination is configured centrally in `monetization-config.js`.
+- Links are emitted with `rel="sponsored noopener"` and open in a new tab.
+- Zaraz event: `affiliate_click` with `placement`, `affiliate_key`, `merchant`, and `campaign`.
+- Display advertising remains disabled.
+
+Do not duplicate the Expedia URL directly into article markup; update the central config if the approved tracking URL changes.

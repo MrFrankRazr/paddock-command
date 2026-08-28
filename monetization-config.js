@@ -1,20 +1,22 @@
 /* Paddock Command monetization configuration.
- * Commercial features are intentionally OFF until a partner/network is approved.
- * Populate only destinations for programs Paddock Command has actually joined.
+ * Only approved partner destinations should be enabled here.
  */
 window.PC_MONETIZATION_CONFIG = Object.freeze({
-  version: '2.3.0',
+  version: '2.4.0',
   ads: {
     enabled: false,
     provider: '',
     publisherId: ''
   },
   affiliates: {
-    enabled: false,
+    enabled: true,
     disclosureUrl: '/disclosures.html',
     links: {
-      // Example only — replace with approved affiliate destinations before enabling:
-      // simRacing: { href: 'https://partner.example/...', merchant: 'Merchant', campaign: 'sim-racing' }
+      expediaTravel: {
+        href: 'https://expedia.com/affiliates/expedia-home.IfOEwW0',
+        merchant: 'Expedia',
+        campaign: 'race-weekend-travel'
+      }
     }
   },
   sponsors: {
