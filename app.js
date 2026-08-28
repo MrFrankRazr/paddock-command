@@ -715,7 +715,7 @@ function closeRaceWeekend(){
   const modal=$('#raceModal'); modal.classList.remove('open'); modal.setAttribute('aria-hidden','true'); if(!$('#profileModal').classList.contains('open')&&!$('#circuitModal').classList.contains('open')) document.body.classList.remove('modal-open');
 }
 
-$$('.nav-link').forEach(b=>b.addEventListener('click',(e)=>{e.preventDefault();switchView(b.dataset.view);}));
+$$('.nav-link').forEach(b=>b.addEventListener('click',(e)=>{if(!b.dataset.view)return;e.preventDefault();switchView(b.dataset.view);}));
 $$('.filter-btn').forEach(b=>b.addEventListener('click',()=>{state.filter=b.dataset.filter; $$('.filter-btn').forEach(x=>x.classList.toggle('active',x===b)); renderCalendar();}));
 $('#refreshBtn').addEventListener('click',()=>loadData(true));
 const liveRefresh=$('#liveCenterRefresh'); if(liveRefresh) liveRefresh.addEventListener('click',()=>{toast('Refreshing race weekend center…');renderLiveCenter(true);});

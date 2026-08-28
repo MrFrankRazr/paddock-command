@@ -30,7 +30,7 @@
 <link href="manifest.webmanifest" rel="manifest"/>
 <link crossorigin="" href="https://api.jolpi.ca" rel="preconnect"/>
 <link crossorigin="" href="https://api.open-meteo.com" rel="preconnect"/>
-<link href="styles.css?v=2.2.0" rel="stylesheet"/>
+<link href="styles.css?v=2.2.1" rel="stylesheet"/>
 <script referrerpolicy="origin" src="https://analytics.paddockcommand.com/cdn-cgi/zaraz/i.js"></script>
 </head>
 <body data-initial-view="teams">
@@ -41,7 +41,7 @@
 <span aria-hidden="true" class="brand-mark pc-mark"><span>P</span><span>C</span></span>
 <span class="brand-lockup"><strong>PADDOCK</strong><em>COMMAND</em></span>
 </a>
-<nav aria-label="Primary navigation" class="nav"><a class="nav-link" data-view="home" href="/">Race Control</a><a class="nav-link" data-view="live" href="/race-weekend.html">Live Center</a><a class="nav-link" data-view="news" href="/news.html">News</a><a class="nav-link" data-view="drivers" href="/drivers.html">Drivers</a><a class="nav-link active" data-view="teams" href="/constructors.html">Constructors</a><a class="nav-link" data-view="form" href="/form.html">Form</a><a class="nav-link" data-view="trends" href="/trends.html">Trends</a><a class="nav-link" data-view="compare" href="/compare.html">Compare</a><a class="nav-link" data-view="scenario" href="/scenario.html">Scenario</a><a class="nav-link" data-view="myf1" href="/my-paddock.html">My Paddock</a><a class="nav-link" data-view="records" href="/records.html">Records</a><a class="nav-link" data-view="predictor" href="/predictions.html">Fan Picks</a><a class="nav-link" data-view="winners" href="/winners.html">Winners</a><a class="nav-link" data-view="calendar" href="/calendar.html">Calendar</a><a class="nav-link" data-view="circuits" href="/circuits.html">Circuits</a></nav>
+<nav aria-label="Primary navigation" class="nav"><a class="nav-link" data-view="home" href="/">Race Control</a><a class="nav-link" data-view="live" href="/race-weekend.html">Live Center</a><a class="nav-link" data-view="news" href="/news.html">News</a><a class="nav-link nav-external" href="/articles.html">Articles</a><a class="nav-link" data-view="drivers" href="/drivers.html">Drivers</a><a class="nav-link active" data-view="teams" href="/constructors.html">Constructors</a><a class="nav-link" data-view="form" href="/form.html">Form</a><a class="nav-link" data-view="trends" href="/trends.html">Trends</a><a class="nav-link" data-view="compare" href="/compare.html">Compare</a><a class="nav-link" data-view="scenario" href="/scenario.html">Scenario</a><a class="nav-link" data-view="myf1" href="/my-paddock.html">My Paddock</a><a class="nav-link" data-view="records" href="/records.html">Records</a><a class="nav-link" data-view="predictor" href="/predictions.html">Fan Picks</a><a class="nav-link" data-view="winners" href="/winners.html">Winners</a><a class="nav-link" data-view="calendar" href="/calendar.html">Calendar</a><a class="nav-link" data-view="circuits" href="/circuits.html">Circuits</a></nav>
 <div class="header-controls">
 <button aria-label="Install Paddock Command app" class="install-btn" hidden="" id="installAppBtn" type="button">Install App</button>
 <label class="season-control" for="seasonSelect"><span>Season</span><select aria-label="Select Formula 1 season" id="seasonSelect"></select></label>
@@ -82,7 +82,7 @@
 <section class="editorial-briefing" aria-labelledby="briefingTitle">
   <div class="section-head editorial-head">
     <div><p class="eyebrow">PADDOCK BRIEFING</p><h2 id="briefingTitle">Race intelligence beyond the tables</h2></div>
-    <a class="text-btn editorial-all" href="/articles/">All articles →</a>
+    <a class="text-btn editorial-all" href="/articles.html">All articles →</a>
   </div>
   <div class="editorial-card-grid">
     <a class="editorial-card featured" href="/articles/2026-italian-grand-prix-preview.html"><small>NEXT RACE · MONZA</small><h3>2026 Italian Grand Prix Preview</h3><p>Championship pressure, Monza's low-drag challenge and the questions that matter before Round 13.</p><span>Read preview →</span></a>
@@ -254,7 +254,7 @@
 </main>
 <footer class="site-footer">
 <div class="footer-brand"><strong>PADDOCK COMMAND</strong><span>Race intelligence. Championship data. Built for fans.</span></div>
-<nav aria-label="Explore Paddock Command" class="footer-links"><a href="standings.html">Standings</a><a href="drivers.html">Drivers</a><a href="constructors.html">Constructors</a><a href="calendar.html">Calendar</a><a href="circuits.html">Circuits</a><a href="records.html">Records</a><a href="articles/">Articles</a></nav>
+<nav aria-label="Explore Paddock Command" class="footer-links"><a href="standings.html">Standings</a><a href="drivers.html">Drivers</a><a href="constructors.html">Constructors</a><a href="calendar.html">Calendar</a><a href="circuits.html">Circuits</a><a href="records.html">Records</a><a href="articles.html">Articles</a></nav>
 <nav aria-label="Site information" class="footer-links"><a href="about.html">About</a><a href="data-sources.html">Data Sources</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="disclosures.html">Disclosures</a><a href="contact.html">Contact</a></nav>
 <p class="independent-disclaimer">Paddock Command is an unofficial, independent motorsport fan site. It is not affiliated with, endorsed by, or connected to Formula 1, the FIA, any team, driver, or rights holder. Formula 1 and related marks belong to their respective owners.</p>
 <div class="footer-meta"><span>Data services include Jolpica, Open-Meteo and linked news publishers.</span><span id="lastUpdated">Waiting for data…</span></div>
@@ -283,7 +283,7 @@
 </section>
 </div>
 <div aria-live="polite" class="toast" id="toast" role="status"></div>
-<script defer="" src="app.js?v=2.2.0"></script>
+<script defer="" src="app.js?v=2.2.1"></script>
 <!-- Cloudflare Web Analytics --><script data-cf-beacon='{"token": "9d15c70925cf4a25bcc187e2603683f0"}' src="https://static.cloudflareinsights.com/beacon.min.js" type="module"></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

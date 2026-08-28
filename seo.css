@@ -13,7 +13,7 @@
 .breadcrumbs{font-size:.82rem;color:#6f8ca4;margin-top:10px}.breadcrumbs a{color:#8ecbfa;text-decoration:none}
 @media(max-width:800px){.seo-grid{grid-template-columns:1fr}.article-list{grid-template-columns:1fr}.seo-topbar{align-items:flex-start;flex-direction:column}.seo-hero{padding-top:22px}.seo-hero h1{font-size:clamp(2.5rem,13vw,4.2rem)}}
 
-/* v2.2.0 editorial navigation polish */
+/* v2.2.1 editorial navigation polish */
 .seo-topbar{margin-bottom:32px}.seo-topnav{justify-content:flex-end;row-gap:10px}.seo-topnav a{padding:7px 9px;border-radius:9px}.seo-topnav a:hover{background:rgba(99,184,255,.08)}@media(max-width:800px){.seo-brand img{width:185px}.seo-topnav{gap:6px}}
 
 
