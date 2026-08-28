@@ -72,3 +72,8 @@ Paddock Command is an unofficial independent fan site. Formula 1 and related mar
 ## Analytics
 
 Cloudflare Web Analytics is enabled on all public HTML pages using the site beacon for `paddockcommand.com`. Traffic data is available in the Cloudflare dashboard under Web Analytics.
+
+
+## v2.0.3
+
+Adds manual Cloudflare Zaraz loading from `https://analytics.paddockcommand.com/cdn-cgi/zaraz/i.js` for the DNS-only GitHub Pages deployment. Existing Cloudflare Web Analytics remains enabled. Engagement events continue to use `zaraz.track()` when Zaraz is available.
