@@ -1,3 +1,25 @@
+# Paddock Command v2.1.0 — SEO & Content Expansion
+
+This release expands Paddock Command from a primarily single-page application into a search-friendly publishing surface while preserving the interactive command center.
+
+## v2.1 additions
+
+- Crawlable landing pages for standings, drivers, constructors, calendar, circuits, records, news, race weekend, comparisons, Fan Picks and the Scenario Calculator
+- Direct landing-page handoff into the matching interactive dashboard view (`/?view=...`)
+- Articles hub with three original evergreen race-intelligence guides
+- Expanded internal linking from the main site footer
+- Expanded `sitemap.xml` from the small legal/support set to the full public content surface
+- Restored/verified PWA support files: `manifest.webmanifest`, `sw.js`, `favicon.svg`, `.nojekyll`, `CNAME`, `robots.txt`
+- Service-worker cache bumped to v2.1.0
+- App and stylesheet cache-busting bumped to v2.1.0
+- Existing analytics retained; `trackEvent()` now sends custom events to Zaraz when available
+
+## Search Console after deployment
+
+Resubmit `https://paddockcommand.com/sitemap.xml`, then use URL Inspection on several high-value pages such as `/standings.html`, `/drivers.html`, `/calendar.html`, `/records.html` and `/articles/`. Indexing is controlled by Google and can take time even after successful sitemap discovery.
+
+---
+
 ## Paddock Command v2.0.2
 
 This release adds structured engagement-event instrumentation for Cloudflare Zaraz and restores the full PWA/SEO support file set (manifest, service worker, favicon, robots, sitemap, CNAME, .nojekyll). Cloudflare Web Analytics remains enabled for aggregate page traffic.
