@@ -1,4 +1,4 @@
-# Paddock Command v2.1.3 — SEO & Content Expansion
+# Paddock Command v2.2.0 — SEO & Content Expansion
 
 This release expands Paddock Command from a primarily single-page application into a search-friendly publishing surface while preserving the interactive command center.
 
@@ -10,8 +10,8 @@ This release expands Paddock Command from a primarily single-page application in
 - Expanded internal linking from the main site footer
 - Expanded `sitemap.xml` from the small legal/support set to the full public content surface
 - Restored/verified PWA support files: `manifest.webmanifest`, `sw.js`, `favicon.svg`, `.nojekyll`, `CNAME`, `robots.txt`
-- Service-worker cache bumped to v2.1.3
-- App and stylesheet cache-busting bumped to v2.1.3
+- Service-worker cache bumped to v2.2.0
+- App and stylesheet cache-busting bumped to v2.2.0
 - Existing analytics retained; `trackEvent()` now sends custom events to Zaraz when available
 
 ## Search Console after deployment
@@ -101,14 +101,14 @@ Cloudflare Web Analytics is enabled on all public HTML pages using the site beac
 Adds manual Cloudflare Zaraz loading from `https://analytics.paddockcommand.com/cdn-cgi/zaraz/i.js` for the DNS-only GitHub Pages deployment. Existing Cloudflare Web Analytics remains enabled. Engagement events continue to use `zaraz.track()` when Zaraz is available.
 
 
-## v2.1.3 corrective release
+## v2.2.0 corrective release
 Major SEO routes now render the complete live Paddock Command application rather than static-only landing pages. Editorial article pages retain crawlable long-form content with expanded navigation and corrected brand sizing.
 
 
-## v2.1.3 navigation correction
+## v2.2.0 navigation correction
 Primary navigation now uses canonical HTML URLs for every major section while client-side interception preserves instant in-app navigation. Added crawlable pages for Live Center, Form, Trends, My Paddock, and Winners; updated sitemap and service-worker cache.
 
-## v2.1.3 navigation visual correction
+## v2.2.0 navigation visual correction
 
 - Restores the compact pill-style primary navigation used before the SEO routing change.
 - Removes browser-default underlines from canonical HTML navigation links.
@@ -116,3 +116,14 @@ Primary navigation now uses canonical HTML URLs for every major section while cl
 - Keeps every primary navigation item as a real crawlable `.html` URL.
 - Restores the accessibility skip link to its hidden-until-focused behavior.
 - Adds tighter responsive spacing for medium-width desktop displays.
+
+
+## v2.2.0 — Editorial & Growth Engine
+
+- Adds the first current-season editorial slate: Italian GP preview, Championship Watch, Dutch GP debrief, Driver Form Watch and Monza Circuit Guide.
+- Adds Article structured data, source notes, related-story navigation and direct links into live Paddock Command tools.
+- Adds a Paddock Briefing module to Race Control so editorial content feeds engagement back into the application.
+- Expands `/articles/` into a current + evergreen editorial hub.
+- Adds `EDITORIAL-WORKFLOW.md` with a repeatable race-weekend publishing cadence and editorial standards.
+- Expands the sitemap with current editorial URLs.
+- Updates PWA/app cache to v2.2.0.
