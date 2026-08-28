@@ -446,11 +446,12 @@ async function loadData(manual=false){
     renderAll(); setStatus('online',season===CURRENT_YEAR?'Live':'Archive'); $('#lastUpdated').textContent=`${season} data loaded · ${new Intl.DateTimeFormat(undefined,{dateStyle:'medium',timeStyle:'short'}).format(new Date())}`; if(manual) toast(`${season} F1 data refreshed`);
   }catch(err){ console.error(err); showError(err); }
 }
+const VIEW_URLS={home:'/',live:'/race-weekend.html',news:'/news.html',drivers:'/drivers.html',teams:'/constructors.html',form:'/form.html',trends:'/trends.html',compare:'/compare.html',scenario:'/scenario.html',myf1:'/my-paddock.html',records:'/records.html',predictor:'/predictions.html',winners:'/winners.html',calendar:'/calendar.html',circuits:'/circuits.html'};
 function switchView(name,{updateUrl=true}={}){
   const valid=[...$$('.view')].some(v=>v.dataset.viewPanel===name); if(!valid) name='home';
   $$('.view').forEach(v=>v.classList.toggle('active',v.dataset.viewPanel===name));
   $$('.nav-link').forEach(n=>n.classList.toggle('active',n.dataset.view===name));
-  if(updateUrl&&history.replaceState){const url=name==='home'?'/' : `/?view=${encodeURIComponent(name)}`;history.replaceState(null,'',url);}
+  if(updateUrl&&history.pushState){const url=VIEW_URLS[name]||'/'; if(location.pathname!==url) history.pushState({view:name},'',url);}
   if(name==='live') renderLiveCenter(false);
   if(name==='news') loadNews(false);
   if(name==='form') renderFormCenter();
@@ -469,6 +470,8 @@ function initSeasonSelector(){
   });
 }
 initSeasonSelector();
+window.addEventListener('popstate',()=>{const p=location.pathname;const match=Object.entries(VIEW_URLS).find(([,url])=>url===p);switchView(match?.[0]||document.body.dataset.initialView||'home',{updateUrl:false});});
+
 
 function calcAge(dob){
   if(!dob) return '—';
@@ -712,7 +715,7 @@ function closeRaceWeekend(){
   const modal=$('#raceModal'); modal.classList.remove('open'); modal.setAttribute('aria-hidden','true'); if(!$('#profileModal').classList.contains('open')&&!$('#circuitModal').classList.contains('open')) document.body.classList.remove('modal-open');
 }
 
-$$('.nav-link').forEach(b=>b.addEventListener('click',()=>switchView(b.dataset.view)));
+$$('.nav-link').forEach(b=>b.addEventListener('click',(e)=>{e.preventDefault();switchView(b.dataset.view);}));
 $$('.filter-btn').forEach(b=>b.addEventListener('click',()=>{state.filter=b.dataset.filter; $$('.filter-btn').forEach(x=>x.classList.toggle('active',x===b)); renderCalendar();}));
 $('#refreshBtn').addEventListener('click',()=>loadData(true));
 const liveRefresh=$('#liveCenterRefresh'); if(liveRefresh) liveRefresh.addEventListener('click',()=>{toast('Refreshing race weekend center…');renderLiveCenter(true);});

@@ -1,3 +1,4 @@
+<!doctype html>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -24,39 +25,23 @@
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
 <title>Formula 1 Drivers | Paddock Command</title>
-<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
-<link href="/icon-192.png" rel="apple-touch-icon"/>
-<link href="/manifest.webmanifest" rel="manifest"/>
+<link href="favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="icon-192.png" rel="apple-touch-icon"/>
+<link href="manifest.webmanifest" rel="manifest"/>
 <link crossorigin="" href="https://api.jolpi.ca" rel="preconnect"/>
 <link crossorigin="" href="https://api.open-meteo.com" rel="preconnect"/>
-<link href="/styles.css?v=2.1.1" rel="stylesheet"/>
+<link href="styles.css?v=2.1.2" rel="stylesheet"/>
 <script referrerpolicy="origin" src="https://analytics.paddockcommand.com/cdn-cgi/zaraz/i.js"></script>
 </head>
 <body data-initial-view="drivers">
 <a class="skip-link" href="#mainContent">Skip to main content</a>
 <div aria-hidden="true" class="noise"></div>
 <header class="site-header">
-<a aria-label="Paddock Command home" class="brand brand-v2" href="/">
+<a aria-label="Paddock Command home" class="brand brand-v2" href="#home">
 <span aria-hidden="true" class="brand-mark pc-mark"><span>P</span><span>C</span></span>
 <span class="brand-lockup"><strong>PADDOCK</strong><em>COMMAND</em></span>
 </a>
-<nav aria-label="Primary navigation" class="nav">
-<button class="nav-link active" data-view="home">Race Control</button>
-<button class="nav-link" data-view="live">Live Center</button>
-<button class="nav-link" data-view="news">News</button>
-<button class="nav-link" data-view="drivers">Drivers</button>
-<button class="nav-link" data-view="teams">Constructors</button>
-<button class="nav-link" data-view="form">Form</button>
-<button class="nav-link" data-view="trends">Trends</button>
-<button class="nav-link" data-view="compare">Compare</button>
-<button class="nav-link" data-view="scenario">Scenario</button>
-<button class="nav-link" data-view="myf1">My Paddock</button>
-<button class="nav-link" data-view="records">Records</button>
-<button class="nav-link" data-view="predictor">Fan Picks</button>
-<button class="nav-link" data-view="winners">Winners</button>
-<button class="nav-link" data-view="calendar">Calendar</button>
-<button class="nav-link" data-view="circuits">Circuits</button>
-</nav>
+<nav aria-label="Primary navigation" class="nav"><a class="nav-link" data-view="home" href="/">Race Control</a><a class="nav-link" data-view="live" href="/race-weekend.html">Live Center</a><a class="nav-link" data-view="news" href="/news.html">News</a><a class="nav-link active" data-view="drivers" href="/drivers.html">Drivers</a><a class="nav-link" data-view="teams" href="/constructors.html">Constructors</a><a class="nav-link" data-view="form" href="/form.html">Form</a><a class="nav-link" data-view="trends" href="/trends.html">Trends</a><a class="nav-link" data-view="compare" href="/compare.html">Compare</a><a class="nav-link" data-view="scenario" href="/scenario.html">Scenario</a><a class="nav-link" data-view="myf1" href="/my-paddock.html">My Paddock</a><a class="nav-link" data-view="records" href="/records.html">Records</a><a class="nav-link" data-view="predictor" href="/predictions.html">Fan Picks</a><a class="nav-link" data-view="winners" href="/winners.html">Winners</a><a class="nav-link" data-view="calendar" href="/calendar.html">Calendar</a><a class="nav-link" data-view="circuits" href="/circuits.html">Circuits</a></nav>
 <div class="header-controls">
 <button aria-label="Install Paddock Command app" class="install-btn" hidden="" id="installAppBtn" type="button">Install App</button>
 <label class="season-control" for="seasonSelect"><span>Season</span><select aria-label="Select Formula 1 season" id="seasonSelect"></select></label>
@@ -131,7 +116,7 @@
 <section class="analytics-panel milestone-feed-panel"><div class="analytics-panel-head"><div><p class="eyebrow">SEASON MARKERS</p><h2>Recent milestones</h2><p>Notable firsts and threshold achievements detected from the selected season results.</p></div></div><div class="form-milestone-feed" id="formMilestones"><div class="skeleton tall"></div></div></section>
 </section>
 <section class="view content-view" data-view-panel="drivers" id="view-drivers">
-<div class="page-title"><div><p class="eyebrow">WORLD CHAMPIONSHIP</p><h1>Driver Standings</h1></div><span class="season-chip" id="driverSeasonChip"></span></div><aside aria-label="Page overview" class="route-intro"><p class="eyebrow">DRIVER INTELLIGENCE</p><p class="route-intro-copy">Explore the live driver championship, then open any driver for season form, qualifying performance, wins, podiums and recent results.</p></aside>
+<div class="page-title"><div><p class="eyebrow">WORLD CHAMPIONSHIP</p><h1>Driver Standings</h1></div><span class="season-chip" id="driverSeasonChip"></span></div>
 <div class="table-shell"><div class="data-table" id="driverTable"><div class="skeleton tall"></div></div></div>
 </section>
 <section class="view content-view" data-view-panel="teams" id="view-teams">
@@ -286,7 +271,7 @@
 </section>
 </div>
 <div aria-live="polite" class="toast" id="toast" role="status"></div>
-<script defer="" src="/app.js?v=2.1.1"></script>
+<script defer="" src="app.js?v=2.1.2"></script>
 <!-- Cloudflare Web Analytics --><script data-cf-beacon='{"token": "9d15c70925cf4a25bcc187e2603683f0"}' src="https://static.cloudflareinsights.com/beacon.min.js" type="module"></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
