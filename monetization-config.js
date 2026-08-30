@@ -2,7 +2,7 @@
  * Only approved partner destinations should be enabled here.
  */
 window.PC_MONETIZATION_CONFIG = Object.freeze({
-  version: '2.4.0',
+  version: '2.5.0',
   ads: {
     enabled: false,
     provider: '',

@@ -33,7 +33,7 @@ Events intentionally exclude email addresses, names entered by visitors, account
 Commercial events are emitted by `monetization.js`; paid features remain disabled by default in `monetization-config.js`.
 
 
-## Expedia v2.4.0
+## Expedia v2.5.0
 
 `affiliate_click` includes:
 - `affiliate_key`: `expediaTravel`

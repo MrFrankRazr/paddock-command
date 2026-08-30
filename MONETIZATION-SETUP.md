@@ -76,7 +76,7 @@ Existing product events remain unchanged.
 - Keep ad density conservative during the growth phase.
 
 
-## v2.4.0 — Expedia Affiliate Launch
+## v2.5.0 — Expedia Affiliate Launch
 
 Expedia is the first active Paddock Command affiliate partner.
 

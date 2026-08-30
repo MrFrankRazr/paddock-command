@@ -214,5 +214,12 @@ footer{background:linear-gradient(180deg,transparent,rgba(3,10,22,.35))}
 .monetization-label{display:block;margin-bottom:10px;color:#617d95;font-size:.64rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase}
 .commerce-module{border-top:1px solid rgba(99,184,255,.12);padding-top:28px}.commercial-disclosure{max-width:850px;color:#8099ae;font-size:.78rem;line-height:1.55}.commercial-disclosure a{color:#8fceff}.commerce-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}.commerce-card{display:flex;flex-direction:column;gap:8px;padding:20px;border:1px solid rgba(99,184,255,.17);border-radius:16px;background:linear-gradient(145deg,rgba(11,31,52,.94),rgba(5,15,27,.98));color:#eef8ff;text-decoration:none}.commerce-card:hover{border-color:rgba(99,184,255,.44);transform:translateY(-1px)}.commerce-card small{color:#68bdff;font-size:.67rem;font-weight:950;letter-spacing:.12em}.commerce-card strong{font-size:1.02rem}.commerce-card span{color:#8ea6ba;line-height:1.45;font-size:.84rem}@media(max-width:760px){.commerce-grid{grid-template-columns:1fr}}
 
-/* v2.4.0 — Expedia race-weekend travel partner */
+/* v2.5.0 — Expedia race-weekend travel partner */
 .travel-commerce{margin:24px 0;padding:22px;border:1px solid rgba(99,184,255,.16);border-radius:16px;background:linear-gradient(145deg,rgba(9,26,45,.76),rgba(4,14,25,.9))}.travel-commerce h2,.travel-commerce h3{margin:.25rem 0 .5rem}.travel-commerce .commerce-grid{grid-template-columns:minmax(260px,440px);margin-top:14px}.circuit-travel-cta{margin-top:20px}.circuit-travel-card{max-width:520px}.travel-commerce .commerce-card small{color:#7dc8ff}@media(max-width:760px){.travel-commerce{padding:17px}.travel-commerce .commerce-grid{grid-template-columns:1fr}}
+
+/* v2.5 social foundation */
+.social-links{margin-top:4px}
+.social-links a,.seo-social-links a{white-space:nowrap}
+.seo-social-links{display:flex;flex-wrap:wrap;gap:10px 16px;margin:0 0 14px}
+.seo-social-links a{color:#83caff;text-decoration:none;font-weight:800}
+.contact-social a{font-weight:800}

@@ -48,3 +48,8 @@ Monitor article landing pages in Cloudflare Web Analytics and track outbound/int
 - Keep affiliate disclosures adjacent to commercial recommendation modules.
 - Paid/sponsored content must be labeled before the reader enters the sponsored section.
 - Source/reference links are not affiliate links unless they are explicitly labeled and configured through the monetization layer.
+
+
+## Publishing handoff
+
+After an Editorial Pack is approved, follow `PUBLISHING-WORKFLOW.md` for repository packaging, production validation and the Social Desk handoff.
