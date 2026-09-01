@@ -42,7 +42,7 @@ Commercial events are emitted by `monetization.js`; paid features remain disable
 - `placement`: identifies Live Center, Circuits, Circuit Intel or editorial placement.
 
 
-## Newsletter events (v2.7.0)
+## Newsletter events (v2.7.1)
 
 - `newsletter_impression` — MailerLite form rendered/initialized on a Paddock Command placement.
 - `newsletter_cta_click` — visitor engages the newsletter submit/CTA control.

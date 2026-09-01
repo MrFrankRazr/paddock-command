@@ -1,4 +1,4 @@
-# Paddock Command v2.7.0 — Social & Publishing Foundation
+# Paddock Command v2.7.1 — Social & Publishing Foundation
 
 This release expands Paddock Command from a primarily single-page application into a search-friendly publishing surface while preserving the interactive command center.
 
@@ -149,17 +149,17 @@ This release adds a disabled-by-default commercial framework so revenue features
 - App/PWA cache version is v2.3.0.
 
 
-## v2.7.0 — Expedia Affiliate Launch
+## v2.7.1 — Expedia Affiliate Launch
 
 - Activates Expedia as Paddock Command's first approved affiliate partner.
 - Adds disclosure-aware Race Weekend Travel modules to Live Center, Circuits, Circuit Intel and selected editorial pages.
 - Tracks Expedia referrals through Zaraz `affiliate_click` events.
 - Adds MutationObserver-based monetization refresh for dynamically rendered Circuit Intel content.
 - Keeps display advertising disabled.
-- App/PWA cache version is v2.7.0.
+- App/PWA cache version is v2.7.1.
 
 
-## v2.7.0 — Social & Publishing Foundation
+## v2.7.1 — Social & Publishing Foundation
 
 - Adds live Paddock Command links for X, Instagram, Facebook and YouTube across public site footers and organization structured data.
 - Updates Contact and About with the production Microsoft 365 business email identities.
@@ -169,8 +169,8 @@ This release adds a disabled-by-default commercial framework so revenue features
 - Adds `PUBLISHING-WORKFLOW.md` for Editorial Desk → review → GitHub → production → Social Desk handoff.
 - Adds `SOCIAL-CHANNELS.md` as the source-of-truth for channel roles, addresses and brand assets.
 - Keeps Expedia affiliate integration active and display advertising disabled.
-- App/PWA cache version is v2.7.0.
+- App/PWA cache version is v2.7.1.
 
 
-## v2.7.0 Audience Capture
+## v2.7.1 Audience Capture
 MailerLite-powered Paddock Command Race Weekend Briefing with contextual signup modules, dedicated newsletter landing page, privacy disclosure and Zaraz engagement events.

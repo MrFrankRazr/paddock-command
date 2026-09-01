@@ -1,4 +1,4 @@
-# Paddock Command SEO & Growth Playbook — v2.7.0
+# Paddock Command SEO & Growth Playbook — v2.7.1
 
 ## Objective
 Grow qualified organic and social traffic, convert more visitors into returning readers/newsletter subscribers, and measure which content and tools create durable audience value.
@@ -42,3 +42,8 @@ Review: search clicks/impressions/CTR, landing pages, newsletter conversions, so
 
 ## 30-day content rule
 Do not chase volume. Publish around race intent, championship changes and evergreen questions. Refresh high-impression pages before creating low-value near-duplicates.
+
+
+## Search Console intent loop
+
+Use real Google Search Console query/page signals before changing search-target language. Prioritize pages already receiving impressions, align titles/H1/intro copy to legitimate matching intent, improve contextual internal links, then allow a recrawl/measurement window before making another change. Keep the baseline in `SEARCH-INTENT-BASELINE.md`.
