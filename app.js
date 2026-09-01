@@ -1028,8 +1028,10 @@ function sharePredictionCard(key){
 // v2.1.0 direct-section routing for SEO landing-page handoffs.
 window.addEventListener('DOMContentLoaded',()=>{const requested=new URLSearchParams(location.search).get('view')||document.body.dataset.initialView;if(requested)setTimeout(()=>switchView(requested,{updateUrl:false}),0);});
 
-// Newsletter stability fallback.
-// Static HTML is preferred; this only repairs app-shell pages that still use an older template.
+
+// Paddock Command newsletter surface fallback.
+// The visible newsletter CTA belongs in static HTML. This only repairs an
+// older app-shell template if it is encountered.
 function ensureNewsletterSurface(){
   const footer=document.querySelector('.site-footer');
   if(!footer) return;
