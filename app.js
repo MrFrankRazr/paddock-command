@@ -1027,3 +1027,28 @@ function sharePredictionCard(key){
 
 // v2.1.0 direct-section routing for SEO landing-page handoffs.
 window.addEventListener('DOMContentLoaded',()=>{const requested=new URLSearchParams(location.search).get('view')||document.body.dataset.initialView;if(requested)setTimeout(()=>switchView(requested,{updateUrl:false}),0);});
+
+// Newsletter stability fallback.
+// Static HTML is preferred; this only repairs app-shell pages that still use an older template.
+function ensureNewsletterSurface(){
+  const footer=document.querySelector('.site-footer');
+  if(!footer) return;
+
+  const footerNav=footer.querySelector('.footer-links');
+  if(footerNav && !footerNav.querySelector('a[href="/newsletter.html"],a[href="newsletter.html"]')){
+    const link=document.createElement('a');
+    link.href='/newsletter.html';
+    link.textContent='Newsletter';
+    footerNav.appendChild(link);
+  }
+
+  if(!document.querySelector('[data-newsletter-static]')){
+    const section=document.createElement('section');
+    section.className='editorial-briefing';
+    section.setAttribute('data-newsletter-static','');
+    section.setAttribute('aria-labelledby','newsletterTitle');
+    section.innerHTML='<div class="section-head editorial-head"><div><p class="eyebrow">PADDOCK COMMAND NEWSLETTER</p><h2 id="newsletterTitle">Race Weekend Briefing</h2><p>Get the key Formula 1 storylines, championship context and Paddock Command race intelligence delivered before the action matters most.</p></div><a class="primary-btn" href="/newsletter.html">Join the Newsletter →</a></div>';
+    footer.parentNode.insertBefore(section,footer);
+  }
+}
+window.addEventListener('DOMContentLoaded',ensureNewsletterSurface);
