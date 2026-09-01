@@ -26,7 +26,7 @@ Paddock Command uses a review-first publishing process that connects the daily E
 ## GitHub release convention
 
 - Version production releases as `vMAJOR.MINOR.PATCH`.
-- Use concise commits such as `Add social publishing foundation v2.6.0` or `Publish Italian GP debrief`.
+- Use concise commits such as `Add social publishing foundation v2.7.0` or `Publish Italian GP debrief`.
 - Never mix unreviewed editorial facts with unrelated code changes when a focused content-only release is possible.
 - Preserve `CNAME`, `.nojekyll`, PWA files, analytics scripts and monetization configuration on every full-repository upload.
 

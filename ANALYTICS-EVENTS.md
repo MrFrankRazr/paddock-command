@@ -42,10 +42,15 @@ Commercial events are emitted by `monetization.js`; paid features remain disable
 - `placement`: identifies Live Center, Circuits, Circuit Intel or editorial placement.
 
 
-## Newsletter events (v2.6.0)
+## Newsletter events (v2.7.0)
 
 - `newsletter_impression` — MailerLite form rendered/initialized on a Paddock Command placement.
 - `newsletter_cta_click` — visitor engages the newsletter submit/CTA control.
 - `newsletter_signup_success` — best-effort browser detection of MailerLite confirmation/success state.
 
 Properties: `placement`, `provider` (`MailerLite`), and `form_id`. No email addresses or subscriber names are sent to Zaraz by Paddock Command.
+
+
+## v2.7 Growth attribution
+- `acquisition_landing` — fires once per session when UTM parameters are present; includes source, medium, campaign, content, term and landing_path.
+- `internal_link_click` — records navigation between Paddock Command pages with from_path, to_path and link_text.

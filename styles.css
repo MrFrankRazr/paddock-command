@@ -224,5 +224,8 @@ footer{background:linear-gradient(180deg,transparent,rgba(3,10,22,.35))}
 .seo-social-links a{color:#83caff;text-decoration:none;font-weight:800}
 .contact-social a{font-weight:800}
 
-/* Newsletter v2.6.0 */
+/* Newsletter v2.7.0 */
 .newsletter-module{margin:44px 0;padding:28px;border:1px solid #21466e;border-radius:20px;background:linear-gradient(145deg,rgba(16,36,62,.96),rgba(5,13,26,.98));display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);gap:28px;align-items:center;box-shadow:var(--shadow)}.newsletter-module h2{margin:.25rem 0 .7rem;font-size:clamp(28px,4vw,44px);letter-spacing:-.035em}.newsletter-module p{color:#b7c3d1;line-height:1.65}.newsletter-form-shell{background:#fff;border-radius:14px;padding:10px;min-height:180px}.newsletter-note{font-size:13px}.newsletter-note a{color:var(--accent2)}.newsletter-landing ul{color:#c8d5e4;line-height:1.9;padding-left:22px}@media(max-width:820px){.newsletter-module{grid-template-columns:1fr}.newsletter-form-shell{min-height:160px}}
+
+/* v2.7 SEO route context */
+.seo-route-intro{max-width:760px;margin-top:.5rem;line-height:1.65}
