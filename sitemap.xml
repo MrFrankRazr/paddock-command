@@ -2,7 +2,7 @@
 <ns0:urlset xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
   <ns0:url>
     <ns0:loc>https://paddockcommand.com/</ns0:loc>
-    <ns0:lastmod>2026-09-01</ns0:lastmod>
+    <ns0:lastmod>2026-09-02</ns0:lastmod>
     <ns0:changefreq>daily</ns0:changefreq>
     <ns0:priority>1.0</ns0:priority>
   </ns0:url>
@@ -150,7 +150,7 @@
   </ns0:url>
   <url>
     <loc>https://paddockcommand.com/2026-italian-grand-prix-preview.html</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
