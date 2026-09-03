@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "weekendVersion": "2026.09.02.1",
+  "generatedAt": "2026-09-02T20:20:00-07:00",
+  "statusLabel": "Pre-event · Monza",
+  "state": "pre_event",
+  "race": {
+    "round": 13,
+    "name": "Italian Grand Prix",
+    "officialName": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
+    "circuit": "Autodromo Nazionale Monza",
+    "location": "Monza, Italy",
+    "timezone": "Europe/Rome",
+    "dates": "Sep 4–6, 2026",
+    "laps": 53,
+    "circuitLengthKm": 5.793,
+    "raceDistanceKm": 306.72
+  },
+  "sessions": [
+    {
+      "id": "fp1",
+      "name": "Practice 1",
+      "shortName": "FP1",
+      "date": "Fri Sep 4",
+      "localTime": "12:30",
+      "status": "upcoming",
+      "classification": []
+    },
+    {
+      "id": "fp2",
+      "name": "Practice 2",
+      "shortName": "FP2",
+      "date": "Fri Sep 4",
+      "localTime": "16:00",
+      "status": "upcoming",
+      "classification": []
+    },
+    {
+      "id": "fp3",
+      "name": "Practice 3",
+      "shortName": "FP3",
+      "date": "Sat Sep 5",
+      "localTime": "12:30",
+      "status": "upcoming",
+      "classification": []
+    },
+    {
+      "id": "qualifying",
+      "name": "Qualifying",
+      "shortName": "QUALI",
+      "date": "Sat Sep 5",
+      "localTime": "16:00",
+      "status": "upcoming",
+      "classification": []
+    },
+    {
+      "id": "race",
+      "name": "Race",
+      "shortName": "RACE",
+      "date": "Sun Sep 6",
+      "localTime": "15:00",
+      "status": "upcoming",
+      "classification": []
+    }
+  ],
+  "weather": {
+    "summary": "Warm and sunny across the race weekend, with temperatures around 30°C and minimal rain risk.",
+    "sourceLabel": "Current Formula 1 weekend forecast",
+    "days": [
+      {
+        "day": "Friday",
+        "date": "Sep 4",
+        "condition": "Sunny / warm",
+        "highC": 30,
+        "rainRisk": "Minimal"
+      },
+      {
+        "day": "Saturday",
+        "date": "Sep 5",
+        "condition": "Sunny / warm",
+        "highC": 30,
+        "rainRisk": "Minimal"
+      },
+      {
+        "day": "Sunday",
+        "date": "Sep 6",
+        "condition": "Sunny / warm",
+        "highC": 30,
+        "rainRisk": "Minimal"
+      }
+    ]
+  },
+  "commandBrief": [
+    {
+      "label": "GRID RECOVERY",
+      "title": "Antonelli starts the weekend under recovery pressure",
+      "text": "Underlying pace and traffic-clearing ability matter more than qualifying position alone because the championship leader is expected to start from the rear."
+    },
+    {
+      "label": "TECHNICAL WATCH",
+      "title": "McLaren’s H-Wing gets its Monza test",
+      "text": "The low-drag concept will be judged on whether McLaren can keep recent cornering strength while improving straight-line efficiency."
+    },
+    {
+      "label": "HOME RACE",
+      "title": "Ferrari’s Monza package faces immediate scrutiny",
+      "text": "Power deployment and aerodynamic efficiency will show whether the home-race development materially moves Ferrari toward the front."
+    }
+  ],
+  "latestClassification": {
+    "sessionId": null,
+    "sessionName": null,
+    "published": false,
+    "message": "No Formula 1 session classification has been published for the 2026 Italian Grand Prix yet.",
+    "results": []
+  },
+  "notes": [
+    "Session times are shown in Monza local time.",
+    "Paddock Command presents published classifications and weekend context; it does not claim to provide official real-time lap timing or telemetry.",
+    "The mobile weekend payload is designed to update as sessions move from upcoming to completed."
+  ]
+}
