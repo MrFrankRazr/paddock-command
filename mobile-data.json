@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "2026.09.02.1",
+  "generatedAt": "2026-09-02T20:15:00-07:00",
+  "season": 2026,
+  "statusLabel": "Current through the Dutch Grand Prix",
+  "drivers": [
+    {
+      "position": 1,
+      "id": "antonelli",
+      "name": "Kimi Antonelli",
+      "shortName": "Antonelli",
+      "team": "Mercedes",
+      "points": 242,
+      "gap": "LEADER"
+    },
+    {
+      "position": 2,
+      "id": "russell",
+      "name": "George Russell",
+      "shortName": "Russell",
+      "team": "Mercedes",
+      "points": 183,
+      "gap": "-59"
+    },
+    {
+      "position": 3,
+      "id": "hamilton",
+      "name": "Lewis Hamilton",
+      "shortName": "Hamilton",
+      "team": "Ferrari",
+      "points": 183,
+      "gap": "-59"
+    },
+    {
+      "position": 4,
+      "id": "norris",
+      "name": "Lando Norris",
+      "shortName": "Norris",
+      "team": "McLaren",
+      "points": 159,
+      "gap": "-83"
+    },
+    {
+      "position": 5,
+      "id": "leclerc",
+      "name": "Charles Leclerc",
+      "shortName": "Leclerc",
+      "team": "Ferrari",
+      "points": 155,
+      "gap": "-87"
+    }
+  ],
+  "calendar": {
+    "currentRound": 13,
+    "totalRounds": 23,
+    "focus": {
+      "round": 13,
+      "name": "Italian Grand Prix",
+      "circuit": "Autodromo Nazionale Monza",
+      "location": "Monza, Italy",
+      "dates": "Sep 4–6, 2026",
+      "raceDate": "Sep 6, 2026",
+      "raceStartLocal": "15:00",
+      "laps": 53,
+      "distanceKm": 306.72
+    }
+  },
+  "circuits": [
+    {
+      "id": "monza",
+      "name": "Autodromo Nazionale Monza",
+      "shortName": "Monza",
+      "country": "Italy",
+      "lengthKm": 5.793,
+      "raceLaps": 53,
+      "raceDistanceKm": 306.72,
+      "character": [
+        "Low drag",
+        "Heavy braking",
+        "Slipstream",
+        "Straight-line efficiency"
+      ],
+      "summary": "Monza rewards low drag and straight-line speed, but braking stability and traction remain critical to converting that efficiency into lap time and overtaking."
+    }
+  ],
+  "notes": [
+    "Paddock Command uses published championship/race data and does not claim to provide official real-time lap timing or telemetry.",
+    "v0.5.0 intentionally ships only data verified in the current Paddock Command editorial surface. Broader standings and schedule coverage will expand through the same contract."
+  ]
+}
