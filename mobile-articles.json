@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026.09.02.1",
+  "generatedAt": "2026-09-02T19:45:00-07:00",
+  "articles": [
+    {
+      "id": "italian-gp-preview-2026",
+      "category": "RACE WEEKEND PREVIEW",
+      "context": "MONZA · ROUND 13",
+      "title": "Antonelli Faces a Monza Recovery Race",
+      "deck": "The championship leader heads to his home Grand Prix with a 59-point advantage but a back-of-grid start, while Norris brings consecutive victories and Ferrari arrives with a Monza-focused upgrade package.",
+      "published": "Aug 28, 2026",
+      "updated": "Sep 2, 2026",
+      "canonicalUrl": "https://paddockcommand.com/2026-italian-grand-prix-preview.html",
+      "facts": [
+        {
+          "label": "CHAMPIONSHIP LEADER",
+          "value": "Antonelli · 242 pts"
+        },
+        {
+          "label": "ROUND",
+          "value": "13 of 23"
+        },
+        {
+          "label": "CIRCUIT",
+          "value": "Monza · 5.793 km"
+        },
+        {
+          "label": "RACE DISTANCE",
+          "value": "306.72 km"
+        }
+      ],
+      "sections": [
+        {
+          "type": "heading",
+          "text": "The championship leader starts on the defensive"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kimi Antonelli arrives at Monza with 242 points, 59 clear of George Russell and Lewis Hamilton on 183. Lando Norris is fourth on 159, with Charles Leclerc on 155. Antonelli’s task changes sharply because a full power-unit change sends him to the back of the grid."
+        },
+        {
+          "type": "paragraph",
+          "text": "That turns Round 13 from championship management into a recovery exercise. Heavy points would limit the damage; a victory would require an exceptional race."
+        },
+        {
+          "type": "callout",
+          "title": "Paddock Command watch point",
+          "text": "Do not judge Antonelli’s weekend by qualifying position alone. Underlying qualifying pace, Mercedes straight-line performance and the size of the gap to the leading cars will say more about his recovery potential."
+        },
+        {
+          "type": "heading",
+          "text": "Norris brings the strongest recent momentum"
+        },
+        {
+          "type": "paragraph",
+          "text": "Norris has won the last two Grands Prix, Hungary and the Netherlands. The championship gap remains substantial, but consecutive victories have changed the competitive trajectory while Antonelli begins Monza with a track-position disadvantage."
+        },
+        {
+          "type": "heading",
+          "text": "McLaren brings a Monza-specific technical answer"
+        },
+        {
+          "type": "paragraph",
+          "text": "McLaren’s rotating rear-wing concept, internally called the H-Wing, gives the MCL40 a new low-drag tool for Monza. The central question is whether McLaren can retain its recent cornering performance while improving straight-line efficiency."
+        },
+        {
+          "type": "callout",
+          "title": "Technical signal",
+          "text": "If McLaren preserves its recent cornering strength while gaining efficiency on the straights, Norris becomes a more serious Monza threat than the championship table alone suggests."
+        },
+        {
+          "type": "heading",
+          "text": "Ferrari brings more than home-race emotion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ferrari arrives with home-race development aimed at aerodynamic efficiency and power deployment. Monza gives the team an immediate test at a circuit dominated by long full-throttle sections and major braking events."
+        },
+        {
+          "type": "heading",
+          "text": "Why Antonelli can still recover"
+        },
+        {
+          "type": "paragraph",
+          "text": "Slipstream effects, long straights and heavy braking zones provide overtaking opportunities, but the recovery still requires a clean opening lap, efficient traffic management and disciplined tyre use."
+        },
+        {
+          "type": "heading",
+          "text": "Five questions that will define Monza"
+        },
+        {
+          "type": "bullet",
+          "text": "How far can Antonelli recover, and how many points does he concede to the main challengers?"
+        },
+        {
+          "type": "bullet",
+          "text": "Can Norris make it three consecutive victories?"
+        },
+        {
+          "type": "bullet",
+          "text": "Can Ferrari’s Monza development deliver immediately?"
+        },
+        {
+          "type": "bullet",
+          "text": "Which cars are most stable in the major braking zones?"
+        },
+        {
+          "type": "bullet",
+          "text": "Does the championship gap finally contract?"
+        }
+      ]
+    },
+    {
+      "id": "championship-watch-dutch-2026",
+      "category": "CHAMPIONSHIP WATCH",
+      "context": "2026 TITLE FIGHT",
+      "title": "Antonelli's 59-Point Cushion Faces Its First Monza Stress Test",
+      "deck": "A back-of-grid start gives Russell, Hamilton and Norris a rare opportunity to take a meaningful bite out of the championship lead.",
+      "published": "Aug 31, 2026",
+      "updated": "Sep 1, 2026",
+      "canonicalUrl": "https://paddockcommand.com/2026-championship-watch-after-dutch-gp.html",
+      "facts": [
+        {
+          "label": "LEADER",
+          "value": "Antonelli · 242"
+        },
+        {
+          "label": "GAP",
+          "value": "+59"
+        },
+        {
+          "label": "RUSSELL",
+          "value": "183"
+        },
+        {
+          "label": "HAMILTON",
+          "value": "183"
+        }
+      ],
+      "sections": [
+        {
+          "type": "heading",
+          "text": "Control meets circumstance"
+        },
+        {
+          "type": "paragraph",
+          "text": "A 59-point championship advantage still gives Antonelli room to absorb a difficult weekend. Monza matters because the grid penalty creates one of the clearest opportunities yet for the chasing group to reduce that margin in a single round."
+        },
+        {
+          "type": "heading",
+          "text": "Russell and Hamilton have an opening"
+        },
+        {
+          "type": "paragraph",
+          "text": "Russell and Hamilton enter the weekend level on points. Both can make meaningful progress in the title picture if Antonelli spends much of the race recovering through traffic."
+        },
+        {
+          "type": "heading",
+          "text": "Norris adds momentum to the equation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Norris arrives on consecutive victories. His overall championship deficit is larger, but recent form gives McLaren a credible route to applying pressure if the car translates well to Monza’s low-drag demands."
+        },
+        {
+          "type": "callout",
+          "title": "Paddock Command view",
+          "text": "The title fight should be judged by both the points table and the rate at which challengers can consistently convert weekends into gains. Monza is a rare round where both signals may move at once."
+        }
+      ]
+    },
+    {
+      "id": "dutch-gp-debrief-2026",
+      "category": "POST-RACE DEBRIEF",
+      "context": "ZANDVOORT",
+      "title": "What Zandvoort Changed",
+      "deck": "Norris won the Dutch GP, Antonelli protected the bigger championship advantage, and the competitive question resets for Monza.",
+      "published": "Aug 31, 2026",
+      "updated": "Aug 31, 2026",
+      "canonicalUrl": "https://paddockcommand.com/2026-dutch-grand-prix-debrief.html",
+      "facts": [],
+      "sections": [
+        {
+          "type": "heading",
+          "text": "Momentum changed more than the standings"
+        },
+        {
+          "type": "paragraph",
+          "text": "Zandvoort reinforced the distinction between championship control and recent competitive form. Norris left with another victory, while Antonelli retained the larger strategic advantage in the points table."
+        },
+        {
+          "type": "heading",
+          "text": "The question moves to Monza"
+        },
+        {
+          "type": "paragraph",
+          "text": "Monza introduces a very different circuit profile. Low drag, heavy braking and straight-line efficiency will test whether the performance seen at Zandvoort transfers cleanly to another type of track."
+        },
+        {
+          "type": "callout",
+          "title": "Next signal",
+          "text": "Watch whether McLaren’s recent gains remain visible when the aerodynamic requirements change. That will tell us more than a single result alone."
+        }
+      ]
+    },
+    {
+      "id": "driver-form-watch-2026",
+      "category": "DRIVER FORM",
+      "context": "MOMENTUM",
+      "title": "Norris Has Momentum, Antonelli Has Control",
+      "deck": "Why the recent-form leader and championship leader can be different drivers — and why that matters before Monza.",
+      "published": "Aug 31, 2026",
+      "updated": "Aug 31, 2026",
+      "canonicalUrl": "https://paddockcommand.com/2026-driver-form-watch.html",
+      "facts": [],
+      "sections": [
+        {
+          "type": "heading",
+          "text": "Form and championship position measure different things"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recent form answers who is extracting the strongest results now. Championship position measures accumulated performance across the season. Those signals can diverge, and they currently do."
+        },
+        {
+          "type": "heading",
+          "text": "Norris carries the recent momentum"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consecutive victories make Norris the strongest recent-results story entering Monza. That does not erase Antonelli’s points advantage, but it changes the pressure surrounding each weekend."
+        },
+        {
+          "type": "heading",
+          "text": "Antonelli still owns the larger margin"
+        },
+        {
+          "type": "paragraph",
+          "text": "A championship lead allows a driver to absorb variance that rivals cannot. The Monza grid penalty will test how effectively Antonelli can use that margin without allowing the chasing group to build a sustained run."
+        }
+      ]
+    },
+    {
+      "id": "monza-circuit-guide",
+      "category": "CIRCUIT GUIDE",
+      "context": "MONZA",
+      "title": "Monza: Why the Italian GP Is a Different Test",
+      "deck": "Low drag, heavy braking and slipstream management make Monza a uniquely revealing circuit.",
+      "published": "Aug 31, 2026",
+      "updated": "Aug 31, 2026",
+      "canonicalUrl": "https://paddockcommand.com/monza-circuit-guide.html",
+      "facts": [
+        {
+          "label": "CIRCUIT",
+          "value": "Monza"
+        },
+        {
+          "label": "LENGTH",
+          "value": "5.793 km"
+        },
+        {
+          "label": "RACE",
+          "value": "53 laps"
+        },
+        {
+          "label": "DISTANCE",
+          "value": "306.72 km"
+        }
+      ],
+      "sections": [
+        {
+          "type": "heading",
+          "text": "Efficiency is everything"
+        },
+        {
+          "type": "paragraph",
+          "text": "Monza rewards straight-line speed and low drag, but a fast lap still requires confidence under heavy braking and enough stability through the circuit’s faster direction changes."
+        },
+        {
+          "type": "heading",
+          "text": "Slipstream changes the race"
+        },
+        {
+          "type": "paragraph",
+          "text": "Long straights magnify tow effects and can compress gaps between cars. That makes positioning, energy deployment and timing especially important in both qualifying and the race."
+        },
+        {
+          "type": "heading",
+          "text": "Braking confidence creates opportunity"
+        },
+        {
+          "type": "paragraph",
+          "text": "The major stops offer overtaking opportunities but punish instability. Cars that remain predictable under braking give their drivers more freedom to attack."
+        },
+        {
+          "type": "callout",
+          "title": "Paddock Command watch point",
+          "text": "Do not reduce Monza to top speed alone. The strongest package balances low drag with braking stability, traction and enough confidence to attack the chicanes."
+        }
+      ]
+    }
+  ]
+}
