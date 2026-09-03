@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "feedVersion": "2026.09.02.1",
+  "generatedAt": "2026-09-02T19:15:00-07:00",
+  "site": {
+    "name": "Paddock Command",
+    "baseUrl": "https://paddockcommand.com"
+  },
+  "nextRace": {
+    "round": 13,
+    "name": "Italian Grand Prix",
+    "circuit": "Autodromo Nazionale Monza",
+    "countryCode": "ITA",
+    "dates": "Sep 4–6",
+    "distanceKm": 306.72,
+    "championshipLeader": {
+      "name": "Kimi Antonelli",
+      "shortName": "Antonelli",
+      "points": 242,
+      "leadPoints": 59
+    }
+  },
+  "raceIntelligence": {
+    "headline": "Antonelli Faces a Monza Recovery Race",
+    "summary": "The championship leader starts from the back as Norris brings consecutive victories and Ferrari arrives with home-race development.",
+    "updatedLabel": "Updated Sep 2, 2026",
+    "watchPoints": [
+      {
+        "id": "antonelli-recovery",
+        "label": "WATCH POINT 01",
+        "tag": "HIGH",
+        "title": "Antonelli recovery potential",
+        "summary": "Qualifying pace, straight-line performance and the gap to the leading cars matter more than grid position alone."
+      },
+      {
+        "id": "mclaren-hwing",
+        "label": "WATCH POINT 02",
+        "tag": "TECH",
+        "title": "McLaren's H-Wing test",
+        "summary": "Monza will test whether McLaren can retain recent cornering performance while adding the low-drag efficiency required on the long straights."
+      },
+      {
+        "id": "ferrari-home",
+        "label": "WATCH POINT 03",
+        "tag": "HOME RACE",
+        "title": "Ferrari's Monza package",
+        "summary": "Ferrari's home-race development puts aerodynamic efficiency and power deployment under immediate scrutiny."
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "italian-gp-preview-2026",
+      "category": "RACE WEEKEND PREVIEW",
+      "context": "MONZA",
+      "title": "Antonelli Faces a Monza Recovery Race",
+      "summary": "The championship leader starts from the back as Norris brings a two-race winning streak and Ferrari arrives with a home-race upgrade package.",
+      "url": "https://paddockcommand.com/2026-italian-grand-prix-preview.html",
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "championship-watch-dutch-2026",
+      "category": "CHAMPIONSHIP WATCH",
+      "context": "2026 TITLE FIGHT",
+      "title": "Antonelli's 59-Point Cushion Faces Its First Monza Stress Test",
+      "summary": "A back-of-grid start gives Russell, Hamilton and Norris a rare opportunity to take a meaningful bite out of the championship lead.",
+      "url": "https://paddockcommand.com/2026-championship-watch-after-dutch-gp.html",
+      "updated": "2026-09-01"
+    },
+    {
+      "id": "dutch-gp-debrief-2026",
+      "category": "POST-RACE DEBRIEF",
+      "context": "ZANDVOORT",
+      "title": "What Zandvoort Changed",
+      "summary": "Norris won the Dutch GP, Antonelli protected the bigger championship advantage, and the competitive question resets for Monza.",
+      "url": "https://paddockcommand.com/2026-dutch-grand-prix-debrief.html",
+      "updated": "2026-08-31"
+    },
+    {
+      "id": "driver-form-watch-2026",
+      "category": "DRIVER FORM",
+      "context": "MOMENTUM",
+      "title": "Norris Has Momentum, Antonelli Has Control",
+      "summary": "Why the recent-form leader and championship leader can be different drivers — and why that matters before Monza.",
+      "url": "https://paddockcommand.com/2026-driver-form-watch.html",
+      "updated": "2026-08-31"
+    },
+    {
+      "id": "monza-circuit-guide",
+      "category": "CIRCUIT GUIDE",
+      "context": "MONZA",
+      "title": "Monza: Why the Italian GP Is a Different Test",
+      "summary": "Low drag, heavy braking and slipstream management make Monza a uniquely revealing circuit.",
+      "url": "https://paddockcommand.com/monza-circuit-guide.html",
+      "updated": "2026-08-31"
+    }
+  ]
+}
