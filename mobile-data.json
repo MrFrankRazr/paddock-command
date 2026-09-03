@@ -1,79 +1,721 @@
 {
-  "schemaVersion": 1,
-  "dataVersion": "2026.09.02.1",
-  "generatedAt": "2026-09-02T20:15:00-07:00",
+  "schemaVersion": 2,
+  "dataVersion": "2026.09.02.2",
+  "generatedAt": "2026-09-02T20:35:00-07:00",
   "season": 2026,
-  "statusLabel": "Current through the Dutch Grand Prix",
+  "completedRound": 12,
+  "currentRound": 13,
+  "totalRounds": 23,
+  "statusLabel": "Current through the Dutch Grand Prix · Round 12 complete",
   "drivers": [
     {
       "position": 1,
       "id": "antonelli",
       "name": "Kimi Antonelli",
-      "shortName": "Antonelli",
+      "code": "ANT",
+      "number": "12",
+      "nationality": "ITA",
       "team": "Mercedes",
       "points": 242,
+      "wins": 6,
       "gap": "LEADER"
     },
     {
       "position": 2,
       "id": "russell",
       "name": "George Russell",
-      "shortName": "Russell",
+      "code": "RUS",
+      "number": "63",
+      "nationality": "GBR",
       "team": "Mercedes",
       "points": 183,
+      "wins": 2,
       "gap": "-59"
     },
     {
       "position": 3,
       "id": "hamilton",
       "name": "Lewis Hamilton",
-      "shortName": "Hamilton",
+      "code": "HAM",
+      "number": "44",
+      "nationality": "GBR",
       "team": "Ferrari",
       "points": 183,
+      "wins": 1,
       "gap": "-59"
     },
     {
       "position": 4,
       "id": "norris",
       "name": "Lando Norris",
-      "shortName": "Norris",
+      "code": "NOR",
+      "number": "1",
+      "nationality": "GBR",
       "team": "McLaren",
       "points": 159,
+      "wins": 2,
       "gap": "-83"
     },
     {
       "position": 5,
       "id": "leclerc",
       "name": "Charles Leclerc",
-      "shortName": "Leclerc",
+      "code": "LEC",
+      "number": "16",
+      "nationality": "MON",
       "team": "Ferrari",
       "points": 155,
+      "wins": 1,
       "gap": "-87"
+    },
+    {
+      "position": 6,
+      "id": "max_verstappen",
+      "name": "Max Verstappen",
+      "code": "VER",
+      "number": "3",
+      "nationality": "NED",
+      "team": "Red Bull Racing",
+      "points": 112,
+      "wins": 0,
+      "gap": "-130"
+    },
+    {
+      "position": 7,
+      "id": "piastri",
+      "name": "Oscar Piastri",
+      "code": "PIA",
+      "number": "81",
+      "nationality": "AUS",
+      "team": "McLaren",
+      "points": 104,
+      "wins": 0,
+      "gap": "-138"
+    },
+    {
+      "position": 8,
+      "id": "hadjar",
+      "name": "Isack Hadjar",
+      "code": "HAD",
+      "number": "6",
+      "nationality": "FRA",
+      "team": "Red Bull Racing",
+      "points": 68,
+      "wins": 0,
+      "gap": "-174"
+    },
+    {
+      "position": 9,
+      "id": "lawson",
+      "name": "Liam Lawson",
+      "code": "LAW",
+      "number": "30",
+      "nationality": "NZL",
+      "team": "Racing Bulls",
+      "points": 49,
+      "wins": 0,
+      "gap": "-193"
+    },
+    {
+      "position": 10,
+      "id": "gasly",
+      "name": "Pierre Gasly",
+      "code": "GAS",
+      "number": "10",
+      "nationality": "FRA",
+      "team": "Alpine",
+      "points": 44,
+      "wins": 0,
+      "gap": "-198"
+    },
+    {
+      "position": 11,
+      "id": "arvid_lindblad",
+      "name": "Arvid Lindblad",
+      "code": "LIN",
+      "number": "41",
+      "nationality": "GBR",
+      "team": "Racing Bulls",
+      "points": 23,
+      "wins": 0,
+      "gap": "-219"
+    },
+    {
+      "position": 12,
+      "id": "colapinto",
+      "name": "Franco Colapinto",
+      "code": "COL",
+      "number": "43",
+      "nationality": "ARG",
+      "team": "Alpine",
+      "points": 19,
+      "wins": 0,
+      "gap": "-223"
+    },
+    {
+      "position": 13,
+      "id": "bearman",
+      "name": "Oliver Bearman",
+      "code": "BEA",
+      "number": "87",
+      "nationality": "GBR",
+      "team": "Haas F1 Team",
+      "points": 18,
+      "wins": 0,
+      "gap": "-224"
+    },
+    {
+      "position": 14,
+      "id": "bortoleto",
+      "name": "Gabriel Bortoleto",
+      "code": "BOR",
+      "number": "5",
+      "nationality": "BRA",
+      "team": "Audi",
+      "points": 10,
+      "wins": 0,
+      "gap": "-232"
+    },
+    {
+      "position": 15,
+      "id": "hulkenberg",
+      "name": "Nico Hulkenberg",
+      "code": "HUL",
+      "number": "27",
+      "nationality": "GER",
+      "team": "Audi",
+      "points": 6,
+      "wins": 0,
+      "gap": "-236"
+    },
+    {
+      "position": 16,
+      "id": "sainz",
+      "name": "Carlos Sainz",
+      "code": "SAI",
+      "number": "55",
+      "nationality": "ESP",
+      "team": "Williams",
+      "points": 6,
+      "wins": 0,
+      "gap": "-236"
+    },
+    {
+      "position": 17,
+      "id": "albon",
+      "name": "Alexander Albon",
+      "code": "ALB",
+      "number": "23",
+      "nationality": "THA",
+      "team": "Williams",
+      "points": 5,
+      "wins": 0,
+      "gap": "-237"
+    },
+    {
+      "position": 18,
+      "id": "ocon",
+      "name": "Esteban Ocon",
+      "code": "OCO",
+      "number": "31",
+      "nationality": "FRA",
+      "team": "Haas F1 Team",
+      "points": 3,
+      "wins": 0,
+      "gap": "-239"
+    },
+    {
+      "position": 19,
+      "id": "alonso",
+      "name": "Fernando Alonso",
+      "code": "ALO",
+      "number": "14",
+      "nationality": "ESP",
+      "team": "Aston Martin",
+      "points": 3,
+      "wins": 0,
+      "gap": "-239"
+    },
+    {
+      "position": 20,
+      "id": "tsunoda",
+      "name": "Yuki Tsunoda",
+      "code": "TSU",
+      "number": "22",
+      "nationality": "JPN",
+      "team": "Racing Bulls",
+      "points": 0,
+      "wins": 0,
+      "gap": "-242"
+    },
+    {
+      "position": 21,
+      "id": "stroll",
+      "name": "Lance Stroll",
+      "code": "STR",
+      "number": "18",
+      "nationality": "CAN",
+      "team": "Aston Martin",
+      "points": 0,
+      "wins": 0,
+      "gap": "-242"
+    },
+    {
+      "position": 22,
+      "id": "bottas",
+      "name": "Valtteri Bottas",
+      "code": "BOT",
+      "number": "77",
+      "nationality": "FIN",
+      "team": "Cadillac",
+      "points": 0,
+      "wins": 0,
+      "gap": "-242"
+    },
+    {
+      "position": 23,
+      "id": "perez",
+      "name": "Sergio Perez",
+      "code": "PER",
+      "number": "11",
+      "nationality": "MEX",
+      "team": "Cadillac",
+      "points": 0,
+      "wins": 0,
+      "gap": "-242"
     }
   ],
-  "calendar": {
-    "currentRound": 13,
-    "totalRounds": 23,
-    "focus": {
+  "constructors": [
+    {
+      "position": 1,
+      "id": "mercedes",
+      "name": "Mercedes",
+      "points": 425,
+      "wins": 8,
+      "gap": "LEADER"
+    },
+    {
+      "position": 2,
+      "id": "ferrari",
+      "name": "Ferrari",
+      "points": 338,
+      "wins": 2,
+      "gap": "-87"
+    },
+    {
+      "position": 3,
+      "id": "mclaren",
+      "name": "McLaren",
+      "points": 263,
+      "wins": 2,
+      "gap": "-162"
+    },
+    {
+      "position": 4,
+      "id": "red_bull",
+      "name": "Red Bull Racing",
+      "points": 186,
+      "wins": 0,
+      "gap": "-239"
+    },
+    {
+      "position": 5,
+      "id": "racing_bulls",
+      "name": "Racing Bulls",
+      "points": 66,
+      "wins": 0,
+      "gap": "-359"
+    },
+    {
+      "position": 6,
+      "id": "alpine",
+      "name": "Alpine",
+      "points": 63,
+      "wins": 0,
+      "gap": "-362"
+    },
+    {
+      "position": 7,
+      "id": "haas",
+      "name": "Haas F1 Team",
+      "points": 21,
+      "wins": 0,
+      "gap": "-404"
+    },
+    {
+      "position": 8,
+      "id": "audi",
+      "name": "Audi",
+      "points": 16,
+      "wins": 0,
+      "gap": "-409"
+    },
+    {
+      "position": 9,
+      "id": "williams",
+      "name": "Williams",
+      "points": 11,
+      "wins": 0,
+      "gap": "-414"
+    },
+    {
+      "position": 10,
+      "id": "aston_martin",
+      "name": "Aston Martin",
+      "points": 3,
+      "wins": 0,
+      "gap": "-422"
+    },
+    {
+      "position": 11,
+      "id": "cadillac",
+      "name": "Cadillac",
+      "points": 0,
+      "wins": 0,
+      "gap": "-425"
+    }
+  ],
+  "calendar": [
+    {
+      "round": 1,
+      "name": "Australian Grand Prix",
+      "country": "Australia",
+      "city": "Melbourne",
+      "circuit": "Albert Park Grand Prix Circuit",
+      "dates": "Mar 6–8, 2026",
+      "status": "completed"
+    },
+    {
+      "round": 2,
+      "name": "Chinese Grand Prix",
+      "country": "China",
+      "city": "Shanghai",
+      "circuit": "Shanghai International Circuit",
+      "dates": "Mar 13–15, 2026",
+      "status": "completed"
+    },
+    {
+      "round": 3,
+      "name": "Japanese Grand Prix",
+      "country": "Japan",
+      "city": "Suzuka",
+      "circuit": "Suzuka Circuit",
+      "dates": "Mar 27–29, 2026",
+      "status": "completed"
+    },
+    {
+      "round": 4,
+      "name": "Miami Grand Prix",
+      "country": "United States",
+      "city": "Miami",
+      "circuit": "Miami International Autodrome",
+      "dates": "May 1–3, 2026",
+      "status": "completed"
+    },
+    {
+      "round": 5,
+      "name": "Canadian Grand Prix",
+      "country": "Canada",
+      "city": "Montreal",
+      "circuit": "Circuit Gilles-Villeneuve",
+      "dates": "May 22–24, 2026",
+      "status": "completed"
+    },
+    {
+      "round": 6,
+      "name": "Monaco Grand Prix",
+      "country": "Monaco",
+      "city": "Monaco",
+      "circuit": "Circuit de Monaco",
+      "dates": "Jun 5–7, 2026",
+      "status": "completed"
+    },
+    {
+      "round": 7,
+      "name": "Barcelona-Catalunya Grand Prix",
+      "country": "Spain",
+      "city": "Barcelona",
+      "circuit": "Circuit de Barcelona-Catalunya",
+      "dates": "Jun 12–14, 2026",
+      "status": "completed"
+    },
+    {
+      "round": 8,
+      "name": "Austrian Grand Prix",
+      "country": "Austria",
+      "city": "Spielberg",
+      "circuit": "Red Bull Ring",
+      "dates": "Jun 26–28, 2026",
+      "status": "completed"
+    },
+    {
+      "round": 9,
+      "name": "British Grand Prix",
+      "country": "Great Britain",
+      "city": "Silverstone",
+      "circuit": "Silverstone Circuit",
+      "dates": "Jul 3–5, 2026",
+      "status": "completed"
+    },
+    {
+      "round": 10,
+      "name": "Belgian Grand Prix",
+      "country": "Belgium",
+      "city": "Spa-Francorchamps",
+      "circuit": "Circuit de Spa-Francorchamps",
+      "dates": "Jul 17–19, 2026",
+      "status": "completed"
+    },
+    {
+      "round": 11,
+      "name": "Hungarian Grand Prix",
+      "country": "Hungary",
+      "city": "Budapest",
+      "circuit": "Hungaroring",
+      "dates": "Jul 24–26, 2026",
+      "status": "completed"
+    },
+    {
+      "round": 12,
+      "name": "Dutch Grand Prix",
+      "country": "Netherlands",
+      "city": "Zandvoort",
+      "circuit": "Circuit Zandvoort",
+      "dates": "Aug 21–23, 2026",
+      "status": "completed"
+    },
+    {
       "round": 13,
       "name": "Italian Grand Prix",
+      "country": "Italy",
+      "city": "Monza",
       "circuit": "Autodromo Nazionale Monza",
-      "location": "Monza, Italy",
       "dates": "Sep 4–6, 2026",
-      "raceDate": "Sep 6, 2026",
-      "raceStartLocal": "15:00",
-      "laps": 53,
-      "distanceKm": 306.72
+      "status": "current"
+    },
+    {
+      "round": 14,
+      "name": "Spanish Grand Prix",
+      "country": "Spain",
+      "city": "Madrid",
+      "circuit": "Madring",
+      "dates": "Sep 11–13, 2026",
+      "status": "upcoming"
+    },
+    {
+      "round": 15,
+      "name": "Azerbaijan Grand Prix",
+      "country": "Azerbaijan",
+      "city": "Baku",
+      "circuit": "Baku City Circuit",
+      "dates": "Sep 24–26, 2026",
+      "status": "upcoming"
+    },
+    {
+      "round": 16,
+      "name": "Bahrain Grand Prix in Malaysia",
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "circuit": "Sepang International Circuit",
+      "dates": "Oct 2–4, 2026",
+      "status": "upcoming"
+    },
+    {
+      "round": 17,
+      "name": "Singapore Grand Prix",
+      "country": "Singapore",
+      "city": "Singapore",
+      "circuit": "Marina Bay Street Circuit",
+      "dates": "Oct 9–11, 2026",
+      "status": "upcoming"
+    },
+    {
+      "round": 18,
+      "name": "United States Grand Prix",
+      "country": "United States",
+      "city": "Austin",
+      "circuit": "Circuit of the Americas",
+      "dates": "Oct 23–25, 2026",
+      "status": "upcoming"
+    },
+    {
+      "round": 19,
+      "name": "Mexico City Grand Prix",
+      "country": "Mexico",
+      "city": "Mexico City",
+      "circuit": "Autódromo Hermanos Rodríguez",
+      "dates": "Oct 30–Nov 1, 2026",
+      "status": "upcoming"
+    },
+    {
+      "round": 20,
+      "name": "São Paulo Grand Prix",
+      "country": "Brazil",
+      "city": "São Paulo",
+      "circuit": "Interlagos",
+      "dates": "Nov 6–8, 2026",
+      "status": "upcoming"
+    },
+    {
+      "round": 21,
+      "name": "Las Vegas Grand Prix",
+      "country": "United States",
+      "city": "Las Vegas",
+      "circuit": "Las Vegas Strip Circuit",
+      "dates": "Nov 19–21, 2026",
+      "status": "upcoming"
+    },
+    {
+      "round": 22,
+      "name": "Qatar Grand Prix",
+      "country": "Qatar",
+      "city": "Lusail",
+      "circuit": "Lusail International Circuit",
+      "dates": "Nov 27–29, 2026",
+      "status": "upcoming"
+    },
+    {
+      "round": 23,
+      "name": "Abu Dhabi Grand Prix",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "circuit": "Yas Marina Circuit",
+      "dates": "Dec 4–6, 2026",
+      "status": "upcoming"
     }
-  },
+  ],
   "circuits": [
     {
-      "id": "monza",
+      "id": "albert-park-grand-prix-circuit",
+      "name": "Albert Park Grand Prix Circuit",
+      "city": "Melbourne",
+      "country": "Australia",
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "dates": "Mar 6–8, 2026",
+      "status": "completed"
+    },
+    {
+      "id": "shanghai-international-circuit",
+      "name": "Shanghai International Circuit",
+      "city": "Shanghai",
+      "country": "China",
+      "round": 2,
+      "raceName": "Chinese Grand Prix",
+      "dates": "Mar 13–15, 2026",
+      "status": "completed"
+    },
+    {
+      "id": "suzuka-circuit",
+      "name": "Suzuka Circuit",
+      "city": "Suzuka",
+      "country": "Japan",
+      "round": 3,
+      "raceName": "Japanese Grand Prix",
+      "dates": "Mar 27–29, 2026",
+      "status": "completed"
+    },
+    {
+      "id": "miami-international-autodrome",
+      "name": "Miami International Autodrome",
+      "city": "Miami",
+      "country": "United States",
+      "round": 4,
+      "raceName": "Miami Grand Prix",
+      "dates": "May 1–3, 2026",
+      "status": "completed"
+    },
+    {
+      "id": "circuit-gilles-villeneuve",
+      "name": "Circuit Gilles-Villeneuve",
+      "city": "Montreal",
+      "country": "Canada",
+      "round": 5,
+      "raceName": "Canadian Grand Prix",
+      "dates": "May 22–24, 2026",
+      "status": "completed"
+    },
+    {
+      "id": "circuit-de-monaco",
+      "name": "Circuit de Monaco",
+      "city": "Monaco",
+      "country": "Monaco",
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "dates": "Jun 5–7, 2026",
+      "status": "completed"
+    },
+    {
+      "id": "circuit-de-barcelona-catalunya",
+      "name": "Circuit de Barcelona-Catalunya",
+      "city": "Barcelona",
+      "country": "Spain",
+      "round": 7,
+      "raceName": "Barcelona-Catalunya Grand Prix",
+      "dates": "Jun 12–14, 2026",
+      "status": "completed"
+    },
+    {
+      "id": "red-bull-ring",
+      "name": "Red Bull Ring",
+      "city": "Spielberg",
+      "country": "Austria",
+      "round": 8,
+      "raceName": "Austrian Grand Prix",
+      "dates": "Jun 26–28, 2026",
+      "status": "completed"
+    },
+    {
+      "id": "silverstone-circuit",
+      "name": "Silverstone Circuit",
+      "city": "Silverstone",
+      "country": "Great Britain",
+      "round": 9,
+      "raceName": "British Grand Prix",
+      "dates": "Jul 3–5, 2026",
+      "status": "completed"
+    },
+    {
+      "id": "circuit-de-spa-francorchamps",
+      "name": "Circuit de Spa-Francorchamps",
+      "city": "Spa-Francorchamps",
+      "country": "Belgium",
+      "round": 10,
+      "raceName": "Belgian Grand Prix",
+      "dates": "Jul 17–19, 2026",
+      "status": "completed"
+    },
+    {
+      "id": "hungaroring",
+      "name": "Hungaroring",
+      "city": "Budapest",
+      "country": "Hungary",
+      "round": 11,
+      "raceName": "Hungarian Grand Prix",
+      "dates": "Jul 24–26, 2026",
+      "status": "completed"
+    },
+    {
+      "id": "circuit-zandvoort",
+      "name": "Circuit Zandvoort",
+      "city": "Zandvoort",
+      "country": "Netherlands",
+      "round": 12,
+      "raceName": "Dutch Grand Prix",
+      "dates": "Aug 21–23, 2026",
+      "status": "completed"
+    },
+    {
+      "id": "autodromo-nazionale-monza",
       "name": "Autodromo Nazionale Monza",
-      "shortName": "Monza",
+      "city": "Monza",
       "country": "Italy",
+      "round": 13,
+      "raceName": "Italian Grand Prix",
+      "dates": "Sep 4–6, 2026",
+      "status": "current",
       "lengthKm": 5.793,
-      "raceLaps": 53,
+      "laps": 53,
       "raceDistanceKm": 306.72,
       "character": [
         "Low drag",
@@ -81,11 +723,122 @@
         "Slipstream",
         "Straight-line efficiency"
       ],
-      "summary": "Monza rewards low drag and straight-line speed, but braking stability and traction remain critical to converting that efficiency into lap time and overtaking."
+      "summary": "Formula 1’s fastest traditional venue rewards low drag and straight-line speed while placing a premium on braking stability and energy deployment."
+    },
+    {
+      "id": "madring",
+      "name": "Madring",
+      "city": "Madrid",
+      "country": "Spain",
+      "round": 14,
+      "raceName": "Spanish Grand Prix",
+      "dates": "Sep 11–13, 2026",
+      "status": "upcoming"
+    },
+    {
+      "id": "baku-city-circuit",
+      "name": "Baku City Circuit",
+      "city": "Baku",
+      "country": "Azerbaijan",
+      "round": 15,
+      "raceName": "Azerbaijan Grand Prix",
+      "dates": "Sep 24–26, 2026",
+      "status": "upcoming"
+    },
+    {
+      "id": "sepang-international-circuit",
+      "name": "Sepang International Circuit",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "round": 16,
+      "raceName": "Bahrain Grand Prix in Malaysia",
+      "dates": "Oct 2–4, 2026",
+      "status": "upcoming",
+      "lengthKm": 5.543,
+      "laps": 56,
+      "raceDistanceKm": 310.408,
+      "character": [
+        "Long straights",
+        "High-speed corners",
+        "Heat",
+        "Weather variability"
+      ],
+      "summary": "Sepang returns to the calendar as host venue for the 2026 Bahrain Grand Prix in Malaysia, combining long straights with technical high-speed sections and changeable weather."
+    },
+    {
+      "id": "marina-bay-street-circuit",
+      "name": "Marina Bay Street Circuit",
+      "city": "Singapore",
+      "country": "Singapore",
+      "round": 17,
+      "raceName": "Singapore Grand Prix",
+      "dates": "Oct 9–11, 2026",
+      "status": "upcoming"
+    },
+    {
+      "id": "circuit-of-the-americas",
+      "name": "Circuit of the Americas",
+      "city": "Austin",
+      "country": "United States",
+      "round": 18,
+      "raceName": "United States Grand Prix",
+      "dates": "Oct 23–25, 2026",
+      "status": "upcoming"
+    },
+    {
+      "id": "aut-dromo-hermanos-rodr-guez",
+      "name": "Autódromo Hermanos Rodríguez",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "round": 19,
+      "raceName": "Mexico City Grand Prix",
+      "dates": "Oct 30–Nov 1, 2026",
+      "status": "upcoming"
+    },
+    {
+      "id": "interlagos",
+      "name": "Interlagos",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "round": 20,
+      "raceName": "São Paulo Grand Prix",
+      "dates": "Nov 6–8, 2026",
+      "status": "upcoming"
+    },
+    {
+      "id": "las-vegas-strip-circuit",
+      "name": "Las Vegas Strip Circuit",
+      "city": "Las Vegas",
+      "country": "United States",
+      "round": 21,
+      "raceName": "Las Vegas Grand Prix",
+      "dates": "Nov 19–21, 2026",
+      "status": "upcoming"
+    },
+    {
+      "id": "lusail-international-circuit",
+      "name": "Lusail International Circuit",
+      "city": "Lusail",
+      "country": "Qatar",
+      "round": 22,
+      "raceName": "Qatar Grand Prix",
+      "dates": "Nov 27–29, 2026",
+      "status": "upcoming"
+    },
+    {
+      "id": "yas-marina-circuit",
+      "name": "Yas Marina Circuit",
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "round": 23,
+      "raceName": "Abu Dhabi Grand Prix",
+      "dates": "Dec 4–6, 2026",
+      "status": "upcoming"
     }
   ],
   "notes": [
-    "Paddock Command uses published championship/race data and does not claim to provide official real-time lap timing or telemetry.",
-    "v0.5.0 intentionally ships only data verified in the current Paddock Command editorial surface. Broader standings and schedule coverage will expand through the same contract."
+    "Driver and constructor standings are current through Round 12 of the 2026 championship.",
+    "The current official 2026 calendar contains 23 rounds. The Bahrain Grand Prix is scheduled at Sepang International Circuit in Malaysia on October 2–4.",
+    "Paddock Command uses published championship and race data and does not claim to provide official real-time lap timing or telemetry."
   ]
 }
