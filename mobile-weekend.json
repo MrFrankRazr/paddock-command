@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "weekendVersion": "2026.09.02.1",
-  "generatedAt": "2026-09-02T20:20:00-07:00",
+  "weekendVersion": "2026.09.02.2",
+  "generatedAt": "2026-09-02T20:45:00-07:00",
   "statusLabel": "Pre-event · Monza",
   "state": "pre_event",
   "race": {
@@ -24,7 +24,8 @@
       "date": "Fri Sep 4",
       "localTime": "12:30",
       "status": "upcoming",
-      "classification": []
+      "classification": [],
+      "startsAtUtc": "2026-09-04T10:30:00Z"
     },
     {
       "id": "fp2",
@@ -33,7 +34,8 @@
       "date": "Fri Sep 4",
       "localTime": "16:00",
       "status": "upcoming",
-      "classification": []
+      "classification": [],
+      "startsAtUtc": "2026-09-04T14:00:00Z"
     },
     {
       "id": "fp3",
@@ -42,7 +44,8 @@
       "date": "Sat Sep 5",
       "localTime": "12:30",
       "status": "upcoming",
-      "classification": []
+      "classification": [],
+      "startsAtUtc": "2026-09-05T10:30:00Z"
     },
     {
       "id": "qualifying",
@@ -51,7 +54,8 @@
       "date": "Sat Sep 5",
       "localTime": "16:00",
       "status": "upcoming",
-      "classification": []
+      "classification": [],
+      "startsAtUtc": "2026-09-05T14:00:00Z"
     },
     {
       "id": "race",
@@ -60,7 +64,8 @@
       "date": "Sun Sep 6",
       "localTime": "15:00",
       "status": "upcoming",
-      "classification": []
+      "classification": [],
+      "startsAtUtc": "2026-09-06T13:00:00Z"
     }
   ],
   "weather": {
