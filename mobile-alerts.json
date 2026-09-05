@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "alertsVersion": "2026.09.05.1844",
-  "generatedAt": "2026-09-05T18:44:24.482Z",
+  "alertsVersion": "2026.09.05.1857",
+  "generatedAt": "2026-09-05T18:57:05.769Z",
   "statusLabel": "Monza pre-event",
   "alerts": [
     {
@@ -66,6 +66,15 @@
       "target": "notifications",
       "priority": "normal",
       "publishedAt": "2026-09-05T18:42:00.000Z"
+    },
+    {
+      "id": "Race update",
+      "title": "Update",
+      "body": "The race update.",
+      "type": "intelligence",
+      "target": "notifications",
+      "priority": "normal",
+      "publishedAt": "2026-09-05T18:55:00.000Z"
     }
   ]
 }
