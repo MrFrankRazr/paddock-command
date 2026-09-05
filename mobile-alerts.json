@@ -1,44 +1,53 @@
-﻿{
-    "schemaVersion":  1,
-    "alertsVersion":  "2026.09.03.2154",
-    "generatedAt":  "2026-09-03T21:54:59.3691352-07:00",
-    "statusLabel":  "Monza pre-event",
-    "alerts":  [
-                   {
-                       "id":  "monza-weekend-ready",
-                       "type":  "weekend",
-                       "priority":  "normal",
-                       "publishedAt":  "2026-09-02T20:30:00-07:00",
-                       "title":  "Monza Weekend Center is ready",
-                       "body":  "The Italian Grand Prix session timeline and pre-event forecast are now available in Paddock Command Mobile.",
-                       "target":  "weekend"
-                   },
-                   {
-                       "id":  "mclaren-hwing-watch",
-                       "type":  "intelligence",
-                       "priority":  "high",
-                       "publishedAt":  "2026-09-02T18:00:00-07:00",
-                       "title":  "Technical watch: McLaren H-Wing",
-                       "body":  "Monza will test whether McLaren can preserve recent cornering performance while adding the low-drag efficiency required on the long straights.",
-                       "target":  "intel"
-                   },
-                   {
-                       "id":  "monza-weather-pre-event",
-                       "type":  "weather",
-                       "priority":  "normal",
-                       "publishedAt":  "2026-09-02T17:30:00-07:00",
-                       "title":  "Monza forecast remains warm and dry",
-                       "body":  "The current race-weekend outlook is around 30°C with minimal rain risk across Friday, Saturday and Sunday.",
-                       "target":  "weekend"
-                   },
-                   {
-                       "id":  "monza-thursday-intelligence-20260903",
-                       "type":  "intelligence",
-                       "priority":  "high",
-                       "publishedAt":  "2026-09-03T21:54:59.3691352-07:00",
-                       "title":  "Monza Thursday Intelligence Update",
-                       "body":  "New Monza race intelligence is available ahead of Friday practice, with the latest technical, energy-management and weekend watch points now published.",
-                       "target":  "intel"
-                   }
-               ]
+{
+  "schemaVersion": 1,
+  "alertsVersion": "2026.09.05.0209",
+  "generatedAt": "2026-09-05T02:09:47.551Z",
+  "statusLabel": "Monza pre-event",
+  "alerts": [
+    {
+      "id": "monza-weekend-ready",
+      "type": "weekend",
+      "priority": "normal",
+      "publishedAt": "2026-09-02T20:30:00-07:00",
+      "title": "Monza Weekend Center is ready",
+      "body": "The Italian Grand Prix session timeline and pre-event forecast are now available in Paddock Command Mobile.",
+      "target": "weekend"
+    },
+    {
+      "id": "mclaren-hwing-watch",
+      "type": "intelligence",
+      "priority": "high",
+      "publishedAt": "2026-09-02T18:00:00-07:00",
+      "title": "Technical watch: McLaren H-Wing",
+      "body": "Monza will test whether McLaren can preserve recent cornering performance while adding the low-drag efficiency required on the long straights.",
+      "target": "intel"
+    },
+    {
+      "id": "monza-weather-pre-event",
+      "type": "weather",
+      "priority": "normal",
+      "publishedAt": "2026-09-02T17:30:00-07:00",
+      "title": "Monza forecast remains warm and dry",
+      "body": "The current race-weekend outlook is around 30°C with minimal rain risk across Friday, Saturday and Sunday.",
+      "target": "weekend"
+    },
+    {
+      "id": "monza-thursday-intelligence-20260903",
+      "type": "intelligence",
+      "priority": "high",
+      "publishedAt": "2026-09-03T21:54:59.3691352-07:00",
+      "title": "Monza Thursday Intelligence Update",
+      "body": "New Monza race intelligence is available ahead of Friday practice, with the latest technical, energy-management and weekend watch points now published.",
+      "target": "intel"
+    },
+    {
+      "id": "test alert",
+      "title": "the test alert",
+      "body": "The alert body.",
+      "type": "intelligence",
+      "target": "notifications",
+      "priority": "normal",
+      "publishedAt": "2026-09-05T02:07:00.000Z"
+    }
+  ]
 }
