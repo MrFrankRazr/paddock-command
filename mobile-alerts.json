@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "alertsVersion": "2026.09.05.1857",
-  "generatedAt": "2026-09-05T18:57:05.769Z",
+  "alertsVersion": "2026.09.05.2030",
+  "generatedAt": "2026-09-05T20:30:38.029Z",
   "statusLabel": "Monza pre-event",
   "alerts": [
     {
@@ -75,6 +75,15 @@
       "target": "notifications",
       "priority": "normal",
       "publishedAt": "2026-09-05T18:55:00.000Z"
+    },
+    {
+      "id": "2233",
+      "title": "2233",
+      "body": "2233",
+      "type": "results",
+      "target": "notifications",
+      "priority": "normal",
+      "publishedAt": "2026-09-05T20:16:00.000Z"
     }
   ]
 }
