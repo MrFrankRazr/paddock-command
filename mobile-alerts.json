@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "alertsVersion": "2026.09.05.0209",
-  "generatedAt": "2026-09-05T02:09:47.551Z",
+  "alertsVersion": "2026.09.05.0302",
+  "generatedAt": "2026-09-05T03:02:37.879Z",
   "statusLabel": "Monza pre-event",
   "alerts": [
     {
@@ -48,6 +48,15 @@
       "target": "notifications",
       "priority": "normal",
       "publishedAt": "2026-09-05T02:07:00.000Z"
+    },
+    {
+      "id": "Real test",
+      "title": "Tesl for real",
+      "body": "for real test",
+      "type": "intelligence",
+      "target": "notifications",
+      "priority": "normal",
+      "publishedAt": "2026-09-05T02:54:00.000Z"
     }
   ]
 }
