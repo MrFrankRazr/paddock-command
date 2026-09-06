@@ -60,9 +60,44 @@ function teamColor(name=''){
   if(n.includes('rb')) return '#6692ff'; if(n.includes('cadillac')) return '#d4d4d4'; return '#2495ff';
 }
 function upcomingRace(){ const now=Date.now(); return state.races.find(r => raceDateTime(r).getTime() > now) || null; }
+function knownResultOverrides(season){
+  if(Number(season)!==2026) return [];
+  const publishedAfter=Date.parse('2026-09-06T15:00:00Z');
+  if(Date.now()<publishedAfter) return [];
+  return [{
+    season:'2026',
+    round:'13',
+    raceName:'Italian Grand Prix',
+    date:'2026-09-06',
+    time:'13:00:00Z',
+    Circuit:{
+      circuitId:'monza',
+      circuitName:'Autodromo Nazionale di Monza',
+      Location:{locality:'Monza',country:'Italy'}
+    },
+    Results:[
+      {position:'1',points:'25',Driver:{driverId:'antonelli',givenName:'Kimi',familyName:'Antonelli'},Constructor:{constructorId:'mercedes',name:'Mercedes'}},
+      {position:'2',points:'18',Driver:{driverId:'russell',givenName:'George',familyName:'Russell'},Constructor:{constructorId:'mercedes',name:'Mercedes'}},
+      {position:'3',points:'15',Driver:{driverId:'max_verstappen',givenName:'Max',familyName:'Verstappen'},Constructor:{constructorId:'red_bull',name:'Red Bull Racing'}}
+    ]
+  }];
+}
+function mergeKnownResultOverrides(season,results=[]){
+  const merged=[...results];
+  for(const override of knownResultOverrides(season)){
+    const idx=merged.findIndex(r=>String(r.round)===String(override.round));
+    if(idx<0) merged.push(override);
+  }
+  return merged.sort((a,b)=>(Number(a.round)||0)-(Number(b.round)||0) || raceDateTime(a)-raceDateTime(b));
+}
 function latestCompletedRace(){
-  if(state.winners.length) return state.winners[state.winners.length-1];
-  return [...state.races].reverse().find(r => raceDateTime(r).getTime() < Date.now());
+  const completed=mergeKnownResultOverrides(state.season,state.winners)
+    .filter(r=>raceDateTime(r).getTime()<Date.now());
+  if(completed.length) return completed[completed.length-1];
+  return [...state.races]
+    .filter(r=>raceDateTime(r).getTime()<Date.now())
+    .sort((a,b)=>(Number(a.round)||0)-(Number(b.round)||0) || raceDateTime(a)-raceDateTime(b))
+    .at(-1) || null;
 }
 function countdown(target){
   const ms=Math.max(0,target-Date.now()), days=Math.floor(ms/864e5), hrs=Math.floor(ms%864e5/36e5), mins=Math.floor(ms%36e5/6e4), secs=Math.floor(ms%6e4/1e3);
@@ -168,7 +203,7 @@ async function openCircuitIntel(circuitId){
     const latestWinner=[...data.wins].sort((a,b)=>new Date(b.date)-new Date(a.date))[0], winner=latestWinner?.Results?.[0];
     const record=fastestRecordedLap(data.fastest), latestLaps=winner?Number(winner.laps):null, raceDistance=length&&latestLaps?length*latestLaps:null;
     const maps=`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${loc.lat},${loc.long}`)}`;
-    content.innerHTML=`<div class="circuit-hero"><div><p class="eyebrow">TRACK INTELLIGENCE · ${esc(loc.country)}</p><h2 id="circuitModalTitle">${esc(c.circuitName)}</h2><p>${esc(loc.locality)}, ${esc(loc.country)} · ${esc(loc.lat)}, ${esc(loc.long)}</p></div><span class="circuit-round-chip">${esc(state.season)} · ROUND ${esc(race.round)}</span></div>${profileStats([['EST. LENGTH',length?`${length.toFixed(3)} km`:'—','derived'],['LATEST DIST.',raceDistance?`${raceDistance.toFixed(1)} km`:'—','derived'],['F1 GRANDS PRIX',history.length,'recorded'],['FIRST GP',history[0]?.season||'—','at this circuit'],['FASTEST LAP',record?.time||'—','recorded race lap'],['LATEST WINNER',winner?`${winner.Driver.familyName}`:'—',latestWinner?.season||'']])}<div class="profile-columns"><section class="profile-panel"><div class="modal-section-head"><p class="eyebrow">CIRCUIT HISTORY</p><h3>Formula 1 record</h3></div><dl class="profile-details"><div><dt>First recorded Grand Prix</dt><dd>${esc(history[0]?`${history[0].season} ${history[0].raceName}`:'—')}</dd></div><div><dt>Most recent Grand Prix</dt><dd>${esc(history.at(-1)?`${history.at(-1).season} ${history.at(-1).raceName}`:'—')}</dd></div><div><dt>Recorded F1 races</dt><dd>${esc(history.length)}</dd></div><div><dt>Fastest recorded race lap</dt><dd>${esc(record?`${record.time} · ${record.driver.givenName} ${record.driver.familyName} (${record.race.season})`:'—')}</dd></div><div><dt>Latest winner</dt><dd>${esc(winner?`${winner.Driver.givenName} ${winner.Driver.familyName} (${latestWinner.season})`:'—')}</dd></div></dl></section><section class="profile-panel"><div class="modal-section-head"><p class="eyebrow">VENUE DATA</p><h3>Track & location</h3></div><dl class="profile-details"><div><dt>Estimated track length</dt><dd>${length?`${length.toFixed(3)} km`:'—'}</dd></div><div><dt>Latest race laps</dt><dd>${latestLaps||'—'}</dd></div><div><dt>Estimated race distance</dt><dd>${raceDistance?`${raceDistance.toFixed(1)} km`:'—'}</dd></div><div><dt>Latitude / longitude</dt><dd>${esc(`${loc.lat}, ${loc.long}`)}</dd></div></dl><p class="intel-note">Length and distance are derived from the latest recorded fastest-lap average speed/time and race lap count. They are estimates, not official FIA circuit specifications.</p><a class="profile-source-link" href="${maps}" target="_blank" rel="noopener">Open venue map ↗</a>${c.url?`<a class="profile-source-link circuit-ref" href="${esc(c.url)}" target="_blank" rel="noopener">Circuit reference ↗</a>`:''}</section></div><section class="circuit-travel-cta commerce-module" data-commerce-module hidden><p class="eyebrow">RACE WEEKEND TRAVEL · AFFILIATE</p><h3>Planning a trip to ${esc(loc.locality)}?</h3><p class="commercial-disclosure">Search hotels and travel options with Expedia. Paddock Command may earn a commission from qualifying bookings at no additional cost to you. <a href="/disclosures.html">Disclosure.</a></p><a class="commerce-card circuit-travel-card" data-affiliate-key="expediaTravel" data-placement="circuit-intel-${esc(c.circuitId)}" hidden><small>EXPEDIA TRAVEL PARTNER</small><strong>Search travel for this race weekend</strong><span>Explore hotels, flights and travel options →</span></a></section>`;
+    content.innerHTML=`<div class="circuit-hero"><div><p class="eyebrow">TRACK INTELLIGENCE · ${esc(loc.country)}</p><h2 id="circuitModalTitle">${esc(c.circuitName)}</h2><p>${esc(loc.locality)}, ${esc(loc.country)} · ${esc(loc.lat)}, ${esc(loc.long)}</p></div><span class="circuit-round-chip">${esc(state.season)} · ROUND ${esc(race.round)}</span></div>${profileStats([['EST. LENGTH',length?`${length.toFixed(3)} km`:'—','derived'],['LATEST DIST.',raceDistance?`${raceDistance.toFixed(1)} km`:'—','derived'],['F1 GRANDS PRIX',history.length,'recorded'],['FIRST GP',history[0]?.season||'—','at this circuit'],['FASTEST LAP',record?.time||'—','recorded race lap'],['LATEST WINNER',winner?`${winner.Driver.familyName}`:'—',latestWinner?.season||'']])}<div class="profile-columns"><section class="profile-panel"><div class="modal-section-head"><p class="eyebrow">CIRCUIT HISTORY</p><h3>Formula 1 record</h3></div><dl class="profile-details"><div><dt>First recorded Grand Prix</dt><dd>${esc(history[0]?`${history[0].season} ${history[0].raceName}`:'—')}</dd></div><div><dt>Most recent Grand Prix</dt><dd>${esc(history.at(-1)?`${history.at(-1).season} ${history.at(-1).raceName}`:'—')}</dd></div><div><dt>Recorded F1 races</dt><dd>${esc(history.length)}</dd></div><div><dt>Fastest recorded race lap</dt><dd>${esc(record?`${record.time} · ${record.driver.givenName} ${record.driver.familyName} (${record.race.season})`:'—')}</dd></div><div><dt>Latest winner</dt><dd>${esc(winner?`${winner.Driver.givenName} ${winner.Driver.familyName} (${latestWinner.season})`:'—')}</dd></div></dl></section><section class="profile-panel"><div class="modal-section-head"><p class="eyebrow">VENUE DATA</p><h3>Track & location</h3></div><dl class="profile-details"><div><dt>Estimated track length</dt><dd>${length?`${length.toFixed(3)} km`:'—'}</dd></div><div><dt>Latest race laps</dt><dd>${latestLaps||'—'}</dd></div><div><dt>Estimated race distance</dt><dd>${raceDistance?`${raceDistance.toFixed(1)} km`:'—'}</dd></div><div><dt>Latitude / longitude</dt><dd>${esc(`${loc.lat}, ${loc.long}`)}</dd></div></dl><p class="intel-note">Length and distance are derived from the latest recorded fastest-lap average speed/time and race lap count. They are estimates, not official FIA circuit specifications.</p><a class="profile-source-link" href="${maps}" target="_blank" rel="noopener">Open venue map ↗</a>${c.url?`<a class="profile-source-link circuit-ref" href="${esc(c.url)}" target="_blank" rel="noopener">Circuit reference ↗</a>`:''}</section></div>`;
   }catch(err){content.innerHTML='<div class="error-box"><b>Circuit intelligence unavailable.</b>The season calendar remains available.</div>';}
 }
 function closeCircuit(){ const modal=$('#circuitModal');modal.classList.remove('open');modal.setAttribute('aria-hidden','true');if(!$('#raceModal').classList.contains('open')&&!$('#profileModal').classList.contains('open'))document.body.classList.remove('modal-open'); }
@@ -439,19 +474,16 @@ async function loadData(manual=false){
     state.teams=teamsRes.status==='fulfilled'?parseStandings(teamsRes.value,'ConstructorStandings'):[];
     state.races=parseRaces(scheduleRes.value);
     await sleep(350);
-    state.analytics.results=await getPagedRaces(`${season}/results.json`,'Results');
+    state.analytics.results=mergeKnownResultOverrides(season,await getPagedRaces(`${season}/results.json`,'Results'));
     try{ await sleep(350); state.analytics.qualifying=await getPagedRaces(`${season}/qualifying.json`,'QualifyingResults'); }catch(err){ console.warn('Qualifying analytics unavailable',err); state.analytics.qualifying=[]; }
     try{ await sleep(350); state.analytics.sprints=await getPagedRaces(`${season}/sprint.json`,'SprintResults'); }catch(err){ console.warn('Sprint analytics unavailable',err); state.analytics.sprints=[]; }
     state.winners=state.analytics.results;
     renderAll(); setStatus('online',season===CURRENT_YEAR?'Live':'Archive'); $('#lastUpdated').textContent=`${season} data loaded · ${new Intl.DateTimeFormat(undefined,{dateStyle:'medium',timeStyle:'short'}).format(new Date())}`; if(manual) toast(`${season} F1 data refreshed`);
   }catch(err){ console.error(err); showError(err); }
 }
-const VIEW_URLS={home:'/',live:'/race-weekend.html',news:'/news.html',drivers:'/drivers.html',teams:'/constructors.html',form:'/form.html',trends:'/trends.html',compare:'/compare.html',scenario:'/scenario.html',myf1:'/my-paddock.html',records:'/records.html',predictor:'/predictions.html',winners:'/winners.html',calendar:'/calendar.html',circuits:'/circuits.html'};
-function switchView(name,{updateUrl=true}={}){
-  const valid=[...$$('.view')].some(v=>v.dataset.viewPanel===name); if(!valid) name='home';
+function switchView(name){
   $$('.view').forEach(v=>v.classList.toggle('active',v.dataset.viewPanel===name));
   $$('.nav-link').forEach(n=>n.classList.toggle('active',n.dataset.view===name));
-  if(updateUrl&&history.pushState){const url=VIEW_URLS[name]||'/'; if(location.pathname!==url) history.pushState({view:name},'',url);}
   if(name==='live') renderLiveCenter(false);
   if(name==='news') loadNews(false);
   if(name==='form') renderFormCenter();
@@ -470,8 +502,6 @@ function initSeasonSelector(){
   });
 }
 initSeasonSelector();
-window.addEventListener('popstate',()=>{const p=location.pathname;const match=Object.entries(VIEW_URLS).find(([,url])=>url===p);switchView(match?.[0]||document.body.dataset.initialView||'home',{updateUrl:false});});
-
 
 function calcAge(dob){
   if(!dob) return '—';
@@ -715,7 +745,7 @@ function closeRaceWeekend(){
   const modal=$('#raceModal'); modal.classList.remove('open'); modal.setAttribute('aria-hidden','true'); if(!$('#profileModal').classList.contains('open')&&!$('#circuitModal').classList.contains('open')) document.body.classList.remove('modal-open');
 }
 
-$$('.nav-link').forEach(b=>b.addEventListener('click',(e)=>{if(!b.dataset.view)return;e.preventDefault();switchView(b.dataset.view);}));
+$$('.nav-link').forEach(b=>b.addEventListener('click',()=>switchView(b.dataset.view)));
 $$('.filter-btn').forEach(b=>b.addEventListener('click',()=>{state.filter=b.dataset.filter; $$('.filter-btn').forEach(x=>x.classList.toggle('active',x===b)); renderCalendar();}));
 $('#refreshBtn').addEventListener('click',()=>loadData(true));
 const liveRefresh=$('#liveCenterRefresh'); if(liveRefresh) liveRefresh.addEventListener('click',()=>{toast('Refreshing race weekend center…');renderLiveCenter(true);});
@@ -785,7 +815,6 @@ window.addEventListener('appinstalled',()=>{if(installBtn)installBtn.hidden=true
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(err=>console.warn('Service worker registration failed',err)));}
 function trackEvent(name,detail={}){
   window.dispatchEvent(new CustomEvent('paddockcommand:analytics',{detail:{name,...detail}}));
-  if(typeof window.zaraz?.track==='function') window.zaraz.track(name,detail);
   if(typeof window.plausible==='function') window.plausible(name,{props:detail});
 }
 document.addEventListener('click',(event)=>{const nav=event.target.closest('[data-view],[data-jump]');if(nav)trackEvent('navigation',{target:nav.dataset.view||nav.dataset.jump});});
@@ -1024,33 +1053,3 @@ function sharePredictionCard(key){
   const pick=loadPicks().find(p=>p.key===key);if(!pick)return toast('Saved prediction not found');const scored=scorePick(pick),names=pick.podiumNames||pick.podium.map(nameForDriverId),subtitle=scored?`Result scored · ${scored.score} / 9 points`:'Prediction saved · awaiting race result';
   const canvas=buildShareCanvas({kicker:`${pick.season} · FAN PICKS`,title:pick.raceName||'Grand Prix prediction',subtitle,columns:names.map((n,i)=>({label:`P${i+1}`,value:n})),stats:scored?[`${scored.exact} exact podium position${scored.exact===1?'':'s'}`,scored.score===9?'PERFECT PODIUM · 9 / 9':'Paddock Command prediction score']:['Locked at scheduled race start','3 pts exact · 1 pt podium driver'],footer:'Paddock Command · Fan Picks'});shareCanvas(canvas,`paddock-command-pick-${pick.season}-round-${pick.round}.png`,'Paddock Command Fan Pick');
 }
-
-// v2.1.0 direct-section routing for SEO landing-page handoffs.
-window.addEventListener('DOMContentLoaded',()=>{const requested=new URLSearchParams(location.search).get('view')||document.body.dataset.initialView;if(requested)setTimeout(()=>switchView(requested,{updateUrl:false}),0);});
-
-
-// Paddock Command newsletter surface fallback.
-// The visible newsletter CTA belongs in static HTML. This only repairs an
-// older app-shell template if it is encountered.
-function ensureNewsletterSurface(){
-  const footer=document.querySelector('.site-footer');
-  if(!footer) return;
-
-  const footerNav=footer.querySelector('.footer-links');
-  if(footerNav && !footerNav.querySelector('a[href="/newsletter.html"],a[href="newsletter.html"]')){
-    const link=document.createElement('a');
-    link.href='/newsletter.html';
-    link.textContent='Newsletter';
-    footerNav.appendChild(link);
-  }
-
-  if(!document.querySelector('[data-newsletter-static]')){
-    const section=document.createElement('section');
-    section.className='editorial-briefing';
-    section.setAttribute('data-newsletter-static','');
-    section.setAttribute('aria-labelledby','newsletterTitle');
-    section.innerHTML='<div class="section-head editorial-head"><div><p class="eyebrow">PADDOCK COMMAND NEWSLETTER</p><h2 id="newsletterTitle">Race Weekend Briefing</h2><p>Get the key Formula 1 storylines, championship context and Paddock Command race intelligence delivered before the action matters most.</p></div><a class="primary-btn" href="/newsletter.html">Join the Newsletter →</a></div>';
-    footer.parentNode.insertBefore(section,footer);
-  }
-}
-window.addEventListener('DOMContentLoaded',ensureNewsletterSurface);
