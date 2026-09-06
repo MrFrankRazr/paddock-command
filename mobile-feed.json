@@ -1,92 +1,101 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.09.02.2",
-  "generatedAt": "2026-09-02T19:45:00-07:00",
+  "feedVersion": "2026.09.06.1",
+  "generatedAt": "2026-09-06T16:26:26-07:00",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
   },
   "nextRace": {
-    "round": 13,
-    "name": "Italian Grand Prix",
-    "circuit": "Autodromo Nazionale Monza",
-    "countryCode": "ITA",
-    "dates": "Sep 4–6",
-    "distanceKm": 306.72,
+    "round": 14,
+    "name": "Spanish Grand Prix",
+    "circuit": "Madring",
+    "countryCode": "ESP",
+    "dates": "Sep 11–13",
     "championshipLeader": {
       "name": "Kimi Antonelli",
       "shortName": "Antonelli",
-      "points": 242,
-      "leadPoints": 59
+      "points": 267,
+      "leadPoints": 66
     }
   },
   "raceIntelligence": {
-    "headline": "Antonelli Faces a Monza Recovery Race",
-    "summary": "The championship leader starts from the back as Norris brings consecutive victories and Ferrari arrives with home-race development.",
-    "updatedLabel": "Updated Sep 2, 2026",
+    "headline": "Antonelli Leaves Monza With a 66-Point Championship Lead",
+    "summary": "A victory from 19th at the Italian Grand Prix turned a damage-limitation weekend into Antonelli's strongest championship statement yet. Madrid is the next test.",
+    "updatedLabel": "Updated Sep 6, 2026",
     "watchPoints": [
       {
-        "id": "antonelli-recovery",
+        "id": "antonelli-title-control",
         "label": "WATCH POINT 01",
-        "tag": "HIGH",
-        "title": "Antonelli recovery potential",
-        "summary": "Qualifying pace, straight-line performance and the gap to the leading cars matter more than grid position alone."
+        "tag": "TITLE",
+        "title": "Antonelli's margin grows to 66",
+        "summary": "The championship leader now has 267 points to Russell's 201 after converting a back-row start into victory at Monza."
       },
       {
-        "id": "mclaren-hwing",
+        "id": "mercedes-control",
         "label": "WATCH POINT 02",
-        "tag": "TECH",
-        "title": "McLaren's H-Wing test",
-        "summary": "Monza will test whether McLaren can retain recent cornering performance while adding the low-drag efficiency required on the long straights."
+        "tag": "TEAM",
+        "title": "Mercedes leaves Monza in control",
+        "summary": "A one-two finish moved Mercedes to 468 constructor points and reinforced the team's advantage before Madrid."
       },
       {
-        "id": "ferrari-home",
+        "id": "madrid-reset",
         "label": "WATCH POINT 03",
-        "tag": "HOME RACE",
-        "title": "Ferrari's Monza package",
-        "summary": "Ferrari's home-race development puts aerodynamic efficiency and power deployment under immediate scrutiny."
+        "tag": "NEXT",
+        "title": "Madrid becomes the next pressure test",
+        "summary": "The new Madring round arrives Sep 11–13, giving the chasing group an immediate opportunity to respond to Antonelli's Monza gain."
       }
     ]
   },
   "articles": [
     {
-      "id": "italian-gp-preview-2026",
-      "category": "RACE WEEKEND PREVIEW",
+      "id": "italian-gp-debrief-2026",
+      "category": "POST-RACE DEBRIEF",
       "context": "MONZA",
-      "title": "Antonelli Faces a Monza Recovery Race",
-      "summary": "The championship leader starts from the back as Norris brings a two-race winning streak and Ferrari arrives with a home-race upgrade package.",
-      "url": "https://paddockcommand.com/2026-italian-grand-prix-preview.html",
-      "updated": "2026-09-02",
+      "title": "Antonelli Wins at Monza From 19th",
+      "summary": "Kimi Antonelli charged from 19th to win his home Grand Prix, beating George Russell as Mercedes completed a one-two and the championship lead grew to 66 points.",
+      "url": "https://paddockcommand.com/2026-italian-grand-prix-debrief.html",
+      "updated": "2026-09-06",
       "nativeReader": true
     },
     {
       "id": "championship-watch-dutch-2026",
       "category": "CHAMPIONSHIP WATCH",
       "context": "2026 TITLE FIGHT",
-      "title": "Antonelli's 59-Point Cushion Faces Its First Monza Stress Test",
-      "summary": "A back-of-grid start gives Russell, Hamilton and Norris a rare opportunity to take a meaningful bite out of the championship lead.",
+      "title": "Antonelli Leads by 66 After Monza",
+      "summary": "The Italian Grand Prix strengthened Antonelli's title position: 267 points to Russell's 201, with Hamilton third on 191.",
       "url": "https://paddockcommand.com/2026-championship-watch-after-dutch-gp.html",
-      "updated": "2026-09-01",
-      "nativeReader": true
-    },
-    {
-      "id": "dutch-gp-debrief-2026",
-      "category": "POST-RACE DEBRIEF",
-      "context": "ZANDVOORT",
-      "title": "What Zandvoort Changed",
-      "summary": "Norris won the Dutch GP, Antonelli protected the bigger championship advantage, and the competitive question resets for Monza.",
-      "url": "https://paddockcommand.com/2026-dutch-grand-prix-debrief.html",
-      "updated": "2026-08-31",
+      "updated": "2026-09-06",
       "nativeReader": true
     },
     {
       "id": "driver-form-watch-2026",
       "category": "DRIVER FORM",
       "context": "MOMENTUM",
-      "title": "Norris Has Momentum, Antonelli Has Control",
-      "summary": "Why the recent-form leader and championship leader can be different drivers — and why that matters before Monza.",
+      "title": "Antonelli Now Has Momentum and Control",
+      "summary": "The championship leader leaves Monza with the strongest recent podium consistency and a 66-point advantage over Russell.",
       "url": "https://paddockcommand.com/2026-driver-form-watch.html",
-      "updated": "2026-08-31",
+      "updated": "2026-09-06",
+      "nativeReader": true
+    },
+    {
+      "id": "italian-gp-qualifying-intelligence-2026",
+      "category": "QUALIFYING INTELLIGENCE",
+      "context": "MONZA",
+      "title": "Gasly's Shock Pole Set Up a Volatile Monza Grid",
+      "summary": "Pierre Gasly took pole in 1:21.786 ahead of Russell; Piastri's penalty reshaped the top six before the race.",
+      "url": "https://paddockcommand.com/2026-italian-gp-qualifying-intelligence.html",
+      "updated": "2026-09-06",
+      "nativeReader": true
+    },
+    {
+      "id": "italian-gp-preview-2026",
+      "category": "RACE WEEKEND PREVIEW",
+      "context": "MONZA",
+      "title": "Antonelli Faces a Monza Recovery Race",
+      "summary": "The pre-race question was how far Antonelli could recover from the back. He ultimately converted 19th on the grid into victory.",
+      "url": "https://paddockcommand.com/2026-italian-grand-prix-preview.html",
+      "updated": "2026-09-06",
       "nativeReader": true
     },
     {

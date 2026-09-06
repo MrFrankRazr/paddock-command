@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "weekendVersion": "2026.09.02.2",
-  "generatedAt": "2026-09-02T20:45:00-07:00",
-  "statusLabel": "Pre-event · Monza",
-  "state": "pre_event",
+  "weekendVersion": "2026.09.06.1",
+  "generatedAt": "2026-09-06T16:26:26-07:00",
+  "statusLabel": "Post-race · Monza",
+  "state": "post_event",
   "race": {
     "round": 13,
     "name": "Italian Grand Prix",
@@ -23,7 +23,7 @@
       "shortName": "FP1",
       "date": "Fri Sep 4",
       "localTime": "12:30",
-      "status": "upcoming",
+      "status": "completed",
       "classification": [],
       "startsAtUtc": "2026-09-04T10:30:00Z"
     },
@@ -33,7 +33,7 @@
       "shortName": "FP2",
       "date": "Fri Sep 4",
       "localTime": "16:00",
-      "status": "upcoming",
+      "status": "completed",
       "classification": [],
       "startsAtUtc": "2026-09-04T14:00:00Z"
     },
@@ -43,7 +43,7 @@
       "shortName": "FP3",
       "date": "Sat Sep 5",
       "localTime": "12:30",
-      "status": "upcoming",
+      "status": "completed",
       "classification": [],
       "startsAtUtc": "2026-09-05T10:30:00Z"
     },
@@ -53,7 +53,7 @@
       "shortName": "QUALI",
       "date": "Sat Sep 5",
       "localTime": "16:00",
-      "status": "upcoming",
+      "status": "completed",
       "classification": [],
       "startsAtUtc": "2026-09-05T14:00:00Z"
     },
@@ -63,14 +63,14 @@
       "shortName": "RACE",
       "date": "Sun Sep 6",
       "localTime": "15:00",
-      "status": "upcoming",
+      "status": "completed",
       "classification": [],
       "startsAtUtc": "2026-09-06T13:00:00Z"
     }
   ],
   "weather": {
-    "summary": "Warm and sunny across the race weekend, with temperatures around 30°C and minimal rain risk.",
-    "sourceLabel": "Current Formula 1 weekend forecast",
+    "summary": "The Italian Grand Prix weekend ran in warm, largely dry conditions at Monza.",
+    "sourceLabel": "Italian Grand Prix weekend conditions",
     "days": [
       {
         "day": "Friday",
@@ -97,31 +97,143 @@
   },
   "commandBrief": [
     {
-      "label": "GRID RECOVERY",
-      "title": "Antonelli starts the weekend under recovery pressure",
-      "text": "Underlying pace and traffic-clearing ability matter more than qualifying position alone because the championship leader is expected to start from the rear."
+      "label": "RACE RESULT",
+      "title": "Antonelli turned P19 into a home victory",
+      "text": "The championship leader recovered through the field and passed George Russell late to win the Italian Grand Prix."
     },
     {
-      "label": "TECHNICAL WATCH",
-      "title": "McLaren’s H-Wing gets its Monza test",
-      "text": "The low-drag concept will be judged on whether McLaren can keep recent cornering strength while improving straight-line efficiency."
+      "label": "TITLE IMPACT",
+      "title": "The championship lead is now 66 points",
+      "text": "Antonelli leaves Round 13 on 267 points, with Russell second on 201 and Hamilton third on 191."
     },
     {
-      "label": "HOME RACE",
-      "title": "Ferrari’s Monza package faces immediate scrutiny",
-      "text": "Power deployment and aerodynamic efficiency will show whether the home-race development materially moves Ferrari toward the front."
+      "label": "NEXT TEST",
+      "title": "Madrid arrives immediately",
+      "text": "The new Madring round follows on Sep 11–13, giving the chasing group little time to respond to Mercedes' Monza one-two."
     }
   ],
   "latestClassification": {
-    "sessionId": null,
-    "sessionName": null,
-    "published": false,
-    "message": "No Formula 1 session classification has been published for the 2026 Italian Grand Prix yet.",
-    "results": []
+    "sessionId": "race",
+    "sessionName": "Italian Grand Prix · Race Result",
+    "published": true,
+    "message": "Final published 2026 Italian Grand Prix classification.",
+    "results": [
+      {
+        "position": 1,
+        "driver": "Kimi Antonelli",
+        "gap": "1:51:15.281"
+      },
+      {
+        "position": 2,
+        "driver": "George Russell",
+        "gap": "+3.857s"
+      },
+      {
+        "position": 3,
+        "driver": "Max Verstappen",
+        "gap": "+14.718s"
+      },
+      {
+        "position": 4,
+        "driver": "Lando Norris",
+        "gap": "+19.056s"
+      },
+      {
+        "position": 5,
+        "driver": "Oscar Piastri",
+        "gap": "+19.253s"
+      },
+      {
+        "position": 6,
+        "driver": "Lewis Hamilton",
+        "gap": "+24.655s"
+      },
+      {
+        "position": 7,
+        "driver": "Pierre Gasly",
+        "gap": "+27.351s"
+      },
+      {
+        "position": 8,
+        "driver": "Arvid Lindblad",
+        "gap": "+45.136s"
+      },
+      {
+        "position": 9,
+        "driver": "Franco Colapinto",
+        "gap": "+47.353s"
+      },
+      {
+        "position": 10,
+        "driver": "Yuki Tsunoda",
+        "gap": "+58.187s"
+      },
+      {
+        "position": 11,
+        "driver": "Gabriel Bortoleto",
+        "gap": "+65.187s"
+      },
+      {
+        "position": 12,
+        "driver": "Nico Hulkenberg",
+        "gap": "+66.187s"
+      },
+      {
+        "position": 13,
+        "driver": "Carlos Sainz",
+        "gap": "+74.117s"
+      },
+      {
+        "position": 14,
+        "driver": "Liam Lawson",
+        "gap": "+75.609s"
+      },
+      {
+        "position": 15,
+        "driver": "Oliver Bearman",
+        "gap": "+78.958s"
+      },
+      {
+        "position": 16,
+        "driver": "Esteban Ocon",
+        "gap": "+1 lap"
+      },
+      {
+        "position": 17,
+        "driver": "Alexander Albon",
+        "gap": "+1 lap"
+      },
+      {
+        "position": 18,
+        "driver": "Sergio Perez",
+        "gap": "+1 lap"
+      },
+      {
+        "position": 19,
+        "driver": "Valtteri Bottas",
+        "gap": "+2 laps"
+      },
+      {
+        "position": "DNF",
+        "driver": "Lance Stroll",
+        "gap": "DNF"
+      },
+      {
+        "position": "DNF",
+        "driver": "Fernando Alonso",
+        "gap": "DNF"
+      },
+      {
+        "position": "DNF",
+        "driver": "Charles Leclerc",
+        "gap": "DNF"
+      }
+    ]
   },
   "notes": [
-    "Session times are shown in Monza local time.",
-    "Paddock Command presents published classifications and weekend context; it does not claim to provide official real-time lap timing or telemetry.",
-    "The mobile weekend payload is designed to update as sessions move from upcoming to completed."
+    "All Italian Grand Prix sessions are complete.",
+    "Kimi Antonelli won from 19th on the grid; George Russell finished second and Max Verstappen third.",
+    "Charles Leclerc retired after a Lap 2 crash at Parabolica that triggered a red flag.",
+    "Paddock Command presents published classifications and weekend context; it does not claim to provide official real-time lap timing or telemetry."
   ]
 }

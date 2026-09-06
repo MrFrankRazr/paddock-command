@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "2026.09.02.2",
-  "generatedAt": "2026-09-02T20:35:00-07:00",
+  "dataVersion": "2026.09.06.1",
+  "generatedAt": "2026-09-06T16:26:26-07:00",
   "season": 2026,
-  "completedRound": 12,
-  "currentRound": 13,
+  "completedRound": 13,
+  "currentRound": 14,
   "totalRounds": 23,
-  "statusLabel": "Current through the Dutch Grand Prix · Round 12 complete",
+  "statusLabel": "Current through the Italian Grand Prix · Round 13 complete",
   "drivers": [
     {
       "position": 1,
@@ -16,8 +16,8 @@
       "number": "12",
       "nationality": "ITA",
       "team": "Mercedes",
-      "points": 242,
-      "wins": 6,
+      "points": 267,
+      "wins": 7,
       "gap": "LEADER"
     },
     {
@@ -28,9 +28,9 @@
       "number": "63",
       "nationality": "GBR",
       "team": "Mercedes",
-      "points": 183,
+      "points": 201,
       "wins": 2,
-      "gap": "-59"
+      "gap": "-66"
     },
     {
       "position": 3,
@@ -40,9 +40,9 @@
       "number": "44",
       "nationality": "GBR",
       "team": "Ferrari",
-      "points": 183,
+      "points": 191,
       "wins": 1,
-      "gap": "-59"
+      "gap": "-76"
     },
     {
       "position": 4,
@@ -52,9 +52,9 @@
       "number": "1",
       "nationality": "GBR",
       "team": "McLaren",
-      "points": 159,
+      "points": 171,
       "wins": 2,
-      "gap": "-83"
+      "gap": "-96"
     },
     {
       "position": 5,
@@ -66,7 +66,7 @@
       "team": "Ferrari",
       "points": 155,
       "wins": 1,
-      "gap": "-87"
+      "gap": "-112"
     },
     {
       "position": 6,
@@ -76,9 +76,9 @@
       "number": "3",
       "nationality": "NED",
       "team": "Red Bull Racing",
-      "points": 112,
+      "points": 127,
       "wins": 0,
-      "gap": "-130"
+      "gap": "-140"
     },
     {
       "position": 7,
@@ -88,9 +88,9 @@
       "number": "81",
       "nationality": "AUS",
       "team": "McLaren",
-      "points": 104,
+      "points": 116,
       "wins": 0,
-      "gap": "-138"
+      "gap": "-151"
     },
     {
       "position": 8,
@@ -100,9 +100,9 @@
       "number": "6",
       "nationality": "FRA",
       "team": "Red Bull Racing",
-      "points": 68,
+      "points": 71,
       "wins": 0,
-      "gap": "-174"
+      "gap": "-196"
     },
     {
       "position": 9,
@@ -111,10 +111,10 @@
       "code": "LAW",
       "number": "30",
       "nationality": "NZL",
-      "team": "Racing Bulls",
-      "points": 49,
+      "team": "Red Bull Racing",
+      "points": 51,
       "wins": 0,
-      "gap": "-193"
+      "gap": "-216"
     },
     {
       "position": 10,
@@ -124,9 +124,9 @@
       "number": "10",
       "nationality": "FRA",
       "team": "Alpine",
-      "points": 44,
+      "points": 41,
       "wins": 0,
-      "gap": "-198"
+      "gap": "-226"
     },
     {
       "position": 11,
@@ -136,9 +136,9 @@
       "number": "41",
       "nationality": "GBR",
       "team": "Racing Bulls",
-      "points": 23,
+      "points": 29,
       "wins": 0,
-      "gap": "-219"
+      "gap": "-238"
     },
     {
       "position": 12,
@@ -148,9 +148,9 @@
       "number": "43",
       "nationality": "ARG",
       "team": "Alpine",
-      "points": 19,
+      "points": 21,
       "wins": 0,
-      "gap": "-223"
+      "gap": "-246"
     },
     {
       "position": 13,
@@ -162,7 +162,7 @@
       "team": "Haas F1 Team",
       "points": 18,
       "wins": 0,
-      "gap": "-224"
+      "gap": "-249"
     },
     {
       "position": 14,
@@ -174,7 +174,7 @@
       "team": "Audi",
       "points": 10,
       "wins": 0,
-      "gap": "-232"
+      "gap": "-257"
     },
     {
       "position": 15,
@@ -186,7 +186,7 @@
       "team": "Audi",
       "points": 6,
       "wins": 0,
-      "gap": "-236"
+      "gap": "-261"
     },
     {
       "position": 16,
@@ -198,7 +198,7 @@
       "team": "Williams",
       "points": 6,
       "wins": 0,
-      "gap": "-236"
+      "gap": "-261"
     },
     {
       "position": 17,
@@ -210,7 +210,7 @@
       "team": "Williams",
       "points": 5,
       "wins": 0,
-      "gap": "-237"
+      "gap": "-262"
     },
     {
       "position": 18,
@@ -222,7 +222,7 @@
       "team": "Haas F1 Team",
       "points": 3,
       "wins": 0,
-      "gap": "-239"
+      "gap": "-264"
     },
     {
       "position": 19,
@@ -234,7 +234,7 @@
       "team": "Aston Martin",
       "points": 3,
       "wins": 0,
-      "gap": "-239"
+      "gap": "-264"
     },
     {
       "position": 20,
@@ -244,9 +244,9 @@
       "number": "22",
       "nationality": "JPN",
       "team": "Racing Bulls",
-      "points": 0,
+      "points": 1,
       "wins": 0,
-      "gap": "-242"
+      "gap": "-266"
     },
     {
       "position": 21,
@@ -258,7 +258,7 @@
       "team": "Aston Martin",
       "points": 0,
       "wins": 0,
-      "gap": "-242"
+      "gap": "-267"
     },
     {
       "position": 22,
@@ -270,7 +270,7 @@
       "team": "Cadillac",
       "points": 0,
       "wins": 0,
-      "gap": "-242"
+      "gap": "-267"
     },
     {
       "position": 23,
@@ -282,7 +282,7 @@
       "team": "Cadillac",
       "points": 0,
       "wins": 0,
-      "gap": "-242"
+      "gap": "-267"
     }
   ],
   "constructors": [
@@ -290,49 +290,49 @@
       "position": 1,
       "id": "mercedes",
       "name": "Mercedes",
-      "points": 425,
-      "wins": 8,
+      "points": 468,
+      "wins": 9,
       "gap": "LEADER"
     },
     {
       "position": 2,
       "id": "ferrari",
       "name": "Ferrari",
-      "points": 338,
+      "points": 346,
       "wins": 2,
-      "gap": "-87"
+      "gap": "-122"
     },
     {
       "position": 3,
       "id": "mclaren",
       "name": "McLaren",
-      "points": 263,
+      "points": 287,
       "wins": 2,
-      "gap": "-162"
+      "gap": "-181"
     },
     {
       "position": 4,
       "id": "red_bull",
       "name": "Red Bull Racing",
-      "points": 186,
+      "points": 204,
       "wins": 0,
-      "gap": "-239"
+      "gap": "-264"
     },
     {
       "position": 5,
       "id": "racing_bulls",
       "name": "Racing Bulls",
-      "points": 66,
+      "points": 75,
       "wins": 0,
-      "gap": "-359"
+      "gap": "-393"
     },
     {
       "position": 6,
       "id": "alpine",
       "name": "Alpine",
-      "points": 63,
+      "points": 62,
       "wins": 0,
-      "gap": "-362"
+      "gap": "-406"
     },
     {
       "position": 7,
@@ -340,7 +340,7 @@
       "name": "Haas F1 Team",
       "points": 21,
       "wins": 0,
-      "gap": "-404"
+      "gap": "-447"
     },
     {
       "position": 8,
@@ -348,7 +348,7 @@
       "name": "Audi",
       "points": 16,
       "wins": 0,
-      "gap": "-409"
+      "gap": "-452"
     },
     {
       "position": 9,
@@ -356,7 +356,7 @@
       "name": "Williams",
       "points": 11,
       "wins": 0,
-      "gap": "-414"
+      "gap": "-457"
     },
     {
       "position": 10,
@@ -364,7 +364,7 @@
       "name": "Aston Martin",
       "points": 3,
       "wins": 0,
-      "gap": "-422"
+      "gap": "-465"
     },
     {
       "position": 11,
@@ -372,7 +372,7 @@
       "name": "Cadillac",
       "points": 0,
       "wins": 0,
-      "gap": "-425"
+      "gap": "-468"
     }
   ],
   "calendar": [
@@ -491,7 +491,7 @@
       "city": "Monza",
       "circuit": "Autodromo Nazionale Monza",
       "dates": "Sep 4–6, 2026",
-      "status": "current"
+      "status": "completed"
     },
     {
       "round": 14,
@@ -500,7 +500,7 @@
       "city": "Madrid",
       "circuit": "Madring",
       "dates": "Sep 11–13, 2026",
-      "status": "upcoming"
+      "status": "current"
     },
     {
       "round": 15,
@@ -713,7 +713,7 @@
       "round": 13,
       "raceName": "Italian Grand Prix",
       "dates": "Sep 4–6, 2026",
-      "status": "current",
+      "status": "completed",
       "lengthKm": 5.793,
       "laps": 53,
       "raceDistanceKm": 306.72,
@@ -733,7 +733,7 @@
       "round": 14,
       "raceName": "Spanish Grand Prix",
       "dates": "Sep 11–13, 2026",
-      "status": "upcoming"
+      "status": "current"
     },
     {
       "id": "baku-city-circuit",
@@ -837,8 +837,9 @@
     }
   ],
   "notes": [
-    "Driver and constructor standings are current through Round 12 of the 2026 championship.",
-    "The current official 2026 calendar contains 23 rounds. The Bahrain Grand Prix is scheduled at Sepang International Circuit in Malaysia on October 2–4.",
+    "Driver and constructor standings are current through Round 13 of the 2026 championship.",
+    "Kimi Antonelli leads George Russell by 66 points after winning the Italian Grand Prix from 19th on the grid.",
+    "Round 14 is the Spanish Grand Prix at Madring in Madrid on Sep 11–13, 2026.",
     "Paddock Command uses published championship and race data and does not claim to provide official real-time lap timing or telemetry."
   ]
 }
