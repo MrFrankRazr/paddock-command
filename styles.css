@@ -394,3 +394,43 @@ a{color:inherit}
 }
 
 /* v2.7.6 — single-source navigation release */
+
+
+/* v2.7.7 — SEO/editorial header lockup normalization */
+.seo-topbar{
+  display:flex!important;
+  align-items:center!important;
+  gap:28px!important;
+}
+.seo-brand{
+  display:flex!important;
+  align-items:center!important;
+  flex:0 0 auto!important;
+  width:210px!important;
+  max-width:210px!important;
+  height:52px!important;
+  overflow:hidden!important;
+}
+.seo-brand img{
+  display:block!important;
+  width:210px!important;
+  max-width:210px!important;
+  height:52px!important;
+  object-fit:contain!important;
+}
+.seo-topnav{
+  display:flex!important;
+  align-items:center!important;
+  flex-wrap:wrap!important;
+  gap:10px 26px!important;
+}
+.seo-topnav a{
+  text-decoration:none!important;
+  white-space:nowrap!important;
+}
+@media (max-width:760px){
+  .seo-topbar{align-items:flex-start!important;gap:16px!important}
+  .seo-brand{width:172px!important;max-width:172px!important;height:44px!important}
+  .seo-brand img{width:172px!important;max-width:172px!important;height:44px!important}
+  .seo-topnav{gap:8px 16px!important}
+}
