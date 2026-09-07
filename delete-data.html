@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#030712">
+  <meta name="color-scheme" content="dark">
+  <title>Delete Your Data | Paddock Command</title>
+  <meta name="description" content="Request deletion of Paddock Command mobile app data.">
+  <style>
+    :root{
+      --bg:#030712;
+      --surface:#081120;
+      --surface2:#0d1a2d;
+      --surface3:#11243d;
+      --line:#1b3555;
+      --muted:#8296ad;
+      --text:#f3f8ff;
+      --accent:#2495ff;
+      --accent2:#63b8ff;
+      --good:#40d9a4;
+      --max:920px;
+    }
+    *{box-sizing:border-box}
+    html{background:var(--bg);color:var(--text)}
+    body{
+      margin:0;
+      min-height:100vh;
+      background:
+        radial-gradient(circle at 15% -10%, rgba(36,149,255,.16), transparent 30%),
+        radial-gradient(circle at 90% 0%, rgba(99,184,255,.08), transparent 24%),
+        var(--bg);
+      color:var(--text);
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      line-height:1.65;
+    }
+    a{color:var(--accent2)}
+    a:hover{color:#fff}
+    .wrap{width:min(var(--max),calc(100% - 32px));margin:0 auto}
+    header{
+      border-bottom:1px solid var(--line);
+      background:rgba(3,7,18,.86);
+      backdrop-filter:blur(12px);
+    }
+    .brand{
+      min-height:74px;
+      display:flex;
+      align-items:center;
+      gap:12px;
+      text-decoration:none;
+      color:var(--text);
+      font-weight:900;
+      letter-spacing:.045em;
+    }
+    .mark{
+      width:38px;height:38px;border-radius:10px;
+      display:grid;place-items:center;
+      background:linear-gradient(135deg,var(--surface3),var(--accent));
+      border:1px solid rgba(99,184,255,.35);
+      box-shadow:0 10px 28px rgba(0,0,0,.35);
+      font-size:13px;
+    }
+    .brand span:last-child em{font-style:normal;color:var(--accent2)}
+    main{padding:56px 0 72px}
+    .eyebrow{
+      display:inline-block;
+      margin-bottom:12px;
+      color:var(--accent2);
+      font-size:12px;
+      font-weight:800;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+    }
+    h1{
+      margin:0 0 14px;
+      font-size:clamp(34px,7vw,58px);
+      line-height:1;
+      letter-spacing:-.035em;
+    }
+    .lead{
+      max-width:760px;
+      margin:0;
+      color:#c7d3e2;
+      font-size:17px;
+    }
+    .meta{
+      margin:20px 0 34px;
+      color:var(--muted);
+      font-size:13px;
+    }
+    .notice{
+      margin:0 0 30px;
+      padding:18px 20px;
+      background:rgba(64,217,164,.07);
+      border:1px solid rgba(64,217,164,.25);
+      border-radius:14px;
+    }
+    section{
+      margin-top:18px;
+      padding:24px;
+      background:linear-gradient(180deg,rgba(13,26,45,.9),rgba(8,17,32,.9));
+      border:1px solid var(--line);
+      border-radius:16px;
+    }
+    h2{
+      margin:0 0 10px;
+      font-size:21px;
+      letter-spacing:-.02em;
+    }
+    p{margin:0 0 12px;color:#c8d4e3}
+    p:last-child{margin-bottom:0}
+    ul,ol{margin:8px 0 0;padding-left:22px;color:#c8d4e3}
+    li{margin:8px 0}
+    strong{color:var(--text)}
+    .button{
+      display:inline-block;
+      margin-top:10px;
+      padding:12px 16px;
+      border-radius:10px;
+      background:var(--accent);
+      color:#fff;
+      text-decoration:none;
+      font-weight:800;
+    }
+    .button:hover{background:var(--accent2);color:#03101e}
+    footer{
+      border-top:1px solid var(--line);
+      padding:26px 0 42px;
+      color:var(--muted);
+      font-size:13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="Paddock Command home">
+        <span class="mark">PC</span>
+        <span>PADDOCK <em>COMMAND</em></span>
+      </a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <span class="eyebrow">Privacy &amp; Data Controls</span>
+    <h1>Request Data Deletion</h1>
+    <p class="lead">
+      Paddock Command does not require a user account. If you use mobile push notifications,
+      limited device-registration and notification-preference information may be stored by
+      Paddock Command so those notifications can be delivered.
+    </p>
+    <p class="meta"><strong>Effective date:</strong> September 7, 2026</p>
+
+    <div class="notice">
+      You can request deletion of Paddock Command mobile notification-registration data at any time.
+    </div>
+
+    <section>
+      <h2>What Data Can Be Deleted</h2>
+      <p>Depending on your use of the Paddock Command mobile app, a deletion request may apply to:</p>
+      <ul>
+        <li>your Firebase Cloud Messaging (FCM) registration token;</li>
+        <li>the randomly generated Paddock Command app/device identifier associated with that registration;</li>
+        <li>your stored notification preferences, such as session reminders, intelligence alerts, weather alerts, results alerts, and reminder lead time;</li>
+        <li>related backend registration, delivery-status, and operational records that can reasonably be associated with that mobile registration.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>How to Request Deletion</h2>
+      <p>Send an email to Paddock Command support with the subject line <strong>Paddock Command Data Deletion Request</strong>.</p>
+      <ol>
+        <li>State that you are requesting deletion of your Paddock Command mobile app data.</li>
+        <li>If possible, include enough non-sensitive context for us to identify the relevant mobile registration. Do not send passwords, private keys, payment information, or other sensitive credentials.</li>
+        <li>We may ask for limited additional information if needed to identify the registration associated with your request.</li>
+      </ol>
+      <p>
+        <a class="button" href="mailto:support@m3marketplacellc.com?subject=Paddock%20Command%20Data%20Deletion%20Request">
+          Email a Data Deletion Request
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <h2>What Happens After a Request</h2>
+      <p>
+        After we can reasonably identify the applicable Paddock Command mobile registration,
+        we will delete or deactivate the associated notification-registration data from systems
+        under our control, subject to any limited retention that is necessary for security,
+        fraud prevention, legal compliance, dispute resolution, or system integrity.
+      </p>
+      <p>
+        Information retained for those limited purposes will not be used to continue ordinary
+        push-notification service after the applicable registration has been deleted or deactivated.
+      </p>
+    </section>
+
+    <section>
+      <h2>Local Data on Your Device</h2>
+      <p>
+        Paddock Command may also store preferences, saved articles, cached editorial/data content,
+        and notification state locally on your device. You can remove local app data by clearing the
+        app's storage in Android settings or by uninstalling the app.
+      </p>
+    </section>
+
+    <section>
+      <h2>No User Account Is Required</h2>
+      <p>
+        Paddock Command does not currently provide or require user accounts. This deletion page is
+        therefore focused on mobile notification-registration and related operational data rather
+        than account-profile data.
+      </p>
+    </section>
+
+    <section>
+      <h2>Privacy Policy</h2>
+      <p>
+        For more information about how Paddock Command handles information, see the
+        <a href="/privacy.html">Paddock Command Privacy Policy</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        <strong>M3 Marketplace LLC / Paddock Command</strong><br>
+        Email: <a href="mailto:support@m3marketplacellc.com">support@m3marketplacellc.com</a><br>
+        Website: <a href="https://paddockcommand.com">paddockcommand.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 Paddock Command. Independent motorsport editorial and race intelligence.</div>
+  </footer>
+</body>
+</html>
