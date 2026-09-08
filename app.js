@@ -710,25 +710,7 @@ function closeRaceWeekend(){
   const modal=$('#raceModal'); modal.classList.remove('open'); modal.setAttribute('aria-hidden','true'); if(!$('#profileModal').classList.contains('open')&&!$('#circuitModal').classList.contains('open')) document.body.classList.remove('modal-open');
 }
 
-
-const ROUTE_VIEWS=new Set(['home','live','news','drivers','teams','form','trends','compare','scenario','myf1','records','predictor','winners','calendar','circuits']);
-function routeViewFromLocation(){
-  const requested=new URLSearchParams(window.location.search).get('view');
-  return ROUTE_VIEWS.has(requested)?requested:'home';
-}
-function routeUrlForView(name){
-  return name==='home'?'/' : `/?view=${encodeURIComponent(name)}`;
-}
-$$('.nav-link').forEach(b=>b.addEventListener('click',(event)=>{
-  const name=b.dataset.view;
-  if(!name||!ROUTE_VIEWS.has(name)) return;
-  event.preventDefault();
-  switchView(name);
-  const next=routeUrlForView(name);
-  if(window.location.pathname+window.location.search!==next) history.pushState({view:name},'',next);
-}));
-window.addEventListener('popstate',()=>switchView(routeViewFromLocation()));
-
+$$('.nav-link').forEach(b=>b.addEventListener('click',()=>switchView(b.dataset.view)));
 $$('.filter-btn').forEach(b=>b.addEventListener('click',()=>{state.filter=b.dataset.filter; $$('.filter-btn').forEach(x=>x.classList.toggle('active',x===b)); renderCalendar();}));
 $('#refreshBtn').addEventListener('click',()=>loadData(true));
 const liveRefresh=$('#liveCenterRefresh'); if(liveRefresh) liveRefresh.addEventListener('click',()=>{toast('Refreshing race weekend center…');renderLiveCenter(true);});
@@ -752,12 +734,7 @@ document.addEventListener('change',(e)=>{
 });
 
 document.addEventListener('click',(e)=>{
-  const jump=e.target.closest('[data-jump]'); if(jump){
-    const name=jump.dataset.jump;
-    switchView(name);
-    if(ROUTE_VIEWS.has(name)) history.pushState({view:name},'',routeUrlForView(name));
-    return;
-  }
+  const jump=e.target.closest('[data-jump]'); if(jump){ switchView(jump.dataset.jump); return; }
   const addFav=e.target.closest('[data-add-favorite]'); if(addFav){ const kind=addFav.dataset.addFavorite; const select=kind==='driver'?$('#favoriteDriverSelect'):kind==='constructor'?$('#favoriteTeamSelect'):$('#favoriteCircuitSelect'); addFavorite(kind,select?.value); return; }
   const removeFav=e.target.closest('[data-remove-favorite]'); if(removeFav){ removeFavorite(removeFav.dataset.removeFavorite,removeFav.dataset.favoriteId); return; }
   const savePickBtn=e.target.closest('[data-save-pick]'); if(savePickBtn){ saveCurrentPick(); return; }
@@ -808,7 +785,6 @@ function trackEvent(name,detail={}){
 document.addEventListener('click',(event)=>{const nav=event.target.closest('[data-view],[data-jump]');if(nav)trackEvent('navigation',{target:nav.dataset.view||nav.dataset.jump});});
 const copyrightYear=document.getElementById('copyrightYear');if(copyrightYear)copyrightYear.textContent=String(new Date().getFullYear());
 setInterval(()=>{renderNextRace(); if($('#view-live')?.classList.contains('active')) renderLiveTimeline(focusRace()||{});},1000); setInterval(()=>{if(state.season===CURRENT_YEAR)loadData(false);},5*60*1000);
-switchView(routeViewFromLocation());
 loadData();
 
 // v1.8.0 — Records & Milestones + Race Predictor
