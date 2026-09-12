@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://paddockcommand.com/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://paddockcommand.com/race-weekend.html</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -110,7 +110,7 @@
   </url>
   <url>
     <loc>https://paddockcommand.com/articles.html</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -192,4 +192,4 @@
   </url>
   <url><loc>https://paddockcommand.com/2026-italian-grand-prix-debrief.html</loc><lastmod>2026-09-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://paddockcommand.com/madring-circuit-guide.html</loc><lastmod>2026-09-11</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://paddockcommand.com/2026-spanish-grand-prix-preview.html</loc><lastmod>2026-09-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url><loc>https://paddockcommand.com/2026-spanish-gp-practice-intelligence.html</loc><lastmod>2026-09-11</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url><url><loc>https://paddockcommand.com/spanish-grand-prix-madrid-travel-guide.html</loc><lastmod>2026-09-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url></urlset>
+<url><loc>https://paddockcommand.com/2026-spanish-grand-prix-preview.html</loc><lastmod>2026-09-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url><loc>https://paddockcommand.com/2026-spanish-gp-practice-intelligence.html</loc><lastmod>2026-09-11</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url><url><loc>https://paddockcommand.com/spanish-grand-prix-madrid-travel-guide.html</loc><lastmod>2026-09-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url><loc>https://paddockcommand.com/2026-spanish-gp-qualifying-intelligence.html</loc><lastmod>2026-09-12</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url></urlset>
