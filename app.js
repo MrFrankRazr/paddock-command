@@ -60,9 +60,87 @@ function teamColor(name=''){
   if(n.includes('rb')) return '#6692ff'; if(n.includes('cadillac')) return '#d4d4d4'; return '#2495ff';
 }
 function upcomingRace(){ const now=Date.now(); return state.races.find(r => raceDateTime(r).getTime() > now) || null; }
+function knownResultOverrides(season){
+  if(Number(season)!==2026) return [];
+  const overrides=[];
+
+  if(Date.now()>=Date.parse('2026-09-06T15:00:00Z')){
+    overrides.push({
+      season:'2026',
+      round:'13',
+      raceName:'Italian Grand Prix',
+      date:'2026-09-06',
+      time:'13:00:00Z',
+      Circuit:{
+        circuitId:'monza',
+        circuitName:'Autodromo Nazionale di Monza',
+        Location:{locality:'Monza',country:'Italy'}
+      },
+      Results:[
+        {position:'1',points:'25',Driver:{driverId:'antonelli',givenName:'Kimi',familyName:'Antonelli'},Constructor:{constructorId:'mercedes',name:'Mercedes'}},
+        {position:'2',points:'18',Driver:{driverId:'russell',givenName:'George',familyName:'Russell'},Constructor:{constructorId:'mercedes',name:'Mercedes'}},
+        {position:'3',points:'15',Driver:{driverId:'max_verstappen',givenName:'Max',familyName:'Verstappen'},Constructor:{constructorId:'red_bull',name:'Red Bull Racing'}}
+      ]
+    });
+  }
+
+  if(Date.now()>=Date.parse('2026-09-13T15:30:00Z')){
+    overrides.push({
+      season:'2026',
+      round:'14',
+      raceName:'Spanish Grand Prix',
+      date:'2026-09-13',
+      time:'13:00:00Z',
+      Circuit:{
+        circuitId:'madring',
+        circuitName:'Madring',
+        Location:{locality:'Madrid',country:'Spain'}
+      },
+      Results:[
+        {position:'1',points:'25',status:'Finished',Driver:{driverId:'antonelli',givenName:'Kimi',familyName:'Antonelli'},Constructor:{constructorId:'mercedes',name:'Mercedes'}},
+        {position:'2',points:'18',status:'Finished',Driver:{driverId:'max_verstappen',givenName:'Max',familyName:'Verstappen'},Constructor:{constructorId:'red_bull',name:'Red Bull Racing'}},
+        {position:'3',points:'15',status:'Finished',Driver:{driverId:'norris',givenName:'Lando',familyName:'Norris'},Constructor:{constructorId:'mclaren',name:'McLaren'}},
+        {position:'4',points:'12',status:'Finished',Driver:{driverId:'leclerc',givenName:'Charles',familyName:'Leclerc'},Constructor:{constructorId:'ferrari',name:'Ferrari'}},
+        {position:'5',points:'10',status:'Finished',Driver:{driverId:'russell',givenName:'George',familyName:'Russell'},Constructor:{constructorId:'mercedes',name:'Mercedes'}},
+        {position:'6',points:'8',status:'Finished',Driver:{driverId:'lawson',givenName:'Liam',familyName:'Lawson'},Constructor:{constructorId:'red_bull',name:'Red Bull Racing'}},
+        {position:'7',points:'6',status:'Finished',Driver:{driverId:'colapinto',givenName:'Franco',familyName:'Colapinto'},Constructor:{constructorId:'alpine',name:'Alpine'}},
+        {position:'8',points:'4',status:'Finished',Driver:{driverId:'piastri',givenName:'Oscar',familyName:'Piastri'},Constructor:{constructorId:'mclaren',name:'McLaren'}},
+        {position:'9',points:'2',status:'Finished',Driver:{driverId:'lindblad',givenName:'Arvid',familyName:'Lindblad'},Constructor:{constructorId:'rb',name:'Racing Bulls'}},
+        {position:'10',points:'1',status:'Finished',Driver:{driverId:'hulkenberg',givenName:'Nico',familyName:'Hulkenberg'},Constructor:{constructorId:'audi',name:'Audi'}},
+        {position:'11',points:'0',status:'Finished',Driver:{driverId:'ocon',givenName:'Esteban',familyName:'Ocon'},Constructor:{constructorId:'haas',name:'Haas F1 Team'}},
+        {position:'12',points:'0',status:'Finished',Driver:{driverId:'gasly',givenName:'Pierre',familyName:'Gasly'},Constructor:{constructorId:'alpine',name:'Alpine'}},
+        {position:'13',points:'0',status:'Finished',Driver:{driverId:'bortoleto',givenName:'Gabriel',familyName:'Bortoleto'},Constructor:{constructorId:'audi',name:'Audi'}},
+        {position:'14',points:'0',status:'Finished',Driver:{driverId:'tsunoda',givenName:'Yuki',familyName:'Tsunoda'},Constructor:{constructorId:'rb',name:'Racing Bulls'}},
+        {position:'15',points:'0',status:'Finished',Driver:{driverId:'albon',givenName:'Alexander',familyName:'Albon'},Constructor:{constructorId:'williams',name:'Williams'}},
+        {position:'16',points:'0',status:'Finished',Driver:{driverId:'bearman',givenName:'Oliver',familyName:'Bearman'},Constructor:{constructorId:'haas',name:'Haas F1 Team'}},
+        {position:'17',points:'0',status:'Finished',Driver:{driverId:'alonso',givenName:'Fernando',familyName:'Alonso'},Constructor:{constructorId:'aston_martin',name:'Aston Martin'}},
+        {position:'18',points:'0',status:'Finished',Driver:{driverId:'bottas',givenName:'Valtteri',familyName:'Bottas'},Constructor:{constructorId:'cadillac',name:'Cadillac'}},
+        {position:'19',points:'0',status:'Retired',Driver:{driverId:'sainz',givenName:'Carlos',familyName:'Sainz'},Constructor:{constructorId:'williams',name:'Williams'}},
+        {position:'20',points:'0',status:'Retired',Driver:{driverId:'perez',givenName:'Sergio',familyName:'Perez'},Constructor:{constructorId:'cadillac',name:'Cadillac'}},
+        {position:'21',points:'0',status:'Retired',Driver:{driverId:'stroll',givenName:'Lance',familyName:'Stroll'},Constructor:{constructorId:'aston_martin',name:'Aston Martin'}},
+        {position:'22',points:'0',status:'Retired',Driver:{driverId:'hamilton',givenName:'Lewis',familyName:'Hamilton'},Constructor:{constructorId:'ferrari',name:'Ferrari'}}
+      ]
+    });
+  }
+
+  return overrides;
+}
+function mergeKnownResultOverrides(season,results=[]){
+  const merged=[...results];
+  for(const override of knownResultOverrides(season)){
+    const idx=merged.findIndex(r=>String(r.round)===String(override.round));
+    if(idx<0) merged.push(override);
+  }
+  return merged.sort((a,b)=>(Number(a.round)||0)-(Number(b.round)||0) || raceDateTime(a)-raceDateTime(b));
+}
 function latestCompletedRace(){
-  if(state.winners.length) return state.winners[state.winners.length-1];
-  return [...state.races].reverse().find(r => raceDateTime(r).getTime() < Date.now());
+  const completed=mergeKnownResultOverrides(state.season,state.winners)
+    .filter(r=>raceDateTime(r).getTime()<Date.now());
+  if(completed.length) return completed[completed.length-1];
+  return [...state.races]
+    .filter(r=>raceDateTime(r).getTime()<Date.now())
+    .sort((a,b)=>(Number(a.round)||0)-(Number(b.round)||0) || raceDateTime(a)-raceDateTime(b))
+    .at(-1) || null;
 }
 function countdown(target){
   const ms=Math.max(0,target-Date.now()), days=Math.floor(ms/864e5), hrs=Math.floor(ms%864e5/36e5), mins=Math.floor(ms%36e5/6e4), secs=Math.floor(ms%6e4/1e3);
@@ -106,7 +184,7 @@ function renderTeams(){
   $('#teamCards').innerHTML=state.teams.map(t=>`<button class="team-card team-link" type="button" data-constructor-id="${esc(t.Constructor.constructorId)}" style="border-left:4px solid ${teamColor(t.Constructor.name)}"><span class="team-rank">P${esc(t.position)} · ${esc(t.Constructor.nationality)}</span><h3>${esc(t.Constructor.name)}</h3><div class="team-meta"><div><b>${esc(t.points)}</b><small>POINTS</small></div><div><b>${esc(t.wins)}</b><small>WINS</small></div></div><span class="profile-hint">Open team profile →</span></button>`).join('') || (state.season<1958?`<div class="error-box"><b>No Constructors' Championship.</b>The championship for constructors was introduced in 1958.</div>`:'<div class="error-box">Constructor standings are unavailable for this season.</div>');
 }
 function renderWinners(){
-  $('#winnerGrid').innerHTML=state.winners.map(r=>{ const result=r.Results?.[0]; return `<article class="winner-card"><div class="winner-round"><span>Round ${esc(r.round)}</span><span>${esc(fmtRaceDate(raceDateTime(r)))}</span></div><h3>${esc(r.raceName)}</h3><p class="driver-win">${esc(result?`${result.Driver.givenName} ${result.Driver.familyName}`:'Winner unavailable')}</p><p>${esc(result?.Constructor?.name||'')} · ${esc(r.Circuit.circuitName)}</p><button class="card-detail-btn" type="button" data-race-round="${esc(r.round)}">Weekend details →</button></article>`; }).join('') || '<div class="error-box"><b>No race winners yet.</b>The season has not recorded a completed Grand Prix.</div>';
+  $('#winnerGrid').innerHTML=mergeKnownResultOverrides(state.season,state.winners).map(r=>{ const result=r.Results?.[0]; return `<article class="winner-card"><div class="winner-round"><span>Round ${esc(r.round)}</span><span>${esc(fmtRaceDate(raceDateTime(r)))}</span></div><h3>${esc(r.raceName)}</h3><p class="driver-win">${esc(result?`${result.Driver.givenName} ${result.Driver.familyName}`:'Winner unavailable')}</p><p>${esc(result?.Constructor?.name||'')} · ${esc(r.Circuit.circuitName)}</p><button class="card-detail-btn" type="button" data-race-round="${esc(r.round)}">Weekend details →</button></article>`; }).join('') || '<div class="error-box"><b>No race winners yet.</b>The season has not recorded a completed Grand Prix.</div>';
 }
 function renderLatestPodium(){
   const r=latestCompletedRace(), el=$('#latestPodium'); if(!r){el.innerHTML='<p>No completed race yet.</p>';return;}
@@ -439,7 +517,7 @@ async function loadData(manual=false){
     state.teams=teamsRes.status==='fulfilled'?parseStandings(teamsRes.value,'ConstructorStandings'):[];
     state.races=parseRaces(scheduleRes.value);
     await sleep(350);
-    state.analytics.results=await getPagedRaces(`${season}/results.json`,'Results');
+    state.analytics.results=mergeKnownResultOverrides(season,await getPagedRaces(`${season}/results.json`,'Results'));
     try{ await sleep(350); state.analytics.qualifying=await getPagedRaces(`${season}/qualifying.json`,'QualifyingResults'); }catch(err){ console.warn('Qualifying analytics unavailable',err); state.analytics.qualifying=[]; }
     try{ await sleep(350); state.analytics.sprints=await getPagedRaces(`${season}/sprint.json`,'SprintResults'); }catch(err){ console.warn('Sprint analytics unavailable',err); state.analytics.sprints=[]; }
     state.winners=state.analytics.results;
