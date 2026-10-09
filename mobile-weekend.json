@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "weekendVersion": "2026.10.08.1",
-  "generatedAt": "2026-10-08T18:20:00-07:00",
-  "statusLabel": "Pre-weekend · Singapore",
-  "state": "pre_event",
+  "weekendVersion": "2026.10.09.2",
+  "generatedAt": "2026-10-09T14:00:00-07:00",
+  "statusLabel": "Sprint Qualifying complete · Singapore",
+  "state": "in_progress",
   "race": {
     "round": 17,
     "name": "Singapore Grand Prix",
@@ -23,8 +23,27 @@
       "shortName": "FP1",
       "date": "Fri Oct 9",
       "localTime": "16:30",
-      "status": "upcoming",
-      "classification": [],
+      "status": "completed",
+      "classification": [
+        {
+          "position": 1,
+          "driver": "George Russell",
+          "team": "Mercedes",
+          "time": "1:32.274"
+        },
+        {
+          "position": 2,
+          "driver": "Charles Leclerc",
+          "team": "Ferrari",
+          "time": "+0.198s"
+        },
+        {
+          "position": 3,
+          "driver": "Lando Norris",
+          "team": "McLaren",
+          "time": "+0.273s"
+        }
+      ],
       "startsAtUtc": "2026-10-09T08:30:00Z"
     },
     {
@@ -33,8 +52,51 @@
       "shortName": "SQ",
       "date": "Fri Oct 9",
       "localTime": "20:30",
-      "status": "upcoming",
-      "classification": [],
+      "status": "completed",
+      "classification": [
+        {
+          "position": 1,
+          "driver": "Max Verstappen",
+          "team": "Red Bull Racing",
+          "time": "1:31.156"
+        },
+        {
+          "position": 2,
+          "driver": "George Russell",
+          "team": "Mercedes",
+          "time": "1:31.276"
+        },
+        {
+          "position": 3,
+          "driver": "Charles Leclerc",
+          "team": "Ferrari",
+          "time": "1:31.399"
+        },
+        {
+          "position": 4,
+          "driver": "Oscar Piastri",
+          "team": "McLaren",
+          "time": "1:31.454"
+        },
+        {
+          "position": 5,
+          "driver": "Lando Norris",
+          "team": "McLaren",
+          "time": "1:31.587"
+        },
+        {
+          "position": 6,
+          "driver": "Lewis Hamilton",
+          "team": "Ferrari",
+          "time": "1:31.702"
+        },
+        {
+          "position": 7,
+          "driver": "Kimi Antonelli",
+          "team": "Mercedes",
+          "time": "1:31.849"
+        }
+      ],
       "startsAtUtc": "2026-10-09T12:30:00Z"
     },
     {
@@ -97,32 +159,75 @@
   },
   "commandBrief": [
     {
-      "label": "CHAMPIONSHIP",
-      "title": "Antonelli arrives with an 84-point lead",
-      "text": "The championship leader has 320 points to Russell's 236 after Sepang, with Hamilton third on 214."
+      "label": "SPRINT GRID",
+      "title": "Verstappen keeps pole after stewards verdict",
+      "text": "A yellow-flag overtaking infringement in SQ1 drew no penalty. Verstappen starts P1, Russell P2, Leclerc P3."
     },
     {
-      "label": "RUSSELL",
-      "title": "Sprint points come before a Sunday rear-grid start",
-      "text": "Russell's power-unit penalty applies to the Grand Prix, leaving Saturday's Sprint as his cleanest immediate scoring opportunity."
+      "label": "CHAMPIONSHIP",
+      "title": "Antonelli leads Russell by 84 points",
+      "text": "Antonelli has 320 points to Russell’s 236. Antonelli qualified seventh and Russell starts Saturday’s Sprint second."
     },
     {
       "label": "TECHNICAL",
-      "title": "Mercedes will compare two specifications",
-      "text": "Russell returns to the Baku-winning aero specification while Antonelli runs the newer package with a new front wing."
+      "title": "Mercedes split specification still under assessment",
+      "text": "Russell led FP1 using the previous Mercedes package; differing tyres prevent a direct performance comparison."
     }
   ],
   "latestClassification": {
-    "sessionId": "fp1",
-    "sessionName": "Singapore Grand Prix · Awaiting FP1",
-    "published": false,
-    "message": "No Singapore session classification has been published yet. FP1 begins Friday at 16:30 local time.",
-    "results": []
+    "sessionId": "sprint_qualifying",
+    "sessionName": "Singapore Grand Prix · Sprint Qualifying",
+    "published": true,
+    "message": "Verstappen retains pole after stewards decided not to penalize the SQ1 yellow-flag overtake.",
+    "results": [
+      {
+        "position": 1,
+        "driver": "Max Verstappen",
+        "team": "Red Bull Racing",
+        "time": "1:31.156"
+      },
+      {
+        "position": 2,
+        "driver": "George Russell",
+        "team": "Mercedes",
+        "time": "1:31.276"
+      },
+      {
+        "position": 3,
+        "driver": "Charles Leclerc",
+        "team": "Ferrari",
+        "time": "1:31.399"
+      },
+      {
+        "position": 4,
+        "driver": "Oscar Piastri",
+        "team": "McLaren",
+        "time": "1:31.454"
+      },
+      {
+        "position": 5,
+        "driver": "Lando Norris",
+        "team": "McLaren",
+        "time": "1:31.587"
+      },
+      {
+        "position": 6,
+        "driver": "Lewis Hamilton",
+        "team": "Ferrari",
+        "time": "1:31.702"
+      },
+      {
+        "position": 7,
+        "driver": "Kimi Antonelli",
+        "team": "Mercedes",
+        "time": "1:31.849"
+      }
+    ]
   },
   "notes": [
-    "Singapore is Round 17 and the final Sprint weekend of the 2026 season.",
-    "The weekend begins with one practice session before Sprint Qualifying.",
-    "Heat-hazard regulations are active for the Sprint and Grand Prix; shower risk remains in the forecast.",
-    "Paddock Command presents published classifications and weekend context; it does not claim to provide official real-time lap timing or telemetry."
+    "FP1 and Sprint Qualifying classifications are published; Saturday’s Sprint has not yet taken place.",
+    "Verstappen retains Sprint pole after stewards found an infringement but imposed no penalty.",
+    "The yellow-flag investigation is separate from the SQ1 Overtake Mode availability error.",
+    "These are editorially verified results, not live timing or telemetry."
   ]
 }

@@ -1,59 +1,67 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.08.1",
-  "generatedAt": "2026-10-08T18:20:00-07:00",
+  "contentVersion": "2026.10.09.2",
+  "generatedAt": "2026-10-09T14:00:00-07:00",
   "articles": [
     {
       "id": "singapore-sprint-intelligence-2026",
-      "category": "SPRINT INTELLIGENCE",
+      "category": "SPRINT GRID CONFIRMED",
       "context": "SINGAPORE",
-      "title": "FIA Safeguards, Heat and Haze Shape Singapore Sprint Weekend",
-      "deck": "Singapore's Sprint weekend adds a wet-weather software contingency, heat-hazard regulations and haze monitoring to an already compressed schedule.",
+      "title": "Verstappen Retains Singapore Sprint Pole After Stewards Decline Penalty",
+      "deck": "Verstappen keeps Singapore Sprint pole after stewards find a yellow-flag overtake infringement but impose no penalty. Russell starts second, Leclerc third.",
       "published": "Oct 5, 2026",
-      "updated": "Oct 8, 2026",
+      "updated": "Oct 9, 2026",
       "canonicalUrl": "https://paddockcommand.com/2026-singapore-sprint-weekend-circuit-intelligence.html",
       "facts": [
         {
-          "label": "LEADER",
-          "value": "Antonelli · 320"
+          "label": "SPRINT POLE",
+          "value": "Verstappen · 1:31.156"
         },
         {
-          "label": "GAP",
-          "value": "+84"
+          "label": "FRONT ROW",
+          "value": "Russell · +0.120s"
         },
         {
-          "label": "FP1",
-          "value": "Fri · 16:30"
+          "label": "P3",
+          "value": "Leclerc · +0.243s"
         },
         {
-          "label": "GRAND PRIX",
-          "value": "Sun · 20:00"
+          "label": "TITLE GAP",
+          "value": "Antonelli +84"
         }
       ],
       "sections": [
         {
           "type": "heading",
-          "text": "One practice session, then competitive running"
+          "text": "Stewards confirm Verstappen retains pole"
         },
         {
           "type": "paragraph",
-          "text": "Marina Bay hosts a Sprint weekend from October 9–11. FP1 begins Friday at 16:30 local time, followed by Sprint Qualifying at 20:30. Saturday brings the Sprint and Grand Prix qualifying before Sunday's 62-lap race."
+          "text": "The stewards found that Max Verstappen overtook Lewis Hamilton under yellow flags in SQ1, but decided the circumstances warranted no penalty. Verstappen retains pole for Saturday’s Singapore Sprint."
         },
         {
           "type": "heading",
-          "text": "FIA carries a wet-weather software contingency into Singapore"
+          "text": "Singapore Sprint grid leaders"
         },
         {
           "type": "paragraph",
-          "text": "Following the Sepang power-unit software investigation, the FIA has confirmed that the revised wet-weather configuration used in Malaysia can be reinstated in Singapore if similar conditions are expected."
+          "text": "Verstappen set 1:31.156, with George Russell second (+0.120s), Charles Leclerc third (+0.243s), Oscar Piastri fourth and Lando Norris fifth. Championship leader Kimi Antonelli qualified seventh."
         },
         {
           "type": "heading",
-          "text": "Heat and weather remain operational variables"
+          "text": "Mercedes and championship watch"
         },
         {
           "type": "paragraph",
-          "text": "Heat-hazard regulations are active for the Sprint and Grand Prix. The official weekend forecast calls for hot, humid conditions with a 30% Friday rain chance and 40% chances on Saturday and Sunday."
+          "text": "Russell topped FP1 at 1:32.274 in the older Mercedes aerodynamic specification. Antonelli ran the newer package but on a different practice compound. Antonelli has 320 points to Russell’s 236; Russell’s Sunday grid penalty does not apply to the Sprint."
+        },
+        {
+          "type": "heading",
+          "text": "What to watch next"
+        },
+        {
+          "type": "paragraph",
+          "text": "Saturday’s 21-lap Sprint precedes qualifying for Sunday’s Grand Prix. Verstappen’s yellow-flag investigation is separate from the reported SQ1 Overtake Mode availability error."
         }
       ]
     },

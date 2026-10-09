@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.08.1",
-  "generatedAt": "2026-10-08T18:20:00-07:00",
+  "feedVersion": "2026.10.09.2",
+  "generatedAt": "2026-10-09T14:00:00-07:00",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -20,42 +20,42 @@
     }
   },
   "raceIntelligence": {
-    "headline": "Singapore Sprint Weekend: Antonelli Leads by 84 as Russell Faces a Rear-Grid Start",
-    "summary": "Round 17 brings Formula 1 to Marina Bay for a Sprint weekend. Antonelli leads Russell by 84 points, while Russell's Sunday grid penalty, Mercedes' split specifications, heat and possible showers add pressure before Friday's only practice session.",
-    "updatedLabel": "Updated Oct 8, 2026",
+    "headline": "Verstappen Retains Singapore Sprint Pole After Stewards Decline Penalty",
+    "summary": "Stewards found Verstappen breached a yellow-flag overtaking rule but imposed no penalty. His 1:31.156 retains Singapore Sprint pole ahead of Russell and Leclerc; Antonelli starts seventh and leads Russell by 84 points.",
+    "updatedLabel": "Updated Oct 9, 2026",
     "watchPoints": [
       {
-        "id": "russell-grid-penalty",
+        "id": "verdict",
         "label": "WATCH POINT 01",
+        "tag": "SPRINT GRID",
+        "title": "Verstappen keeps Singapore Sprint pole",
+        "summary": "Stewards found a yellow-flag overtake infringement in SQ1 but imposed no penalty. Verstappen retains P1, Russell P2 and Leclerc P3."
+      },
+      {
+        "id": "russell-grid-penalty",
+        "label": "WATCH POINT 02",
         "tag": "CHAMPIONSHIP",
-        "title": "Russell's Sunday recovery starts from the rear",
-        "summary": "Fresh power-unit hardware means Russell will start Sunday's Grand Prix from the back, but the penalty does not apply to Saturday's Sprint."
+        "title": "Russell starts Sprint P2, Sunday race from the rear",
+        "summary": "Russell qualified second for the Sprint. His separate power-unit penalty applies to Sunday’s Grand Prix, not Saturday’s Sprint."
       },
       {
         "id": "mercedes-split-spec",
-        "label": "WATCH POINT 02",
-        "tag": "TECHNICAL",
-        "title": "Mercedes splits its Singapore specifications",
-        "summary": "Russell returns to the Baku-winning aerodynamic specification while Antonelli continues with the newer package and a new front wing."
-      },
-      {
-        "id": "singapore-conditions",
         "label": "WATCH POINT 03",
-        "tag": "WEEKEND",
-        "title": "Heat, showers and one practice hour raise the stakes",
-        "summary": "The Sprint format leaves only FP1 before competitive running. Heat-hazard rules are active and showers remain possible across the weekend."
+        "tag": "TECHNICAL",
+        "title": "Mercedes package comparison still inconclusive",
+        "summary": "Russell led FP1 in the older aero specification; Antonelli ran the newer package. Different practice tyres prevent a clean comparison."
       }
     ]
   },
   "articles": [
     {
       "id": "singapore-sprint-intelligence-2026",
-      "category": "SPRINT INTELLIGENCE",
+      "category": "SPRINT GRID CONFIRMED",
       "context": "SINGAPORE",
-      "title": "FIA Safeguards, Heat and Haze Shape Singapore Sprint Weekend",
-      "summary": "The FIA carries a wet-weather software contingency into Marina Bay as heat-hazard rules, haze monitoring and a compressed Sprint schedule add operational pressure.",
+      "title": "Verstappen Retains Singapore Sprint Pole After Stewards Decline Penalty",
+      "summary": "Verstappen keeps Singapore Sprint pole after stewards find a yellow-flag overtake infringement but impose no penalty. Russell starts second, Leclerc third.",
       "url": "https://paddockcommand.com/2026-singapore-sprint-weekend-circuit-intelligence.html",
-      "updated": "2026-10-08",
+      "updated": "2026-10-09",
       "nativeReader": true
     },
     {
