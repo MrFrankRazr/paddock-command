@@ -85,7 +85,28 @@ ml('account', '2605915');
 @media(max-width:900px){
   .pc-approved-brand .brand-lockup{display:none!important;}
 }
-</style></head>
+</style><style id="pc-live-panel-type-fix">
+/* Page-scoped typography normalization; does not modify navigation, shared UI or data cards. */
+#view-live section.panel[aria-label],
+#view-live section.analytics-panel[aria-label]{padding:22px 24px;margin-bottom:18px;}
+#view-live section.panel[aria-label] > h2,
+#view-live section.analytics-panel[aria-label] > h2,
+#view-live section.analytics-panel[aria-label] .analytics-panel-head h2{
+  font-family:Inter,"Segoe UI",Arial,sans-serif;
+  font-size:clamp(1.25rem,2vw,1.55rem);
+  line-height:1.26;font-weight:850;letter-spacing:-.02em;margin:8px 0 12px;
+}
+#view-live section.panel[aria-label] p,
+#view-live section.analytics-panel[aria-label] p{
+  font-size:.92rem;line-height:1.65;
+}
+#view-live section.panel[aria-label] .eyebrow,
+#view-live section.analytics-panel[aria-label] .eyebrow{
+  font-size:.7rem;line-height:1.45;
+}
+@media(max-width:650px){#view-live section.panel[aria-label],#view-live section.analytics-panel[aria-label]{padding:17px 18px}}
+</style>
+</head>
 <body data-initial-view="live">
 <a class="skip-link" href="#mainContent">Skip to main content</a>
 <div aria-hidden="true" class="noise"></div>
