@@ -1,111 +1,111 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.09.06.1",
-  "generatedAt": "2026-09-06T16:26:26-07:00",
+  "feedVersion": "2026.10.08.1",
+  "generatedAt": "2026-10-08T18:20:00-07:00",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
   },
   "nextRace": {
-    "round": 14,
-    "name": "Spanish Grand Prix",
-    "circuit": "Madring",
-    "countryCode": "ESP",
-    "dates": "Sep 11–13",
+    "round": 17,
+    "name": "Singapore Grand Prix",
+    "circuit": "Marina Bay Street Circuit",
+    "countryCode": "SGP",
+    "dates": "Oct 9–11",
     "championshipLeader": {
       "name": "Kimi Antonelli",
       "shortName": "Antonelli",
-      "points": 267,
-      "leadPoints": 66
+      "points": 320,
+      "leadPoints": 84
     }
   },
   "raceIntelligence": {
-    "headline": "Antonelli Leaves Monza With a 66-Point Championship Lead",
-    "summary": "A victory from 19th at the Italian Grand Prix turned a damage-limitation weekend into Antonelli's strongest championship statement yet. Madrid is the next test.",
-    "updatedLabel": "Updated Sep 6, 2026",
+    "headline": "Singapore Sprint Weekend: Antonelli Leads by 84 as Russell Faces a Rear-Grid Start",
+    "summary": "Round 17 brings Formula 1 to Marina Bay for a Sprint weekend. Antonelli leads Russell by 84 points, while Russell's Sunday grid penalty, Mercedes' split specifications, heat and possible showers add pressure before Friday's only practice session.",
+    "updatedLabel": "Updated Oct 8, 2026",
     "watchPoints": [
       {
-        "id": "antonelli-title-control",
+        "id": "russell-grid-penalty",
         "label": "WATCH POINT 01",
-        "tag": "TITLE",
-        "title": "Antonelli's margin grows to 66",
-        "summary": "The championship leader now has 267 points to Russell's 201 after converting a back-row start into victory at Monza."
+        "tag": "CHAMPIONSHIP",
+        "title": "Russell's Sunday recovery starts from the rear",
+        "summary": "Fresh power-unit hardware means Russell will start Sunday's Grand Prix from the back, but the penalty does not apply to Saturday's Sprint."
       },
       {
-        "id": "mercedes-control",
+        "id": "mercedes-split-spec",
         "label": "WATCH POINT 02",
-        "tag": "TEAM",
-        "title": "Mercedes leaves Monza in control",
-        "summary": "A one-two finish moved Mercedes to 468 constructor points and reinforced the team's advantage before Madrid."
+        "tag": "TECHNICAL",
+        "title": "Mercedes splits its Singapore specifications",
+        "summary": "Russell returns to the Baku-winning aerodynamic specification while Antonelli continues with the newer package and a new front wing."
       },
       {
-        "id": "madrid-reset",
+        "id": "singapore-conditions",
         "label": "WATCH POINT 03",
-        "tag": "NEXT",
-        "title": "Madrid becomes the next pressure test",
-        "summary": "The new Madring round arrives Sep 11–13, giving the chasing group an immediate opportunity to respond to Antonelli's Monza gain."
+        "tag": "WEEKEND",
+        "title": "Heat, showers and one practice hour raise the stakes",
+        "summary": "The Sprint format leaves only FP1 before competitive running. Heat-hazard rules are active and showers remain possible across the weekend."
       }
     ]
   },
   "articles": [
     {
-      "id": "italian-gp-debrief-2026",
-      "category": "POST-RACE DEBRIEF",
-      "context": "MONZA",
-      "title": "Antonelli Wins at Monza From 19th",
-      "summary": "Kimi Antonelli charged from 19th to win his home Grand Prix, beating George Russell as Mercedes completed a one-two and the championship lead grew to 66 points.",
-      "url": "https://paddockcommand.com/2026-italian-grand-prix-debrief.html",
-      "updated": "2026-09-06",
+      "id": "singapore-sprint-intelligence-2026",
+      "category": "SPRINT INTELLIGENCE",
+      "context": "SINGAPORE",
+      "title": "FIA Safeguards, Heat and Haze Shape Singapore Sprint Weekend",
+      "summary": "The FIA carries a wet-weather software contingency into Marina Bay as heat-hazard rules, haze monitoring and a compressed Sprint schedule add operational pressure.",
+      "url": "https://paddockcommand.com/2026-singapore-sprint-weekend-circuit-intelligence.html",
+      "updated": "2026-10-08",
       "nativeReader": true
     },
     {
-      "id": "championship-watch-dutch-2026",
+      "id": "russell-singapore-grid-penalty-2026",
       "category": "CHAMPIONSHIP WATCH",
-      "context": "2026 TITLE FIGHT",
-      "title": "Antonelli Leads by 66 After Monza",
-      "summary": "The Italian Grand Prix strengthened Antonelli's title position: 267 points to Russell's 201, with Hamilton third on 191.",
-      "url": "https://paddockcommand.com/2026-championship-watch-after-dutch-gp.html",
-      "updated": "2026-09-06",
+      "context": "SINGAPORE",
+      "title": "Mercedes Splits Car Specifications as Russell Faces Further Engine Trouble",
+      "summary": "Russell returns to the Baku-winning aero package while Antonelli retains the newer specification and a new front wing. Russell starts Sunday's Grand Prix from the rear.",
+      "url": "https://paddockcommand.com/george-russell-singapore-grid-penalty-2026.html",
+      "updated": "2026-10-08",
       "nativeReader": true
     },
     {
-      "id": "driver-form-watch-2026",
-      "category": "DRIVER FORM",
-      "context": "MOMENTUM",
-      "title": "Antonelli Now Has Momentum and Control",
-      "summary": "The championship leader leaves Monza with the strongest recent podium consistency and a 66-point advantage over Russell.",
-      "url": "https://paddockcommand.com/2026-driver-form-watch.html",
-      "updated": "2026-09-06",
-      "nativeReader": true
-    },
-    {
-      "id": "italian-gp-qualifying-intelligence-2026",
-      "category": "QUALIFYING INTELLIGENCE",
-      "context": "MONZA",
-      "title": "Gasly's Shock Pole Set Up a Volatile Monza Grid",
-      "summary": "Pierre Gasly took pole in 1:21.786 ahead of Russell; Piastri's penalty reshaped the top six before the race.",
-      "url": "https://paddockcommand.com/2026-italian-gp-qualifying-intelligence.html",
-      "updated": "2026-09-06",
-      "nativeReader": true
-    },
-    {
-      "id": "italian-gp-preview-2026",
+      "id": "singapore-sprint-preview-2026",
       "category": "RACE WEEKEND PREVIEW",
-      "context": "MONZA",
-      "title": "Antonelli Faces a Monza Recovery Race",
-      "summary": "The pre-race question was how far Antonelli could recover from the back. He ultimately converted 19th on the grid into victory.",
-      "url": "https://paddockcommand.com/2026-italian-grand-prix-preview.html",
-      "updated": "2026-09-06",
+      "context": "SINGAPORE",
+      "title": "Antonelli Takes an 84-Point Lead Into Marina Bay",
+      "summary": "Singapore's Sprint format gives the field only one practice session before competitive running, with Antonelli 84 points clear of Russell.",
+      "url": "https://paddockcommand.com/2026-singapore-grand-prix-sprint-preview-championship.html",
+      "updated": "2026-10-08",
       "nativeReader": true
     },
     {
-      "id": "monza-circuit-guide",
-      "category": "CIRCUIT GUIDE",
-      "context": "MONZA",
-      "title": "Monza: Why the Italian GP Is a Different Test",
-      "summary": "Low drag, heavy braking and slipstream management make Monza a uniquely revealing circuit.",
-      "url": "https://paddockcommand.com/monza-circuit-guide.html",
-      "updated": "2026-08-31",
+      "id": "sepang-race-2026",
+      "category": "POST-RACE INTELLIGENCE",
+      "context": "SEPANG",
+      "title": "Verstappen Wins Rain-Hit Sepang Race as Antonelli Extends Championship Lead",
+      "summary": "Verstappen delivered Red Bull's first 2026 Grand Prix win, Antonelli finished second, Hamilton third and Russell retired late.",
+      "url": "https://paddockcommand.com/2026-sepang-race-verstappen-win-antonelli-championship.html",
+      "updated": "2026-10-04",
+      "nativeReader": true
+    },
+    {
+      "id": "sepang-qualifying-2026",
+      "category": "QUALIFYING INTELLIGENCE",
+      "context": "SEPANG",
+      "title": "Verstappen Takes Sepang Pole as Hamilton Sets Up Sunday Showdown",
+      "summary": "Verstappen took his first pole of 2026 ahead of Hamilton, with penalties reshaping the grid behind them.",
+      "url": "https://paddockcommand.com/2026-sepang-qualifying-verstappen-pole-race-intelligence.html",
+      "updated": "2026-10-03",
+      "nativeReader": true
+    },
+    {
+      "id": "sepang-circuit-intelligence-2026",
+      "category": "CIRCUIT INTELLIGENCE",
+      "context": "SEPANG",
+      "title": "Sepang Circuit Intelligence: Tyres, Strategy and Weather",
+      "summary": "Pirelli's C2/C3/C4 allocation, abrasive asphalt, tropical heat and rain risk framed Formula 1's return to Sepang.",
+      "url": "https://paddockcommand.com/2026-sepang-circuit-intelligence.html",
+      "updated": "2026-10-04",
       "nativeReader": true
     }
   ],
