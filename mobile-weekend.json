@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "weekendVersion": "2026.10.09.3",
-  "generatedAt": "2026-10-09T16:10:49-07:00",
-  "statusLabel": "Sprint Qualifying complete · Singapore",
+  "weekendVersion": "2026.10.10.1",
+  "generatedAt": "2026-10-10T04:16:18-07:00",
+  "statusLabel": "Singapore Sprint complete · Grand Prix qualifying pending",
   "state": "in_progress",
   "race": {
     "round": 17,
@@ -105,8 +105,93 @@
       "shortName": "SPRINT",
       "date": "Sat Oct 10",
       "localTime": "17:00",
-      "status": "upcoming",
-      "classification": [],
+      "status": "completed",
+      "classification": [
+        {
+          "position": 1,
+          "driver": "Max Verstappen",
+          "team": "Red Bull Racing",
+          "time": "39:48.162"
+        },
+        {
+          "position": 2,
+          "driver": "Lewis Hamilton",
+          "team": "Ferrari",
+          "time": "+2.591s"
+        },
+        {
+          "position": 3,
+          "driver": "Charles Leclerc",
+          "team": "Ferrari",
+          "time": "+16.871s"
+        },
+        {
+          "position": 4,
+          "driver": "Kimi Antonelli",
+          "team": "Mercedes",
+          "time": "+17.238s"
+        },
+        {
+          "position": 5,
+          "driver": "Liam Lawson",
+          "team": "Racing Bulls",
+          "time": "+20.632s"
+        },
+        {
+          "position": 6,
+          "driver": "Oliver Bearman",
+          "team": "Haas F1 Team",
+          "time": "+24.321s"
+        },
+        {
+          "position": 7,
+          "driver": "Nico Hulkenberg",
+          "team": "Audi",
+          "time": "+27.525s"
+        },
+        {
+          "position": 8,
+          "driver": "Lando Norris",
+          "team": "McLaren",
+          "time": "+28.272s"
+        },
+        {
+          "position": 9,
+          "driver": "Pierre Gasly",
+          "team": "Alpine",
+          "time": "+36.220s"
+        },
+        {
+          "position": 10,
+          "driver": "Esteban Ocon",
+          "team": "Haas F1 Team",
+          "time": "+37.640s"
+        },
+        {
+          "position": 11,
+          "driver": "Fernando Alonso",
+          "team": "Aston Martin",
+          "time": "+50.464s"
+        },
+        {
+          "position": 12,
+          "driver": "Carlos Sainz",
+          "team": "Williams",
+          "time": "+52.467s"
+        },
+        {
+          "position": 13,
+          "driver": "Arvid Lindblad",
+          "team": "Racing Bulls",
+          "time": "+55.792s"
+        },
+        {
+          "position": 14,
+          "driver": "Oscar Piastri",
+          "team": "McLaren",
+          "time": "DNF (classified, 19 laps)"
+        }
+      ],
       "startsAtUtc": "2026-10-10T09:00:00Z"
     },
     {
@@ -114,10 +199,10 @@
       "name": "Qualifying",
       "shortName": "QUALI",
       "date": "Sat Oct 10",
-      "localTime": "21:00",
+      "localTime": "21:30",
       "status": "upcoming",
       "classification": [],
-      "startsAtUtc": "2026-10-10T13:00:00Z"
+      "startsAtUtc": "2026-10-10T13:30:00Z"
     },
     {
       "id": "race",
@@ -131,8 +216,8 @@
     }
   ],
   "weather": {
-    "summary": "Hot and humid conditions are expected throughout Singapore, with afternoon shower risk and very high daytime track temperatures before the night sessions cool the surface.",
-    "sourceLabel": "Formula 1 Singapore Grand Prix weekend forecast · Oct 7",
+    "summary": "Heavy rain delayed Saturday’s Sprint by more than 30 minutes. The 20-lap race began on intermediate tyres and ran on a drying circuit; Sunday forecast remains subject to change.",
+    "sourceLabel": "Formula 1 Singapore Sprint report · Oct 10; weekend forecast previously published Oct 7",
     "days": [
       {
         "day": "Friday",
@@ -144,7 +229,7 @@
       {
         "day": "Saturday",
         "date": "Oct 10",
-        "condition": "Hot / humid · possible showers",
+        "condition": "Sprint rain delay · drying conditions",
         "highC": 32,
         "rainRisk": "40%"
       },
@@ -159,75 +244,118 @@
   },
   "commandBrief": [
     {
-      "label": "SPRINT GRID",
-      "title": "Verstappen keeps pole after stewards verdict",
-      "text": "A yellow-flag overtaking infringement in SQ1 drew no penalty. Verstappen starts P1, Russell P2, Leclerc P3."
+      "label": "SPRINT RESULT",
+      "title": "Verstappen wins wet Singapore Sprint",
+      "text": "Verstappen P1, Hamilton P2, Leclerc P3 after Russell crashes while leading. 20 laps completed."
     },
     {
       "label": "CHAMPIONSHIP",
-      "title": "Antonelli leads Russell by 84 points",
-      "text": "Antonelli has 320 points to Russell’s 236. Antonelli qualified seventh and Russell starts Saturday’s Sprint second."
+      "title": "Antonelli extends lead to 89 points",
+      "text": "Antonelli takes fourth and five points, moving to 325. Russell remains on 236 after his DNF."
     },
     {
-      "label": "TECHNICAL",
-      "title": "FIA acknowledges SQ1 Overtake Mode error",
-      "text": "Race Control failed to restore the mode after the red flag, then activated it for 27 seconds. No amended Sprint grid has been confirmed."
+      "label": "DRIVER FORM",
+      "title": "McLaren clash changes final-lap order",
+      "text": "Norris finishes eighth after contact with Piastri, who is classified 14th but stops. Verstappen gains eight points."
     }
   ],
   "latestClassification": {
-    "sessionId": "sprint_qualifying",
-    "sessionName": "Singapore Grand Prix · Sprint Qualifying",
+    "sessionId": "sprint",
+    "sessionName": "Singapore Grand Prix · Sprint",
     "published": true,
-    "message": "Verstappen retains pole after stewards decided not to penalize the SQ1 yellow-flag overtake.",
+    "message": "Provisional official Sprint classification: Verstappen wins; Hamilton P2, Leclerc P3, Antonelli P4. Russell DNF.",
     "results": [
       {
         "position": 1,
         "driver": "Max Verstappen",
         "team": "Red Bull Racing",
-        "time": "1:31.156"
+        "time": "39:48.162"
       },
       {
         "position": 2,
-        "driver": "George Russell",
-        "team": "Mercedes",
-        "time": "1:31.276"
+        "driver": "Lewis Hamilton",
+        "team": "Ferrari",
+        "time": "+2.591s"
       },
       {
         "position": 3,
         "driver": "Charles Leclerc",
         "team": "Ferrari",
-        "time": "1:31.399"
+        "time": "+16.871s"
       },
       {
         "position": 4,
-        "driver": "Oscar Piastri",
-        "team": "McLaren",
-        "time": "1:31.454"
+        "driver": "Kimi Antonelli",
+        "team": "Mercedes",
+        "time": "+17.238s"
       },
       {
         "position": 5,
-        "driver": "Lando Norris",
-        "team": "McLaren",
-        "time": "1:31.587"
+        "driver": "Liam Lawson",
+        "team": "Racing Bulls",
+        "time": "+20.632s"
       },
       {
         "position": 6,
-        "driver": "Lewis Hamilton",
-        "team": "Ferrari",
-        "time": "1:31.702"
+        "driver": "Oliver Bearman",
+        "team": "Haas F1 Team",
+        "time": "+24.321s"
       },
       {
         "position": 7,
-        "driver": "Kimi Antonelli",
-        "team": "Mercedes",
-        "time": "1:31.849"
+        "driver": "Nico Hulkenberg",
+        "team": "Audi",
+        "time": "+27.525s"
+      },
+      {
+        "position": 8,
+        "driver": "Lando Norris",
+        "team": "McLaren",
+        "time": "+28.272s"
+      },
+      {
+        "position": 9,
+        "driver": "Pierre Gasly",
+        "team": "Alpine",
+        "time": "+36.220s"
+      },
+      {
+        "position": 10,
+        "driver": "Esteban Ocon",
+        "team": "Haas F1 Team",
+        "time": "+37.640s"
+      },
+      {
+        "position": 11,
+        "driver": "Fernando Alonso",
+        "team": "Aston Martin",
+        "time": "+50.464s"
+      },
+      {
+        "position": 12,
+        "driver": "Carlos Sainz",
+        "team": "Williams",
+        "time": "+52.467s"
+      },
+      {
+        "position": 13,
+        "driver": "Arvid Lindblad",
+        "team": "Racing Bulls",
+        "time": "+55.792s"
+      },
+      {
+        "position": 14,
+        "driver": "Oscar Piastri",
+        "team": "McLaren",
+        "time": "DNF (classified, 19 laps)"
       }
     ]
   },
   "notes": [
-    "FP1 and Sprint Qualifying classifications are published; Saturday’s Sprint has not yet taken place.",
-    "Verstappen retains Sprint pole after stewards found an infringement but imposed no penalty.",
-    "FIA confirmed a separate SQ1 Race Control error: Overtake Mode was unavailable after the red flag, briefly enabled for 27 seconds, and affected some cars. SQ2 and SQ3 were unaffected.",
-    "These are editorially verified results, not live timing or telemetry."
+    "Singapore Sprint completed over 20 laps after a heavy-rain delay. Official classification was marked provisional when published.",
+    "Fourteen drivers are listed in the classification feed, including Piastri classified 14th after 19 laps; eight additional drivers were non-classified.",
+    "Russell crashed from the lead on the opening lap. Norris and Piastri collided on the final lap.",
+    "Grand Prix qualifying was rescheduled to 21:30 Singapore time (13:30 UTC) after the Sprint delay; check the official timetable for further changes.",
+    "This editorial feed is not live telemetry; official session data is authoritative."
   ]
 }

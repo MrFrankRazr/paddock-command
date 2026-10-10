@@ -1,8 +1,110 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.09.3",
-  "generatedAt": "2026-10-09T16:10:49-07:00",
+  "contentVersion": "2026.10.10.1",
+  "generatedAt": "2026-10-10T04:16:18-07:00",
   "articles": [
+    {
+      "id": "singapore-sprint-debrief-2026",
+      "category": "SPRINT DEBRIEF",
+      "context": "SINGAPORE",
+      "title": "Verstappen Wins Chaotic Singapore Sprint as Russell Crashes — Antonelli Leads by 89",
+      "deck": "Verstappen wins the rain-hit Singapore Sprint ahead of Hamilton and Leclerc. Russell crashes while leading, McLarens collide, and Antonelli extends his championship lead to 89 points.",
+      "published": "Oct 10, 2026",
+      "updated": "Oct 10, 2026",
+      "canonicalUrl": "https://paddockcommand.com/2026-singapore-sprint-verstappen-win-russell-crash-antonelli-lead.html",
+      "facts": [
+        {
+          "label": "WINNER",
+          "value": "Verstappen · +8"
+        },
+        {
+          "label": "PODIUM",
+          "value": "Hamilton · Leclerc"
+        },
+        {
+          "label": "TITLE LEADER",
+          "value": "Antonelli · 325"
+        },
+        {
+          "label": "GAP",
+          "value": "89 points"
+        }
+      ],
+      "sections": [
+        {
+          "type": "heading",
+          "text": "Rain turns Singapore’s first Sprint into a survival test"
+        },
+        {
+          "type": "paragraph",
+          "text": "A heavy shower shortly before the scheduled start left parts of Marina Bay soaked and delayed the Sprint by more than half an hour. The field started on intermediate tyres, with the first and final sectors especially wet. The race ultimately covered 20 laps rather than the originally scheduled 21."
+        },
+        {
+          "type": "paragraph",
+          "text": "George Russell launched past polesitter Max Verstappen and took the early lead, but his advantage lasted only until the final corner of the opening lap. Russell lost control of his Mercedes and hit the barriers, ending his Sprint and bringing out the Safety Car."
+        },
+        {
+          "type": "heading",
+          "text": "Verstappen recovers to win; Ferrari secures a double podium"
+        },
+        {
+          "type": "paragraph",
+          "text": "Verstappen reclaimed the lead after Russell’s accident and controlled the restart, managing his intermediate tyres as the circuit dried. He won by 2.591 seconds over Lewis Hamilton, who surged from sixth on the grid to second. Charles Leclerc completed the podium, 16.871 seconds behind Verstappen."
+        },
+        {
+          "type": "paragraph",
+          "text": "It was Verstappen’s first victory of any kind in Singapore and his second winning weekend in succession after his Grand Prix triumph at Sepang. The Sprint result does not count as a Grand Prix victory, and Sunday’s main race remains to be contested."
+        },
+        {
+          "type": "heading",
+          "text": "McLaren collision reshapes the final lap"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oscar Piastri and Lando Norris were battling near the front when Norris made contact with his team-mate at Turn 5 on the final lap. Piastri spun and stopped; he was classified 14th after completing 19 laps. Norris recovered to eighth, taking the final Sprint point."
+        },
+        {
+          "type": "paragraph",
+          "text": "The collision lifted championship leader Kimi Antonelli to fourth. Liam Lawson finished fifth, followed by Oliver Bearman and Nico Hülkenberg. A series of earlier incidents and technical failures also left eight drivers non-classified."
+        },
+        {
+          "type": "heading",
+          "text": "Championship watch: Antonelli now 89 points clear"
+        },
+        {
+          "type": "paragraph",
+          "text": "Antonelli collected five points for fourth, while Russell scored none. Their championship totals are now 325 and 236, widening the lead from 84 to 89 points. Hamilton rises to 221, Leclerc to 197 and Verstappen to 196; Verstappen moves ahead of Norris, who has 189, into fifth place."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Constructors’ Championship remains led by Mercedes on 561 points, ahead of Ferrari on 418. McLaren has 317 and Red Bull 306, leaving just 11 points between third and fourth after Verstappen’s eight-point Sprint haul."
+        },
+        {
+          "type": "heading",
+          "text": "Driver form and Sunday qualifying outlook"
+        },
+        {
+          "type": "paragraph",
+          "text": "Verstappen’s recent form now includes the Sepang Grand Prix victory, Singapore Sprint pole and a controlled wet-weather Sprint win. Hamilton’s charge from sixth to second and Ferrari’s double podium strengthen the team’s race-pace credentials, while Russell faces a difficult response after his crash and a separate power-unit grid penalty for Sunday."
+        },
+        {
+          "type": "paragraph",
+          "text": "Singapore Grand Prix qualifying was moved to 21:30 local time on Saturday (13:30 UTC; 6:30 a.m. Pacific) following the weather-related Sprint disruption. Qualifying will determine Sunday’s starting order, subject to applicable penalties. No qualifying result is included in this Sprint report."
+        },
+        {
+          "type": "heading",
+          "text": "Paddock Command assessment"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Sprint established Verstappen as the immediate form driver, but not an automatic favourite for Sunday: his difficult launch gave Russell the early lead, and track conditions are likely to change. Antonelli’s championship advantage grew despite a challenging Mercedes weekend, while McLaren must recover from losing valuable points in a race that briefly promised a much stronger result."
+        },
+        {
+          "type": "paragraph",
+          "text": "This debrief reflects the provisional official Sprint classification available on October 10. Any later stewards decisions or changes to the results should be handled in a separate verified follow-up."
+        }
+      ]
+    },
     {
       "id": "singapore-sprint-intelligence-2026",
       "category": "SPRINT GRID CONFIRMED",
@@ -10,7 +112,7 @@
       "title": "Verstappen Retains Singapore Sprint Pole After Stewards Decline Penalty",
       "deck": "Verstappen retains Sprint pole after the stewards ruling; separately, an FIA SQ1 Overtake Mode error affected some drivers.",
       "published": "Oct 5, 2026",
-      "updated": "Oct 9, 2026",
+      "updated": "Oct 10, 2026",
       "canonicalUrl": "https://paddockcommand.com/2026-singapore-sprint-weekend-circuit-intelligence.html",
       "facts": [
         {
@@ -31,6 +133,10 @@
         }
       ],
       "sections": [
+        {
+          "type": "paragraph",
+          "text": "Update Oct 10: The Singapore Sprint is complete. Verstappen won ahead of Hamilton and Leclerc; Russell retired and Antonelli leads by 89 points. See the separate Singapore Sprint debrief for results; the analysis below documents October 9 qualifying and FIA technical developments."
+        },
         {
           "type": "heading",
           "text": "Stewards confirm Verstappen retains pole"

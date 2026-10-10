@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.09.3",
-  "generatedAt": "2026-10-09T16:10:49-07:00",
+  "feedVersion": "2026.10.10.1",
+  "generatedAt": "2026-10-10T04:16:18-07:00",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -15,39 +15,49 @@
     "championshipLeader": {
       "name": "Kimi Antonelli",
       "shortName": "Antonelli",
-      "points": 320,
-      "leadPoints": 84
+      "points": 325,
+      "leadPoints": 89
     }
   },
   "raceIntelligence": {
-    "headline": "Verstappen Retains Singapore Sprint Pole After Stewards Decline Penalty",
-    "summary": "Verstappen retains Singapore Sprint pole after the stewards ruling. Separately, the FIA admits an SQ1 Race Control error left Overtake Mode unavailable after a red flag, with a 27-second reactivation affecting some cars.",
-    "updatedLabel": "Updated Oct 9, 2026 · FIA technical follow-up",
+    "headline": "Verstappen Wins Chaotic Singapore Sprint as Russell Crashes — Antonelli Leads by 89",
+    "summary": "Verstappen wins the rain-hit Singapore Sprint ahead of Hamilton and Leclerc. Russell crashes while leading, McLarens collide, and Antonelli extends his championship lead to 89 points.",
+    "updatedLabel": "Updated Oct 10, 2026 · Singapore Sprint complete",
     "watchPoints": [
       {
-        "id": "verdict",
+        "id": "sprint-result",
         "label": "WATCH POINT 01",
-        "tag": "SPRINT GRID",
-        "title": "Verstappen keeps Singapore Sprint pole",
-        "summary": "Stewards found a yellow-flag overtake infringement in SQ1 but imposed no penalty. Verstappen retains P1, Russell P2 and Leclerc P3."
+        "tag": "SPRINT RESULT",
+        "title": "Verstappen wins rain-hit Singapore Sprint",
+        "summary": "Verstappen scores eight points ahead of Hamilton and Leclerc; Russell crashes from the lead."
       },
       {
-        "id": "russell-grid-penalty",
+        "id": "championship",
         "label": "WATCH POINT 02",
         "tag": "CHAMPIONSHIP",
-        "title": "Russell starts Sprint P2, Sunday race from the rear",
-        "summary": "Russell qualified second for the Sprint. His separate power-unit penalty applies to Sunday’s Grand Prix, not Saturday’s Sprint."
+        "title": "Antonelli stretches lead to 89",
+        "summary": "Antonelli finishes fourth and reaches 325 points; Russell retires on 236. Ferrari now has 418 constructors’ points."
       },
       {
-        "id": "fia-sq1-error",
+        "id": "mclaren",
         "label": "WATCH POINT 03",
-        "tag": "FIA TECHNICAL",
-        "title": "Overtake Mode error affected SQ1",
-        "summary": "The FIA says Race Control failed to restore Overtake Mode after the red flag, briefly reactivated it for 27 seconds, and affected some cars. SQ2/SQ3 were unaffected."
+        "tag": "DRIVER FORM",
+        "title": "McLaren team-mates collide on final lap",
+        "summary": "Norris finishes eighth and scores one point; Piastri is classified 14th after stopping following the contact."
       }
     ]
   },
   "articles": [
+    {
+      "id": "singapore-sprint-debrief-2026",
+      "category": "SPRINT DEBRIEF",
+      "context": "SINGAPORE",
+      "title": "Verstappen Wins Chaotic Singapore Sprint as Russell Crashes — Antonelli Leads by 89",
+      "summary": "Verstappen wins the rain-hit Singapore Sprint ahead of Hamilton and Leclerc. Russell crashes while leading, McLarens collide, and Antonelli extends his championship lead to 89 points.",
+      "url": "https://paddockcommand.com/2026-singapore-sprint-verstappen-win-russell-crash-antonelli-lead.html",
+      "updated": "2026-10-10",
+      "nativeReader": true
+    },
     {
       "id": "singapore-sprint-intelligence-2026",
       "category": "SPRINT GRID CONFIRMED",
