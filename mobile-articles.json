@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.09.2",
-  "generatedAt": "2026-10-09T14:00:00-07:00",
+  "contentVersion": "2026.10.09.3",
+  "generatedAt": "2026-10-09T16:10:49-07:00",
   "articles": [
     {
       "id": "singapore-sprint-intelligence-2026",
       "category": "SPRINT GRID CONFIRMED",
       "context": "SINGAPORE",
       "title": "Verstappen Retains Singapore Sprint Pole After Stewards Decline Penalty",
-      "deck": "Verstappen keeps Singapore Sprint pole after stewards find a yellow-flag overtake infringement but impose no penalty. Russell starts second, Leclerc third.",
+      "deck": "Verstappen retains Sprint pole after the stewards ruling; separately, an FIA SQ1 Overtake Mode error affected some drivers.",
       "published": "Oct 5, 2026",
       "updated": "Oct 9, 2026",
       "canonicalUrl": "https://paddockcommand.com/2026-singapore-sprint-weekend-circuit-intelligence.html",
@@ -62,6 +62,22 @@
         {
           "type": "paragraph",
           "text": "Saturday’s 21-lap Sprint precedes qualifying for Sunday’s Grand Prix. Verstappen’s yellow-flag investigation is separate from the reported SQ1 Overtake Mode availability error."
+        },
+        {
+          "type": "heading",
+          "text": "FIA confirms separate Race Control error during SQ1"
+        },
+        {
+          "type": "paragraph",
+          "text": "After the red flag caused by Sergio Pérez’s damaged Cadillac, Race Control failed to make Overtake Mode available when SQ1 resumed. The FIA says it was enabled for 27 seconds and then disabled again, affecting some drivers depending on their timing and track position. SQ2 and SQ3 were not affected by this issue."
+        },
+        {
+          "type": "heading",
+          "text": "Teams question sporting fairness"
+        },
+        {
+          "type": "paragraph",
+          "text": "Motorsport.com reports Williams requested all 22 cars advance to SQ2, but that was not adopted; Aston Martin was considering its options. No formal protest outcome or revised grid has been verified. This FIA error is separate from the timing-system malfunction and Verstappen’s yellow-flag stewards decision."
         }
       ]
     },

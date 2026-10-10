@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.09.2",
-  "generatedAt": "2026-10-09T14:00:00-07:00",
+  "feedVersion": "2026.10.09.3",
+  "generatedAt": "2026-10-09T16:10:49-07:00",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -21,8 +21,8 @@
   },
   "raceIntelligence": {
     "headline": "Verstappen Retains Singapore Sprint Pole After Stewards Decline Penalty",
-    "summary": "Stewards found Verstappen breached a yellow-flag overtaking rule but imposed no penalty. His 1:31.156 retains Singapore Sprint pole ahead of Russell and Leclerc; Antonelli starts seventh and leads Russell by 84 points.",
-    "updatedLabel": "Updated Oct 9, 2026",
+    "summary": "Verstappen retains Singapore Sprint pole after the stewards ruling. Separately, the FIA admits an SQ1 Race Control error left Overtake Mode unavailable after a red flag, with a 27-second reactivation affecting some cars.",
+    "updatedLabel": "Updated Oct 9, 2026 · FIA technical follow-up",
     "watchPoints": [
       {
         "id": "verdict",
@@ -39,11 +39,11 @@
         "summary": "Russell qualified second for the Sprint. His separate power-unit penalty applies to Sunday’s Grand Prix, not Saturday’s Sprint."
       },
       {
-        "id": "mercedes-split-spec",
+        "id": "fia-sq1-error",
         "label": "WATCH POINT 03",
-        "tag": "TECHNICAL",
-        "title": "Mercedes package comparison still inconclusive",
-        "summary": "Russell led FP1 in the older aero specification; Antonelli ran the newer package. Different practice tyres prevent a clean comparison."
+        "tag": "FIA TECHNICAL",
+        "title": "Overtake Mode error affected SQ1",
+        "summary": "The FIA says Race Control failed to restore Overtake Mode after the red flag, briefly reactivated it for 27 seconds, and affected some cars. SQ2/SQ3 were unaffected."
       }
     ]
   },
@@ -53,7 +53,7 @@
       "category": "SPRINT GRID CONFIRMED",
       "context": "SINGAPORE",
       "title": "Verstappen Retains Singapore Sprint Pole After Stewards Decline Penalty",
-      "summary": "Verstappen keeps Singapore Sprint pole after stewards find a yellow-flag overtake infringement but impose no penalty. Russell starts second, Leclerc third.",
+      "summary": "Verstappen retains Sprint pole after the stewards ruling; a separate FIA SQ1 Overtake Mode error affected some drivers.",
       "url": "https://paddockcommand.com/2026-singapore-sprint-weekend-circuit-intelligence.html",
       "updated": "2026-10-09",
       "nativeReader": true

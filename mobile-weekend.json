@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "weekendVersion": "2026.10.09.2",
-  "generatedAt": "2026-10-09T14:00:00-07:00",
+  "weekendVersion": "2026.10.09.3",
+  "generatedAt": "2026-10-09T16:10:49-07:00",
   "statusLabel": "Sprint Qualifying complete · Singapore",
   "state": "in_progress",
   "race": {
@@ -170,8 +170,8 @@
     },
     {
       "label": "TECHNICAL",
-      "title": "Mercedes split specification still under assessment",
-      "text": "Russell led FP1 using the previous Mercedes package; differing tyres prevent a direct performance comparison."
+      "title": "FIA acknowledges SQ1 Overtake Mode error",
+      "text": "Race Control failed to restore the mode after the red flag, then activated it for 27 seconds. No amended Sprint grid has been confirmed."
     }
   ],
   "latestClassification": {
@@ -227,7 +227,7 @@
   "notes": [
     "FP1 and Sprint Qualifying classifications are published; Saturday’s Sprint has not yet taken place.",
     "Verstappen retains Sprint pole after stewards found an infringement but imposed no penalty.",
-    "The yellow-flag investigation is separate from the SQ1 Overtake Mode availability error.",
+    "FIA confirmed a separate SQ1 Race Control error: Overtake Mode was unavailable after the red flag, briefly enabled for 27 seconds, and affected some cars. SQ2 and SQ3 were unaffected.",
     "These are editorially verified results, not live timing or telemetry."
   ]
 }
