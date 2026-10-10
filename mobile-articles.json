@@ -1,8 +1,102 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.10.1",
-  "generatedAt": "2026-10-10T04:16:18-07:00",
+  "contentVersion": "2026.10.10.2",
+  "generatedAt": "2026-10-10T08:12:00-07:00",
   "articles": [
+    {
+      "id": "singapore-gp-qualifying-2026",
+      "category": "GRAND PRIX QUALIFYING",
+      "context": "SINGAPORE",
+      "title": "Verstappen Takes 50th Career Pole in Singapore as Ferrari Locks Out P2 and P3",
+      "deck": "Verstappen sets 1:31.373 to take Singapore Grand Prix pole by 0.054s over Leclerc. Hamilton qualifies third, Antonelli fourth; Russell is sixth before his Sunday grid penalty.",
+      "published": "Oct 10, 2026",
+      "updated": "Oct 10, 2026",
+      "canonicalUrl": "https://paddockcommand.com/2026-singapore-gp-qualifying-verstappen-50th-pole-ferrari-front-row.html",
+      "facts": [
+        {
+          "label": "POLE · NO. 50",
+          "value": "Verstappen · 1:31.373"
+        },
+        {
+          "label": "P2",
+          "value": "Leclerc · +0.054s"
+        },
+        {
+          "label": "P3",
+          "value": "Hamilton · +0.123s"
+        },
+        {
+          "label": "CHAMPIONSHIP",
+          "value": "Antonelli +89"
+        }
+      ],
+      "sections": [
+        {
+          "type": "heading",
+          "text": "Verstappen converts Sprint momentum into a milestone pole"
+        },
+        {
+          "type": "paragraph",
+          "text": "Max Verstappen will head the qualifying classification for Sunday’s Singapore Grand Prix after setting a 1:31.373 at the Marina Bay Street Circuit. The Red Bull driver beat Ferrari’s Charles Leclerc by 0.054 seconds and claimed the 50th Grand Prix pole position of his Formula 1 career. It follows his Singapore Sprint pole on Friday and victory in Saturday’s rain-hit Sprint, continuing the momentum established by his Grand Prix win at Sepang."
+        },
+        {
+          "type": "heading",
+          "text": "Ferrari splits the front rows with Mercedes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Leclerc delivered his fastest Q3 lap when it mattered, securing second in 1:31.427. Lewis Hamilton was third in the other Ferrari on 1:31.496, 0.123 seconds behind Verstappen. Hamilton had set the pace in both Q1 and Q2, but the final segment belonged to Verstappen. Leclerc reported brake-related difficulties earlier in the session; the final margin underlines how little separated the leading cars."
+        },
+        {
+          "type": "heading",
+          "text": "Antonelli fourth as Russell faces a difficult Sunday"
+        },
+        {
+          "type": "paragraph",
+          "text": "Championship leader Kimi Antonelli qualified fourth in 1:31.562, 0.189 seconds from pole. George Russell was sixth on the qualifying timesheet in 1:31.747, behind Lando Norris in fifth. Russell’s previously confirmed power-unit grid penalty is a separate matter: the qualifying order is not the final starting grid, and the applicable penalties must be reflected in the official Sunday grid. Antonelli leads Russell by 89 points, 325 to 236, following the Sprint; qualifying awards no additional points."
+        },
+        {
+          "type": "heading",
+          "text": "McLaren and the midfield"
+        },
+        {
+          "type": "paragraph",
+          "text": "Norris secured fifth for McLaren, while teammate Oscar Piastri was seventh after the pair’s last-lap contact in the Sprint. Pierre Gasly took eighth for Alpine, with Racing Bulls drivers Liam Lawson and Arvid Lindblad completing the top 10. Red Bull’s Isack Hadjar failed to record a qualifying lap and appears as RT in the official classification; any resulting grid disposition requires official confirmation."
+        },
+        {
+          "type": "heading",
+          "text": "What the session means for Sunday"
+        },
+        {
+          "type": "paragraph",
+          "text": "Verstappen has the fastest qualifying lap and a Ferrari directly alongside him, while Hamilton and Antonelli are immediately behind. Ferrari’s two top-three qualifying positions create a strong opportunity to challenge Red Bull at the start. Verstappen’s difficult launch in the Sprint is a reminder that pole does not guarantee control of the opening lap. The Grand Prix is scheduled for Sunday, October 11, at 20:00 Singapore time over 62 laps, subject to official race-control updates."
+        },
+        {
+          "type": "heading",
+          "text": "Paddock Command assessment"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is a distinct Grand Prix qualifying result, not a revision of the Sprint classification. Verstappen’s 50th career pole and Ferrari’s two-car challenge make the front-row contest the central pre-race story. Antonelli’s fourth place offers an opportunity to protect his substantial championship lead, while Russell’s qualifying position should not be confused with his penalty-adjusted Sunday grid slot. The next verification checkpoint is the official starting grid and any stewards decisions before the race."
+        },
+        {
+          "type": "heading",
+          "text": "Official qualifying top 10"
+        },
+        {
+          "type": "paragraph",
+          "text": "P1 Max Verstappen 1:31.373; P2 Charles Leclerc 1:31.427; P3 Lewis Hamilton 1:31.496; P4 Kimi Antonelli 1:31.562; P5 Lando Norris 1:31.712; P6 George Russell 1:31.747; P7 Oscar Piastri 1:31.860; P8 Pierre Gasly 1:32.225; P9 Liam Lawson 1:32.369; P10 Arvid Lindblad 1:32.781"
+        },
+        {
+          "type": "heading",
+          "text": "Verification and starting-grid caveat"
+        },
+        {
+          "type": "paragraph",
+          "text": "The official Formula 1 qualifying classification and Reuters report confirm the pole and lap times. The final Sunday starting grid is subject to grid penalties and subsequent stewards decisions."
+        }
+      ]
+    },
     {
       "id": "singapore-sprint-debrief-2026",
       "category": "SPRINT DEBRIEF",

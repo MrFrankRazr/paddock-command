@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "weekendVersion": "2026.10.10.1",
-  "generatedAt": "2026-10-10T04:16:18-07:00",
-  "statusLabel": "Singapore Sprint complete · Grand Prix qualifying pending",
+  "weekendVersion": "2026.10.10.2",
+  "generatedAt": "2026-10-10T08:12:00-07:00",
+  "statusLabel": "Singapore Grand Prix qualifying complete · Sunday race next",
   "state": "in_progress",
   "race": {
     "round": 17,
@@ -200,8 +200,141 @@
       "shortName": "QUALI",
       "date": "Sat Oct 10",
       "localTime": "21:30",
-      "status": "upcoming",
-      "classification": [],
+      "status": "completed",
+      "classification": [
+        {
+          "position": 1,
+          "driver": "Max Verstappen",
+          "team": "Red Bull Racing",
+          "time": "1:31.373"
+        },
+        {
+          "position": 2,
+          "driver": "Charles Leclerc",
+          "team": "Ferrari",
+          "time": "1:31.427"
+        },
+        {
+          "position": 3,
+          "driver": "Lewis Hamilton",
+          "team": "Ferrari",
+          "time": "1:31.496"
+        },
+        {
+          "position": 4,
+          "driver": "Kimi Antonelli",
+          "team": "Mercedes",
+          "time": "1:31.562"
+        },
+        {
+          "position": 5,
+          "driver": "Lando Norris",
+          "team": "McLaren",
+          "time": "1:31.712"
+        },
+        {
+          "position": 6,
+          "driver": "George Russell",
+          "team": "Mercedes",
+          "time": "1:31.747"
+        },
+        {
+          "position": 7,
+          "driver": "Oscar Piastri",
+          "team": "McLaren",
+          "time": "1:31.860"
+        },
+        {
+          "position": 8,
+          "driver": "Pierre Gasly",
+          "team": "Alpine",
+          "time": "1:32.225"
+        },
+        {
+          "position": 9,
+          "driver": "Liam Lawson",
+          "team": "Racing Bulls",
+          "time": "1:32.369"
+        },
+        {
+          "position": 10,
+          "driver": "Arvid Lindblad",
+          "team": "Racing Bulls",
+          "time": "1:32.781"
+        },
+        {
+          "position": 11,
+          "driver": "Nico Hulkenberg",
+          "team": "Audi",
+          "time": "1:32.784 (Q2)"
+        },
+        {
+          "position": 12,
+          "driver": "Oliver Bearman",
+          "team": "Haas F1 Team",
+          "time": "1:32.908 (Q2)"
+        },
+        {
+          "position": 13,
+          "driver": "Esteban Ocon",
+          "team": "Haas F1 Team",
+          "time": "1:33.323 (Q2)"
+        },
+        {
+          "position": 14,
+          "driver": "Carlos Sainz",
+          "team": "Williams",
+          "time": "1:33.526 (Q2)"
+        },
+        {
+          "position": 15,
+          "driver": "Gabriel Bortoleto",
+          "team": "Audi",
+          "time": "1:33.658 (Q2)"
+        },
+        {
+          "position": 16,
+          "driver": "Franco Colapinto",
+          "team": "Alpine",
+          "time": "1:33.787 (Q2)"
+        },
+        {
+          "position": 17,
+          "driver": "Fernando Alonso",
+          "team": "Aston Martin",
+          "time": "1:34.223 (Q1)"
+        },
+        {
+          "position": 18,
+          "driver": "Alexander Albon",
+          "team": "Williams",
+          "time": "1:34.289 (Q1)"
+        },
+        {
+          "position": 19,
+          "driver": "Lance Stroll",
+          "team": "Aston Martin",
+          "time": "1:34.946 (Q1)"
+        },
+        {
+          "position": 20,
+          "driver": "Sergio Perez",
+          "team": "Cadillac",
+          "time": "1:35.123 (Q1)"
+        },
+        {
+          "position": 21,
+          "driver": "Valtteri Bottas",
+          "team": "Cadillac",
+          "time": "1:35.984 (Q1)"
+        },
+        {
+          "position": 22,
+          "driver": "Isack Hadjar",
+          "team": "Red Bull Racing",
+          "time": "No time (Q1)"
+        }
+      ],
       "startsAtUtc": "2026-10-10T13:30:00Z"
     },
     {
@@ -244,118 +377,167 @@
   },
   "commandBrief": [
     {
-      "label": "SPRINT RESULT",
-      "title": "Verstappen wins wet Singapore Sprint",
-      "text": "Verstappen P1, Hamilton P2, Leclerc P3 after Russell crashes while leading. 20 laps completed."
+      "label": "GRAND PRIX QUALIFYING",
+      "title": "Verstappen takes 50th career pole",
+      "text": "Verstappen P1 in 1:31.373, Leclerc P2 (+0.054s), Hamilton P3 and Antonelli P4."
+    },
+    {
+      "label": "GRID PENALTY",
+      "title": "Russell P6 on qualifying times, Sunday penalty pending",
+      "text": "Russell qualified sixth but has a separate power-unit grid penalty. Consult the official starting grid for his final slot."
     },
     {
       "label": "CHAMPIONSHIP",
-      "title": "Antonelli extends lead to 89 points",
-      "text": "Antonelli takes fourth and five points, moving to 325. Russell remains on 236 after his DNF."
-    },
-    {
-      "label": "DRIVER FORM",
-      "title": "McLaren clash changes final-lap order",
-      "text": "Norris finishes eighth after contact with Piastri, who is classified 14th but stops. Verstappen gains eight points."
+      "title": "Antonelli leads by 89 after Sprint",
+      "text": "Antonelli 325, Russell 236. Qualifying awards no championship points; the Sunday Grand Prix is scheduled for 20:00 local time."
     }
   ],
   "latestClassification": {
-    "sessionId": "sprint",
-    "sessionName": "Singapore Grand Prix · Sprint",
+    "sessionId": "qualifying",
+    "sessionName": "Singapore Grand Prix · Qualifying",
     "published": true,
-    "message": "Provisional official Sprint classification: Verstappen wins; Hamilton P2, Leclerc P3, Antonelli P4. Russell DNF.",
+    "message": "Official qualifying classification: Verstappen P1 (1:31.373), Leclerc P2, Hamilton P3, Antonelli P4. Grid penalties are separate; this is not the final Sunday starting grid.",
     "results": [
       {
         "position": 1,
         "driver": "Max Verstappen",
         "team": "Red Bull Racing",
-        "time": "39:48.162"
+        "time": "1:31.373"
       },
       {
         "position": 2,
-        "driver": "Lewis Hamilton",
+        "driver": "Charles Leclerc",
         "team": "Ferrari",
-        "time": "+2.591s"
+        "time": "1:31.427"
       },
       {
         "position": 3,
-        "driver": "Charles Leclerc",
+        "driver": "Lewis Hamilton",
         "team": "Ferrari",
-        "time": "+16.871s"
+        "time": "1:31.496"
       },
       {
         "position": 4,
         "driver": "Kimi Antonelli",
         "team": "Mercedes",
-        "time": "+17.238s"
+        "time": "1:31.562"
       },
       {
         "position": 5,
-        "driver": "Liam Lawson",
-        "team": "Racing Bulls",
-        "time": "+20.632s"
+        "driver": "Lando Norris",
+        "team": "McLaren",
+        "time": "1:31.712"
       },
       {
         "position": 6,
-        "driver": "Oliver Bearman",
-        "team": "Haas F1 Team",
-        "time": "+24.321s"
+        "driver": "George Russell",
+        "team": "Mercedes",
+        "time": "1:31.747"
       },
       {
         "position": 7,
-        "driver": "Nico Hulkenberg",
-        "team": "Audi",
-        "time": "+27.525s"
+        "driver": "Oscar Piastri",
+        "team": "McLaren",
+        "time": "1:31.860"
       },
       {
         "position": 8,
-        "driver": "Lando Norris",
-        "team": "McLaren",
-        "time": "+28.272s"
+        "driver": "Pierre Gasly",
+        "team": "Alpine",
+        "time": "1:32.225"
       },
       {
         "position": 9,
-        "driver": "Pierre Gasly",
-        "team": "Alpine",
-        "time": "+36.220s"
+        "driver": "Liam Lawson",
+        "team": "Racing Bulls",
+        "time": "1:32.369"
       },
       {
         "position": 10,
-        "driver": "Esteban Ocon",
-        "team": "Haas F1 Team",
-        "time": "+37.640s"
+        "driver": "Arvid Lindblad",
+        "team": "Racing Bulls",
+        "time": "1:32.781"
       },
       {
         "position": 11,
-        "driver": "Fernando Alonso",
-        "team": "Aston Martin",
-        "time": "+50.464s"
+        "driver": "Nico Hulkenberg",
+        "team": "Audi",
+        "time": "1:32.784 (Q2)"
       },
       {
         "position": 12,
-        "driver": "Carlos Sainz",
-        "team": "Williams",
-        "time": "+52.467s"
+        "driver": "Oliver Bearman",
+        "team": "Haas F1 Team",
+        "time": "1:32.908 (Q2)"
       },
       {
         "position": 13,
-        "driver": "Arvid Lindblad",
-        "team": "Racing Bulls",
-        "time": "+55.792s"
+        "driver": "Esteban Ocon",
+        "team": "Haas F1 Team",
+        "time": "1:33.323 (Q2)"
       },
       {
         "position": 14,
-        "driver": "Oscar Piastri",
-        "team": "McLaren",
-        "time": "DNF (classified, 19 laps)"
+        "driver": "Carlos Sainz",
+        "team": "Williams",
+        "time": "1:33.526 (Q2)"
+      },
+      {
+        "position": 15,
+        "driver": "Gabriel Bortoleto",
+        "team": "Audi",
+        "time": "1:33.658 (Q2)"
+      },
+      {
+        "position": 16,
+        "driver": "Franco Colapinto",
+        "team": "Alpine",
+        "time": "1:33.787 (Q2)"
+      },
+      {
+        "position": 17,
+        "driver": "Fernando Alonso",
+        "team": "Aston Martin",
+        "time": "1:34.223 (Q1)"
+      },
+      {
+        "position": 18,
+        "driver": "Alexander Albon",
+        "team": "Williams",
+        "time": "1:34.289 (Q1)"
+      },
+      {
+        "position": 19,
+        "driver": "Lance Stroll",
+        "team": "Aston Martin",
+        "time": "1:34.946 (Q1)"
+      },
+      {
+        "position": 20,
+        "driver": "Sergio Perez",
+        "team": "Cadillac",
+        "time": "1:35.123 (Q1)"
+      },
+      {
+        "position": 21,
+        "driver": "Valtteri Bottas",
+        "team": "Cadillac",
+        "time": "1:35.984 (Q1)"
+      },
+      {
+        "position": 22,
+        "driver": "Isack Hadjar",
+        "team": "Red Bull Racing",
+        "time": "No time (Q1)"
       }
     ]
   },
   "notes": [
-    "Singapore Sprint completed over 20 laps after a heavy-rain delay. Official classification was marked provisional when published.",
-    "Fourteen drivers are listed in the classification feed, including Piastri classified 14th after 19 laps; eight additional drivers were non-classified.",
-    "Russell crashed from the lead on the opening lap. Norris and Piastri collided on the final lap.",
-    "Grand Prix qualifying was rescheduled to 21:30 Singapore time (13:30 UTC) after the Sprint delay; check the official timetable for further changes.",
-    "This editorial feed is not live telemetry; official session data is authoritative."
+    "Grand Prix qualifying is complete. The classification records lap times, not the penalty-adjusted Sunday starting grid.",
+    "Verstappen claimed his 50th career Grand Prix pole with 1:31.373; Leclerc +0.054s and Hamilton +0.123s.",
+    "Russell qualified sixth but has a separate Sunday power-unit grid penalty. Final grid position requires official confirmation.",
+    "Saturday Sprint completed over 20 laps after a rain delay. The Sprint result and Antonelli’s 89-point lead remain unchanged.",
+    "Sunday Grand Prix is scheduled for 20:00 Singapore local time (12:00 UTC); check for race-control updates.",
+    "Editorial feed only; official Formula 1 classifications and stewards documents remain authoritative."
   ]
 }

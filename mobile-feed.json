@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.10.1",
-  "generatedAt": "2026-10-10T04:16:18-07:00",
+  "feedVersion": "2026.10.10.2",
+  "generatedAt": "2026-10-10T08:12:00-07:00",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -20,34 +20,44 @@
     }
   },
   "raceIntelligence": {
-    "headline": "Verstappen Wins Chaotic Singapore Sprint as Russell Crashes — Antonelli Leads by 89",
-    "summary": "Verstappen wins the rain-hit Singapore Sprint ahead of Hamilton and Leclerc. Russell crashes while leading, McLarens collide, and Antonelli extends his championship lead to 89 points.",
-    "updatedLabel": "Updated Oct 10, 2026 · Singapore Sprint complete",
+    "headline": "Verstappen Takes 50th Career Pole in Singapore as Ferrari Locks Out P2 and P3",
+    "summary": "Verstappen sets 1:31.373 to take Singapore Grand Prix pole by 0.054s over Leclerc. Hamilton qualifies third, Antonelli fourth; Russell is sixth before his Sunday grid penalty.",
+    "updatedLabel": "Updated Oct 10, 2026 · Grand Prix qualifying complete",
     "watchPoints": [
       {
-        "id": "sprint-result",
+        "id": "gp-qualifying",
         "label": "WATCH POINT 01",
-        "tag": "SPRINT RESULT",
-        "title": "Verstappen wins rain-hit Singapore Sprint",
-        "summary": "Verstappen scores eight points ahead of Hamilton and Leclerc; Russell crashes from the lead."
+        "tag": "GRAND PRIX POLE",
+        "title": "Verstappen takes 50th career pole",
+        "summary": "Verstappen posts 1:31.373 and beats Leclerc by 0.054s; Hamilton is third, Antonelli fourth."
+      },
+      {
+        "id": "sunday-grid",
+        "label": "WATCH POINT 02",
+        "tag": "STARTING GRID",
+        "title": "Russell qualifying P6 is not his final grid slot",
+        "summary": "Russell faces a separate power-unit grid penalty. Await the official starting grid before publishing his Sunday position."
       },
       {
         "id": "championship",
-        "label": "WATCH POINT 02",
-        "tag": "CHAMPIONSHIP",
-        "title": "Antonelli stretches lead to 89",
-        "summary": "Antonelli finishes fourth and reaches 325 points; Russell retires on 236. Ferrari now has 418 constructors’ points."
-      },
-      {
-        "id": "mclaren",
         "label": "WATCH POINT 03",
-        "tag": "DRIVER FORM",
-        "title": "McLaren team-mates collide on final lap",
-        "summary": "Norris finishes eighth and scores one point; Piastri is classified 14th after stopping following the contact."
+        "tag": "CHAMPIONSHIP",
+        "title": "Antonelli leads Russell by 89 points",
+        "summary": "The post-Sprint standings remain Antonelli 325, Russell 236. Qualifying awards no points."
       }
     ]
   },
   "articles": [
+    {
+      "id": "singapore-gp-qualifying-2026",
+      "category": "GRAND PRIX QUALIFYING",
+      "context": "SINGAPORE",
+      "title": "Verstappen Takes 50th Career Pole in Singapore as Ferrari Locks Out P2 and P3",
+      "summary": "Verstappen sets 1:31.373 to take Singapore Grand Prix pole by 0.054s over Leclerc. Hamilton qualifies third, Antonelli fourth; Russell is sixth before his Sunday grid penalty.",
+      "url": "https://paddockcommand.com/2026-singapore-gp-qualifying-verstappen-50th-pole-ferrari-front-row.html",
+      "updated": "2026-10-10",
+      "nativeReader": true
+    },
     {
       "id": "singapore-sprint-debrief-2026",
       "category": "SPRINT DEBRIEF",
