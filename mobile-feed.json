@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.10.2",
-  "generatedAt": "2026-10-10T08:12:00-07:00",
+  "feedVersion": "2026.10.11.1",
+  "generatedAt": "2026-10-11T11:24:00+08:00",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -20,9 +20,9 @@
     }
   },
   "raceIntelligence": {
-    "headline": "Verstappen Takes 50th Career Pole in Singapore as Ferrari Locks Out P2 and P3",
-    "summary": "Verstappen sets 1:31.373 to take Singapore Grand Prix pole by 0.054s over Leclerc. Hamilton qualifies third, Antonelli fourth; Russell is sixth before his Sunday grid penalty.",
-    "updatedLabel": "Updated Oct 10, 2026 · Grand Prix qualifying complete",
+    "headline": "Verstappen Leads Singapore Grid — Russell Starts 21st",
+    "summary": "Verstappen starts from pole ahead of Leclerc and Hamilton; Antonelli P4. Russell starts 21st after a 40-place power-unit penalty, with Hadjar 22nd.",
+    "updatedLabel": "Updated Oct 11, 2026 · Official starting grid confirmed",
     "watchPoints": [
       {
         "id": "gp-qualifying",
@@ -35,8 +35,8 @@
         "id": "sunday-grid",
         "label": "WATCH POINT 02",
         "tag": "STARTING GRID",
-        "title": "Russell qualifying P6 is not his final grid slot",
-        "summary": "Russell faces a separate power-unit grid penalty. Await the official starting grid before publishing his Sunday position."
+        "title": "Russell starts 21st; Hadjar 22nd",
+        "summary": "Official F1 starting grid confirms Russell P21 after a 40-place power-unit penalty and Hadjar P22."
       },
       {
         "id": "championship",

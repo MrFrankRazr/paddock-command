@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.10.2",
-  "generatedAt": "2026-10-10T08:12:00-07:00",
+  "contentVersion": "2026.10.11.1",
+  "generatedAt": "2026-10-11T11:24:00+08:00",
   "articles": [
     {
       "id": "singapore-gp-qualifying-2026",
       "category": "GRAND PRIX QUALIFYING",
       "context": "SINGAPORE",
       "title": "Verstappen Takes 50th Career Pole in Singapore as Ferrari Locks Out P2 and P3",
-      "deck": "Verstappen sets 1:31.373 to take Singapore Grand Prix pole by 0.054s over Leclerc. Hamilton qualifies third, Antonelli fourth; Russell is sixth before his Sunday grid penalty.",
+      "deck": "Verstappen starts on pole ahead of Leclerc and Hamilton. Russell drops to 21st after a 40-place power-unit penalty; Hadjar starts 22nd.",
       "published": "Oct 10, 2026",
       "updated": "Oct 10, 2026",
       "canonicalUrl": "https://paddockcommand.com/2026-singapore-gp-qualifying-verstappen-50th-pole-ferrari-front-row.html",
@@ -95,7 +95,8 @@
           "type": "paragraph",
           "text": "The official Formula 1 qualifying classification and Reuters report confirm the pole and lap times. The final Sunday starting grid is subject to grid penalties and subsequent stewards decisions."
         }
-      ]
+      ],
+      "raceDayUpdate": "October 11: Official starting grid confirms Russell P21 and Hadjar P22. Verstappen P1, Leclerc P2, Hamilton P3, Antonelli P4. Championship lead remains Antonelli +89."
     },
     {
       "id": "singapore-sprint-debrief-2026",

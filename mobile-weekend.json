@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "weekendVersion": "2026.10.10.2",
-  "generatedAt": "2026-10-10T08:12:00-07:00",
-  "statusLabel": "Singapore Grand Prix qualifying complete · Sunday race next",
+  "weekendVersion": "2026.10.11.1",
+  "generatedAt": "2026-10-11T11:24:00+08:00",
+  "statusLabel": "Singapore Grand Prix · Official Sunday starting grid confirmed",
   "state": "in_progress",
   "race": {
     "round": 17,
@@ -383,8 +383,8 @@
     },
     {
       "label": "GRID PENALTY",
-      "title": "Russell P6 on qualifying times, Sunday penalty pending",
-      "text": "Russell qualified sixth but has a separate power-unit grid penalty. Consult the official starting grid for his final slot."
+      "title": "Russell starts P21 after 40-place penalty",
+      "text": "The official Sunday grid places Russell 21st and Hadjar 22nd. Verstappen starts on pole ahead of Leclerc and Hamilton."
     },
     {
       "label": "CHAMPIONSHIP",
@@ -539,5 +539,96 @@
     "Saturday Sprint completed over 20 laps after a rain delay. The Sprint result and Antonelli’s 89-point lead remain unchanged.",
     "Sunday Grand Prix is scheduled for 20:00 Singapore local time (12:00 UTC); check for race-control updates.",
     "Editorial feed only; official Formula 1 classifications and stewards documents remain authoritative."
-  ]
+  ],
+  "startingGrid": [
+    {
+      "position": 1,
+      "driver": "Max Verstappen"
+    },
+    {
+      "position": 2,
+      "driver": "Charles Leclerc"
+    },
+    {
+      "position": 3,
+      "driver": "Lewis Hamilton"
+    },
+    {
+      "position": 4,
+      "driver": "Kimi Antonelli"
+    },
+    {
+      "position": 5,
+      "driver": "Lando Norris"
+    },
+    {
+      "position": 6,
+      "driver": "Oscar Piastri"
+    },
+    {
+      "position": 7,
+      "driver": "Pierre Gasly"
+    },
+    {
+      "position": 8,
+      "driver": "Liam Lawson"
+    },
+    {
+      "position": 9,
+      "driver": "Arvid Lindblad"
+    },
+    {
+      "position": 10,
+      "driver": "Nico Hulkenberg"
+    },
+    {
+      "position": 11,
+      "driver": "Oliver Bearman"
+    },
+    {
+      "position": 12,
+      "driver": "Esteban Ocon"
+    },
+    {
+      "position": 13,
+      "driver": "Carlos Sainz"
+    },
+    {
+      "position": 14,
+      "driver": "Gabriel Bortoleto"
+    },
+    {
+      "position": 15,
+      "driver": "Franco Colapinto"
+    },
+    {
+      "position": 16,
+      "driver": "Fernando Alonso"
+    },
+    {
+      "position": 17,
+      "driver": "Alexander Albon"
+    },
+    {
+      "position": 18,
+      "driver": "Lance Stroll"
+    },
+    {
+      "position": 19,
+      "driver": "Sergio Perez"
+    },
+    {
+      "position": 20,
+      "driver": "Valtteri Bottas"
+    },
+    {
+      "position": 21,
+      "driver": "George Russell"
+    },
+    {
+      "position": 22,
+      "driver": "Isack Hadjar"
+    }
+  ],
+  "startingGridSource": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
 }
