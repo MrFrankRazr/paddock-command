@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.11.3",
-  "generatedAt": "2026-10-11T22:20:00+08:00",
+  "feedVersion": "2026.10.11.4",
+  "generatedAt": "2026-10-11T19:11:06Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -35,8 +35,8 @@
         "id": "title-watch",
         "label": "WATCH POINT 02",
         "tag": "CHAMPIONSHIP",
-        "title": "Antonelli extends lead to 102",
-        "summary": "Antonelli 340, Russell 238. The title can be decided at Austin if the required results occur."
+        "title": "Antonelli can clinch in Austin",
+        "summary": "Antonelli leads Russell by 102. A win in Austin seals the title if Russell is P9 or lower and Hamilton P5 or lower; Antonelli needs a lead of at least 125 after the race."
       },
       {
         "id": "constructors-watch",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.11.3",
-  "generatedAt": "2026-10-11T22:20:00+08:00",
+  "contentVersion": "2026.10.11.4",
+  "generatedAt": "2026-10-11T19:11:06Z",
   "articles": [
     {
       "id": "singapore-gp-race-2026",
@@ -60,12 +60,24 @@
           "text": "Leclerc secured second place for Ferrari after a race shaped by tyre management and the timing of pit stops. Lewis Hamilton, who qualified third, spent much of the race in podium contention but struggled for pace late on. Antonelli, Lando Norris and Oscar Piastri all moved ahead as Hamilton fell to sixth. Ferrari still scored 26 Grand Prix points through Leclerc and Hamilton."
         },
         {
+          "type": "paragraph",
+          "text": "Post-race strategy confirmation: Hamilton said Ferrari called him in under the Virtual Safety Car, but he missed pit entry and chose to stay out on ageing soft tyres. He lost three places late on and accepted responsibility. Team principal Fred Vasseur confirmed Ferrari intended to pit both cars."
+        },
+        {
           "type": "heading",
           "text": "Antonelli takes third and extends his championship lead"
         },
         {
           "type": "paragraph",
-          "text": "Kimi Antonelli moved onto the podium in the closing stages and finished third for Mercedes. George Russell recovered from 19th on the starting grid to finish ninth, scoring two points. Antonelli now has 340 points to Russell’s 238, increasing his lead from 89 to 102. The Italian could mathematically secure the Drivers’ Championship at the United States Grand Prix, depending on the results in Austin."
+          "text": "Kimi Antonelli moved onto the podium in the closing stages and finished third for Mercedes. George Russell recovered from 19th on the starting grid to finish ninth, scoring two points. Antonelli now has 340 points to Russell’s 238, increasing his lead from 89 to 102. The Italian has his first mathematical opportunity to clinch the Drivers’ Championship at Austin on October 25."
+        },
+        {
+          "type": "heading",
+          "text": "Austin title watch: the exact clinching scenario"
+        },
+        {
+          "type": "paragraph",
+          "text": "Antonelli has 340 points, Russell 238 and Hamilton 229. Formula 1 confirms Antonelli must leave Austin at least 125 points clear of his nearest rival, with five Grands Prix remaining. One decisive combination is an Antonelli win, Russell P9 or lower and Hamilton P5 or lower. That would put Antonelli on 365 points and at least 125 clear of Russell. Winning alone would not guarantee the title. The United States Grand Prix is October 23–25."
         },
         {
           "type": "heading",
@@ -89,7 +101,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Formula 1 returns for the United States Grand Prix at Circuit of the Americas on October 23–25. The next editorial priorities are any post-race stewards decisions, the updated championship picture, and the Austin title-clinch scenarios. This report reflects Formula 1’s published race finishing order; any subsequent official classification amendments should be incorporated when confirmed."
+          "text": "Formula 1 returns for the United States Grand Prix at Circuit of the Americas on October 23–25. The next editorial priorities are any post-race stewards decisions, Mercedes’ Austin upgrade performance, and the newly defined title-clinch scenario. This report reflects Formula 1’s published race finishing order; any subsequent official classification amendments should be incorporated when confirmed."
         },
         {
           "type": "heading",
@@ -105,7 +117,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Formula 1 race report and official championship standings, October 11. Monitor subsequent FIA decisions."
+          "text": "Formula 1 race report, official standings, October 11 Antonelli title-clinch confirmation, and Hamilton/Ferrari post-race statements. Monitor subsequent FIA decisions."
         }
       ]
     },
