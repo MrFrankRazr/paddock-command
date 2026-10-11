@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "weekendVersion": "2026.10.11.1",
-  "generatedAt": "2026-10-11T11:24:00+08:00",
-  "statusLabel": "Singapore Grand Prix · Official Sunday starting grid confirmed",
-  "state": "in_progress",
+  "weekendVersion": "2026.10.11.3",
+  "generatedAt": "2026-10-11T22:20:00+08:00",
+  "statusLabel": "Singapore Grand Prix · Race completed · Result published",
+  "state": "completed",
   "race": {
     "round": 17,
     "name": "Singapore Grand Prix",
@@ -343,8 +343,69 @@
       "shortName": "RACE",
       "date": "Sun Oct 11",
       "localTime": "20:00",
-      "status": "upcoming",
-      "classification": [],
+      "status": "completed",
+      "classification": [
+        {
+          "position": 1,
+          "driver": "Max Verstappen",
+          "team": "Red Bull Racing",
+          "time": "1:42:00.785"
+        },
+        {
+          "position": 2,
+          "driver": "Charles Leclerc",
+          "team": "Ferrari",
+          "time": "+7.335s"
+        },
+        {
+          "position": 3,
+          "driver": "Kimi Antonelli",
+          "team": "Mercedes",
+          "time": "+24.573s"
+        },
+        {
+          "position": 4,
+          "driver": "Lando Norris",
+          "team": "McLaren",
+          "time": "+40.506s"
+        },
+        {
+          "position": 5,
+          "driver": "Oscar Piastri",
+          "team": "McLaren",
+          "time": "+49.644s"
+        },
+        {
+          "position": 6,
+          "driver": "Lewis Hamilton",
+          "team": "Ferrari",
+          "time": "—"
+        },
+        {
+          "position": 7,
+          "driver": "Liam Lawson",
+          "team": "Racing Bulls",
+          "time": "—"
+        },
+        {
+          "position": 8,
+          "driver": "Nico Hulkenberg",
+          "team": "Audi",
+          "time": "—"
+        },
+        {
+          "position": 9,
+          "driver": "George Russell",
+          "team": "Mercedes",
+          "time": "—"
+        },
+        {
+          "position": 10,
+          "driver": "Isack Hadjar",
+          "team": "Red Bull Racing",
+          "time": "—"
+        }
+      ],
       "startsAtUtc": "2026-10-11T12:00:00Z"
     }
   ],
@@ -377,168 +438,96 @@
   },
   "commandBrief": [
     {
-      "label": "GRAND PRIX QUALIFYING",
-      "title": "Verstappen takes 50th career pole",
-      "text": "Verstappen P1 in 1:31.373, Leclerc P2 (+0.054s), Hamilton P3 and Antonelli P4."
-    },
-    {
-      "label": "GRID PENALTY",
-      "title": "Russell starts P21 after 40-place penalty",
-      "text": "The official Sunday grid places Russell 21st and Hadjar 22nd. Verstappen starts on pole ahead of Leclerc and Hamilton."
+      "label": "GRAND PRIX RESULT",
+      "title": "Verstappen wins from pole",
+      "text": "Verstappen P1, Leclerc P2 (+7.335s), Antonelli P3. Verstappen claims his 73rd Grand Prix win."
     },
     {
       "label": "CHAMPIONSHIP",
-      "title": "Antonelli leads by 89 after Sprint",
-      "text": "Antonelli 325, Russell 236. Qualifying awards no championship points; the Sunday Grand Prix is scheduled for 20:00 local time."
+      "title": "Antonelli leads by 102",
+      "text": "Antonelli 340 points, Russell 238. Russell recovers from P19 to finish ninth."
+    },
+    {
+      "label": "CONSTRUCTORS",
+      "title": "McLaren–Red Bull gap: 7",
+      "text": "McLaren 339, Red Bull 332 after the Singapore Grand Prix."
     }
   ],
   "latestClassification": {
-    "sessionId": "qualifying",
-    "sessionName": "Singapore Grand Prix · Qualifying",
+    "sessionId": "race",
+    "sessionName": "Singapore Grand Prix · Race",
     "published": true,
-    "message": "Official qualifying classification: Verstappen P1 (1:31.373), Leclerc P2, Hamilton P3, Antonelli P4. Grid penalties are separate; this is not the final Sunday starting grid.",
+    "message": "Formula 1 race report finishing order: Verstappen wins ahead of Leclerc and Antonelli. FIA amendments, if any, supersede this summary.",
     "results": [
       {
         "position": 1,
         "driver": "Max Verstappen",
         "team": "Red Bull Racing",
-        "time": "1:31.373"
+        "time": "1:42:00.785"
       },
       {
         "position": 2,
         "driver": "Charles Leclerc",
         "team": "Ferrari",
-        "time": "1:31.427"
+        "time": "+7.335s"
       },
       {
         "position": 3,
-        "driver": "Lewis Hamilton",
-        "team": "Ferrari",
-        "time": "1:31.496"
+        "driver": "Kimi Antonelli",
+        "team": "Mercedes",
+        "time": "+24.573s"
       },
       {
         "position": 4,
-        "driver": "Kimi Antonelli",
-        "team": "Mercedes",
-        "time": "1:31.562"
+        "driver": "Lando Norris",
+        "team": "McLaren",
+        "time": "+40.506s"
       },
       {
         "position": 5,
-        "driver": "Lando Norris",
+        "driver": "Oscar Piastri",
         "team": "McLaren",
-        "time": "1:31.712"
+        "time": "+49.644s"
       },
       {
         "position": 6,
-        "driver": "George Russell",
-        "team": "Mercedes",
-        "time": "1:31.747"
+        "driver": "Lewis Hamilton",
+        "team": "Ferrari",
+        "time": "—"
       },
       {
         "position": 7,
-        "driver": "Oscar Piastri",
-        "team": "McLaren",
-        "time": "1:31.860"
+        "driver": "Liam Lawson",
+        "team": "Racing Bulls",
+        "time": "—"
       },
       {
         "position": 8,
-        "driver": "Pierre Gasly",
-        "team": "Alpine",
-        "time": "1:32.225"
+        "driver": "Nico Hulkenberg",
+        "team": "Audi",
+        "time": "—"
       },
       {
         "position": 9,
-        "driver": "Liam Lawson",
-        "team": "Racing Bulls",
-        "time": "1:32.369"
+        "driver": "George Russell",
+        "team": "Mercedes",
+        "time": "—"
       },
       {
         "position": 10,
-        "driver": "Arvid Lindblad",
-        "team": "Racing Bulls",
-        "time": "1:32.781"
-      },
-      {
-        "position": 11,
-        "driver": "Nico Hulkenberg",
-        "team": "Audi",
-        "time": "1:32.784 (Q2)"
-      },
-      {
-        "position": 12,
-        "driver": "Oliver Bearman",
-        "team": "Haas F1 Team",
-        "time": "1:32.908 (Q2)"
-      },
-      {
-        "position": 13,
-        "driver": "Esteban Ocon",
-        "team": "Haas F1 Team",
-        "time": "1:33.323 (Q2)"
-      },
-      {
-        "position": 14,
-        "driver": "Carlos Sainz",
-        "team": "Williams",
-        "time": "1:33.526 (Q2)"
-      },
-      {
-        "position": 15,
-        "driver": "Gabriel Bortoleto",
-        "team": "Audi",
-        "time": "1:33.658 (Q2)"
-      },
-      {
-        "position": 16,
-        "driver": "Franco Colapinto",
-        "team": "Alpine",
-        "time": "1:33.787 (Q2)"
-      },
-      {
-        "position": 17,
-        "driver": "Fernando Alonso",
-        "team": "Aston Martin",
-        "time": "1:34.223 (Q1)"
-      },
-      {
-        "position": 18,
-        "driver": "Alexander Albon",
-        "team": "Williams",
-        "time": "1:34.289 (Q1)"
-      },
-      {
-        "position": 19,
-        "driver": "Lance Stroll",
-        "team": "Aston Martin",
-        "time": "1:34.946 (Q1)"
-      },
-      {
-        "position": 20,
-        "driver": "Sergio Perez",
-        "team": "Cadillac",
-        "time": "1:35.123 (Q1)"
-      },
-      {
-        "position": 21,
-        "driver": "Valtteri Bottas",
-        "team": "Cadillac",
-        "time": "1:35.984 (Q1)"
-      },
-      {
-        "position": 22,
         "driver": "Isack Hadjar",
         "team": "Red Bull Racing",
-        "time": "No time (Q1)"
+        "time": "—"
       }
     ]
   },
   "notes": [
-    "Grand Prix qualifying is complete. The classification records lap times, not the penalty-adjusted Sunday starting grid.",
-    "Verstappen claimed his 50th career Grand Prix pole with 1:31.373; Leclerc +0.054s and Hamilton +0.123s.",
-    "Russell qualified sixth but has a separate Sunday power-unit grid penalty. Final grid position requires official confirmation.",
-    "Saturday Sprint completed over 20 laps after a rain delay. The Sprint result and Antonelli’s 89-point lead remain unchanged.",
-    "Sunday Grand Prix is scheduled for 20:00 Singapore local time (12:00 UTC); check for race-control updates.",
-    "Editorial feed only; official Formula 1 classifications and stewards documents remain authoritative."
+    "Singapore Grand Prix completed October 11. Verstappen won ahead of Leclerc and Antonelli; Formula 1 race report is the finishing-order source.",
+    "Verstappen won his 73rd Grand Prix on his 250th Grand Prix start, following Saturday’s Singapore Sprint victory.",
+    "Antonelli leads Russell by 102 points (340–238). Russell started P19 after a cumulative 60-place power-unit penalty and finished ninth.",
+    "Hadjar started from the pit lane and finished tenth. The October 11 pre-race grid references are historical, not the current race status.",
+    "Next race: United States Grand Prix, October 23–25, at Circuit of the Americas.",
+    "Editorial result; monitor official FIA classification and stewards decisions for any later amendments."
   ],
   "startingGrid": [
     {
@@ -603,31 +592,34 @@
     },
     {
       "position": 16,
-      "driver": "Fernando Alonso"
-    },
-    {
-      "position": 17,
       "driver": "Alexander Albon"
     },
     {
-      "position": 18,
-      "driver": "Lance Stroll"
-    },
-    {
-      "position": 19,
+      "position": 17,
       "driver": "Sergio Perez"
     },
     {
-      "position": 20,
+      "position": 18,
       "driver": "Valtteri Bottas"
     },
     {
-      "position": 21,
+      "position": 19,
       "driver": "George Russell"
     },
     {
+      "position": 20,
+      "driver": "Fernando Alonso",
+      "startType": "pit_lane"
+    },
+    {
+      "position": 21,
+      "driver": "Lance Stroll",
+      "startType": "pit_lane"
+    },
+    {
       "position": 22,
-      "driver": "Isack Hadjar"
+      "driver": "Isack Hadjar",
+      "startType": "pit_lane"
     }
   ],
   "startingGridSource": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"

@@ -1,61 +1,71 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.11.1",
-  "generatedAt": "2026-10-11T11:24:00+08:00",
+  "feedVersion": "2026.10.11.3",
+  "generatedAt": "2026-10-11T22:20:00+08:00",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
   },
   "nextRace": {
-    "round": 17,
-    "name": "Singapore Grand Prix",
-    "circuit": "Marina Bay Street Circuit",
-    "countryCode": "SGP",
-    "dates": "Oct 9–11",
+    "round": 18,
+    "name": "United States Grand Prix",
+    "circuit": "Circuit of the Americas",
+    "countryCode": "USA",
+    "dates": "Oct 23–25",
     "championshipLeader": {
       "name": "Kimi Antonelli",
       "shortName": "Antonelli",
-      "points": 325,
-      "leadPoints": 89
+      "points": 340,
+      "leadPoints": 102
     }
   },
   "raceIntelligence": {
-    "headline": "Verstappen Leads Singapore Grid — Russell Starts 21st",
-    "summary": "Verstappen starts from pole ahead of Leclerc and Hamilton; Antonelli P4. Russell starts 21st after a 40-place power-unit penalty, with Hadjar 22nd.",
-    "updatedLabel": "Updated Oct 11, 2026 · Official starting grid confirmed",
+    "headline": "Verstappen Wins Singapore GP — Antonelli Leads by 102",
+    "summary": "Verstappen completes a Singapore Sprint-and-Grand-Prix double, winning ahead of Leclerc and Antonelli. The championship leader moves 102 points clear of Russell; Red Bull trails McLaren by seven.",
+    "updatedLabel": "Updated Oct 11, 2026 · Singapore Grand Prix result",
     "watchPoints": [
       {
-        "id": "gp-qualifying",
+        "id": "singapore-race",
         "label": "WATCH POINT 01",
-        "tag": "GRAND PRIX POLE",
-        "title": "Verstappen takes 50th career pole",
-        "summary": "Verstappen posts 1:31.373 and beats Leclerc by 0.054s; Hamilton is third, Antonelli fourth."
+        "tag": "RACE RESULT",
+        "title": "Verstappen completes Singapore double",
+        "summary": "Verstappen wins the Grand Prix ahead of Leclerc and Antonelli after Saturday’s Sprint victory."
       },
       {
-        "id": "sunday-grid",
+        "id": "title-watch",
         "label": "WATCH POINT 02",
-        "tag": "STARTING GRID",
-        "title": "Russell starts 21st; Hadjar 22nd",
-        "summary": "Official F1 starting grid confirms Russell P21 after a 40-place power-unit penalty and Hadjar P22."
+        "tag": "CHAMPIONSHIP",
+        "title": "Antonelli extends lead to 102",
+        "summary": "Antonelli 340, Russell 238. The title can be decided at Austin if the required results occur."
       },
       {
-        "id": "championship",
+        "id": "constructors-watch",
         "label": "WATCH POINT 03",
-        "tag": "CHAMPIONSHIP",
-        "title": "Antonelli leads Russell by 89 points",
-        "summary": "The post-Sprint standings remain Antonelli 325, Russell 236. Qualifying awards no points."
+        "tag": "CONSTRUCTORS",
+        "title": "Red Bull closes on McLaren",
+        "summary": "McLaren 339, Red Bull 332 — seven points separate third and fourth."
       }
     ]
   },
   "articles": [
     {
+      "id": "singapore-gp-race-2026",
+      "category": "POST-RACE DEBRIEF",
+      "context": "SINGAPORE",
+      "title": "Verstappen Wins Singapore Grand Prix as Antonelli Extends Title Lead to 102 Points",
+      "summary": "Verstappen completes a Singapore Sprint-and-Grand-Prix double, winning ahead of Leclerc and Antonelli. The championship leader moves 102 points clear of Russell; Red Bull trails McLaren by seven.",
+      "url": "https://paddockcommand.com/2026-singapore-grand-prix-verstappen-win-antonelli-title-lead.html",
+      "updated": "2026-10-11",
+      "nativeReader": true
+    },
+    {
       "id": "singapore-gp-qualifying-2026",
       "category": "GRAND PRIX QUALIFYING",
       "context": "SINGAPORE",
       "title": "Verstappen Takes 50th Career Pole in Singapore as Ferrari Locks Out P2 and P3",
-      "summary": "Verstappen sets 1:31.373 to take Singapore Grand Prix pole by 0.054s over Leclerc. Hamilton qualifies third, Antonelli fourth; Russell is sixth before his Sunday grid penalty.",
+      "summary": "Verstappen took his 50th pole. Russell qualified sixth but started P19 after a cumulative 60-place power-unit penalty; the Grand Prix was subsequently won by Verstappen.",
       "url": "https://paddockcommand.com/2026-singapore-gp-qualifying-verstappen-50th-pole-ferrari-front-row.html",
-      "updated": "2026-10-10",
+      "updated": "2026-10-11",
       "nativeReader": true
     },
     {

@@ -1,16 +1,122 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.11.1",
-  "generatedAt": "2026-10-11T11:24:00+08:00",
+  "contentVersion": "2026.10.11.3",
+  "generatedAt": "2026-10-11T22:20:00+08:00",
   "articles": [
+    {
+      "id": "singapore-gp-race-2026",
+      "category": "POST-RACE DEBRIEF",
+      "context": "SINGAPORE",
+      "title": "Verstappen Wins Singapore Grand Prix as Antonelli Extends Title Lead to 102 Points",
+      "deck": "Verstappen completes a Singapore Sprint-and-Grand-Prix double, winning ahead of Leclerc and Antonelli. The championship leader moves 102 points clear of Russell; Red Bull trails McLaren by seven.",
+      "published": "Oct 11, 2026",
+      "updated": "Oct 11, 2026",
+      "canonicalUrl": "https://paddockcommand.com/2026-singapore-grand-prix-verstappen-win-antonelli-title-lead.html",
+      "facts": [
+        {
+          "label": "WINNER",
+          "value": "Verstappen · 73rd win"
+        },
+        {
+          "label": "P2",
+          "value": "Leclerc · +7.335s"
+        },
+        {
+          "label": "P3",
+          "value": "Antonelli · 340 pts"
+        },
+        {
+          "label": "TITLE GAP",
+          "value": "Antonelli +102"
+        }
+      ],
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Max Verstappen won the Singapore Grand Prix ahead of Charles Leclerc and Kimi Antonelli. The victory completed a Sprint-and-Grand-Prix double and extended the Red Bull driver’s recent winning streak."
+        },
+        {
+          "type": "heading",
+          "text": "The first-corner defence that secured control"
+        },
+        {
+          "type": "paragraph",
+          "text": "Max Verstappen converted pole position into victory at Marina Bay, holding off a fast-starting Charles Leclerc as the Ferrari challenged into the opening corner. Once the Red Bull driver retained the lead, he gradually built a cushion while managing the soft-compound tyres. He remained in command through the pit-stop cycle and finished 7.335 seconds ahead of Leclerc."
+        },
+        {
+          "type": "heading",
+          "text": "A controlled drive through tyre strategy and radio trouble"
+        },
+        {
+          "type": "paragraph",
+          "text": "Verstappen stopped on lap 33 and switched from soft to medium tyres without surrendering track position. Later radio difficulties forced Red Bull to use alternative communication methods, but the issue did not derail the victory. His winning time was 1:42:00.785. The result is his 73rd Formula 1 Grand Prix victory, achieved on his 250th Grand Prix start, and his first win at Singapore."
+        },
+        {
+          "type": "heading",
+          "text": "Leclerc delivers second as Hamilton fades to sixth"
+        },
+        {
+          "type": "paragraph",
+          "text": "Leclerc secured second place for Ferrari after a race shaped by tyre management and the timing of pit stops. Lewis Hamilton, who qualified third, spent much of the race in podium contention but struggled for pace late on. Antonelli, Lando Norris and Oscar Piastri all moved ahead as Hamilton fell to sixth. Ferrari still scored 26 Grand Prix points through Leclerc and Hamilton."
+        },
+        {
+          "type": "heading",
+          "text": "Antonelli takes third and extends his championship lead"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kimi Antonelli moved onto the podium in the closing stages and finished third for Mercedes. George Russell recovered from 19th on the starting grid to finish ninth, scoring two points. Antonelli now has 340 points to Russell’s 238, increasing his lead from 89 to 102. The Italian could mathematically secure the Drivers’ Championship at the United States Grand Prix, depending on the results in Austin."
+        },
+        {
+          "type": "heading",
+          "text": "McLaren gains points, but Red Bull closes the gap"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lando Norris finished fourth and Oscar Piastri fifth, giving McLaren 22 Grand Prix points after its difficult Singapore Sprint. Verstappen’s win and Isack Hadjar’s tenth place delivered 26 points for Red Bull. The Constructors’ Championship now shows McLaren third on 339 points and Red Bull fourth on 332 — a margin of only seven points. Mercedes leads with 578, ahead of Ferrari on 444."
+        },
+        {
+          "type": "heading",
+          "text": "Driver-form watch: Verstappen carries the momentum to Austin"
+        },
+        {
+          "type": "paragraph",
+          "text": "Verstappen leaves Singapore with consecutive Grand Prix victories after his win at Sepang, plus the Singapore Sprint win and his 50th career Grand Prix pole. Antonelli’s third place consolidates his championship position despite the renewed Red Bull threat. Leclerc’s second place underlines Ferrari’s competitiveness, while Hamilton’s late decline and Russell’s recovery illustrate how differently the race unfolded for drivers starting near the front and back."
+        },
+        {
+          "type": "heading",
+          "text": "What comes next"
+        },
+        {
+          "type": "paragraph",
+          "text": "Formula 1 returns for the United States Grand Prix at Circuit of the Americas on October 23–25. The next editorial priorities are any post-race stewards decisions, the updated championship picture, and the Austin title-clinch scenarios. This report reflects Formula 1’s published race finishing order; any subsequent official classification amendments should be incorporated when confirmed."
+        },
+        {
+          "type": "heading",
+          "text": "Singapore Grand Prix top 10"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Max Verstappen (25 pts); 2. Charles Leclerc (18 pts); 3. Kimi Antonelli (15 pts); 4. Lando Norris (12 pts); 5. Oscar Piastri (10 pts); 6. Lewis Hamilton (8 pts); 7. Liam Lawson (6 pts); 8. Nico Hulkenberg (4 pts); 9. George Russell (2 pts); 10. Isack Hadjar (1 pts)"
+        },
+        {
+          "type": "heading",
+          "text": "Verification"
+        },
+        {
+          "type": "paragraph",
+          "text": "Formula 1 race report and official championship standings, October 11. Monitor subsequent FIA decisions."
+        }
+      ]
+    },
     {
       "id": "singapore-gp-qualifying-2026",
       "category": "GRAND PRIX QUALIFYING",
       "context": "SINGAPORE",
       "title": "Verstappen Takes 50th Career Pole in Singapore as Ferrari Locks Out P2 and P3",
-      "deck": "Verstappen starts on pole ahead of Leclerc and Hamilton. Russell drops to 21st after a 40-place power-unit penalty; Hadjar starts 22nd.",
+      "deck": "Verstappen took his 50th Grand Prix pole; Russell later started P19 after a cumulative 60-place power-unit penalty. Verstappen subsequently won the Grand Prix.",
       "published": "Oct 10, 2026",
-      "updated": "Oct 10, 2026",
+      "updated": "Oct 11, 2026",
       "canonicalUrl": "https://paddockcommand.com/2026-singapore-gp-qualifying-verstappen-50th-pole-ferrari-front-row.html",
       "facts": [
         {
@@ -31,6 +137,14 @@
         }
       ],
       "sections": [
+        {
+          "type": "heading",
+          "text": "October 11 race-day correction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Russell started P19 following a cumulative 60-place power-unit penalty; Hadjar started from the pit lane. Verstappen won the Grand Prix ahead of Leclerc and Antonelli. Current championship gap: Antonelli +102."
+        },
         {
           "type": "heading",
           "text": "Verstappen converts Sprint momentum into a milestone pole"

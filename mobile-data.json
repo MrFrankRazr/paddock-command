@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "2026.10.10.1",
-  "generatedAt": "2026-10-10T04:16:18-07:00",
+  "dataVersion": "2026.10.11.2",
+  "generatedAt": "2026-10-11T22:20:00+08:00",
   "season": 2026,
-  "completedRound": 16,
-  "currentRound": 17,
+  "completedRound": 17,
+  "currentRound": 18,
   "totalRounds": 23,
-  "statusLabel": "Round 16 Grand Prix complete · Singapore Sprint results included; Round 17 Grand Prix pending",
+  "statusLabel": "Round 17 Singapore GP complete · Round 18 United States GP next",
   "drivers": [
     {
       "position": 1,
@@ -16,7 +16,7 @@
       "number": "12",
       "nationality": "ITA",
       "team": "Mercedes",
-      "points": 325,
+      "points": 340,
       "wins": 8,
       "gap": "LEADER"
     },
@@ -28,9 +28,9 @@
       "number": "63",
       "nationality": "GBR",
       "team": "Mercedes",
-      "points": 236,
+      "points": 238,
       "wins": 3,
-      "gap": "-89"
+      "gap": "-102"
     },
     {
       "position": 3,
@@ -40,33 +40,33 @@
       "number": "44",
       "nationality": "GBR",
       "team": "Ferrari",
-      "points": 221,
+      "points": 229,
       "wins": 1,
-      "gap": "-104"
+      "gap": "-111"
     },
     {
       "position": 4,
-      "id": "leclerc",
-      "name": "Charles Leclerc",
-      "code": "LEC",
-      "number": "16",
-      "nationality": "MON",
-      "team": "Ferrari",
-      "points": 197,
-      "wins": 1,
-      "gap": "-128"
-    },
-    {
-      "position": 5,
       "id": "max_verstappen",
       "name": "Max Verstappen",
       "code": "VER",
       "number": "3",
       "nationality": "NED",
       "team": "Red Bull Racing",
-      "points": 196,
+      "points": 221,
+      "wins": 2,
+      "gap": "-119"
+    },
+    {
+      "position": 5,
+      "id": "leclerc",
+      "name": "Charles Leclerc",
+      "code": "LEC",
+      "number": "16",
+      "nationality": "MON",
+      "team": "Ferrari",
+      "points": 215,
       "wins": 1,
-      "gap": "-129"
+      "gap": "-125"
     },
     {
       "position": 6,
@@ -76,9 +76,9 @@
       "number": "1",
       "nationality": "GBR",
       "team": "McLaren",
-      "points": 189,
+      "points": 201,
       "wins": 2,
-      "gap": "-136"
+      "gap": "-139"
     },
     {
       "position": 7,
@@ -88,9 +88,9 @@
       "number": "81",
       "nationality": "AUS",
       "team": "McLaren",
-      "points": 128,
+      "points": 138,
       "wins": 0,
-      "gap": "-197"
+      "gap": "-202"
     },
     {
       "position": 8,
@@ -100,9 +100,9 @@
       "number": "6",
       "nationality": "FRA",
       "team": "Red Bull Racing",
-      "points": 96,
+      "points": 97,
       "wins": 0,
-      "gap": "-229"
+      "gap": "-243"
     },
     {
       "position": 9,
@@ -112,9 +112,9 @@
       "number": "30",
       "nationality": "NZL",
       "team": "Racing Bulls",
-      "points": 69,
+      "points": 75,
       "wins": 0,
-      "gap": "-256"
+      "gap": "-265"
     },
     {
       "position": 10,
@@ -126,7 +126,7 @@
       "team": "Alpine",
       "points": 41,
       "wins": 0,
-      "gap": "-284"
+      "gap": "-299"
     },
     {
       "position": 11,
@@ -138,7 +138,7 @@
       "team": "Racing Bulls",
       "points": 38,
       "wins": 0,
-      "gap": "-287"
+      "gap": "-302"
     },
     {
       "position": 12,
@@ -150,7 +150,7 @@
       "team": "Alpine",
       "points": 27,
       "wins": 0,
-      "gap": "-298"
+      "gap": "-313"
     },
     {
       "position": 13,
@@ -162,10 +162,22 @@
       "team": "Haas F1 Team",
       "points": 23,
       "wins": 0,
-      "gap": "-302"
+      "gap": "-317"
     },
     {
       "position": 14,
+      "id": "hulkenberg",
+      "name": "Nico Hulkenberg",
+      "code": "HUL",
+      "number": "27",
+      "nationality": "GER",
+      "team": "Audi",
+      "points": 13,
+      "wins": 0,
+      "gap": "-327"
+    },
+    {
+      "position": 15,
       "id": "bortoleto",
       "name": "Gabriel Bortoleto",
       "code": "BOR",
@@ -174,19 +186,7 @@
       "team": "Audi",
       "points": 10,
       "wins": 0,
-      "gap": "-315"
-    },
-    {
-      "position": 15,
-      "id": "hulkenberg",
-      "name": "Nico Hulkenberg",
-      "code": "HUL",
-      "number": "27",
-      "nationality": "GER",
-      "team": "Audi",
-      "points": 9,
-      "wins": 0,
-      "gap": "-316"
+      "gap": "-330"
     },
     {
       "position": 16,
@@ -198,7 +198,7 @@
       "team": "Haas F1 Team",
       "points": 7,
       "wins": 0,
-      "gap": "-318"
+      "gap": "-333"
     },
     {
       "position": 17,
@@ -210,7 +210,7 @@
       "team": "Aston Martin",
       "points": 7,
       "wins": 0,
-      "gap": "-318"
+      "gap": "-333"
     },
     {
       "position": 18,
@@ -222,7 +222,7 @@
       "team": "Williams",
       "points": 7,
       "wins": 0,
-      "gap": "-318"
+      "gap": "-333"
     },
     {
       "position": 19,
@@ -234,7 +234,7 @@
       "team": "Williams",
       "points": 5,
       "wins": 0,
-      "gap": "-320"
+      "gap": "-335"
     },
     {
       "position": 20,
@@ -246,7 +246,7 @@
       "team": "Racing Bulls",
       "points": 1,
       "wins": 0,
-      "gap": "-324"
+      "gap": "-339"
     },
     {
       "position": 21,
@@ -258,7 +258,7 @@
       "team": "Aston Martin",
       "points": 0,
       "wins": 0,
-      "gap": "-325"
+      "gap": "-340"
     },
     {
       "position": 22,
@@ -270,7 +270,7 @@
       "team": "Cadillac",
       "points": 0,
       "wins": 0,
-      "gap": "-325"
+      "gap": "-340"
     },
     {
       "position": 23,
@@ -282,7 +282,7 @@
       "team": "Cadillac",
       "points": 0,
       "wins": 0,
-      "gap": "-325"
+      "gap": "-340"
     }
   ],
   "constructors": [
@@ -290,7 +290,7 @@
       "position": 1,
       "id": "mercedes",
       "name": "Mercedes",
-      "points": 561,
+      "points": 578,
       "wins": 11,
       "gap": "LEADER"
     },
@@ -298,33 +298,33 @@
       "position": 2,
       "id": "ferrari",
       "name": "Ferrari",
-      "points": 418,
+      "points": 444,
       "wins": 2,
-      "gap": "-143"
+      "gap": "-134"
     },
     {
       "position": 3,
       "id": "mclaren",
       "name": "McLaren",
-      "points": 317,
+      "points": 339,
       "wins": 2,
-      "gap": "-244"
+      "gap": "-239"
     },
     {
       "position": 4,
       "id": "red_bull",
       "name": "Red Bull Racing",
-      "points": 306,
-      "wins": 1,
-      "gap": "-255"
+      "points": 332,
+      "wins": 2,
+      "gap": "-246"
     },
     {
       "position": 5,
       "id": "racing_bulls",
       "name": "Racing Bulls",
-      "points": 94,
+      "points": 100,
       "wins": 0,
-      "gap": "-467"
+      "gap": "-478"
     },
     {
       "position": 6,
@@ -332,7 +332,7 @@
       "name": "Alpine",
       "points": 68,
       "wins": 0,
-      "gap": "-493"
+      "gap": "-510"
     },
     {
       "position": 7,
@@ -340,15 +340,15 @@
       "name": "Haas F1 Team",
       "points": 30,
       "wins": 0,
-      "gap": "-531"
+      "gap": "-548"
     },
     {
       "position": 8,
       "id": "audi",
       "name": "Audi",
-      "points": 19,
+      "points": 23,
       "wins": 0,
-      "gap": "-542"
+      "gap": "-555"
     },
     {
       "position": 9,
@@ -356,7 +356,7 @@
       "name": "Williams",
       "points": 12,
       "wins": 0,
-      "gap": "-549"
+      "gap": "-566"
     },
     {
       "position": 10,
@@ -364,7 +364,7 @@
       "name": "Aston Martin",
       "points": 7,
       "wins": 0,
-      "gap": "-554"
+      "gap": "-571"
     },
     {
       "position": 11,
@@ -372,7 +372,7 @@
       "name": "Cadillac",
       "points": 0,
       "wins": 0,
-      "gap": "-561"
+      "gap": "-578"
     }
   ],
   "calendar": [
@@ -527,7 +527,7 @@
       "city": "Singapore",
       "circuit": "Marina Bay Street Circuit",
       "dates": "Oct 9–11, 2026",
-      "status": "current"
+      "status": "completed"
     },
     {
       "round": 18,
@@ -536,7 +536,7 @@
       "city": "Austin",
       "circuit": "Circuit of the Americas",
       "dates": "Oct 23–25, 2026",
-      "status": "upcoming"
+      "status": "current"
     },
     {
       "round": 19,
@@ -753,7 +753,7 @@
       "round": 17,
       "raceName": "Singapore Grand Prix",
       "dates": "Oct 9–11, 2026",
-      "status": "current"
+      "status": "completed"
     },
     {
       "id": "circuit-of-the-americas",
@@ -763,7 +763,7 @@
       "round": 18,
       "raceName": "United States Grand Prix",
       "dates": "Oct 23–25, 2026",
-      "status": "upcoming"
+      "status": "current"
     },
     {
       "id": "aut-dromo-hermanos-rodr-guez",
