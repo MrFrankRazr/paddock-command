@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.11.4",
-  "generatedAt": "2026-10-11T19:11:06Z",
+  "feedVersion": "2026.10.12.1",
+  "generatedAt": "2026-10-12T14:12:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -48,6 +48,16 @@
     ]
   },
   "articles": [
+    {
+      "id": "antonelli-austin-title-2026",
+      "category": "CHAMPIONSHIP INTELLIGENCE",
+      "context": "UNITED STATES GRAND PRIX",
+      "title": "How Antonelli Can Win the 2026 F1 Championship in Austin",
+      "summary": "Antonelli leads Russell by 102 points. Explore the precise Austin title scenarios and the remaining championship mathematics.",
+      "url": "https://paddockcommand.com/2026-antonelli-austin-championship-clinching-scenarios.html",
+      "updated": "2026-10-12",
+      "nativeReader": true
+    },
     {
       "id": "singapore-gp-race-2026",
       "category": "POST-RACE DEBRIEF",
