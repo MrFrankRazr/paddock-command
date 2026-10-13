@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.13.1",
-  "generatedAt": "2026-10-13T11:00:00Z",
+  "contentVersion": "2026.10.13.2",
+  "generatedAt": "2026-10-13T23:16:00Z",
   "articles": [
     {
       "id": "rwanda-f1-africa-2030s-2026",
@@ -58,6 +58,96 @@
         {
           "type": "paragraph",
           "text": "Formula 1 last raced in Africa at Kyalami, South Africa, in 1993. The Rwanda agreement marks a confirmed commitment to return."
+        }
+      ]
+    },
+    {
+      "id": "mclaren-2026-handling-austin-2027",
+      "category": "TECHNICAL INTELLIGENCE",
+      "context": "MCLAREN · AUSTIN · 2027",
+      "title": "McLaren Says 2026 Handling Problem Needs a 2027 Fix — Austin Upgrades Have Limits",
+      "deck": "McLaren says Austin upgrades can improve pace, but the MCL40’s handling problem needs a deeper 2027 solution as Red Bull closes to seven points.",
+      "published": "Oct 13, 2026",
+      "updated": "Oct 13, 2026",
+      "canonicalUrl": "https://paddockcommand.com/mclaren-2026-handling-problem-2027-austin-upgrades.html",
+      "facts": [
+        {
+          "label": "MCLAREN",
+          "value": "339 pts"
+        },
+        {
+          "label": "RED BULL",
+          "value": "332 pts"
+        },
+        {
+          "label": "GAP",
+          "value": "7 pts"
+        },
+        {
+          "label": "NEXT RACE",
+          "value": "Austin · Oct 25"
+        }
+      ],
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "McLaren faces a difficult split in its development priorities before the United States Grand Prix: it can make the 2026 car faster, but team principal Andrea Stella says the handling behaviour troubling Lando Norris and Oscar Piastri needs more fundamental changes that are unlikely before 2027."
+        },
+        {
+          "type": "heading",
+          "text": "The distinction between pace and driveability"
+        },
+        {
+          "type": "paragraph",
+          "text": "Speaking after the Singapore Grand Prix, Stella said that forthcoming updates could add downforce without curing the car’s underlying handling characteristics. The team is working on a longer-term solution, with the earliest opportunity identified as its 2027 car, the MCL41."
+        },
+        {
+          "type": "paragraph",
+          "text": "That does not mean McLaren has abandoned 2026 development. Aerodynamic updates are planned for Austin and subsequent races. It means the team expects to pursue extra performance while its drivers continue to work around the current car’s narrow and demanding handling window."
+        },
+        {
+          "type": "heading",
+          "text": "Why Norris and Piastri are struggling"
+        },
+        {
+          "type": "paragraph",
+          "text": "Norris described the MCL40 after Singapore as a car that requires unusually active inputs rather than naturally settling into a predictable balance. He said the demands make it difficult to assemble clean qualifying laps. Stella has also indicated that Piastri’s naturally smoother driving style is particularly challenged by the current car."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those assessments explain why an upgrade that improves lap time may not make the car easier to place consistently at the limit. The underlying causes have not been publicly specified in sufficient detail to identify a single component as the culprit."
+        },
+        {
+          "type": "heading",
+          "text": "Seven points separate McLaren and Red Bull"
+        },
+        {
+          "type": "paragraph",
+          "text": "The timing matters in the constructors’ championship. After Singapore, McLaren is third on 339 points, with Red Bull fourth on 332 — a gap of only seven. Max Verstappen won in Singapore, while Norris and Piastri finished fourth and fifth, respectively."
+        },
+        {
+          "type": "paragraph",
+          "text": "Red Bull’s recent race-winning form raises the cost of every missed opportunity. McLaren can still defend third in the standings, but its upgrades must deliver useful performance without assuming the drivers’ handling complaints will disappear."
+        },
+        {
+          "type": "heading",
+          "text": "What to watch at Austin"
+        },
+        {
+          "type": "paragraph",
+          "text": "The United States Grand Prix takes place October 23–25 at Circuit of The Americas. The important questions are whether McLaren’s new parts improve qualifying consistency and race pace, whether Norris and Piastri can extract the gains, and whether Red Bull can erase the remaining seven-point constructors’ gap."
+        },
+        {
+          "type": "paragraph",
+          "text": "There is no basis yet to claim that Austin’s updates have succeeded or failed: practice and qualifying have not taken place. The first meaningful comparison will come when both McLarens run the updated specification on track."
+        },
+        {
+          "type": "heading",
+          "text": "Paddock Command outlook"
+        },
+        {
+          "type": "paragraph",
+          "text": "McLaren’s challenge is now two-track: protect its 2026 constructors’ position while designing a more forgiving 2027 platform. Austin will measure the effectiveness of this season’s upgrades, not deliver a definitive verdict on the next car."
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.13.1",
-  "generatedAt": "2026-10-13T11:00:00Z",
+  "feedVersion": "2026.10.13.2",
+  "generatedAt": "2026-10-13T23:16:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -62,6 +62,16 @@
       "title": "Formula 1 Confirms 10-Year Rwanda Grand Prix Deal for Early 2030s",
       "summary": "Formula 1 confirms a 10-year African Grand Prix agreement with Rwanda. A new FIA Grade 1 circuit in Bugesera is planned; the first race date is not yet fixed.",
       "url": "https://paddockcommand.com/rwanda-formula-1-grand-prix-2030-reported-agreement.html",
+      "updated": "2026-10-13",
+      "nativeReader": true
+    },
+    {
+      "id": "mclaren-2026-handling-austin-2027",
+      "category": "TECHNICAL INTELLIGENCE",
+      "context": "MCLAREN · AUSTIN",
+      "title": "McLaren Says 2026 Handling Problem Needs a 2027 Fix — Austin Upgrades Have Limits",
+      "summary": "Stella says McLaren’s 2026 aero upgrades will not cure its underlying handling issue; Red Bull trails by seven constructors’ points.",
+      "url": "https://paddockcommand.com/mclaren-2026-handling-problem-2027-austin-upgrades.html",
       "updated": "2026-10-13",
       "nativeReader": true
     },
