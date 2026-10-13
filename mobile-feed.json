@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.12.1",
-  "generatedAt": "2026-10-12T14:12:00Z",
+  "feedVersion": "2026.10.12.2",
+  "generatedAt": "2026-10-12T23:46:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -44,6 +44,13 @@
         "tag": "CONSTRUCTORS",
         "title": "Red Bull closes on McLaren",
         "summary": "McLaren 339, Red Bull 332 — seven points separate third and fourth."
+      },
+      {
+        "id": "mercedes-upgrade-watch",
+        "label": "TECHNICAL WATCH",
+        "tag": "MERCEDES",
+        "title": "Mercedes Confirms Faster Upgrade as Russell Considers Las Vegas Engine Penalty",
+        "summary": "Mercedes says Antonelli’s upgraded W17 was faster by the end of Singapore. Russell identifies Las Vegas as a possible venue for another engine penalty."
       }
     ]
   },
@@ -100,12 +107,12 @@
     },
     {
       "id": "russell-singapore-grid-penalty-2026",
-      "category": "CHAMPIONSHIP WATCH",
-      "context": "SINGAPORE",
-      "title": "Mercedes Splits Car Specifications as Russell Faces Further Engine Trouble",
-      "summary": "Russell returns to the Baku-winning aero package while Antonelli retains the newer specification and a new front wing. Russell starts Sunday's Grand Prix from the rear.",
+      "category": "TECHNICAL INTELLIGENCE",
+      "context": "MERCEDES · AUSTIN WATCH",
+      "title": "Mercedes Confirms Faster Upgrade as Russell Considers Las Vegas Engine Penalty",
+      "summary": "Mercedes says Antonelli’s upgraded W17 was faster by the end of Singapore. Russell identifies Las Vegas as a possible venue for another engine penalty.",
       "url": "https://paddockcommand.com/george-russell-singapore-grid-penalty-2026.html",
-      "updated": "2026-10-08",
+      "updated": "2026-10-12",
       "nativeReader": true
     },
     {

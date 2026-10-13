@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12.1",
-  "generatedAt": "2026-10-12T14:12:00Z",
+  "contentVersion": "2026.10.12.2",
+  "generatedAt": "2026-10-12T23:46:00Z",
   "articles": [
     {
       "id": "antonelli-austin-title-2026",
@@ -57,7 +57,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The United States Grand Prix takes place at Circuit of the Americas on October 25, with the race scheduled for 3:00 PM Austin local time."
+          "text": "The United States Grand Prix takes place October 23–25 at Circuit of the Americas."
         }
       ]
     },
@@ -468,47 +468,63 @@
     },
     {
       "id": "russell-singapore-grid-penalty-2026",
-      "category": "CHAMPIONSHIP WATCH",
-      "context": "SINGAPORE",
-      "title": "Mercedes Splits Car Specifications as Russell Faces Further Engine Trouble",
-      "deck": "Mercedes will compare two aerodynamic directions at Marina Bay while Russell prepares for a Sunday rear-grid start.",
+      "category": "TECHNICAL INTELLIGENCE",
+      "context": "MERCEDES · AUSTIN WATCH",
+      "title": "Mercedes Confirms Faster Upgrade as Russell Considers Las Vegas Engine Penalty",
+      "deck": "Mercedes says Antonelli’s upgraded W17 was faster by the end of Singapore. Russell identifies Las Vegas as a possible venue for another engine penalty.",
       "published": "Oct 6, 2026",
-      "updated": "Oct 8, 2026",
+      "updated": "Oct 12, 2026",
       "canonicalUrl": "https://paddockcommand.com/george-russell-singapore-grid-penalty-2026.html",
       "facts": [
         {
           "label": "ANTONELLI",
-          "value": "320 pts"
+          "value": "340 pts"
         },
         {
           "label": "RUSSELL",
-          "value": "236 pts"
+          "value": "238 pts"
         },
         {
           "label": "GAP",
-          "value": "84 pts"
+          "value": "102 pts"
         },
         {
-          "label": "RUSSELL SUNDAY",
-          "value": "Back of grid"
+          "label": "NEXT GP",
+          "value": "Austin"
         }
       ],
       "sections": [
         {
           "type": "heading",
-          "text": "Mercedes takes two development paths"
+          "text": "Mercedes finds speed in the upgraded W17"
         },
         {
           "type": "paragraph",
-          "text": "Russell returns to the previous aerodynamic specification used during his Azerbaijan victory, while Antonelli continues with the updated Sepang package and a new front wing."
+          "text": "Mercedes compared two specifications in Singapore. Trackside engineering director Andrew Shovlin confirmed Antonelli’s updated W17 had become the faster specification by the end of the weekend after setup improvements."
         },
         {
           "type": "heading",
-          "text": "Russell's Sprint remains a major opportunity"
+          "text": "Russell considers a Las Vegas power-unit penalty"
         },
         {
           "type": "paragraph",
-          "text": "Russell's Sunday grid sanction does not apply to Saturday's Sprint, giving him a separate scoring opportunity before the Grand Prix recovery drive."
+          "text": "Russell expects another power-unit penalty this season and identified Las Vegas as a possible venue. No new penalty has been imposed."
+        },
+        {
+          "type": "heading",
+          "text": "Championship and Austin outlook"
+        },
+        {
+          "type": "paragraph",
+          "text": "Antonelli finished third in Singapore and now leads Russell 340–238. Austin takes place October 23–25, with three practice sessions available for further Mercedes development work."
+        },
+        {
+          "type": "heading",
+          "text": "Paddock Command watch"
+        },
+        {
+          "type": "paragraph",
+          "text": "Track the specification choice in Austin, Russell’s remaining power-unit allocation and Red Bull’s recent pace."
         }
       ]
     },
