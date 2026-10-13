@@ -1,8 +1,66 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12.2",
-  "generatedAt": "2026-10-12T23:46:00Z",
+  "contentVersion": "2026.10.13.1",
+  "generatedAt": "2026-10-13T11:00:00Z",
   "articles": [
+    {
+      "id": "rwanda-f1-africa-2030s-2026",
+      "category": "CALENDAR INTELLIGENCE",
+      "context": "RWANDA · OFFICIAL CONFIRMATION",
+      "title": "Formula 1 Confirms 10-Year Rwanda Grand Prix Deal for Early 2030s",
+      "deck": "Formula 1 confirms a 10-year African Grand Prix agreement with Rwanda. A new FIA Grade 1 circuit in Bugesera is planned; the first race date is not yet fixed.",
+      "published": "Oct 8, 2026",
+      "updated": "Oct 13, 2026",
+      "canonicalUrl": "https://paddockcommand.com/rwanda-formula-1-grand-prix-2030-reported-agreement.html",
+      "facts": [
+        {
+          "label": "AGREEMENT",
+          "value": "10 years"
+        },
+        {
+          "label": "VENUE",
+          "value": "Bugesera"
+        },
+        {
+          "label": "TARGET",
+          "value": "Early 2030s"
+        },
+        {
+          "label": "LAST AFRICAN GP",
+          "value": "1993"
+        }
+      ],
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Formula 1 officially announced a 10-year agreement on October 13 to bring an African Grand Prix to Rwanda, ending the project’s reported-only status."
+        },
+        {
+          "type": "heading",
+          "text": "New circuit planned near Kigali"
+        },
+        {
+          "type": "paragraph",
+          "text": "A purpose-built FIA Grade 1 circuit is planned in Bugesera, approximately 40 km south of Kigali, alongside the new Kigali International Airport."
+        },
+        {
+          "type": "heading",
+          "text": "Race date still unconfirmed"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first race is expected in the early 2030s after the circuit is completed. No exact inaugural season or calendar slot has been announced."
+        },
+        {
+          "type": "heading",
+          "text": "Return after 1993"
+        },
+        {
+          "type": "paragraph",
+          "text": "Formula 1 last raced in Africa at Kyalami, South Africa, in 1993. The Rwanda agreement marks a confirmed commitment to return."
+        }
+      ]
+    },
     {
       "id": "antonelli-austin-title-2026",
       "category": "CHAMPIONSHIP INTELLIGENCE",
