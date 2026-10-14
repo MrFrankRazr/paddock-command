@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.14.1",
-  "generatedAt": "2026-10-14T11:35:00Z",
+  "feedVersion": "2026.10.14.2",
+  "generatedAt": "2026-10-14T00:00:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -20,23 +20,23 @@
     }
   },
   "raceIntelligence": {
-    "headline": "Verstappen Wins Singapore GP — Antonelli Leads by 102",
-    "summary": "Verstappen completes a Singapore Sprint-and-Grand-Prix double, winning ahead of Leclerc and Antonelli. The championship leader moves 102 points clear of Russell; Red Bull trails McLaren by seven.",
-    "updatedLabel": "Updated Oct 11, 2026 · Singapore Grand Prix result",
+    "headline": "Austin Title Watch — Antonelli Can Clinch as Verstappen Builds Momentum",
+    "summary": "Antonelli heads to the United States Grand Prix on Oct 23–25 leading Russell 340–238. One title-clinching scenario requires an Antonelli win, Russell P9 or lower and Hamilton P5 or lower. Verstappen arrives after consecutive Grand Prix wins; McLaren leads Red Bull by seven constructors’ points.",
+    "updatedLabel": "Updated Oct 14, 2026 · United States Grand Prix outlook",
     "watchPoints": [
       {
-        "id": "singapore-race",
-        "label": "WATCH POINT 01",
-        "tag": "RACE RESULT",
-        "title": "Verstappen completes Singapore double",
-        "summary": "Verstappen wins the Grand Prix ahead of Leclerc and Antonelli after Saturday’s Sprint victory."
-      },
-      {
         "id": "title-watch",
-        "label": "WATCH POINT 02",
+        "label": "WATCH POINT 01",
         "tag": "CHAMPIONSHIP",
         "title": "Antonelli can clinch in Austin",
         "summary": "Antonelli leads Russell by 102. A win in Austin seals the title if Russell is P9 or lower and Hamilton P5 or lower; Antonelli needs a lead of at least 125 after the race."
+      },
+      {
+        "id": "red-bull-austin-operations",
+        "label": "WATCH POINT 02",
+        "tag": "RED BULL",
+        "title": "Verstappen and Red Bull carry momentum to Austin",
+        "summary": "Verstappen has won the last two Grands Prix at Sepang and Singapore. Tom Hart is set to engineer Verstappen at Austin as Red Bull begins its race-engineer transition."
       },
       {
         "id": "constructors-watch",
@@ -47,10 +47,17 @@
       },
       {
         "id": "mercedes-upgrade-watch",
-        "label": "TECHNICAL WATCH",
+        "label": "WATCH POINT 04",
         "tag": "MERCEDES",
         "title": "Mercedes Confirms Faster Upgrade as Russell Considers Las Vegas Engine Penalty",
         "summary": "Mercedes says Antonelli’s upgraded W17 was faster by the end of Singapore. Russell identifies Las Vegas as a possible venue for another engine penalty."
+      },
+      {
+        "id": "singapore-race",
+        "label": "LAST RACE",
+        "tag": "RACE RESULT",
+        "title": "Verstappen completes Singapore double",
+        "summary": "Verstappen wins the Grand Prix ahead of Leclerc and Antonelli after Saturday’s Sprint victory."
       }
     ]
   },
