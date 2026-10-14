@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.14.1",
-  "generatedAt": "2026-10-14T11:35:00Z",
+  "contentVersion": "2026.10.14.2",
+  "generatedAt": "2026-10-14T19:47:00Z",
   "articles": [
     {
       "id": "rwanda-f1-africa-2030s-2026",
@@ -58,6 +58,108 @@
         {
           "type": "paragraph",
           "text": "Formula 1 last raced in Africa at Kyalami, South Africa, in 1993. The Rwanda agreement marks a confirmed commitment to return."
+        }
+      ]
+    },
+    {
+      "id": "red-bull-mekies-extension-2031-2026",
+      "category": "RED BULL LEADERSHIP",
+      "context": "2031 · AUSTIN",
+      "title": "Red Bull Extends Laurent Mekies Through 2031 as Verstappen Revival Gathers Pace",
+      "deck": "Red Bull has confirmed a contract extension keeping CEO and Team Principal Laurent Mekies in charge through the 2031 Formula 1 season, reinforcing leadership continuity as the team heads to Austin after consecutive Grand Prix wins.",
+      "published": "Oct 14, 2026",
+      "updated": "Oct 14, 2026",
+      "canonicalUrl": "https://paddockcommand.com/red-bull-laurent-mekies-contract-extension-2031-2026.html",
+      "facts": [
+        {
+          "label": "TEAM PRINCIPAL",
+          "value": "Laurent Mekies"
+        },
+        {
+          "label": "CONTRACT",
+          "value": "Through 2031"
+        },
+        {
+          "label": "RED BULL",
+          "value": "332 pts"
+        },
+        {
+          "label": "McLAREN GAP",
+          "value": "7 pts"
+        }
+      ],
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Red Bull has confirmed a contract extension keeping CEO and Team Principal Laurent Mekies in charge through the 2031 Formula 1 season, reinforcing leadership continuity as the team heads to Austin after consecutive Grand Prix wins."
+        },
+        {
+          "type": "paragraph",
+          "text": "Red Bull announced on October 14, 2026, that Laurent Mekies will remain its CEO and Team Principal through 2031. The decision extends the French engineer’s tenure beyond the immediate 2026 recovery and provides a long-term leadership framework for the Milton Keynes operation."
+        },
+        {
+          "type": "heading",
+          "text": "The confirmed agreement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mekies moved from Racing Bulls to lead Red Bull in July 2025. Formula 1’s official announcement confirms the agreement runs through the 2031 season. The team also pointed to recent contract renewals for Max Verstappen and Isack Hadjar as part of a wider push for continuity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Red Bull’s shareholders Chalerm Yoovidhya and Mark Mateschitz framed the extension as confidence in Mekies’ leadership during a period of transition. The length of the agreement is confirmed; it is not a guarantee of results or a statement about how future race-engineering roles will be allocated."
+        },
+        {
+          "type": "heading",
+          "text": "Why it matters before Austin"
+        },
+        {
+          "type": "paragraph",
+          "text": "The timing follows Max Verstappen’s consecutive Grand Prix victories in Malaysia and Singapore. Singapore was Verstappen’s 73rd career win and put Red Bull within seven points of McLaren for third in the Constructors’ Championship: McLaren has 339 points, Red Bull 332. The team arrives at Circuit of The Americas with clear momentum, but the gap is still small enough for either team to move ahead at the next round."
+        },
+        {
+          "type": "paragraph",
+          "text": "The United States Grand Prix runs October 23–25, with a standard three-practice-session format and a 56-lap race on Sunday. Austin will test whether the recent Red Bull gains translate across the circuit’s fast direction changes, heavy-braking sections and long straights."
+        },
+        {
+          "type": "heading",
+          "text": "Leadership stability is not the same as race-weekend stability"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Mekies extension concerns Red Bull’s senior leadership, not the separate race-engineer handover planned for Verstappen. Reporting ahead of Austin indicates Tom Hart is expected to take race-radio duties at selected events as the team prepares for Gianpiero Lambiase’s eventual departure. Those arrangements should be evaluated separately from the confirmed team-principal contract."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mekies’ long-term remit includes the team’s competitive direction, coordination of technical departments and management of the transition into future seasons. Formula 1’s announcement identified Pierre Waché’s and Ben Hodgkinson’s teams as central to Red Bull’s longer-term project."
+        },
+        {
+          "type": "heading",
+          "text": "The championship context"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kimi Antonelli remains the Drivers’ Championship leader with 340 points, 102 ahead of Mercedes team-mate George Russell on 238. Verstappen is fourth with 221. Antonelli can mathematically secure the title in Austin, but Red Bull’s immediate measurable opportunity is to sustain its recent race form and challenge McLaren for third in the Constructors’ standings."
+        },
+        {
+          "type": "heading",
+          "text": "What Paddock Command will watch"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first indicators in Texas will be Friday long-run pace, reliability across both Red Bull cars and how consistently the team executes a conventional race weekend. Isack Hadjar’s Singapore reliability problems are another reason to judge the team’s progress across both garages, rather than from Verstappen’s victories alone."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 2031 contract is a major structural decision. The Austin result will provide a much shorter-term test of whether the 2026 performance turnaround can continue."
+        },
+        {
+          "type": "heading",
+          "text": "Related Paddock Command intelligence"
+        },
+        {
+          "type": "paragraph",
+          "text": "See the linked website article for Red Bull race-engineer coverage, Singapore race analysis, Austin championship scenarios and verified sources."
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.14.2",
-  "generatedAt": "2026-10-14T00:00:00Z",
+  "feedVersion": "2026.10.14.3",
+  "generatedAt": "2026-10-14T19:47:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -70,6 +70,16 @@
       "summary": "Formula 1 confirms a 10-year African Grand Prix agreement with Rwanda. A new FIA Grade 1 circuit in Bugesera is planned; the first race date is not yet fixed.",
       "url": "https://paddockcommand.com/rwanda-formula-1-grand-prix-2030-reported-agreement.html",
       "updated": "2026-10-13",
+      "nativeReader": true
+    },
+    {
+      "id": "red-bull-mekies-extension-2031-2026",
+      "category": "RED BULL LEADERSHIP",
+      "context": "2031 · AUSTIN",
+      "title": "Red Bull Extends Laurent Mekies Through 2031 as Verstappen Revival Gathers Pace",
+      "summary": "Red Bull confirms Laurent Mekies will remain CEO and Team Principal through 2031, securing leadership continuity after Verstappen’s consecutive victories.",
+      "url": "https://paddockcommand.com/red-bull-laurent-mekies-contract-extension-2031-2026.html",
+      "updated": "2026-10-14",
       "nativeReader": true
     },
     {
