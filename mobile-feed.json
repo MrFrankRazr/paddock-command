@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.13.2",
-  "generatedAt": "2026-10-13T23:16:00Z",
+  "feedVersion": "2026.10.14.1",
+  "generatedAt": "2026-10-14T11:35:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -63,6 +63,16 @@
       "summary": "Formula 1 confirms a 10-year African Grand Prix agreement with Rwanda. A new FIA Grade 1 circuit in Bugesera is planned; the first race date is not yet fixed.",
       "url": "https://paddockcommand.com/rwanda-formula-1-grand-prix-2030-reported-agreement.html",
       "updated": "2026-10-13",
+      "nativeReader": true
+    },
+    {
+      "id": "verstappen-tom-hart-austin-2026",
+      "category": "RED BULL OPERATIONS",
+      "context": "AUSTIN · RACE ENGINEER",
+      "title": "Verstappen to Work With Tom Hart in Austin as Red Bull Begins Race-Engineer Handover",
+      "summary": "Hart is set to engineer Verstappen at Austin as Red Bull begins its Lambiase transition after two straight Grand Prix victories.",
+      "url": "https://paddockcommand.com/verstappen-tom-hart-austin-2026-race-engineer-handover.html",
+      "updated": "2026-10-14",
       "nativeReader": true
     },
     {

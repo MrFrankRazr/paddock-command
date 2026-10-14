@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.13.2",
-  "generatedAt": "2026-10-13T23:16:00Z",
+  "contentVersion": "2026.10.14.1",
+  "generatedAt": "2026-10-14T11:35:00Z",
   "articles": [
     {
       "id": "rwanda-f1-africa-2030s-2026",
@@ -58,6 +58,100 @@
         {
           "type": "paragraph",
           "text": "Formula 1 last raced in Africa at Kyalami, South Africa, in 1993. The Rwanda agreement marks a confirmed commitment to return."
+        }
+      ]
+    },
+    {
+      "id": "verstappen-tom-hart-austin-2026",
+      "category": "RED BULL OPERATIONS",
+      "context": "AUSTIN · RACE ENGINEER",
+      "title": "Verstappen to Work With Tom Hart in Austin as Red Bull Begins Race-Engineer Handover",
+      "deck": "Max Verstappen is set to have Tom Hart on the radio at the October 23–25 United States Grand Prix as Red Bull starts giving Gianpiero Lambiase’s successor race-weekend experience.",
+      "published": "Oct 14, 2026",
+      "updated": "Oct 14, 2026",
+      "canonicalUrl": "https://paddockcommand.com/verstappen-tom-hart-austin-2026-race-engineer-handover.html",
+      "facts": [
+        {
+          "label": "ENGINEER",
+          "value": "Tom Hart"
+        },
+        {
+          "label": "NEXT GP",
+          "value": "Austin · Oct 25"
+        },
+        {
+          "label": "VERSTAPPEN",
+          "value": "221 pts"
+        },
+        {
+          "label": "CONSTRUCTORS GAP",
+          "value": "7 pts"
+        }
+      ],
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Max Verstappen is set to have Tom Hart on the radio at the October 23–25 United States Grand Prix as Red Bull starts giving Gianpiero Lambiase’s successor race-weekend experience."
+        },
+        {
+          "type": "paragraph",
+          "text": "Red Bull plans to put Tom Hart in the race-engineer role for Max Verstappen at the United States Grand Prix, according to reporting published October 13 by Motorsport.com and Crash.net. The change comes immediately after Verstappen won back-to-back Grands Prix at Sepang and Singapore — a notable moment to alter the voice and workflow on the pit wall."
+        },
+        {
+          "type": "heading",
+          "text": "What is changing at Austin?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hart, previously Verstappen’s performance engineer, is expected to lead his race-radio communications at Circuit of The Americas. Reports identify Austin, Brazil and Las Vegas as three planned opportunities for Hart to operate in the role this season. Gianpiero Lambiase is expected to remain present at the circuits and continue his wider Head of Racing responsibilities, rather than disappear from the team overnight."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is a planned transition, not evidence of a breakdown between Verstappen and Lambiase. Hart was identified as the successor earlier in 2026; the new development is the timing of his first extended race-weekend assignments."
+        },
+        {
+          "type": "heading",
+          "text": "Why the timing matters after Singapore"
+        },
+        {
+          "type": "paragraph",
+          "text": "Verstappen won the Singapore Grand Prix on October 11, his 73rd career victory and his second successive Grand Prix win after Sepang. Singapore also exposed a communications vulnerability: a malfunctioning radio forced Red Bull to use a pit board to relay some information. The team adapted and won, but the episode underlined how important clear, reliable communication remains in a close race."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hart now faces a practical test in a high-pressure environment. Austin features three practice sessions, qualifying and a 56-lap Grand Prix. The engineer must coordinate car feedback, tyre and strategy messages, traffic information and operational decisions while maintaining the concise exchanges Verstappen is accustomed to."
+        },
+        {
+          "type": "heading",
+          "text": "What is confirmed about Lambiase’s future?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Formula 1 reported in April that McLaren had agreed to appoint Lambiase as Chief Racing Officer no later than 2028. The exact timing of his departure from Red Bull remains a separate question from Hart’s reported Austin assignment. It would be premature to describe the October race as a permanent end to the Verstappen–Lambiase partnership."
+        },
+        {
+          "type": "paragraph",
+          "text": "Red Bull also announced in September that Tom McCullough will join as Head of Racing in 2027. That is a different leadership position from Hart’s race-engineer duties. The two changes form part of a broader restructuring rather than a one-for-one swap of every responsibility Lambiase currently holds."
+        },
+        {
+          "type": "heading",
+          "text": "The Austin competitive picture"
+        },
+        {
+          "type": "paragraph",
+          "text": "Verstappen arrives fourth in the Drivers’ Championship on 221 points. Kimi Antonelli leads with 340, George Russell has 238 and Lewis Hamilton 229. In the Constructors’ Championship, Red Bull is fourth on 332 points, only seven behind third-placed McLaren on 339. Those numbers make operational consistency valuable even though Verstappen’s title chances are remote."
+        },
+        {
+          "type": "paragraph",
+          "text": "There is no evidence yet that the engineer change will improve or worsen Red Bull’s pace. The first useful indicators will be the quality of Friday feedback, radio clarity under pressure and how quickly the new working arrangement handles strategy decisions."
+        },
+        {
+          "type": "heading",
+          "text": "Paddock Command Austin watch"
+        },
+        {
+          "type": "paragraph",
+          "text": "Watch for Hart’s role on the radio from FP1, whether Lambiase remains involved in the pit-wall decision chain, and how Red Bull manages any unexpected interruptions. The United States Grand Prix runs October 23–25; the race is scheduled for Sunday, October 25. This is an operational storyline to monitor, not a forecast of an Austin result."
         }
       ]
     },
