@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.15.1",
-  "generatedAt": "2026-10-15T15:30:00Z",
+  "feedVersion": "2026.10.15.2",
+  "generatedAt": "2026-10-15T19:20:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -69,6 +69,16 @@
       "title": "Haas Confirms Rafael Câmara for 2027 as Ocon Seat Vacancy Closes",
       "summary": "Haas confirms 21-year-old Rafael Câmara on a multi-year deal for 2027. The F2 leader fills the seat opened by Esteban Ocon’s planned departure.",
       "url": "https://paddockcommand.com/esteban-ocon-haas-exit-2027-f1-driver-market.html",
+      "updated": "2026-10-15",
+      "nativeReader": true
+    },
+    {
+      "id": "verstappen-portimao-gtwc-debut-2026",
+      "category": "RACE-WEEK INTELLIGENCE",
+      "context": "PORTIMÃO · OCT 17",
+      "title": "Verstappen’s Portimão GT3 Debut: Grid, Schedule and Why It Matters Before Austin",
+      "summary": "Verstappen is entered for Saturday’s three-hour GT World Challenge Europe finale with Lulham and Barnicoat in the #3 Mercedes-AMG GT3 EVO. Verified race guide ahead of Austin.",
+      "url": "https://paddockcommand.com/verstappen-portimao-gt3-debut-2026-race-guide.html",
       "updated": "2026-10-15",
       "nativeReader": true
     },

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.15.1",
-  "generatedAt": "2026-10-15T15:30:00Z",
+  "contentVersion": "2026.10.15.2",
+  "generatedAt": "2026-10-15T19:20:00Z",
   "articles": [
     {
       "id": "haas-camara-2027-confirmed-2026",
@@ -98,6 +98,104 @@
         {
           "type": "paragraph",
           "text": "This is a material update to the existing Ocon driver-market story, not a reason to publish a near-identical second article. The vacancy that was open on October 1 is now filled by a confirmed multi-year signing. Ocon’s next move remains unresolved, and the team’s 2026 Austin performance should be judged separately from its 2027 recruitment decision."
+        }
+      ]
+    },
+    {
+      "id": "verstappen-portimao-gtwc-debut-2026",
+      "category": "RACE-WEEK INTELLIGENCE",
+      "context": "PORTIMÃO · OCT 17",
+      "title": "Verstappen’s Portimão GT3 Debut: Grid, Schedule and Why It Matters Before Austin",
+      "deck": "Max Verstappen is entered for Saturday’s three-hour GT World Challenge Europe finale at Portimão, sharing a Mercedes-AMG GT3 EVO with Chris Lulham and Ben Barnicoat. The race comes six days before Formula 1 returns in Austin.",
+      "published": "Oct 15, 2026",
+      "updated": "Oct 15, 2026",
+      "canonicalUrl": "https://paddockcommand.com/verstappen-portimao-gt3-debut-2026-race-guide.html",
+      "facts": [
+        {
+          "label": "RACE",
+          "value": "Oct 17"
+        },
+        {
+          "label": "START",
+          "value": "17:00 local"
+        },
+        {
+          "label": "ENTRY",
+          "value": "#3 Mercedes-AMG"
+        },
+        {
+          "label": "DURATION",
+          "value": "3 hours"
+        }
+      ],
+      "sections": [
+        {
+          "type": "heading",
+          "text": "Verstappen is on the Portimão entry list"
+        },
+        {
+          "type": "paragraph",
+          "text": "Max Verstappen is set to make his GT World Challenge Europe race debut at Portimão, Portugal, on Saturday, October 17, 2026. The official series entry list names him in the #3 Mercedes-AMG Team Verstappen Racing car alongside Chris Lulham and Ben Barnicoat. They will contest the three-hour Endurance Cup season finale in the Pro class, using a Mercedes-AMG GT3 EVO."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is not Verstappen’s first GT3 appearance, nor a Formula 1 championship round. It is his first start in GT World Challenge Europe, a separate series with shared-car endurance racing, driver changes and a large multi-class grid. Verstappen Racing has already competed in the championship; the new element is Verstappen himself joining its race lineup."
+        },
+        {
+          "type": "heading",
+          "text": "When to watch: the verified Portimão timetable"
+        },
+        {
+          "type": "paragraph",
+          "text": "The championship’s current event timetable lists Free Practice 1 for Friday, October 16 at 08:45 local time (07:45 UTC), Free Practice 2 at 12:45 local (11:45 UTC), and combined qualifying beginning at 17:55 local (16:55 UTC). The three-hour main race is scheduled for Saturday, October 17 at 17:00 local time (16:00 UTC; 9:00 a.m. Pacific Daylight Time). The published timetable remains subject to event changes."
+        },
+        {
+          "type": "paragraph",
+          "text": "The organizer says GT World Challenge sessions will be streamed free on the GT World YouTube channel. The championship event page and official entry list are the best references for late schedule or lineup revisions."
+        },
+        {
+          "type": "heading",
+          "text": "A serious GT3 field, not an exhibition"
+        },
+        {
+          "type": "paragraph",
+          "text": "The official entry list includes more than 60 GT3 cars across multiple classes. Verstappen’s #3 entry is in Pro. Among the notable names on the grid are Valentino Rossi in the #46 Team WRT BMW, along with established GT specialists from Mercedes-AMG, Porsche, Aston Martin and other manufacturers. The event is a full championship finale rather than a promotional demonstration."
+        },
+        {
+          "type": "paragraph",
+          "text": "A three-hour endurance race tests more than single-lap speed. Traffic management, handovers, pit execution and consistency across stints can all decide the result. Those variables make a direct comparison with Verstappen’s recent Formula 1 results inappropriate, even if the same driver is at the wheel."
+        },
+        {
+          "type": "heading",
+          "text": "Why it matters in the Formula 1 break"
+        },
+        {
+          "type": "paragraph",
+          "text": "Verstappen arrives after consecutive Formula 1 Grand Prix victories at Sepang and Singapore. Red Bull has narrowed its constructors’ deficit to McLaren to seven points, 332 to 339, while Mercedes driver Kimi Antonelli leads the drivers’ championship on 340 points, 102 ahead of George Russell. Those are the latest post-Singapore F1 standings, not points at stake in Portugal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Formula 1’s next race is the United States Grand Prix at Circuit of the Americas on October 23–25. Portimão offers a competitive look at Verstappen in a different discipline during the gap, but it does not forecast Red Bull’s pace in Austin or change the championship mathematics."
+        },
+        {
+          "type": "heading",
+          "text": "What Paddock Command will watch"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first checkpoint is qualifying on Friday: where does the #3 crew line up in Pro, and how close is it to the front of the overall field? Saturday’s more meaningful measures are clean stint execution, traffic handling, reliability and the final classification. No finishing position or result should be published until the organizer posts it."
+        },
+        {
+          "type": "paragraph",
+          "text": "For F1 readers, the storyline is Verstappen’s willingness to race outside Formula 1 immediately before a consequential Austin weekend. The Red Bull engineering transition and Antonelli’s potential title-clinching scenario remain separate, already-covered F1 stories."
+        },
+        {
+          "type": "heading",
+          "text": "Paddock Command assessment"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is a worthwhile race-week feature because the GT World Challenge debut happens now, not because the October 1 entry announcement is new. It should sit below the primary Formula 1 homepage coverage, then be updated only if qualifying or the race produces a meaningful verified development."
         }
       ]
     },
