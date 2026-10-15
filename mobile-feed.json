@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.14.3",
-  "generatedAt": "2026-10-14T19:47:00Z",
+  "feedVersion": "2026.10.15.1",
+  "generatedAt": "2026-10-15T15:30:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -62,6 +62,16 @@
     ]
   },
   "articles": [
+    {
+      "id": "haas-camara-2027-confirmed-2026",
+      "category": "DRIVER MARKET",
+      "context": "HAAS · 2027 CONFIRMED",
+      "title": "Haas Confirms Rafael Câmara for 2027 as Ocon Seat Vacancy Closes",
+      "summary": "Haas confirms 21-year-old Rafael Câmara on a multi-year deal for 2027. The F2 leader fills the seat opened by Esteban Ocon’s planned departure.",
+      "url": "https://paddockcommand.com/esteban-ocon-haas-exit-2027-f1-driver-market.html",
+      "updated": "2026-10-15",
+      "nativeReader": true
+    },
     {
       "id": "rwanda-f1-africa-2030s-2026",
       "category": "CALENDAR INTELLIGENCE",

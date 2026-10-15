@@ -1,8 +1,106 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.14.2",
-  "generatedAt": "2026-10-14T19:47:00Z",
+  "contentVersion": "2026.10.15.1",
+  "generatedAt": "2026-10-15T15:30:00Z",
   "articles": [
+    {
+      "id": "haas-camara-2027-confirmed-2026",
+      "category": "DRIVER MARKET",
+      "context": "HAAS · 2027 CONFIRMED",
+      "title": "Haas Confirms Rafael Câmara for 2027 as Ocon Seat Vacancy Closes",
+      "deck": "Haas has confirmed 21-year-old Brazilian Rafael Câmara on a multi-year deal for the 2027 Formula 1 season, resolving the seat left open by Esteban Ocon’s planned departure.",
+      "published": "Oct 1, 2026",
+      "updated": "Oct 15, 2026",
+      "canonicalUrl": "https://paddockcommand.com/esteban-ocon-haas-exit-2027-f1-driver-market.html",
+      "facts": [
+        {
+          "label": "HAAS SIGNING",
+          "value": "2027 multi-year"
+        },
+        {
+          "label": "F2 POINTS",
+          "value": "207"
+        },
+        {
+          "label": "F2 FEATURE WINS",
+          "value": "3"
+        },
+        {
+          "label": "OCON",
+          "value": "Exits after 2026"
+        }
+      ],
+      "sections": [
+        {
+          "type": "heading",
+          "text": "Haas confirms its 2027 signing"
+        },
+        {
+          "type": "paragraph",
+          "text": "In a team announcement dated October 14, 2026, TGR Haas F1 Team confirmed that Rafael Câmara will make his Formula 1 debut with the American outfit in 2027. The agreement is multi-year. The announcement settles the identity of Esteban Ocon’s replacement after Haas and the French driver confirmed their end-of-season split on September 30."
+        },
+        {
+          "type": "paragraph",
+          "text": "The timing makes this a confirmed driver-market development rather than another candidate report. Haas can now plan for 2027 around a rising junior driver, while Ocon continues the final races of his current contract."
+        },
+        {
+          "type": "heading",
+          "text": "The numbers behind Câmara’s promotion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Câmara leads the 2026 FIA Formula 2 championship with 207 points and two rounds remaining, according to Haas. He has three Feature Race victories — in Spain, Belgium and Azerbaijan — together with six podiums and five pole positions. He arrived in Formula 2 after winning the 2025 FIA Formula 3 championship."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 21-year-old has been part of the Ferrari Driver Academy since 2021. His path gives Haas a driver already familiar with Ferrari’s development environment and a recent record of adapting quickly to new categories. His Formula 2 title, however, is not yet secured; the remaining rounds still matter."
+        },
+        {
+          "type": "heading",
+          "text": "Why Haas was convinced"
+        },
+        {
+          "type": "paragraph",
+          "text": "Haas evaluated Câmara in August during a Testing of Previous Car session at Portimão, where he drove the VF-25. Team principal Ayao Komatsu highlighted more than outright speed: the team was impressed by how quickly Câmara learned the car and worked with the engineers during a limited test window."
+        },
+        {
+          "type": "paragraph",
+          "text": "That is relevant to the 2027 transition. Junior-category results identify potential, but a Formula 1 seat also demands technical feedback, preparation and consistency across a full race weekend. The Portimão test gave Haas direct evidence of those qualities, although it cannot predict his rookie results."
+        },
+        {
+          "type": "heading",
+          "text": "What happens to Ocon and Bearman?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ocon’s Haas exit remains scheduled for the end of the 2026 season. He has said he wants to remain in Formula 1 and would consider a reserve role if a race seat does not become available. His 2027 destination has not been announced."
+        },
+        {
+          "type": "paragraph",
+          "text": "Oliver Bearman is the incumbent on the other side of the Haas garage. Reuters reports that Câmara will partner Bearman in 2027. The October 14 Haas announcement confirms Câmara’s contract; it does not, by itself, serve as a separate formal announcement of every seat in the 2027 lineup."
+        },
+        {
+          "type": "heading",
+          "text": "Why the announcement matters before Austin"
+        },
+        {
+          "type": "paragraph",
+          "text": "The confirmation arrives ahead of Haas’s home Grand Prix at Circuit of the Americas on October 23–25. It clarifies the team’s longer-term driver planning without changing its 2026 race lineup: Ocon and Bearman remain responsible for the current campaign."
+        },
+        {
+          "type": "paragraph",
+          "text": "Câmara also gives Brazil another expected representative on the 2027 grid alongside Gabriel Bortoleto at Audi. For Haas, the immediate question is how it closes out 2026; the 2027 question shifts from who gets the seat to how quickly the incoming rookie can integrate."
+        },
+        {
+          "type": "heading",
+          "text": "Paddock Command assessment"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is a material update to the existing Ocon driver-market story, not a reason to publish a near-identical second article. The vacancy that was open on October 1 is now filled by a confirmed multi-year signing. Ocon’s next move remains unresolved, and the team’s 2026 Austin performance should be judged separately from its 2027 recruitment decision."
+        }
+      ]
+    },
     {
       "id": "rwanda-f1-africa-2030s-2026",
       "category": "CALENDAR INTELLIGENCE",
