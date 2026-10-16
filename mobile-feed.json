@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.16.1",
-  "generatedAt": "2026-10-16T14:55:09Z",
+  "feedVersion": "2026.10.16.2",
+  "generatedAt": "2026-10-16T19:14:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -84,12 +84,12 @@
     },
     {
       "id": "verstappen-portimao-gtwc-debut-2026",
-      "category": "RACE-WEEK INTELLIGENCE",
-      "context": "PORTIMÃO · OCT 17",
-      "title": "Verstappen’s Portimão GT3 Debut: Grid, Schedule and Why It Matters Before Austin",
-      "summary": "Verstappen is entered for Saturday’s three-hour GT World Challenge Europe finale with Lulham and Barnicoat in the #3 Mercedes-AMG GT3 EVO. Verified race guide ahead of Austin.",
+      "category": "QUALIFYING INTELLIGENCE",
+      "context": "PORTIMÃO · OCT 16–17",
+      "title": "Verstappen P15 at Portimão: GT3 Qualifying and Race Guide",
+      "summary": "Official provisional qualifying: Verstappen, Lulham and Barnicoat start P15 in the #3 Mercedes-AMG (1:42.624 average), 0.553s behind the #2 Boutsen VDS Porsche pole. Race: Oct 17, 17:00 Portugal local.",
       "url": "https://paddockcommand.com/verstappen-portimao-gt3-debut-2026-race-guide.html",
-      "updated": "2026-10-15",
+      "updated": "2026-10-16",
       "nativeReader": true
     },
     {

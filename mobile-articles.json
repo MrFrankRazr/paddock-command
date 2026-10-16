@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.16.1",
-  "generatedAt": "2026-10-16T14:55:09Z",
+  "contentVersion": "2026.10.16.2",
+  "generatedAt": "2026-10-16T19:14:00Z",
   "articles": [
     {
       "id": "austin-cota-circuit-intelligence-2026",
@@ -289,14 +289,22 @@
     },
     {
       "id": "verstappen-portimao-gtwc-debut-2026",
-      "category": "RACE-WEEK INTELLIGENCE",
-      "context": "PORTIMÃO · OCT 17",
-      "title": "Verstappen’s Portimão GT3 Debut: Grid, Schedule and Why It Matters Before Austin",
-      "deck": "Max Verstappen is entered for Saturday’s three-hour GT World Challenge Europe finale at Portimão, sharing a Mercedes-AMG GT3 EVO with Chris Lulham and Ben Barnicoat. The race comes six days before Formula 1 returns in Austin.",
+      "category": "QUALIFYING INTELLIGENCE",
+      "context": "PORTIMÃO · OCT 16–17",
+      "title": "Verstappen P15 at Portimão: GT3 Qualifying and Race Guide",
+      "deck": "Verstappen Racing qualifies P15 for Saturday’s Portimão GT World Challenge finale. The #3 Mercedes-AMG averages 1:42.624, 0.553s off pole, with a three-hour recovery drive ahead.",
       "published": "Oct 15, 2026",
-      "updated": "Oct 15, 2026",
+      "updated": "Oct 16, 2026",
       "canonicalUrl": "https://paddockcommand.com/verstappen-portimao-gt3-debut-2026-race-guide.html",
       "facts": [
+        {
+          "label": "GRID",
+          "value": "P15 (provisional)"
+        },
+        {
+          "label": "POLE GAP",
+          "value": "+0.553s"
+        },
         {
           "label": "RACE",
           "value": "Oct 17"
@@ -304,17 +312,25 @@
         {
           "label": "START",
           "value": "17:00 local"
-        },
-        {
-          "label": "ENTRY",
-          "value": "#3 Mercedes-AMG"
-        },
-        {
-          "label": "DURATION",
-          "value": "3 hours"
         }
       ],
       "sections": [
+        {
+          "type": "heading",
+          "text": "Qualifying update: Verstappen Racing 15th, Boutsen VDS on pole"
+        },
+        {
+          "type": "paragraph",
+          "text": "Friday’s official provisional combined qualifying classification places the #3 Mercedes-AMG Team Verstappen Racing car 15th overall among 61 classified entries. Ben Barnicoat recorded 1:43.124 in Q1, Chris Lulham 1:42.655 in Q2 and Max Verstappen 1:42.093 in Q3. Their combined three-driver average was 1:42.624."
+        },
+        {
+          "type": "paragraph",
+          "text": "The #2 Boutsen VDS Porsche of Morris Schuring, Dorian Boccolacci and Alessio Picariello secured pole on a 1:42.071 average, 0.553 seconds ahead of the Verstappen Racing entry. The #17 GetSpeed Mercedes qualified second on 1:42.179 and the #80 Lionspeed Porsche third on 1:42.250. These are provisional results, subject to any later official amendments."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trackside reporting described bouncing and balance difficulties for the #3 Mercedes. That is a reported observation, not an official mechanical diagnosis. The race is three hours long, so traffic management, driver changes, pit stops and reliability can all affect the final classification."
+        },
         {
           "type": "heading",
           "text": "Verstappen is on the Portimão entry list"
@@ -333,7 +349,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The championship’s current event timetable lists Free Practice 1 for Friday, October 16 at 08:45 local time (07:45 UTC), Free Practice 2 at 12:45 local (11:45 UTC), and combined qualifying beginning at 17:55 local (16:55 UTC). The three-hour main race is scheduled for Saturday, October 17 at 17:00 local time (16:00 UTC; 9:00 a.m. Pacific Daylight Time). The published timetable remains subject to event changes."
+          "text": "Friday’s practice and qualifying sessions are complete. Saturday’s three-hour race begins October 17 at 17:00 Portugal local time (16:00 UTC; 9:00 a.m. Pacific Daylight Time), subject to organizer changes."
         },
         {
           "type": "paragraph",
@@ -369,7 +385,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The first checkpoint is qualifying on Friday: where does the #3 crew line up in Pro, and how close is it to the front of the overall field? Saturday’s more meaningful measures are clean stint execution, traffic handling, reliability and the final classification. No finishing position or result should be published until the organizer posts it."
+          "text": "Qualifying has established a provisional P15 grid position. Saturday’s checkpoints are the opening stint, traffic management in the 61-car field, pit-stop execution, reliability and the official final classification. No finishing result should be published before the organizer confirms it."
         },
         {
           "type": "paragraph",
@@ -381,7 +397,7 @@
         },
         {
           "type": "paragraph",
-          "text": "This is a worthwhile race-week feature because the GT World Challenge debut happens now, not because the October 1 entry announcement is new. It should sit below the primary Formula 1 homepage coverage, then be updated only if qualifying or the race produces a meaningful verified development."
+          "text": "The P15 qualifying result materially changes the outlook and warrants updating the October 15 preview in place. It remains secondary to Austin F1 coverage. The next meaningful update is the organizer’s official Saturday race result."
         }
       ]
     },
