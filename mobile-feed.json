@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.15.2",
-  "generatedAt": "2026-10-15T19:20:00Z",
+  "feedVersion": "2026.10.16.1",
+  "generatedAt": "2026-10-16T14:55:09Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -62,6 +62,16 @@
     ]
   },
   "articles": [
+    {
+      "id": "austin-cota-circuit-intelligence-2026",
+      "category": "CIRCUIT INTELLIGENCE",
+      "context": "AUSTIN · UNITED STATES GP · OCT 23–25",
+      "title": "Austin Circuit Intelligence: COTA’s 2026 F1 Title Test",
+      "summary": "COTA’s 56-lap title test: the official Austin schedule, the 102-point Antonelli lead, Verstappen’s form and the seven-point McLaren–Red Bull fight.",
+      "url": "https://paddockcommand.com/2026-united-states-grand-prix-cota-circuit-intelligence.html",
+      "updated": "2026-10-16",
+      "nativeReader": true
+    },
     {
       "id": "haas-camara-2027-confirmed-2026",
       "category": "DRIVER MARKET",

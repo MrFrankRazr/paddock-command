@@ -1,8 +1,194 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.15.2",
-  "generatedAt": "2026-10-15T19:20:00Z",
+  "contentVersion": "2026.10.16.1",
+  "generatedAt": "2026-10-16T14:55:09Z",
   "articles": [
+    {
+      "id": "austin-cota-circuit-intelligence-2026",
+      "category": "CIRCUIT INTELLIGENCE",
+      "context": "AUSTIN · UNITED STATES GP · OCT 23–25",
+      "title": "Austin Circuit Intelligence: COTA’s 2026 F1 Title Test",
+      "deck": "COTA’s 56-lap title test: the official Austin schedule, the 102-point Antonelli lead, Verstappen’s form and the seven-point McLaren–Red Bull fight.",
+      "published": "Oct 16, 2026",
+      "updated": "Oct 16, 2026",
+      "canonicalUrl": "https://paddockcommand.com/2026-united-states-grand-prix-cota-circuit-intelligence.html",
+      "facts": [
+        {
+          "label": "CIRCUIT",
+          "value": "5.513 km"
+        },
+        {
+          "label": "LAPS",
+          "value": "56"
+        },
+        {
+          "label": "TITLE LEAD",
+          "value": "102 pts"
+        },
+        {
+          "label": "RACE",
+          "value": "Oct 25"
+        }
+      ],
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "The 2026 United States Grand Prix arrives at Circuit of the Americas on October 23–25 with a championship on the brink of resolution and a revived Red Bull trying to extend its winning streak. This is the circuit intelligence behind the title fight: the layout, the weekend timetable, the performance questions and the results that could matter most."
+        },
+        {
+          "type": "heading",
+          "text": "COTA at a glance: the verified track numbers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Formula 1 has raced at Circuit of the Americas since 2012. The 2026 race is scheduled for 56 laps of the 5.513-kilometre circuit, covering a published race distance of 308.405 km. The official lap record remains Charles Leclerc’s 1:36.169 from 2019. That is a historical race lap record, not a prediction of 2026 pace."
+        },
+        {
+          "type": "heading",
+          "text": "Why the Austin layout exposes car strengths and weaknesses"
+        },
+        {
+          "type": "heading",
+          "text": "Turn 1: uphill braking and a wide first-corner entry"
+        },
+        {
+          "type": "paragraph",
+          "text": "The steep climb from the start-finish straight ends in a heavy braking zone at Turn 1. The wide entry creates multiple lines and can make the first lap consequential, especially if championship contenders qualify in traffic. A clean exit matters because the next sequence arrives quickly."
+        },
+        {
+          "type": "heading",
+          "text": "Turns 3–6: commitment through the fast Esses"
+        },
+        {
+          "type": "paragraph",
+          "text": "COTA’s rapid direction changes resemble the high-speed sequences at Silverstone and Suzuka. Drivers need a responsive front end, predictable platform control and confidence through successive changes of direction. For McLaren, whose handling concerns have already been discussed by team management, this is a particularly revealing section; that does not establish the outcome before the cars run."
+        },
+        {
+          "type": "heading",
+          "text": "Turn 11 to Turn 12: traction, straight-line efficiency and braking"
+        },
+        {
+          "type": "paragraph",
+          "text": "The slower Turn 11 leads onto the long back straight, ending in the major braking zone at Turn 12. Corner-exit traction, deployment choices and braking stability all influence whether a driver can attack or defend. The 2026 cars use a different regulatory package from previous seasons, so historical overtaking patterns should not be treated as a precise forecast."
+        },
+        {
+          "type": "heading",
+          "text": "Final sector: slow corners and tyre consistency"
+        },
+        {
+          "type": "paragraph",
+          "text": "The stadium-style section and later long-radius corners reward a stable balance over a full lap. A car that is strong in the Esses may still lose time if it overheats its tyres or struggles for traction. Practice long runs will be more informative than any pre-event tyre-strategy prediction."
+        },
+        {
+          "type": "heading",
+          "text": "2026 United States Grand Prix timetable"
+        },
+        {
+          "type": "paragraph",
+          "text": "All times below are Austin local time (Central Daylight Time, UTC−5). The 2026 event is a conventional Grand Prix weekend, with three practice sessions rather than a Sprint. Times are subject to the organizer’s updates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Official timetable (Austin local/CDT): Friday Oct 23 FP1 12:30 p.m., FP2 4:00 p.m.; Saturday Oct 24 FP3 12:30 p.m., qualifying 4:00 p.m.; Sunday Oct 25 race 3:00 p.m. Times subject to change."
+        },
+        {
+          "type": "heading",
+          "text": "Championship watch: Antonelli has a title opportunity"
+        },
+        {
+          "type": "paragraph",
+          "text": "The official post-Singapore standings place Kimi Antonelli first on 340 points, followed by George Russell on 238 and Lewis Hamilton on 229. Max Verstappen has 221, Charles Leclerc 215 and Lando Norris 201. With six Grands Prix still scheduled, 150 points are available before Austin. After the race, five rounds and a maximum 125 points would remain under the currently published calendar."
+        },
+        {
+          "type": "paragraph",
+          "text": "One title-clinching combination is an Antonelli victory, Russell finishing ninth or lower and Hamilton fifth or lower. Antonelli would reach 365 points. Russell would be no higher than 240, and Hamilton no higher than 239. At a 125-point equality with Russell, Antonelli’s existing wins advantage determines the countback. For the full permutations and caveats, see our separate Austin championship analysis."
+        },
+        {
+          "type": "paragraph",
+          "text": "The final Qatar and Abu Dhabi rounds remain on the published calendar. Reports about possible disruption are not official cancellations, so Paddock Command will not change the points available or the title mathematics without a formal calendar update."
+        },
+        {
+          "type": "heading",
+          "text": "Driver form: who arrives with momentum?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Verstappen won the last two Grands Prix, at Sepang and Singapore, and also took the Singapore Sprint. In Singapore he beat Leclerc and Antonelli, who completed the podium. Antonelli’s third place still extended his championship advantage because Russell finished ninth. Those are verified results; they do not establish which team will have the quickest car at COTA."
+        },
+        {
+          "type": "paragraph",
+          "text": "Red Bull also arrives with an operational storyline: Tom Hart is expected to handle Verstappen’s race-engineer duties in Austin as part of a reported transition. Meanwhile McLaren has acknowledged that its 2026 handling problems cannot be fully resolved by the Austin aero updates alone. These are specific factors to watch, not grounds to declare a winner."
+        },
+        {
+          "type": "heading",
+          "text": "The constructors’ fight deserves equal attention"
+        },
+        {
+          "type": "paragraph",
+          "text": "McLaren holds third in the Constructors’ Championship with 339 points, seven ahead of Red Bull on 332. That gap is small enough to change in a single weekend. Both-car reliability, qualifying positions and points finishes matter more than any one driver’s headline lap."
+        },
+        {
+          "type": "heading",
+          "text": "What Friday practice should answer"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first meaningful data will come from FP1 and FP2 on October 23. Look for long-run degradation, stability through Turns 3–6, braking into Turn 12, and the relative pace of both cars from McLaren and Red Bull. Track temperature and weather can change the tyre picture; no 2026 Austin compound allocation or race forecast is treated as confirmed in this pre-weekend report."
+        },
+        {
+          "type": "heading",
+          "text": "Saturday qualifying: where the title battle can change shape"
+        },
+        {
+          "type": "paragraph",
+          "text": "Qualifying is scheduled for Saturday, October 24 at 4:00 p.m. Austin time. Track position can be particularly valuable at a venue that combines heavy-braking opportunities with sections where following another car is more demanding. Antonelli’s title path depends on his own result and the finishing positions of his closest mathematical rivals, so qualifying can alter the likely race scenarios without deciding the championship itself."
+        },
+        {
+          "type": "heading",
+          "text": "Paddock Command race-weekend checklist"
+        },
+        {
+          "type": "paragraph",
+          "text": "• Confirm the official tyre allocation and any FIA track-limits notes before FP1."
+        },
+        {
+          "type": "paragraph",
+          "text": "• Track qualifying pace separately from fuel-corrected race pace; do not infer race order from one session."
+        },
+        {
+          "type": "paragraph",
+          "text": "• Monitor Red Bull’s engineer transition and both-car execution."
+        },
+        {
+          "type": "paragraph",
+          "text": "• Watch the McLaren–Red Bull seven-point constructors’ gap after each classification."
+        },
+        {
+          "type": "paragraph",
+          "text": "• Update the Antonelli title matrix only when grid penalties, race results or official calendar decisions materially change it."
+        },
+        {
+          "type": "heading",
+          "text": "Continue the race intelligence"
+        },
+        {
+          "type": "paragraph",
+          "text": "Live Race Weekend Center · Austin Title Scenarios ·  Verstappen’s Austin Engineer Change · McLaren Technical Watch · Singapore Post-Race Debrief · Circuit Intelligence · F1 Calendar · All Articles"
+        },
+        {
+          "type": "heading",
+          "text": "Verified sources and update policy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Formula 1: 2026 United States Grand Prix and circuit profile · Formula 1: Official weekend timetable · Formula 1: Drivers’ standings · Formula 1: Singapore classification · Circuit of the Americas: Event schedule · Reuters: Calendar status, October 16"
+        },
+        {
+          "type": "paragraph",
+          "text": "Published October 16, 2026. All race-weekend times and standings were checked before publication. The tyre allocation, weather, upgrades and qualifying/race classifications must be reverified as the event approaches."
+        }
+      ]
+    },
     {
       "id": "haas-camara-2027-confirmed-2026",
       "category": "DRIVER MARKET",
