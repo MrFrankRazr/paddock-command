@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.17.1",
-  "generatedAt": "2026-10-17T07:48:00Z",
+  "contentVersion": "2026.10.17.2",
+  "generatedAt": "2026-10-17T19:48:00Z",
   "articles": [
     {
       "id": "austin-cota-circuit-intelligence-2026",
@@ -289,111 +289,91 @@
     },
     {
       "id": "verstappen-portimao-gtwc-debut-2026",
-      "category": "QUALIFYING INTELLIGENCE",
-      "context": "PORTIMÃO · OCT 16–17",
-      "title": "Verstappen P14 at Portimão: Final GT3 Qualifying and Race Guide",
-      "deck": "Verstappen Racing starts P14 in Saturday’s Portimão GT World Challenge finale after the final qualifying classification moved the #3 Mercedes-AMG up one place. Its 1:42.624 average is 0.553s off pole.",
+      "category": "RACE DEBRIEF",
+      "context": "PORTIMÃO · OCT 17",
+      "title": "Verstappen Racing P9 at Portimão After Penalty and Late Fightback",
+      "deck": "Verstappen Racing is reported P9 after a drive-through penalty dropped the #3 Mercedes to P24. GetSpeed wins; official organizer classification pending.",
       "published": "Oct 15, 2026",
       "updated": "Oct 17, 2026",
       "canonicalUrl": "https://paddockcommand.com/verstappen-portimao-gt3-debut-2026-race-guide.html",
       "facts": [
         {
+          "label": "FINISH",
+          "value": "P9 (reported)"
+        },
+        {
           "label": "GRID",
-          "value": "P14 (final qualifying)"
+          "value": "P13 (reported)"
         },
         {
-          "label": "POLE GAP",
-          "value": "+0.553s"
+          "label": "PENALTY",
+          "value": "Drive-through"
         },
         {
-          "label": "RACE",
-          "value": "Oct 17"
-        },
-        {
-          "label": "START",
-          "value": "17:00 local"
+          "label": "WINNER",
+          "value": "#17 GetSpeed"
         }
       ],
       "sections": [
         {
-          "type": "heading",
-          "text": "Final qualifying classification: Verstappen Racing P14, Boutsen VDS on pole"
-        },
-        {
           "type": "paragraph",
-          "text": "Friday’s final combined qualifying classification lists the #3 Mercedes-AMG Team Verstappen Racing entry 14th overall. The session began with 61 cars and 60 were classified in the final results. Ben Barnicoat recorded 1:43.124 in Q1, Chris Lulham 1:42.655 in Q2 and Max Verstappen 1:42.093 in Q3. Their combined three-driver average was 1:42.624. The crew had initially appeared P15 before another entry’s qualifying times were deleted."
-        },
-        {
-          "type": "paragraph",
-          "text": "Classification correction · October 17: The earlier provisional classification placed Verstappen Racing P15. The final official classification promotes the #3 Mercedes-AMG to P14; the 1:42.624 average and +0.553-second gap to pole are unchanged. The race has not yet taken place."
-        },
-        {
-          "type": "paragraph",
-          "text": "The #2 Boutsen VDS Porsche of Morris Schuring, Dorian Boccolacci and Alessio Picariello secured pole on a 1:42.071 average, 0.553 seconds ahead of the Verstappen Racing entry. The #17 GetSpeed Mercedes qualified second on 1:42.179 and the #80 Lionspeed Porsche third on 1:42.250. These positions appear in the final qualifying classification."
-        },
-        {
-          "type": "paragraph",
-          "text": "Trackside reporting described bouncing and balance difficulties for the #3 Mercedes. That is a reported observation, not an official mechanical diagnosis. The race is three hours long, so traffic management, driver changes, pit stops and reliability can all affect the final classification."
+          "text": "Max Verstappen, Ben Barnicoat and Chris Lulham are reported to have finished ninth in Saturday’s three-hour GT World Challenge Europe finale at Portimão. The #3 Mercedes-AMG fought into the top six before a drive-through penalty for contact involving Lulham dropped it down the order. Verstappen recovered from P24 during the closing stint. The organizer’s official online race classification was not yet populated when this update was prepared; the placing is independently reported, pending official confirmation."
         },
         {
           "type": "heading",
-          "text": "Verstappen is on the Portimão entry list"
+          "text": "From P13 on the grid to a reported P9 finish"
         },
         {
           "type": "paragraph",
-          "text": "Max Verstappen is set to make his GT World Challenge Europe race debut at Portimão, Portugal, on Saturday, October 17, 2026. The official series entry list names him in the #3 Mercedes-AMG Team Verstappen Racing car alongside Chris Lulham and Ben Barnicoat. They will contest the three-hour Endurance Cup season finale in the Pro class, using a Mercedes-AMG GT3 EVO."
+          "text": "The #3 Mercedes-AMG Team Verstappen Racing crew began the weekend 15th in provisional combined qualifying, improved to P14 after the #65 Ford Mustang lost its times, and was subsequently promoted to P13 on the starting grid after a separate penalty for the #51 Ferrari. Its original three-driver qualifying average, 1:42.624, did not change. The distinction matters: P14 was the final combined qualifying classification; P13 was the reported race starting position."
         },
         {
           "type": "paragraph",
-          "text": "This is not Verstappen’s first GT3 appearance, nor a Formula 1 championship round. It is his first start in GT World Challenge Europe, a separate series with shared-car endurance racing, driver changes and a large multi-class grid. Verstappen Racing has already competed in the championship; the new element is Verstappen himself joining its race lineup."
+          "text": "Barnicoat took the opening stint and moved forward in a busy field of more than 60 GT3 cars. Lulham then continued the recovery, bringing the Mercedes into the top six and within reach of a significantly stronger finish than its qualifying result suggested."
         },
         {
           "type": "heading",
-          "text": "When to watch: the verified Portimão timetable"
+          "text": "The collision and drive-through that changed the race"
         },
         {
           "type": "paragraph",
-          "text": "Friday’s practice and qualifying sessions are complete. Saturday’s three-hour race begins October 17 at 17:00 Portugal local time (16:00 UTC; 9:00 a.m. Pacific Daylight Time), subject to organizer changes."
+          "text": "During the middle stint, Lulham made contact with Luca Stolz in the #48 Mercedes-AMG while attempting a pass. Stolz spun, and the #3 crew received a drive-through penalty. The penalty transformed a potential top-six challenge into a recovery drive and left Verstappen well outside the top ten when he took over."
         },
         {
           "type": "paragraph",
-          "text": "The organizer says GT World Challenge sessions will be streamed free on the GT World YouTube channel. The championship event page and official entry list are the best references for late schedule or lineup revisions."
+          "text": "Verstappen rejoined in P24 for the final portion of the race. He gained positions through traffic, with a late full-course yellow and safety-car period compressing the field. His closing sequence of overtakes brought the #3 car back to ninth in the race reports. The safety-car reset helped create opportunities, but the crew still had to execute the passes on track."
         },
         {
           "type": "heading",
-          "text": "A serious GT3 field, not an exhibition"
+          "text": "GetSpeed wins the season finale"
         },
         {
           "type": "paragraph",
-          "text": "The official entry list includes more than 60 GT3 cars across multiple classes. Verstappen’s #3 entry is in Pro. Among the notable names on the grid are Valentino Rossi in the #46 Team WRT BMW, along with established GT specialists from Mercedes-AMG, Porsche, Aston Martin and other manufacturers. The event is a full championship finale rather than a promotional demonstration."
+          "text": "The #17 Mercedes-AMG Team GetSpeed car shared by Maximilian Götz, Ralf Aron and Fabian Schiller took victory, according to multiple independent race reports. The #80 Lionspeed GP Porsche of Ricardo Feller, Thomas Preining and Bastian Buus finished second, with the pole-sitting #2 Boutsen VDS Porsche of Morris Schuring, Dorian Boccolacci and Alessio Picariello third."
         },
         {
           "type": "paragraph",
-          "text": "A three-hour endurance race tests more than single-lap speed. Traffic management, handovers, pit execution and consistency across stints can all decide the result. Those variables make a direct comparison with Verstappen’s recent Formula 1 results inappropriate, even if the same driver is at the wheel."
+          "text": "That result gives Portimão two distinct Mercedes stories: a winning GetSpeed operation at the front and a Verstappen Racing recovery after an avoidable penalty. It also underscores how endurance results depend on the full three-driver lineup, not the headline driver alone."
         },
         {
           "type": "heading",
-          "text": "Why it matters in the Formula 1 break"
+          "text": "Result status: reported, awaiting organizer classification"
         },
         {
           "type": "paragraph",
-          "text": "Verstappen arrives after consecutive Formula 1 Grand Prix victories at Sepang and Singapore. Red Bull has narrowed its constructors’ deficit to McLaren to seven points, 332 to 339, while Mercedes driver Kimi Antonelli leads the drivers’ championship on 340 points, 102 ahead of George Russell. Those are the latest post-Singapore F1 standings, not points at stake in Portugal."
-        },
-        {
-          "type": "paragraph",
-          "text": "Formula 1’s next race is the United States Grand Prix at Circuit of the Americas on October 23–25. Portimão offers a competitive look at Verstappen in a different discipline during the gap, but it does not forecast Red Bull’s pace in Austin or change the championship mathematics."
+          "text": "As of this October 17 publication preparation, RacingNews365, GPblog and GPFans independently reported the #3 car in P9. The official GT World Challenge Europe Portimão Main Race results page had not yet populated its classification. Paddock Command therefore identifies P9 as a reported result rather than an organizer-certified final classification. Any later stewards’ amendment should be reflected in this same article and its Android entry."
         },
         {
           "type": "heading",
-          "text": "What Paddock Command will watch"
+          "text": "What this means before Austin"
         },
         {
           "type": "paragraph",
-          "text": "The final qualifying classification places the #3 crew P14 on the grid. Saturday’s checkpoints are the opening stint, traffic management in the 61-car field, pit-stop execution, reliability and the official final classification. No finishing result should be published before the organizer confirms it."
+          "text": "The GT3 race does not change Formula 1 championship points. After Singapore, Mercedes driver Kimi Antonelli leads George Russell 340–238, a 102-point advantage; Verstappen is fourth on 221. His consecutive Formula 1 victories at Sepang and Singapore remain the relevant F1 form indicator, while the Portimão drive offers a separate look at his traffic management and adaptability in shared-car endurance racing."
         },
         {
           "type": "paragraph",
-          "text": "For F1 readers, the storyline is Verstappen’s willingness to race outside Formula 1 immediately before a consequential Austin weekend. The Red Bull engineering transition and Antonelli’s potential title-clinching scenario remain separate, already-covered F1 stories."
+          "text": "Formula 1 resumes at Circuit of the Americas for the United States Grand Prix on October 23–25. Austin is a conventional three-practice-session weekend. Paddock Command’s existing COTA circuit guide and Antonelli championship scenarios remain the primary Formula 1 briefings; this Portimão result should sit below them as a completed off-weekend motorsport story."
         },
         {
           "type": "heading",
@@ -401,7 +381,15 @@
         },
         {
           "type": "paragraph",
-          "text": "The P14 final qualifying result materially changes the outlook and warrants updating the October 15 preview in place. It remains secondary to Austin F1 coverage. The next meaningful update is the organizer’s official Saturday race result."
+          "text": "The headline is the recovery, not simply the finishing position. Verstappen Racing showed pace sufficient to move into the top six before the drive-through and recovered to a reported P9 after falling to P24. The penalty prevents treating the result as a clean measure of the crew’s competitive ceiling. Preserve the qualifying history below the race debrief and avoid publishing a second Portimão URL."
+        },
+        {
+          "type": "heading",
+          "text": "Verification sources"
+        },
+        {
+          "type": "paragraph",
+          "text": "Official race classification pending at preparation. Race reporting: RacingNews365 (Oct 17), GPblog (Oct 17), GPFans (Oct 17). Source URLs and related Austin coverage are linked in the website article."
         }
       ]
     },

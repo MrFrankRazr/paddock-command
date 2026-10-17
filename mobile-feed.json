@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.17.2",
-  "generatedAt": "2026-10-17T16:10:00Z",
+  "feedVersion": "2026.10.17.3",
+  "generatedAt": "2026-10-17T19:48:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -22,7 +22,7 @@
   "raceIntelligence": {
     "headline": "Austin Race Week Ahead — Antonelli Title Watch and Verstappen Momentum",
     "summary": "Round 18 begins October 23 at Circuit of the Americas. Antonelli leads Russell by 102 points and can clinch the championship with the required Austin results. Verstappen has won the last two Grands Prix, while McLaren leads Red Bull by seven constructors’ points. Friday practice opens at 12:30 PM Austin time.",
-    "updatedLabel": "Updated Oct 17, 2026 · Austin pre-weekend intelligence",
+    "updatedLabel": "Updated Oct 17, 2026 · Austin preview + Portimão GT3 result",
     "watchPoints": [
       {
         "id": "austin-weekend-countdown",
@@ -51,6 +51,13 @@
         "tag": "TECHNICAL",
         "title": "Mercedes and McLaren face important Austin setup tests",
         "summary": "Mercedes continues evaluating its updated W17; McLaren seeks improvement as Red Bull closes in. Results from Austin practice are not yet available."
+      },
+      {
+        "id": "portimao-gt3-race",
+        "label": "MOTORSPORT RESULT",
+        "tag": "GT3 · PORTIMÃO",
+        "title": "Verstappen Racing reported P9 after drive-through penalty",
+        "summary": "Barnicoat, Lulham and Verstappen finished P9 according to multiple race reports. A penalty dropped the #3 Mercedes to P24 before Verstappen’s recovery. Official race classification is pending; F1 standings are unchanged."
       },
       {
         "id": "singapore-race",
@@ -84,10 +91,10 @@
     },
     {
       "id": "verstappen-portimao-gtwc-debut-2026",
-      "category": "QUALIFYING INTELLIGENCE",
-      "context": "PORTIMÃO · OCT 16–17",
-      "title": "Verstappen P14 at Portimão: Final GT3 Qualifying and Race Guide",
-      "summary": "Official final qualifying: Verstappen, Lulham and Barnicoat start P14 in the #3 Mercedes-AMG after another entry’s times were deleted. Their 1:42.624 average is 0.553s off pole. Race: Oct 17, 17:00 Portugal local.",
+      "category": "RACE DEBRIEF",
+      "context": "PORTIMÃO · OCT 17",
+      "title": "Verstappen Racing P9 at Portimão After Penalty and Late Fightback",
+      "summary": "Verstappen Racing is reported P9 after a drive-through penalty; Verstappen recovered from P24 in the closing stint. GetSpeed won. Organizer classification pending.",
       "url": "https://paddockcommand.com/verstappen-portimao-gt3-debut-2026-race-guide.html",
       "updated": "2026-10-17",
       "nativeReader": true
