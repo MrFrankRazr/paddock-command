@@ -1,626 +1,111 @@
 {
   "schemaVersion": 1,
-  "weekendVersion": "2026.10.11.3",
-  "generatedAt": "2026-10-11T22:20:00+08:00",
-  "statusLabel": "Singapore Grand Prix · Race completed · Result published",
-  "state": "completed",
+  "weekendVersion": "2026.10.17.1",
+  "generatedAt": "2026-10-17T16:10:00Z",
+  "statusLabel": "United States Grand Prix · Oct 23–25 · Weekend upcoming",
+  "state": "upcoming",
   "race": {
-    "round": 17,
-    "name": "Singapore Grand Prix",
-    "officialName": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026",
-    "circuit": "Marina Bay Street Circuit",
-    "location": "Marina Bay, Singapore",
-    "timezone": "Asia/Singapore",
-    "dates": "Oct 9–11, 2026",
-    "laps": 62,
-    "circuitLengthKm": 4.927,
-    "raceDistanceKm": 305.337
+    "round": 18,
+    "name": "United States Grand Prix",
+    "officialName": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
+    "circuit": "Circuit of the Americas",
+    "location": "Austin, Texas, United States",
+    "timezone": "America/Chicago",
+    "dates": "Oct 23–25, 2026",
+    "laps": 56,
+    "circuitLengthKm": 5.513,
+    "raceDistanceKm": 308.405
   },
   "sessions": [
     {
       "id": "fp1",
       "name": "Practice 1",
       "shortName": "FP1",
-      "date": "Fri Oct 9",
-      "localTime": "16:30",
-      "status": "completed",
-      "classification": [
-        {
-          "position": 1,
-          "driver": "George Russell",
-          "team": "Mercedes",
-          "time": "1:32.274"
-        },
-        {
-          "position": 2,
-          "driver": "Charles Leclerc",
-          "team": "Ferrari",
-          "time": "+0.198s"
-        },
-        {
-          "position": 3,
-          "driver": "Lando Norris",
-          "team": "McLaren",
-          "time": "+0.273s"
-        }
-      ],
-      "startsAtUtc": "2026-10-09T08:30:00Z"
+      "date": "Fri Oct 23",
+      "localTime": "12:30",
+      "status": "scheduled",
+      "classification": [],
+      "startsAtUtc": "2026-10-23T17:30:00Z"
     },
     {
-      "id": "sprint_qualifying",
-      "name": "Sprint Qualifying",
-      "shortName": "SQ",
-      "date": "Fri Oct 9",
-      "localTime": "20:30",
-      "status": "completed",
-      "classification": [
-        {
-          "position": 1,
-          "driver": "Max Verstappen",
-          "team": "Red Bull Racing",
-          "time": "1:31.156"
-        },
-        {
-          "position": 2,
-          "driver": "George Russell",
-          "team": "Mercedes",
-          "time": "1:31.276"
-        },
-        {
-          "position": 3,
-          "driver": "Charles Leclerc",
-          "team": "Ferrari",
-          "time": "1:31.399"
-        },
-        {
-          "position": 4,
-          "driver": "Oscar Piastri",
-          "team": "McLaren",
-          "time": "1:31.454"
-        },
-        {
-          "position": 5,
-          "driver": "Lando Norris",
-          "team": "McLaren",
-          "time": "1:31.587"
-        },
-        {
-          "position": 6,
-          "driver": "Lewis Hamilton",
-          "team": "Ferrari",
-          "time": "1:31.702"
-        },
-        {
-          "position": 7,
-          "driver": "Kimi Antonelli",
-          "team": "Mercedes",
-          "time": "1:31.849"
-        }
-      ],
-      "startsAtUtc": "2026-10-09T12:30:00Z"
+      "id": "fp2",
+      "name": "Practice 2",
+      "shortName": "FP2",
+      "date": "Fri Oct 23",
+      "localTime": "16:00",
+      "status": "scheduled",
+      "classification": [],
+      "startsAtUtc": "2026-10-23T21:00:00Z"
     },
     {
-      "id": "sprint",
-      "name": "Sprint",
-      "shortName": "SPRINT",
-      "date": "Sat Oct 10",
-      "localTime": "17:00",
-      "status": "completed",
-      "classification": [
-        {
-          "position": 1,
-          "driver": "Max Verstappen",
-          "team": "Red Bull Racing",
-          "time": "39:48.162"
-        },
-        {
-          "position": 2,
-          "driver": "Lewis Hamilton",
-          "team": "Ferrari",
-          "time": "+2.591s"
-        },
-        {
-          "position": 3,
-          "driver": "Charles Leclerc",
-          "team": "Ferrari",
-          "time": "+16.871s"
-        },
-        {
-          "position": 4,
-          "driver": "Kimi Antonelli",
-          "team": "Mercedes",
-          "time": "+17.238s"
-        },
-        {
-          "position": 5,
-          "driver": "Liam Lawson",
-          "team": "Racing Bulls",
-          "time": "+20.632s"
-        },
-        {
-          "position": 6,
-          "driver": "Oliver Bearman",
-          "team": "Haas F1 Team",
-          "time": "+24.321s"
-        },
-        {
-          "position": 7,
-          "driver": "Nico Hulkenberg",
-          "team": "Audi",
-          "time": "+27.525s"
-        },
-        {
-          "position": 8,
-          "driver": "Lando Norris",
-          "team": "McLaren",
-          "time": "+28.272s"
-        },
-        {
-          "position": 9,
-          "driver": "Pierre Gasly",
-          "team": "Alpine",
-          "time": "+36.220s"
-        },
-        {
-          "position": 10,
-          "driver": "Esteban Ocon",
-          "team": "Haas F1 Team",
-          "time": "+37.640s"
-        },
-        {
-          "position": 11,
-          "driver": "Fernando Alonso",
-          "team": "Aston Martin",
-          "time": "+50.464s"
-        },
-        {
-          "position": 12,
-          "driver": "Carlos Sainz",
-          "team": "Williams",
-          "time": "+52.467s"
-        },
-        {
-          "position": 13,
-          "driver": "Arvid Lindblad",
-          "team": "Racing Bulls",
-          "time": "+55.792s"
-        },
-        {
-          "position": 14,
-          "driver": "Oscar Piastri",
-          "team": "McLaren",
-          "time": "DNF (classified, 19 laps)"
-        }
-      ],
-      "startsAtUtc": "2026-10-10T09:00:00Z"
+      "id": "fp3",
+      "name": "Practice 3",
+      "shortName": "FP3",
+      "date": "Sat Oct 24",
+      "localTime": "12:30",
+      "status": "scheduled",
+      "classification": [],
+      "startsAtUtc": "2026-10-24T17:30:00Z"
     },
     {
       "id": "qualifying",
       "name": "Qualifying",
-      "shortName": "QUALI",
-      "date": "Sat Oct 10",
-      "localTime": "21:30",
-      "status": "completed",
-      "classification": [
-        {
-          "position": 1,
-          "driver": "Max Verstappen",
-          "team": "Red Bull Racing",
-          "time": "1:31.373"
-        },
-        {
-          "position": 2,
-          "driver": "Charles Leclerc",
-          "team": "Ferrari",
-          "time": "1:31.427"
-        },
-        {
-          "position": 3,
-          "driver": "Lewis Hamilton",
-          "team": "Ferrari",
-          "time": "1:31.496"
-        },
-        {
-          "position": 4,
-          "driver": "Kimi Antonelli",
-          "team": "Mercedes",
-          "time": "1:31.562"
-        },
-        {
-          "position": 5,
-          "driver": "Lando Norris",
-          "team": "McLaren",
-          "time": "1:31.712"
-        },
-        {
-          "position": 6,
-          "driver": "George Russell",
-          "team": "Mercedes",
-          "time": "1:31.747"
-        },
-        {
-          "position": 7,
-          "driver": "Oscar Piastri",
-          "team": "McLaren",
-          "time": "1:31.860"
-        },
-        {
-          "position": 8,
-          "driver": "Pierre Gasly",
-          "team": "Alpine",
-          "time": "1:32.225"
-        },
-        {
-          "position": 9,
-          "driver": "Liam Lawson",
-          "team": "Racing Bulls",
-          "time": "1:32.369"
-        },
-        {
-          "position": 10,
-          "driver": "Arvid Lindblad",
-          "team": "Racing Bulls",
-          "time": "1:32.781"
-        },
-        {
-          "position": 11,
-          "driver": "Nico Hulkenberg",
-          "team": "Audi",
-          "time": "1:32.784 (Q2)"
-        },
-        {
-          "position": 12,
-          "driver": "Oliver Bearman",
-          "team": "Haas F1 Team",
-          "time": "1:32.908 (Q2)"
-        },
-        {
-          "position": 13,
-          "driver": "Esteban Ocon",
-          "team": "Haas F1 Team",
-          "time": "1:33.323 (Q2)"
-        },
-        {
-          "position": 14,
-          "driver": "Carlos Sainz",
-          "team": "Williams",
-          "time": "1:33.526 (Q2)"
-        },
-        {
-          "position": 15,
-          "driver": "Gabriel Bortoleto",
-          "team": "Audi",
-          "time": "1:33.658 (Q2)"
-        },
-        {
-          "position": 16,
-          "driver": "Franco Colapinto",
-          "team": "Alpine",
-          "time": "1:33.787 (Q2)"
-        },
-        {
-          "position": 17,
-          "driver": "Fernando Alonso",
-          "team": "Aston Martin",
-          "time": "1:34.223 (Q1)"
-        },
-        {
-          "position": 18,
-          "driver": "Alexander Albon",
-          "team": "Williams",
-          "time": "1:34.289 (Q1)"
-        },
-        {
-          "position": 19,
-          "driver": "Lance Stroll",
-          "team": "Aston Martin",
-          "time": "1:34.946 (Q1)"
-        },
-        {
-          "position": 20,
-          "driver": "Sergio Perez",
-          "team": "Cadillac",
-          "time": "1:35.123 (Q1)"
-        },
-        {
-          "position": 21,
-          "driver": "Valtteri Bottas",
-          "team": "Cadillac",
-          "time": "1:35.984 (Q1)"
-        },
-        {
-          "position": 22,
-          "driver": "Isack Hadjar",
-          "team": "Red Bull Racing",
-          "time": "No time (Q1)"
-        }
-      ],
-      "startsAtUtc": "2026-10-10T13:30:00Z"
+      "shortName": "Q",
+      "date": "Sat Oct 24",
+      "localTime": "16:00",
+      "status": "scheduled",
+      "classification": [],
+      "startsAtUtc": "2026-10-24T21:00:00Z"
     },
     {
       "id": "race",
       "name": "Race",
       "shortName": "RACE",
-      "date": "Sun Oct 11",
-      "localTime": "20:00",
-      "status": "completed",
-      "classification": [
-        {
-          "position": 1,
-          "driver": "Max Verstappen",
-          "team": "Red Bull Racing",
-          "time": "1:42:00.785"
-        },
-        {
-          "position": 2,
-          "driver": "Charles Leclerc",
-          "team": "Ferrari",
-          "time": "+7.335s"
-        },
-        {
-          "position": 3,
-          "driver": "Kimi Antonelli",
-          "team": "Mercedes",
-          "time": "+24.573s"
-        },
-        {
-          "position": 4,
-          "driver": "Lando Norris",
-          "team": "McLaren",
-          "time": "+40.506s"
-        },
-        {
-          "position": 5,
-          "driver": "Oscar Piastri",
-          "team": "McLaren",
-          "time": "+49.644s"
-        },
-        {
-          "position": 6,
-          "driver": "Lewis Hamilton",
-          "team": "Ferrari",
-          "time": "—"
-        },
-        {
-          "position": 7,
-          "driver": "Liam Lawson",
-          "team": "Racing Bulls",
-          "time": "—"
-        },
-        {
-          "position": 8,
-          "driver": "Nico Hulkenberg",
-          "team": "Audi",
-          "time": "—"
-        },
-        {
-          "position": 9,
-          "driver": "George Russell",
-          "team": "Mercedes",
-          "time": "—"
-        },
-        {
-          "position": 10,
-          "driver": "Isack Hadjar",
-          "team": "Red Bull Racing",
-          "time": "—"
-        }
-      ],
-      "startsAtUtc": "2026-10-11T12:00:00Z"
+      "date": "Sun Oct 25",
+      "localTime": "15:00",
+      "status": "scheduled",
+      "classification": [],
+      "startsAtUtc": "2026-10-25T20:00:00Z"
     }
   ],
   "weather": {
-    "summary": "Heavy rain delayed Saturday’s Sprint by more than 30 minutes. The 20-lap race began on intermediate tyres and ran on a drying circuit; Sunday forecast remains subject to change.",
-    "sourceLabel": "Formula 1 Singapore Sprint report · Oct 10; weekend forecast previously published Oct 7",
-    "days": [
-      {
-        "day": "Friday",
-        "date": "Oct 9",
-        "condition": "Hot / humid · possible showers",
-        "highC": 32,
-        "rainRisk": "30%"
-      },
-      {
-        "day": "Saturday",
-        "date": "Oct 10",
-        "condition": "Sprint rain delay · drying conditions",
-        "highC": 32,
-        "rainRisk": "40%"
-      },
-      {
-        "day": "Sunday",
-        "date": "Oct 11",
-        "condition": "Hot / humid · possible showers",
-        "highC": 32,
-        "rainRisk": "40%"
-      }
-    ]
+    "summary": "Austin race-weekend weather forecast not yet verified. Check closer to Friday practice.",
+    "sourceLabel": "Forecast pending — no verified Austin weather data used",
+    "days": []
   },
   "commandBrief": [
     {
-      "label": "GRAND PRIX RESULT",
-      "title": "Verstappen wins from pole",
-      "text": "Verstappen P1, Leclerc P2 (+7.335s), Antonelli P3. Verstappen claims his 73rd Grand Prix win."
+      "label": "UPCOMING RACE",
+      "title": "Austin Grand Prix · October 23–25",
+      "text": "Round 18 at Circuit of the Americas; standard weekend. FP1 Friday at 12:30 local; race Sunday at 15:00 local."
     },
     {
       "label": "CHAMPIONSHIP",
-      "title": "Antonelli leads by 102",
-      "text": "Antonelli 340 points, Russell 238. Russell recovers from P19 to finish ninth."
+      "title": "Antonelli leads Russell by 102",
+      "text": "Antonelli 340 points, Russell 238. One title-clinching combination requires Antonelli to win, Russell P9 or lower and Hamilton P5 or lower."
     },
     {
-      "label": "CONSTRUCTORS",
-      "title": "McLaren–Red Bull gap: 7",
-      "text": "McLaren 339, Red Bull 332 after the Singapore Grand Prix."
+      "label": "DRIVER FORM",
+      "title": "Verstappen chasing a third straight Grand Prix win",
+      "text": "Verstappen won the last two Grands Prix at Sepang and Singapore; Red Bull is seven points behind McLaren in the constructors’ battle."
     }
   ],
   "latestClassification": {
     "sessionId": "race",
-    "sessionName": "Singapore Grand Prix · Race",
-    "published": true,
-    "message": "Formula 1 race report finishing order: Verstappen wins ahead of Leclerc and Antonelli. FIA amendments, if any, supersede this summary.",
-    "results": [
-      {
-        "position": 1,
-        "driver": "Max Verstappen",
-        "team": "Red Bull Racing",
-        "time": "1:42:00.785"
-      },
-      {
-        "position": 2,
-        "driver": "Charles Leclerc",
-        "team": "Ferrari",
-        "time": "+7.335s"
-      },
-      {
-        "position": 3,
-        "driver": "Kimi Antonelli",
-        "team": "Mercedes",
-        "time": "+24.573s"
-      },
-      {
-        "position": 4,
-        "driver": "Lando Norris",
-        "team": "McLaren",
-        "time": "+40.506s"
-      },
-      {
-        "position": 5,
-        "driver": "Oscar Piastri",
-        "team": "McLaren",
-        "time": "+49.644s"
-      },
-      {
-        "position": 6,
-        "driver": "Lewis Hamilton",
-        "team": "Ferrari",
-        "time": "—"
-      },
-      {
-        "position": 7,
-        "driver": "Liam Lawson",
-        "team": "Racing Bulls",
-        "time": "—"
-      },
-      {
-        "position": 8,
-        "driver": "Nico Hulkenberg",
-        "team": "Audi",
-        "time": "—"
-      },
-      {
-        "position": 9,
-        "driver": "George Russell",
-        "team": "Mercedes",
-        "time": "—"
-      },
-      {
-        "position": 10,
-        "driver": "Isack Hadjar",
-        "team": "Red Bull Racing",
-        "time": "—"
-      }
-    ]
+    "sessionName": "United States Grand Prix · Race",
+    "published": false,
+    "message": "Austin sessions have not begun; no classifications or grid are available. Latest completed Grand Prix: Singapore, Oct 11 (Verstappen, Leclerc, Antonelli).",
+    "results": []
   },
   "notes": [
-    "Singapore Grand Prix completed October 11. Verstappen won ahead of Leclerc and Antonelli; Formula 1 race report is the finishing-order source.",
-    "Verstappen won his 73rd Grand Prix on his 250th Grand Prix start, following Saturday’s Singapore Sprint victory.",
-    "Antonelli leads Russell by 102 points (340–238). Russell started P19 after a cumulative 60-place power-unit penalty and finished ninth.",
-    "Hadjar started from the pit lane and finished tenth. The October 11 pre-race grid references are historical, not the current race status.",
-    "Next race: United States Grand Prix, October 23–25, at Circuit of the Americas.",
-    "Editorial result; monitor official FIA classification and stewards decisions for any later amendments."
+    "Upcoming: United States Grand Prix, October 23–25, Circuit of the Americas (round 18).",
+    "Austin local times (CDT, UTC−5): Friday FP1 12:30, FP2 16:00; Saturday FP3 12:30, qualifying 16:00; Sunday race 15:00.",
+    "Circuit length 5.513 km; 56 race laps; 308.405 km race distance.",
+    "No Austin session classifications, qualifying grid or verified weather forecast are available as of this pre-weekend update.",
+    "Antonelli leads Russell 340–238 (102 points) entering Austin.",
+    "Last completed Grand Prix: Singapore Oct 11, won by Verstappen ahead of Leclerc and Antonelli. Historical results remain in the Articles and Race Intelligence archive.",
+    "Official Austin timetable: https://www.formula1.com/en/latest/article/formula-1-msc-cruises-united-states-grand-prix-2026.2u6li2pzNhPzL3TSYaagrm"
   ],
-  "startingGrid": [
-    {
-      "position": 1,
-      "driver": "Max Verstappen"
-    },
-    {
-      "position": 2,
-      "driver": "Charles Leclerc"
-    },
-    {
-      "position": 3,
-      "driver": "Lewis Hamilton"
-    },
-    {
-      "position": 4,
-      "driver": "Kimi Antonelli"
-    },
-    {
-      "position": 5,
-      "driver": "Lando Norris"
-    },
-    {
-      "position": 6,
-      "driver": "Oscar Piastri"
-    },
-    {
-      "position": 7,
-      "driver": "Pierre Gasly"
-    },
-    {
-      "position": 8,
-      "driver": "Liam Lawson"
-    },
-    {
-      "position": 9,
-      "driver": "Arvid Lindblad"
-    },
-    {
-      "position": 10,
-      "driver": "Nico Hulkenberg"
-    },
-    {
-      "position": 11,
-      "driver": "Oliver Bearman"
-    },
-    {
-      "position": 12,
-      "driver": "Esteban Ocon"
-    },
-    {
-      "position": 13,
-      "driver": "Carlos Sainz"
-    },
-    {
-      "position": 14,
-      "driver": "Gabriel Bortoleto"
-    },
-    {
-      "position": 15,
-      "driver": "Franco Colapinto"
-    },
-    {
-      "position": 16,
-      "driver": "Alexander Albon"
-    },
-    {
-      "position": 17,
-      "driver": "Sergio Perez"
-    },
-    {
-      "position": 18,
-      "driver": "Valtteri Bottas"
-    },
-    {
-      "position": 19,
-      "driver": "George Russell"
-    },
-    {
-      "position": 20,
-      "driver": "Fernando Alonso",
-      "startType": "pit_lane"
-    },
-    {
-      "position": 21,
-      "driver": "Lance Stroll",
-      "startType": "pit_lane"
-    },
-    {
-      "position": 22,
-      "driver": "Isack Hadjar",
-      "startType": "pit_lane"
-    }
-  ],
-  "startingGridSource": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+  "startingGrid": [],
+  "startingGridSource": "Not yet available — Austin qualifying scheduled October 24"
 }
