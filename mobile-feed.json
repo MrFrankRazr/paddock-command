@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.16.2",
-  "generatedAt": "2026-10-16T19:14:00Z",
+  "feedVersion": "2026.10.17.1",
+  "generatedAt": "2026-10-17T07:48:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -86,10 +86,10 @@
       "id": "verstappen-portimao-gtwc-debut-2026",
       "category": "QUALIFYING INTELLIGENCE",
       "context": "PORTIMÃO · OCT 16–17",
-      "title": "Verstappen P15 at Portimão: GT3 Qualifying and Race Guide",
-      "summary": "Official provisional qualifying: Verstappen, Lulham and Barnicoat start P15 in the #3 Mercedes-AMG (1:42.624 average), 0.553s behind the #2 Boutsen VDS Porsche pole. Race: Oct 17, 17:00 Portugal local.",
+      "title": "Verstappen P14 at Portimão: Final GT3 Qualifying and Race Guide",
+      "summary": "Official final qualifying: Verstappen, Lulham and Barnicoat start P14 in the #3 Mercedes-AMG after another entry’s times were deleted. Their 1:42.624 average is 0.553s off pole. Race: Oct 17, 17:00 Portugal local.",
       "url": "https://paddockcommand.com/verstappen-portimao-gt3-debut-2026-race-guide.html",
-      "updated": "2026-10-16",
+      "updated": "2026-10-17",
       "nativeReader": true
     },
     {
