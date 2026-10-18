@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.18.1",
-  "generatedAt": "2026-10-18T17:25:00Z",
+  "feedVersion": "2026.10.17.4",
+  "generatedAt": "2026-10-18T02:58:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -20,58 +20,55 @@
     }
   },
   "raceIntelligence": {
-    "headline": "Austin Title Watch — Antonelli Can Clinch as Verstappen Builds Momentum",
-    "summary": "Antonelli heads to the United States Grand Prix on Oct 23–25 leading Russell 340–238. One title-clinching scenario requires an Antonelli win, Russell P9 or lower and Hamilton P5 or lower. Verstappen arrives after consecutive Grand Prix wins; McLaren leads Red Bull by seven constructors’ points.",
-    "updatedLabel": "Updated Oct 14, 2026 · United States Grand Prix outlook",
+    "headline": "Austin Race Week Ahead — Antonelli Title Watch and Verstappen Momentum",
+    "summary": "Round 18 begins October 23 at Circuit of the Americas. Antonelli leads Russell by 102 points and can clinch the championship with the required Austin results. Verstappen has won the last two Grands Prix, while McLaren leads Red Bull by seven constructors’ points. Friday practice opens at 12:30 PM Austin time.",
+    "updatedLabel": "Updated Oct 17, 2026 · Austin preview + official Portimão GT3 result",
     "watchPoints": [
       {
-        "id": "title-watch",
+        "id": "austin-weekend-countdown",
         "label": "WATCH POINT 01",
+        "tag": "AUSTIN SCHEDULE",
+        "title": "Austin practice opens October 23",
+        "summary": "COTA hosts a standard weekend: FP1 Friday 12:30 PM, FP2 Friday 4:00 PM, FP3 Saturday 12:30 PM, qualifying Saturday 4:00 PM, and the 56-lap Grand Prix Sunday 3:00 PM. All times Austin local (CDT)."
+      },
+      {
+        "id": "title-watch",
+        "label": "WATCH POINT 02",
         "tag": "CHAMPIONSHIP",
-        "title": "Antonelli can clinch in Austin",
-        "summary": "Antonelli leads Russell by 102. A win in Austin seals the title if Russell is P9 or lower and Hamilton P5 or lower; Antonelli needs a lead of at least 125 after the race."
+        "title": "Antonelli’s Austin title opportunity",
+        "summary": "Antonelli leads Russell 340–238. One clinching combination is Antonelli P1, Russell P9 or lower, and Hamilton P5 or lower."
       },
       {
         "id": "red-bull-austin-operations",
-        "label": "WATCH POINT 02",
-        "tag": "RED BULL",
-        "title": "Verstappen and Red Bull carry momentum to Austin",
-        "summary": "Verstappen has won the last two Grands Prix at Sepang and Singapore. Tom Hart is set to engineer Verstappen at Austin as Red Bull begins its race-engineer transition."
-      },
-      {
-        "id": "constructors-watch",
         "label": "WATCH POINT 03",
-        "tag": "CONSTRUCTORS",
-        "title": "Red Bull closes on McLaren",
-        "summary": "McLaren 339, Red Bull 332 — seven points separate third and fourth."
+        "tag": "DRIVER FORM",
+        "title": "Verstappen enters Austin on a two-race winning streak",
+        "summary": "Verstappen won at Sepang and Singapore. The team approaches Austin seven points behind McLaren in the Constructors’ standings (332–339)."
       },
       {
         "id": "mercedes-upgrade-watch",
         "label": "WATCH POINT 04",
-        "tag": "MERCEDES",
-        "title": "Mercedes Confirms Faster Upgrade as Russell Considers Las Vegas Engine Penalty",
-        "summary": "Mercedes says Antonelli’s upgraded W17 was faster by the end of Singapore. Russell identifies Las Vegas as a possible venue for another engine penalty."
+        "tag": "TECHNICAL",
+        "title": "Mercedes and McLaren face important Austin setup tests",
+        "summary": "Mercedes continues evaluating its updated W17; McLaren seeks improvement as Red Bull closes in. Results from Austin practice are not yet available."
+      },
+      {
+        "id": "portimao-gt3-race",
+        "label": "MOTORSPORT RESULT",
+        "tag": "GT3 · PORTIMÃO",
+        "title": "Verstappen Racing P9 listed in official Portimão results",
+        "summary": "GT World Challenge Europe lists Barnicoat, Lulham and Verstappen P9 after a drive-through penalty. The #3 Mercedes completed 94 laps, 18.556s behind GetSpeed; organizer race report labels the result provisional. F1 standings are unchanged."
       },
       {
         "id": "singapore-race",
-        "label": "LAST RACE",
-        "tag": "RACE RESULT",
-        "title": "Verstappen completes Singapore double",
-        "summary": "Verstappen wins the Grand Prix ahead of Leclerc and Antonelli after Saturday’s Sprint victory."
+        "label": "LAST COMPLETED GP",
+        "tag": "SINGAPORE ARCHIVE",
+        "title": "Singapore: Verstappen wins ahead of Leclerc and Antonelli",
+        "summary": "The October 11 Singapore Grand Prix remains the latest completed F1 race. Its result and championship points are retained as historical context."
       }
     ]
   },
   "articles": [
-    {
-      "id": "austin-driver-form-watch-oct18-2026",
-      "category": "DRIVER FORM WATCH",
-      "context": "AUSTIN · UNITED STATES GP · OCT 18",
-      "title": "Austin Driver Form Watch: Verstappen’s Surge, Antonelli’s Title Cushion",
-      "summary": "Three-race form before Austin: Verstappen has 68 Grand Prix points, Antonelli leads the title by 102, and Red Bull trails McLaren by seven in the constructors’ standings.",
-      "url": "https://paddockcommand.com/2026-austin-driver-form-verstappen-antonelli-mclaren.html",
-      "updated": "2026-10-18",
-      "nativeReader": true
-    },
     {
       "id": "austin-cota-circuit-intelligence-2026",
       "category": "CIRCUIT INTELLIGENCE",
@@ -97,7 +94,7 @@
       "category": "RACE DEBRIEF",
       "context": "PORTIMÃO · OCT 17",
       "title": "Verstappen Racing P9 at Portimão After Penalty and Late Fightback",
-      "summary": "Verstappen Racing is reported P9 after a drive-through penalty; Verstappen recovered from P24 in the closing stint. GetSpeed won. Organizer classification pending.",
+      "summary": "GT World Challenge Europe lists Verstappen Racing P9, 94 laps and +18.556s to winner GetSpeed. The #3 crew recovered from P24 after a drive-through penalty; the race report labels results provisional.",
       "url": "https://paddockcommand.com/verstappen-portimao-gt3-debut-2026-race-guide.html",
       "updated": "2026-10-17",
       "nativeReader": true

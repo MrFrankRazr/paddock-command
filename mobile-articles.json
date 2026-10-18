@@ -1,118 +1,8 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.18.1",
-  "generatedAt": "2026-10-18T17:25:00Z",
+  "contentVersion": "2026.10.17.3",
+  "generatedAt": "2026-10-18T02:58:00Z",
   "articles": [
-    {
-      "id": "austin-driver-form-watch-oct18-2026",
-      "category": "DRIVER FORM WATCH",
-      "context": "AUSTIN · UNITED STATES GP · OCT 18",
-      "title": "Austin Driver Form Watch: Verstappen’s Surge, Antonelli’s Title Cushion",
-      "deck": "Three-race form before Austin: Verstappen has 68 Grand Prix points, Antonelli leads the title by 102, and Red Bull trails McLaren by seven in the constructors’ standings.",
-      "published": "Oct 18, 2026",
-      "updated": "Oct 18, 2026",
-      "canonicalUrl": "https://paddockcommand.com/2026-austin-driver-form-verstappen-antonelli-mclaren.html",
-      "facts": [
-        {
-          "label": "VERSTAPPEN · 3 GP",
-          "value": "68 pts"
-        },
-        {
-          "label": "ANTONELLI LEAD",
-          "value": "102 pts"
-        },
-        {
-          "label": "McL vs RBR",
-          "value": "7 pts"
-        },
-        {
-          "label": "AUSTIN RACE",
-          "value": "Oct 25"
-        }
-      ],
-      "sections": [
-        {
-          "type": "heading",
-          "text": "Why the form watch matters"
-        },
-        {
-          "type": "paragraph",
-          "text": "With five days until Austin, the last three completed Grands Prix tell a different story from the season championship: Verstappen is on a two-race winning streak, while Antonelli's consistency keeps him 102 points clear of Russell."
-        },
-        {
-          "type": "heading",
-          "text": "Last three Grands Prix: the verified comparison"
-        },
-        {
-          "type": "paragraph",
-          "text": "Using Grand Prix points only from Baku, Sepang and Singapore: Verstappen 68; Antonelli 43; Leclerc 42; Hamilton 31; Russell 27; Hadjar 26; Piastri 18; Norris 14. Singapore Sprint points are excluded."
-        },
-        {
-          "type": "heading",
-          "text": "Verstappen's momentum"
-        },
-        {
-          "type": "paragraph",
-          "text": "Verstappen finished second in Baku, won the Bahrain Grand Prix in Malaysia at Sepang and won Singapore. His 68 points from these three races lead this selected comparison; his Singapore Sprint win is additional context."
-        },
-        {
-          "type": "heading",
-          "text": "Antonelli's title cushion"
-        },
-        {
-          "type": "paragraph",
-          "text": "Antonelli finished fifth in Baku, second at Sepang and third in Singapore. His official 340-point season total is 102 ahead of Russell's 238 entering the United States Grand Prix."
-        },
-        {
-          "type": "heading",
-          "text": "Russell's challenge"
-        },
-        {
-          "type": "paragraph",
-          "text": "Russell won Baku, retired from the Sepang Grand Prix with a power-unit issue and finished ninth in Singapore. The last two Grands Prix yielded just two points."
-        },
-        {
-          "type": "heading",
-          "text": "Leclerc and Ferrari"
-        },
-        {
-          "type": "paragraph",
-          "text": "Leclerc's fourth-place finishes in Baku and Sepang followed by second in Singapore are worth 42 Grand Prix points. Ferrari has 444 constructors' points."
-        },
-        {
-          "type": "heading",
-          "text": "McLaren versus Red Bull"
-        },
-        {
-          "type": "paragraph",
-          "text": "McLaren enters Austin on 339 constructors' points, seven ahead of Red Bull's 332. Norris finished fourth and Piastri fifth in Singapore. Norris's recent remarks about the MCL40's demanding handling add context but do not prove Austin performance."
-        },
-        {
-          "type": "heading",
-          "text": "What Austin must answer"
-        },
-        {
-          "type": "paragraph",
-          "text": "The COTA Esses, heavy braking and long back straight will test different aspects of car performance. Watch Verstappen's speed, Mercedes' two-car execution, Ferrari's pace and McLaren's qualifying consistency."
-        },
-        {
-          "type": "heading",
-          "text": "United States Grand Prix timetable"
-        },
-        {
-          "type": "paragraph",
-          "text": "FP1 Friday Oct 23 at 12:30 PM CDT; FP2 at 4:00 PM; FP3 Saturday Oct 24 at 12:30 PM; qualifying at 4:00 PM; race Sunday Oct 25 at 3:00 PM. Timetable subject to change."
-        },
-        {
-          "type": "heading",
-          "text": "Update policy"
-        },
-        {
-          "type": "paragraph",
-          "text": "Data verified October 18 before Austin track sessions. Recheck official standings, timetable and results before Friday's practice coverage and again after qualifying and the race."
-        }
-      ]
-    },
     {
       "id": "austin-cota-circuit-intelligence-2026",
       "category": "CIRCUIT INTELLIGENCE",
@@ -402,18 +292,22 @@
       "category": "RACE DEBRIEF",
       "context": "PORTIMÃO · OCT 17",
       "title": "Verstappen Racing P9 at Portimão After Penalty and Late Fightback",
-      "deck": "Verstappen Racing is reported P9 after a drive-through penalty dropped the #3 Mercedes to P24. GetSpeed wins; official organizer classification pending.",
+      "deck": "Official Portimão classification lists Verstappen Racing P9 after a drive-through penalty. The #3 Mercedes completed 94 laps, +18.556s to GetSpeed; organizer report labels the result provisional.",
       "published": "Oct 15, 2026",
       "updated": "Oct 17, 2026",
       "canonicalUrl": "https://paddockcommand.com/verstappen-portimao-gt3-debut-2026-race-guide.html",
       "facts": [
         {
           "label": "FINISH",
-          "value": "P9 (reported)"
+          "value": "P9 (organizer-listed)"
         },
         {
-          "label": "GRID",
-          "value": "P13 (reported)"
+          "label": "RACE",
+          "value": "94 laps"
+        },
+        {
+          "label": "GAP TO WINNER",
+          "value": "+18.556s"
         },
         {
           "label": "PENALTY",
@@ -427,11 +321,11 @@
       "sections": [
         {
           "type": "paragraph",
-          "text": "Max Verstappen, Ben Barnicoat and Chris Lulham are reported to have finished ninth in Saturday’s three-hour GT World Challenge Europe finale at Portimão. The #3 Mercedes-AMG fought into the top six before a drive-through penalty for contact involving Lulham dropped it down the order. Verstappen recovered from P24 during the closing stint. The organizer’s official online race classification was not yet populated when this update was prepared; the placing is independently reported, pending official confirmation."
+          "text": "GT World Challenge Europe’s published main-race classification lists Max Verstappen, Ben Barnicoat and Chris Lulham ninth in Saturday’s three-hour Portimão finale. The #3 Mercedes-AMG completed 94 laps, 18.556 seconds behind the winning GetSpeed car. After a drive-through penalty for contact involving Lulham, Verstappen recovered from P24 during the closing stint. The organizer’s October 17 race report labels the result provisional, so any subsequent stewards’ amendment would still require an update."
         },
         {
           "type": "heading",
-          "text": "From P13 on the grid to a reported P9 finish"
+          "text": "From P13 on the grid to an organizer-listed P9 finish"
         },
         {
           "type": "paragraph",
@@ -451,7 +345,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Verstappen rejoined in P24 for the final portion of the race. He gained positions through traffic, with a late full-course yellow and safety-car period compressing the field. His closing sequence of overtakes brought the #3 car back to ninth in the race reports. The safety-car reset helped create opportunities, but the crew still had to execute the passes on track."
+          "text": "Verstappen rejoined in P24 for the final portion of the race. He gained positions through traffic, with a late full-course yellow and safety-car period compressing the field. His closing sequence of overtakes brought the #3 car back to ninth, as confirmed in the organizer’s published race classification. The safety-car reset helped create opportunities, but the crew still had to execute the passes on track."
         },
         {
           "type": "heading",
@@ -459,7 +353,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The #17 Mercedes-AMG Team GetSpeed car shared by Maximilian Götz, Ralf Aron and Fabian Schiller took victory, according to multiple independent race reports. The #80 Lionspeed GP Porsche of Ricardo Feller, Thomas Preining and Bastian Buus finished second, with the pole-sitting #2 Boutsen VDS Porsche of Morris Schuring, Dorian Boccolacci and Alessio Picariello third."
+          "text": "The #17 Mercedes-AMG Team GetSpeed car shared by Maximilian Götz, Ralf Aron and Fabian Schiller won after 94 laps according to the official race classification. The #80 Lionspeed GP Porsche of Ricardo Feller, Thomas Preining and Bastian Buus finished second, with the pole-sitting #2 Boutsen VDS Porsche of Morris Schuring, Dorian Boccolacci and Alessio Picariello third."
         },
         {
           "type": "paragraph",
@@ -467,11 +361,11 @@
         },
         {
           "type": "heading",
-          "text": "Result status: reported, awaiting organizer classification"
+          "text": "Official classification now lists P9"
         },
         {
           "type": "paragraph",
-          "text": "As of this October 17 publication preparation, RacingNews365, GPblog and GPFans independently reported the #3 car in P9. The official GT World Challenge Europe Portimão Main Race results page had not yet populated its classification. Paddock Command therefore identifies P9 as a reported result rather than an organizer-certified final classification. Any later stewards’ amendment should be reflected in this same article and its Android entry."
+          "text": "GT World Challenge Europe has now populated its Portimão Main Race classification. It lists the #3 Mercedes-AMG Team Verstappen Racing crew ninth overall and in the Pro Cup, with 94 laps completed and a gap of 18.556 seconds to the #17 winner. The organizer’s October 17 race report calls the result provisional. This is an organizer-confirmed published classification, not a claim that all possible post-race amendments are closed. Any subsequent official revision should be reflected in this article and its Android entry."
         },
         {
           "type": "heading",
@@ -491,7 +385,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The headline is the recovery, not simply the finishing position. Verstappen Racing showed pace sufficient to move into the top six before the drive-through and recovered to a reported P9 after falling to P24. The penalty prevents treating the result as a clean measure of the crew’s competitive ceiling. Preserve the qualifying history below the race debrief and avoid publishing a second Portimão URL."
+          "text": "The headline is the recovery, not simply the finishing position. Verstappen Racing showed pace sufficient to move into the top six before the drive-through and recovered to the organizer-listed P9 after falling to P24. The penalty prevents treating the result as a clean measure of the crew’s competitive ceiling. Preserve the qualifying history below the race debrief and avoid publishing a second Portimão URL."
         },
         {
           "type": "heading",
@@ -499,7 +393,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Official race classification pending at preparation. Race reporting: RacingNews365 (Oct 17), GPblog (Oct 17), GPFans (Oct 17). Source URLs and related Austin coverage are linked in the website article."
+          "text": "Official classification: GT World Challenge Europe, Portimão Main Race (October 17, 2026). Official organizer race report: provisional result, October 17. Independent race reporting: RacingNews365, GPblog and GPFans. See the website article for source links."
         }
       ]
     },
