@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.17.4",
-  "generatedAt": "2026-10-18T02:58:00Z",
+  "feedVersion": "2026.10.19.1",
+  "generatedAt": "2026-10-19T14:35:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -20,9 +20,9 @@
     }
   },
   "raceIntelligence": {
-    "headline": "Austin Race Week Ahead — Antonelli Title Watch and Verstappen Momentum",
-    "summary": "Round 18 begins October 23 at Circuit of the Americas. Antonelli leads Russell by 102 points and can clinch the championship with the required Austin results. Verstappen has won the last two Grands Prix, while McLaren leads Red Bull by seven constructors’ points. Friday practice opens at 12:30 PM Austin time.",
-    "updatedLabel": "Updated Oct 17, 2026 · Austin preview + official Portimão GT3 result",
+    "headline": "Austin Race Week — Antonelli Title Watch, Verstappen Form and Friday FP1",
+    "summary": "The October 23–25 United States Grand Prix is Round 18. Antonelli leads Russell 340–238 and has an outside chance to clinch in Austin; Verstappen has won the last two Grands Prix. McLaren leads Red Bull by seven points. FP1 begins Friday at 12:30 PM CDT; Austin practice and qualifying have not yet taken place.",
+    "updatedLabel": "Updated Oct 19, 2026 · Austin race-week briefing",
     "watchPoints": [
       {
         "id": "austin-weekend-countdown",
@@ -42,15 +42,15 @@
         "id": "red-bull-austin-operations",
         "label": "WATCH POINT 03",
         "tag": "DRIVER FORM",
-        "title": "Verstappen enters Austin on a two-race winning streak",
-        "summary": "Verstappen won at Sepang and Singapore. The team approaches Austin seven points behind McLaren in the Constructors’ standings (332–339)."
+        "title": "Verstappen leads recent GP form with 68 points in three races",
+        "summary": "P2 at Baku and victories at Sepang and Singapore gave Verstappen 68 points across three Grands Prix (Singapore Sprint excluded). Red Bull trails McLaren by seven constructors’ points entering Austin."
       },
       {
         "id": "mercedes-upgrade-watch",
         "label": "WATCH POINT 04",
         "tag": "TECHNICAL",
-        "title": "Mercedes and McLaren face important Austin setup tests",
-        "summary": "Mercedes continues evaluating its updated W17; McLaren seeks improvement as Red Bull closes in. Results from Austin practice are not yet available."
+        "title": "Austin upgrades: McLaren plans parts, Mercedes tests existing W17 package",
+        "summary": "Formula 1 reported Oct 19 that McLaren plans further Austin upgrades while Mercedes has not announced new parts; three practice sessions will help Mercedes assess its Malaysia package. Plans are not confirmation of installation or on-track performance."
       },
       {
         "id": "portimao-gt3-race",
@@ -69,6 +69,16 @@
     ]
   },
   "articles": [
+    {
+      "id": "austin-driver-form-watch-oct18-2026",
+      "category": "DRIVER FORM WATCH",
+      "context": "AUSTIN · UNITED STATES GP · OCT 18",
+      "title": "Austin Driver Form Watch: Verstappen’s Surge, Antonelli’s Title Cushion",
+      "summary": "Three-race form before Austin: Verstappen has 68 Grand Prix points, Antonelli leads the title by 102, and Red Bull trails McLaren by seven in the constructors’ standings.",
+      "url": "https://paddockcommand.com/2026-austin-driver-form-verstappen-antonelli-mclaren.html",
+      "updated": "2026-10-18",
+      "nativeReader": true
+    },
     {
       "id": "austin-cota-circuit-intelligence-2026",
       "category": "CIRCUIT INTELLIGENCE",

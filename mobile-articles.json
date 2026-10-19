@@ -1,8 +1,118 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.17.3",
-  "generatedAt": "2026-10-18T02:58:00Z",
+  "contentVersion": "2026.10.19.1",
+  "generatedAt": "2026-10-19T14:35:00Z",
   "articles": [
+    {
+      "id": "austin-driver-form-watch-oct18-2026",
+      "category": "DRIVER FORM WATCH",
+      "context": "AUSTIN · UNITED STATES GP · OCT 18",
+      "title": "Austin Driver Form Watch: Verstappen’s Surge, Antonelli’s Title Cushion",
+      "deck": "Three-race form before Austin: Verstappen has 68 Grand Prix points, Antonelli leads the title by 102, and Red Bull trails McLaren by seven in the constructors’ standings.",
+      "published": "Oct 18, 2026",
+      "updated": "Oct 18, 2026",
+      "canonicalUrl": "https://paddockcommand.com/2026-austin-driver-form-verstappen-antonelli-mclaren.html",
+      "facts": [
+        {
+          "label": "VERSTAPPEN · 3 GP",
+          "value": "68 pts"
+        },
+        {
+          "label": "ANTONELLI LEAD",
+          "value": "102 pts"
+        },
+        {
+          "label": "McL vs RBR",
+          "value": "7 pts"
+        },
+        {
+          "label": "AUSTIN RACE",
+          "value": "Oct 25"
+        }
+      ],
+      "sections": [
+        {
+          "type": "heading",
+          "text": "Why the form watch matters"
+        },
+        {
+          "type": "paragraph",
+          "text": "With five days until Austin, the last three completed Grands Prix tell a different story from the season championship: Verstappen is on a two-race winning streak, while Antonelli's consistency keeps him 102 points clear of Russell."
+        },
+        {
+          "type": "heading",
+          "text": "Last three Grands Prix: the verified comparison"
+        },
+        {
+          "type": "paragraph",
+          "text": "Using Grand Prix points only from Baku, Sepang and Singapore: Verstappen 68; Antonelli 43; Leclerc 42; Hamilton 31; Russell 27; Hadjar 26; Piastri 18; Norris 14. Singapore Sprint points are excluded."
+        },
+        {
+          "type": "heading",
+          "text": "Verstappen's momentum"
+        },
+        {
+          "type": "paragraph",
+          "text": "Verstappen finished second in Baku, won the Bahrain Grand Prix in Malaysia at Sepang and won Singapore. His 68 points from these three races lead this selected comparison; his Singapore Sprint win is additional context."
+        },
+        {
+          "type": "heading",
+          "text": "Antonelli's title cushion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Antonelli finished fifth in Baku, second at Sepang and third in Singapore. His official 340-point season total is 102 ahead of Russell's 238 entering the United States Grand Prix."
+        },
+        {
+          "type": "heading",
+          "text": "Russell's challenge"
+        },
+        {
+          "type": "paragraph",
+          "text": "Russell won Baku, retired from the Sepang Grand Prix with a power-unit issue and finished ninth in Singapore. The last two Grands Prix yielded just two points."
+        },
+        {
+          "type": "heading",
+          "text": "Leclerc and Ferrari"
+        },
+        {
+          "type": "paragraph",
+          "text": "Leclerc's fourth-place finishes in Baku and Sepang followed by second in Singapore are worth 42 Grand Prix points. Ferrari has 444 constructors' points."
+        },
+        {
+          "type": "heading",
+          "text": "McLaren versus Red Bull"
+        },
+        {
+          "type": "paragraph",
+          "text": "McLaren enters Austin on 339 constructors' points, seven ahead of Red Bull's 332. Norris finished fourth and Piastri fifth in Singapore. Norris's recent remarks about the MCL40's demanding handling add context but do not prove Austin performance."
+        },
+        {
+          "type": "heading",
+          "text": "What Austin must answer"
+        },
+        {
+          "type": "paragraph",
+          "text": "The COTA Esses, heavy braking and long back straight will test different aspects of car performance. Watch Verstappen's speed, Mercedes' two-car execution, Ferrari's pace and McLaren's qualifying consistency."
+        },
+        {
+          "type": "heading",
+          "text": "United States Grand Prix timetable"
+        },
+        {
+          "type": "paragraph",
+          "text": "FP1 Friday Oct 23 at 12:30 PM CDT; FP2 at 4:00 PM; FP3 Saturday Oct 24 at 12:30 PM; qualifying at 4:00 PM; race Sunday Oct 25 at 3:00 PM. Timetable subject to change."
+        },
+        {
+          "type": "heading",
+          "text": "Update policy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Data verified October 18 before Austin track sessions. Recheck official standings, timetable and results before Friday's practice coverage and again after qualifying and the race."
+        }
+      ]
+    },
     {
       "id": "austin-cota-circuit-intelligence-2026",
       "category": "CIRCUIT INTELLIGENCE",
