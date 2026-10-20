@@ -1,8 +1,114 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.19.1",
-  "generatedAt": "2026-10-19T14:35:00Z",
+  "contentVersion": "2026.10.20.1",
+  "generatedAt": "2026-10-20T14:30:00Z",
   "articles": [
+    {
+      "id": "colton-herta-cadillac-austin-fp1-2026",
+      "category": "CADILLAC FP1",
+      "context": "UNITED STATES GP · AUSTIN · OCT 20",
+      "title": "Colton Herta to Drive Cadillac in Austin FP1 as Pérez Steps Aside",
+      "deck": "Cadillac will put Colton Herta in Sergio Pérez’s car for Friday’s opening Austin practice session. It is a planned rookie-driver appearance, not a change to the Grand Prix race line-up.",
+      "published": "Oct 20, 2026",
+      "updated": "Oct 20, 2026",
+      "canonicalUrl": "https://paddockcommand.com/colton-herta-cadillac-austin-fp1-2026.html",
+      "facts": [
+        {
+          "label": "DRIVER",
+          "value": "Colton Herta"
+        },
+        {
+          "label": "SESSION",
+          "value": "FP1"
+        },
+        {
+          "label": "START",
+          "value": "12:30 CDT"
+        },
+        {
+          "label": "RACE SEAT",
+          "value": "Pérez"
+        }
+      ],
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Cadillac will put Colton Herta in Sergio Pérez’s car for Friday’s opening Austin practice session. It is a planned rookie-driver appearance, not a change to the Grand Prix race line-up."
+        },
+        {
+          "type": "heading",
+          "text": "What Cadillac has announced"
+        },
+        {
+          "type": "paragraph",
+          "text": "Colton Herta is scheduled to take over Sergio Pérez’s Cadillac MAC-26 for the first free-practice session of the 2026 United States Grand Prix at Circuit of The Americas. The team’s announcement, reported October 20, places Herta in the car on Friday, October 23. Pérez is expected back in the cockpit for FP2. Cadillac’s regular race drivers remain Pérez and Valtteri Bottas."
+        },
+        {
+          "type": "heading",
+          "text": "Why Austin matters to Herta"
+        },
+        {
+          "type": "paragraph",
+          "text": "The venue is a homecoming for the American driver. Herta won his first IndyCar race at Circuit of The Americas in 2019, a breakthrough that made him the youngest winner in IndyCar history at the time. That race is a meaningful connection to the venue, but the demands of an F1 practice session are different from an IndyCar event."
+        },
+        {
+          "type": "heading",
+          "text": "Fourth scheduled F1 practice appearance"
+        },
+        {
+          "type": "paragraph",
+          "text": "Austin follows Herta’s earlier Friday outings for Cadillac at Barcelona, the Hungaroring and Monza. Formula 1 confirmed the team’s four-session plan earlier in the season. This session contributes to Herta’s development and Cadillac’s practice objectives; it does not represent confirmation of a future full-time Formula 1 seat."
+        },
+        {
+          "type": "heading",
+          "text": "What Cadillac needs from the session"
+        },
+        {
+          "type": "paragraph",
+          "text": "FP1 offers a single hour for Herta to reacquaint himself with the MAC-26 and help the engineers assess its balance, driveability and operating window. COTA combines fast changes of direction, a steep braking zone into Turn 1, and a long straight leading into Turn 12. Clean laps, consistent driver feedback and trouble-free running are more meaningful evaluation criteria than a headline position on an early timing sheet."
+        },
+        {
+          "type": "heading",
+          "text": "The cost of a rookie-driver swap"
+        },
+        {
+          "type": "paragraph",
+          "text": "The team must split its weekend preparation across two drivers sharing a car. Herta’s run can supply useful information, but Pérez will have only FP2 on Friday in his own car. Work completed before the first practice, a reliable session and clear handover notes will matter, particularly on a conventional weekend with three practice periods before qualifying."
+        },
+        {
+          "type": "heading",
+          "text": "United States Grand Prix timetable"
+        },
+        {
+          "type": "paragraph",
+          "text": "The official Formula 1 event schedule lists Friday FP1 at 12:30 PM Austin local time (CDT) and FP2 at 4:00 PM on October 23. FP3 begins at 12:30 PM Saturday, with qualifying at 4:00 PM. The 56-lap Grand Prix starts at 3:00 PM Sunday, October 25. All times are subject to subsequent official changes."
+        },
+        {
+          "type": "heading",
+          "text": "What to watch when Herta runs"
+        },
+        {
+          "type": "paragraph",
+          "text": "Monitor the number of completed laps, whether the session includes a meaningful clean-air run, how steadily the car behaves through the Esses and Turn 12 braking zone, and any mechanical interruptions. Comparing Herta’s single-session lap to the full-time drivers without correcting for tyres, fuel, traffic and programme differences would be misleading."
+        },
+        {
+          "type": "heading",
+          "text": "Paddock Command assessment"
+        },
+        {
+          "type": "paragraph",
+          "text": "Herta’s Austin appearance is a distinct local-interest development within an already busy title weekend. It adds an American-driver narrative to Cadillac’s home race and provides useful development mileage. The FP1 story should be updated after Friday with the official classification and any confirmed team comments; no competitive result should be presented before the session takes place."
+        },
+        {
+          "type": "heading",
+          "text": "Official sources"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cadillac four-session programme: https://www.formula1.com/en/latest/article/herta-to-take-part-in-four-fp1-sessions-with-cadillac-during-2026-season.6FzzlDMz5ltCYAumyU08Ab. Austin FP1 confirmation: https://grandepremio.com/en/f1/herta-replaces-perez-at-cadillac-for-austin-f1-practice-in-emotional-american-homecoming/. Official timetable: https://www.formula1.com/en/racing/2026/united-states."
+        }
+      ]
+    },
     {
       "id": "austin-driver-form-watch-oct18-2026",
       "category": "DRIVER FORM WATCH",

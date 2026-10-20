@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.19.1",
-  "generatedAt": "2026-10-19T14:35:00Z",
+  "feedVersion": "2026.10.20.1",
+  "generatedAt": "2026-10-20T14:30:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -69,6 +69,16 @@
     ]
   },
   "articles": [
+    {
+      "id": "colton-herta-cadillac-austin-fp1-2026",
+      "category": "CADILLAC FP1",
+      "context": "UNITED STATES GP · AUSTIN · OCT 20",
+      "title": "Colton Herta to Drive Cadillac in Austin FP1 as Pérez Steps Aside",
+      "summary": "Cadillac will put Colton Herta in Sergio Pérez’s car for Friday’s opening Austin practice session. It is a planned rookie-driver appearance, not a change to the Grand Prix race line-up.",
+      "url": "https://paddockcommand.com/colton-herta-cadillac-austin-fp1-2026.html",
+      "updated": "2026-10-20",
+      "nativeReader": true
+    },
     {
       "id": "austin-driver-form-watch-oct18-2026",
       "category": "DRIVER FORM WATCH",
