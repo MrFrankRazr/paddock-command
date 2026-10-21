@@ -436,36 +436,29 @@ a{color:inherit}
 }
 
 /* ============================================================
-   v2.7.9 — unified page-title typography (2026-10-21)
-   Consistent bold, italic block lettering across section landing pages.
-   The homepage .hero h1 is intentionally excluded and unchanged.
-   Other typography, cards, logo and navigation are untouched.
+   v2.7.10 — consistent italic section headlines (2026-10-21)
+   Match the homepage's heavy italic typography across section
+   landing pages; retain its distinctive homepage sizing/color.
+   Preserve the approved Live Center title without alterations.
    ============================================================ */
-:where(.page-title) h1,
-:where(.live-center-title) h1,
-:where(.seo-hero) h1 {
+.page-title:not(.live-center-title) h1,
+.seo-hero h1 {
   font-family: Inter, "Segoe UI", Arial, sans-serif !important;
   font-style: italic !important;
   font-weight: 950 !important;
-  font-stretch: normal;
-  letter-spacing: -.008em !important;
-  line-height: 1.02 !important;
+  font-stretch: normal !important;
+  font-synthesis: weight style;
+  letter-spacing: 0 !important;
+  line-height: 1.04 !important;
+  font-size: clamp(3rem, 6vw, 5.125rem) !important;
   text-wrap: balance;
   overflow-wrap: break-word;
 }
-/* Preserve existing section-title sizing; scale long titles safely. */
-.page-title h1 {
-  font-size: clamp(2.75rem, 5.7vw, 5.125rem) !important;
-}
-/* The SEO section is loaded after styles.css on Articles pages. */
-.seo-hero h1 {
-  font-size: clamp(2.8rem, 6.8vw, 5.7rem) !important;
-}
 @media (max-width: 620px) {
-  .page-title h1,
+  .page-title:not(.live-center-title) h1,
   .seo-hero h1 {
-    font-size: clamp(2.25rem, 9vw, 3.8rem) !important;
-    letter-spacing: 0em !important;
-    line-height: 1.08 !important;
+    font-size: clamp(2.35rem, 9vw, 3.8rem) !important;
+    letter-spacing: .005em !important;
+    line-height: 1.09 !important;
   }
 }
