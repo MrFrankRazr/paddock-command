@@ -437,7 +437,7 @@ a{color:inherit}
 
 /* ============================================================
    v2.7.9 — unified page-title typography (2026-10-21)
-   Consistent bold block lettering across section landing pages.
+   Consistent bold, italic block lettering across section landing pages.
    The homepage .hero h1 is intentionally excluded and unchanged.
    Other typography, cards, logo and navigation are untouched.
    ============================================================ */
@@ -445,10 +445,10 @@ a{color:inherit}
 :where(.live-center-title) h1,
 :where(.seo-hero) h1 {
   font-family: Inter, "Segoe UI", Arial, sans-serif !important;
-  font-style: normal !important;
+  font-style: italic !important;
   font-weight: 950 !important;
   font-stretch: normal;
-  letter-spacing: -.018em !important;
+  letter-spacing: -.008em !important;
   line-height: 1.02 !important;
   text-wrap: balance;
   overflow-wrap: break-word;
@@ -465,7 +465,7 @@ a{color:inherit}
   .page-title h1,
   .seo-hero h1 {
     font-size: clamp(2.25rem, 9vw, 3.8rem) !important;
-    letter-spacing: -.01em !important;
+    letter-spacing: 0em !important;
     line-height: 1.08 !important;
   }
 }
