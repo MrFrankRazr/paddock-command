@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "feedVersion": "2026.10.20.1",
-  "generatedAt": "2026-10-20T14:30:00Z",
+  "feedVersion": "2026.10.21.1",
+  "generatedAt": "2026-10-21T13:43:00Z",
   "site": {
     "name": "Paddock Command",
     "baseUrl": "https://paddockcommand.com"
@@ -22,7 +22,7 @@
   "raceIntelligence": {
     "headline": "Austin Race Week — Antonelli Title Watch, Verstappen Form and Friday FP1",
     "summary": "The October 23–25 United States Grand Prix is Round 18. Antonelli leads Russell 340–238 and has an outside chance to clinch in Austin; Verstappen has won the last two Grands Prix. McLaren leads Red Bull by seven points. FP1 begins Friday at 12:30 PM CDT; Austin practice and qualifying have not yet taken place.",
-    "updatedLabel": "Updated Oct 19, 2026 · Austin race-week briefing",
+    "updatedLabel": "Updated Oct 21, 2026 · Austin technical watch",
     "watchPoints": [
       {
         "id": "austin-weekend-countdown",
@@ -49,8 +49,8 @@
         "id": "mercedes-upgrade-watch",
         "label": "WATCH POINT 04",
         "tag": "TECHNICAL",
-        "title": "Austin upgrades: McLaren plans parts, Mercedes tests existing W17 package",
-        "summary": "Formula 1 reported Oct 19 that McLaren plans further Austin upgrades while Mercedes has not announced new parts; three practice sessions will help Mercedes assess its Malaysia package. Plans are not confirmation of installation or on-track performance."
+        "title": "Austin upgrade test: Mercedes latest W17 on both cars, McLaren floor and brakes",
+        "summary": "Mercedes confirms Antonelli and Russell will use its latest W17 package. McLaren plans braking improvements and small floor tests. Verify actual performance after FP1 and FP2."
       },
       {
         "id": "portimao-gt3-race",
@@ -69,6 +69,16 @@
     ]
   },
   "articles": [
+    {
+      "id": "austin-upgrade-watch-mercedes-mclaren-2026",
+      "category": "TECHNICAL INTELLIGENCE",
+      "context": "UNITED STATES GP · AUSTIN · OCT 21",
+      "title": "Austin Upgrade Watch: Mercedes Unifies W17 Package as McLaren Tests Floor and Brakes",
+      "summary": "Mercedes has confirmed its latest W17 update package for both drivers at Austin, while McLaren will evaluate small floor changes and braking improvements. Neither announcement establishes a performance gain until the cars run.",
+      "url": "https://paddockcommand.com/austin-2026-upgrade-watch-mercedes-mclaren.html",
+      "updated": "2026-10-21",
+      "nativeReader": true
+    },
     {
       "id": "colton-herta-cadillac-austin-fp1-2026",
       "category": "CADILLAC FP1",

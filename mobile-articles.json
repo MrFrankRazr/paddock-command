@@ -1,8 +1,114 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.20.1",
-  "generatedAt": "2026-10-20T14:30:00Z",
+  "contentVersion": "2026.10.21.1",
+  "generatedAt": "2026-10-21T13:43:00Z",
   "articles": [
+    {
+      "id": "austin-upgrade-watch-mercedes-mclaren-2026",
+      "category": "TECHNICAL INTELLIGENCE",
+      "context": "UNITED STATES GP · AUSTIN · OCT 21",
+      "title": "Austin Upgrade Watch: Mercedes Unifies W17 Package as McLaren Tests Floor and Brakes",
+      "deck": "Mercedes has confirmed its latest W17 update package for both drivers at Austin, while McLaren will evaluate small floor changes and braking improvements. Neither announcement establishes a performance gain until the cars run.",
+      "published": "Oct 21, 2026",
+      "updated": "Oct 21, 2026",
+      "canonicalUrl": "https://paddockcommand.com/austin-2026-upgrade-watch-mercedes-mclaren.html",
+      "facts": [
+        {
+          "label": "MERCEDES",
+          "value": "Both cars"
+        },
+        {
+          "label": "McLAREN",
+          "value": "Floor + brakes"
+        },
+        {
+          "label": "McL vs RBR",
+          "value": "7 pts"
+        },
+        {
+          "label": "AUSTIN FP1",
+          "value": "Oct 23"
+        }
+      ],
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Mercedes has confirmed its latest W17 update package for both drivers at Austin, while McLaren will evaluate small floor changes and braking improvements. Neither announcement establishes a performance gain until the cars run."
+        },
+        {
+          "type": "heading",
+          "text": "Mercedes puts both drivers on the latest W17 specification"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mercedes team principal Toto Wolff confirmed in the team’s United States Grand Prix preview that both Kimi Antonelli and George Russell will run the latest update package at Circuit of The Americas. This is a specification decision, not a claim that a completely new package will debut in Texas. The aerodynamic update first caused difficulties in Malaysia, and the team used Singapore to compare configurations."
+        },
+        {
+          "type": "heading",
+          "text": "Why Singapore’s split specification matters"
+        },
+        {
+          "type": "paragraph",
+          "text": "At Singapore, Antonelli retained the newer parts while Russell reverted to the older specification. Mercedes used the split to understand the W17’s operating window after the difficult Sepang introduction. Antonelli improved over the weekend and finished third in the Grand Prix. With both cars on the latest specification in Austin, Mercedes can focus on understanding and extracting performance from the same hardware, rather than using a direct old-versus-new race-weekend comparison."
+        },
+        {
+          "type": "heading",
+          "text": "McLaren names its Austin development areas"
+        },
+        {
+          "type": "paragraph",
+          "text": "McLaren chief technical officer and chief designer Rob Marshall says the MCL40 will receive a modest set of changes intended to address braking reliability and performance, with small floor changes to test. McLaren has not published a lap-time gain, a detailed geometry change or a final qualifying configuration. The floor work and braking work are distinct: one is aerodynamic evaluation; the other targets braking behavior and reliability."
+        },
+        {
+          "type": "heading",
+          "text": "The seven-point constructors’ pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "McLaren enters Austin third in the Constructors’ Championship on 339 points, just seven ahead of Red Bull on 332. Norris and Piastri collected 33 points together over the preceding Azerbaijan, Sepang and Singapore Grands Prix, according to McLaren’s race preview. Max Verstappen’s consecutive Grand Prix wins have tightened the fight, but the small gap alone does not prove which upgrade programme will work."
+        },
+        {
+          "type": "heading",
+          "text": "Why COTA provides a useful comparison"
+        },
+        {
+          "type": "paragraph",
+          "text": "COTA combines rapid direction changes through the opening Esses, heavy braking at Turn 12, slow-corner traction demands and a 41-metre climb toward Turn 1. McLaren expects the circuit may suit its car better than recent venues, but Marshall stresses that practice is needed to correlate track data with simulations. The full three-practice-session format gives both teams time to assess reliability, balance, tyre behavior and long-run consistency before qualifying."
+        },
+        {
+          "type": "heading",
+          "text": "Championship stakes without premature conclusions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Antonelli leads Russell by 102 points, 340 to 238, entering Round 18. The Italian can clinch the Drivers’ Championship on Sunday if he wins while Russell finishes ninth or lower and Lewis Hamilton finishes fifth or lower. Mercedes leads Ferrari by 134 points in the Constructors’ Championship. These standings are pre-weekend figures; no Austin practice or qualifying result exists at this editorial cutoff."
+        },
+        {
+          "type": "heading",
+          "text": "What to verify after FP1 and FP2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Confirm whether both Mercedes cars actually complete meaningful running with the latest specification, whether McLaren continues its floor evaluation and whether the braking changes operate reliably. Track laps completed, reported technical issues, balance comments, and qualifying-simulation versus long-run pace. Avoid comparing single fastest laps without accounting for tyres, fuel loads, traffic and programme differences. Update this article after Friday’s official sessions rather than presenting upgrade promises as proven gains."
+        },
+        {
+          "type": "heading",
+          "text": "Official Austin timetable"
+        },
+        {
+          "type": "paragraph",
+          "text": "Friday October 23: FP1 at 12:30 PM and FP2 at 4:00 PM. Saturday October 24: FP3 at 12:30 PM and qualifying at 4:00 PM. Sunday October 25: the 56-lap United States Grand Prix starts at 3:00 PM. Times are Austin local time (CDT), subject to official changes."
+        },
+        {
+          "type": "heading",
+          "text": "Sources and updates"
+        },
+        {
+          "type": "paragraph",
+          "text": "Primary team statements: Mercedes-AMG F1 United States GP preview and McLaren Racing United States GP preview dated October 20, plus official F1 timetable. Data cutoff October 21 before track sessions; reassess after FP1/FP2."
+        }
+      ]
+    },
     {
       "id": "colton-herta-cadillac-austin-fp1-2026",
       "category": "CADILLAC FP1",
