@@ -436,29 +436,35 @@ a{color:inherit}
 }
 
 /* ============================================================
-   v2.7.10 — consistent italic section headlines (2026-10-21)
-   Match the homepage's heavy italic typography across section
-   landing pages; retain its distinctive homepage sizing/color.
-   Preserve the approved Live Center title without alterations.
+   v2.7.11 — Race Weekend headline typography is the reference.
+   Align every main section title with .live-center-title h1.
+   Homepage hero is not targeted. Preserve all other site styles.
    ============================================================ */
-.page-title:not(.live-center-title) h1,
-.seo-hero h1 {
+:where(.page-title) h1,
+:where(.seo-hero) h1 {
   font-family: Inter, "Segoe UI", Arial, sans-serif !important;
   font-style: italic !important;
   font-weight: 950 !important;
   font-stretch: normal !important;
   font-synthesis: weight style;
-  letter-spacing: 0 !important;
-  line-height: 1.04 !important;
-  font-size: clamp(3rem, 6vw, 5.125rem) !important;
+  letter-spacing: -.02em !important;
+  line-height: 1 !important;
   text-wrap: balance;
   overflow-wrap: break-word;
 }
+/* Standard section-title size follows the Live Center reference. */
+.page-title h1 {
+  font-size: clamp(48px, 6vw, 82px) !important;
+}
+/* The Articles SEO page uses a different heading container. */
+.seo-hero h1 {
+  font-size: clamp(48px, 6vw, 82px) !important;
+}
 @media (max-width: 620px) {
-  .page-title:not(.live-center-title) h1,
+  .page-title h1,
   .seo-hero h1 {
-    font-size: clamp(2.35rem, 9vw, 3.8rem) !important;
-    letter-spacing: .005em !important;
-    line-height: 1.09 !important;
+    font-size: clamp(36px, 9vw, 60px) !important;
+    letter-spacing: -.01em !important;
+    line-height: 1.05 !important;
   }
 }
