@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "weekendVersion": "2026.10.21.1",
-  "generatedAt": "2026-10-21T23:45:00Z",
+  "weekendVersion": "2026.10.22.1",
+  "generatedAt": "2026-10-22T19:20:00Z",
   "statusLabel": "United States Grand Prix · Oct 23–25 · Weekend upcoming",
   "state": "upcoming",
   "race": {
@@ -112,6 +112,11 @@
       "text": "Verstappen won the last two Grands Prix at Sepang and Singapore; Red Bull is seven points behind McLaren in the constructors’ battle."
     },
     {
+      "label": "COTA ACTIVE AERO · OCT 22",
+      "title": "Two Straight Mode zones confirmed",
+      "text": "Formula 1 confirms 2026 Straight Mode on the Turn 11–12 back straight and Turn 20–1 pit straight. Overtake Mode is separate, with detection just after Turn 20 and activation on the pit straight. FP1 will show how cars manage deployment and braking."
+    },
+    {
       "label": "FRIDAY FP1 DRIVER WATCH",
       "title": "Herta in Cadillac for Austin FP1",
       "text": "Cadillac has assigned American test driver Colton Herta to Sergio Pérez’s car for Friday FP1 at 12:30 CDT. Pérez is scheduled to return for FP2 at 16:00 CDT. Herta took his first IndyCar win at COTA in 2019."
@@ -134,7 +139,8 @@
     "Official Austin timetable: https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-united-states-grand-prix-and-how-can-i-watch-it.5jZFEoK96n4tpbRzEJjRoH",
     "Official Austin weather forecast published October 21: https://www.formula1.com/en/latest/article/what-is-the-weather-forecast-for-the-2026-united-states-grand-prix.ol8Mla3euA6b0oGK4Vneg",
     "October 19 Cadillac FP1 confirmation: Colton Herta to replace Sergio Pérez for Friday FP1; Pérez scheduled back in FP2. This is a planned rookie-practice appearance, not a race-seat change.",
-    "Herta assignment sources: https://www.carburando.com/notas/cadillac-confirmo-la-presencia-de-un-piloto-de-reserva-para-la-fp1-del-gran-premio-de-estados-unidos and https://www.grandprix.com/news/herta-gets-homecoming-cadillac-practice-run-at-austin.html"
+    "Herta assignment sources: https://www.carburando.com/notas/cadillac-confirmo-la-presencia-de-un-piloto-de-reserva-para-la-fp1-del-gran-premio-de-estados-unidos and https://www.grandprix.com/news/herta-gets-homecoming-cadillac-practice-run-at-austin.html",
+    "October 22 official Formula 1 COTA circuit guide confirms two Straight Mode zones (T11–12 and T20–1) and one Overtake Mode detection point just after T20: https://www.formula1.com/en/latest/article/circuit-guide-everything-you-need-to-know-about-the-circuit-of-the-americas.3OjhBbugiQRmN4FnlpBtBc"
   ],
   "startingGrid": [],
   "startingGridSource": "Not yet available — Austin qualifying scheduled October 24"
