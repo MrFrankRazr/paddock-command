@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "weekendVersion": "2026.10.23.1",
-  "generatedAt": "2026-10-23T07:25:00Z",
+  "weekendVersion": "2026.10.23.2",
+  "generatedAt": "2026-10-23T15:41:00Z",
   "statusLabel": "United States Grand Prix · Oct 23–25 · Weekend upcoming",
   "state": "upcoming",
   "race": {
@@ -117,9 +117,9 @@
       "text": "Formula 1 confirms 2026 Straight Mode on the Turn 11–12 back straight and Turn 20–1 pit straight. Overtake Mode is separate, with detection just after Turn 20 and activation on the pit straight. FP1 will show how cars manage deployment and braking."
     },
     {
-      "label": "AUSTIN TECHNICAL WATCH · OCT 23",
-      "title": "Ferrari’s modest floor gain; Mercedes engine delayed",
-      "text": "Before FP1, Ferrari drivers have tempered expectations for the new SF-26 floor: Hamilton estimated about 0.05s, not a measured result. Mercedes plans the latest W17 chassis on both cars, but its separate ADUO engine update will not debut in Austin, according to The Race. Verify installed parts and pace in practice."
+      "label": "FIA AUSTIN UPGRADES · OCT 23",
+      "title": "Ferrari diffuser, Red Bull front wing, McLaren corners",
+      "text": "Pre-FP1 FIA car-presentation submissions list Ferrari floor body, floor board, sidepod inlet and diffuser; McLaren front/rear corners and diffuser; Red Bull front wing and front-corner reliability change. Mercedes has no new Austin aero submission; its existing latest W17 chassis is planned for both cars, while the ADUO engine is delayed. Declared parts are not measured performance."
     },
     {
       "label": "FRIDAY FP1 DRIVER WATCH",
@@ -147,7 +147,8 @@
     "Herta assignment sources: https://www.carburando.com/notas/cadillac-confirmo-la-presencia-de-un-piloto-de-reserva-para-la-fp1-del-gran-premio-de-estados-unidos and https://www.grandprix.com/news/herta-gets-homecoming-cadillac-practice-run-at-austin.html",
     "October 22 official Formula 1 COTA circuit guide confirms two Straight Mode zones (T11–12 and T20–1) and one Overtake Mode detection point just after T20: https://www.formula1.com/en/latest/article/circuit-guide-everything-you-need-to-know-about-the-circuit-of-the-americas.3OjhBbugiQRmN4FnlpBtBc",
     "October 23 pre-FP1 technical update: Ferrari drivers describe the Austin floor/bodywork package as a modest expected performance step; Hamilton estimated roughly 0.05s, which is not verified lap-time gain. Source: https://www.the-race.com/formula-1/everything-we-learned-on-day-one-of-f1s-2026-us-gp/",
-    "October 22 reporting: Mercedes' ADUO power-unit upgrade is delayed beyond Austin; the latest W17 chassis specification is still planned for both drivers. Mexico timing unconfirmed; Brazil earliest likely per The Race. Source: https://www.the-race.com/formula-1/mercedes-rolls-back-aduo-engine-debut/"
+    "October 22 reporting: Mercedes' ADUO power-unit upgrade is delayed beyond Austin; the latest W17 chassis specification is still planned for both drivers. Mexico timing unconfirmed; Brazil earliest likely per The Race. Source: https://www.the-race.com/formula-1/mercedes-rolls-back-aduo-engine-debut/",
+    "October 23 FIA car-presentation submissions reported by Crash.net and GPblog: Ferrari floor body/board, sidepod inlet, diffuser; McLaren front/rear corners and diffuser; Red Bull front wing and front-corner reliability change; Mercedes no new Austin aero submission. Declared parts are not confirmation of fitment on both cars. https://www.crash.net/f1/news/1108074/1/f1-teams-united-states-gp-upgrades-revealed-after-lewis-hamiltons-ferrari ; https://www.gpblog.com/en/breaking-news/hamilton-and-leclerc-handed-massive-boost-with-updates-for-the-united-states-gp"
   ],
   "startingGrid": [],
   "startingGridSource": "Not yet available — Austin qualifying scheduled October 24"
