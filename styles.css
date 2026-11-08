@@ -460,3 +460,20 @@ a{color:inherit}
     line-height: 1.05 !important;
   }
 }
+
+
+/* Paddock Command Pinball Grand Prix — homepage feature (2026-11-07) */
+.pc-pinball-feature{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(230px,.75fr);gap:24px;align-items:center;padding:clamp(22px,3.5vw,38px);margin:-30px 0 66px;border:1px solid rgba(70,191,223,.48);border-radius:20px;background:radial-gradient(circle at 84% 14%,rgba(37,158,207,.18),transparent 39%),linear-gradient(120deg,#07192d,#0b2238 56%,#071527);box-shadow:0 22px 54px rgba(0,6,16,.26);overflow:hidden}
+.pc-pinball-feature__main{min-width:0}
+.pc-pinball-feature__eyebrow{margin:0 0 10px;color:#66d8ec;font-size:11px;font-weight:900;letter-spacing:.14em}
+.pc-pinball-feature h2{margin:0;font-size:clamp(28px,3.6vw,47px);line-height:1.08;letter-spacing:-.045em;font-weight:950;font-style:italic;color:#f1f8fc}
+.pc-pinball-feature h2 span{color:#5bd9ed}
+.pc-pinball-feature__main p:not(.pc-pinball-feature__eyebrow){max-width:660px;margin:14px 0 22px;color:#c1d5e2;font-size:15px;line-height:1.65}
+.pc-pinball-feature__cta{display:inline-flex;align-items:center;gap:14px;min-height:46px;padding:12px 20px;background:linear-gradient(110deg,#26b9d9,#217eae);border:1px solid #6bd9ed;border-radius:10px;color:#061827;text-decoration:none;font-size:13px;font-weight:950;letter-spacing:.05em;box-shadow:0 6px 22px rgba(23,148,190,.20)}
+.pc-pinball-feature__cta:hover,.pc-pinball-feature__cta:focus-visible{filter:brightness(1.12);outline:2px solid #c1f3ff;outline-offset:3px}
+.pc-pinball-feature__stats{display:grid;grid-template-columns:1fr;gap:10px}
+.pc-pinball-feature__stats div{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:61px;padding:12px 16px;border:1px solid rgba(109,184,212,.24);border-radius:11px;background:rgba(0,9,20,.38)}
+.pc-pinball-feature__stats strong{color:#e5f9ff;font-size:27px;font-weight:950;letter-spacing:-.03em;white-space:nowrap}
+.pc-pinball-feature__stats span{color:#a9c8d7;font-size:10px;font-weight:850;letter-spacing:.08em;text-align:right}
+@media(max-width:800px){.pc-pinball-feature{grid-template-columns:1fr;margin:-20px 0 46px}.pc-pinball-feature__stats{grid-template-columns:repeat(3,minmax(0,1fr))}.pc-pinball-feature__stats div{display:block;text-align:center}.pc-pinball-feature__stats span{display:block;text-align:center;margin-top:5px}}
+@media(max-width:520px){.pc-pinball-feature{padding:20px}.pc-pinball-feature__stats{grid-template-columns:1fr}.pc-pinball-feature__stats div{display:flex;text-align:left}.pc-pinball-feature__stats span{margin:0;text-align:right}}
