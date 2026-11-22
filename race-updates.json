@@ -1,0 +1,53 @@
+{
+  "event": "2026 Las Vegas Grand Prix",
+  "updates": [
+    {
+      "time": "2026-11-22T05:19:35Z",
+      "category": "Lap 42",
+      "title": "Verstappen and Antonelli trade the lead late in Las Vegas",
+      "body": "Verstappen edged back ahead after another Antonelli attack on Lap 41. Lando Norris was third and Oscar Piastri fifth on Lap 42.",
+      "sourceLabel": "The Guardian race coverage",
+      "sourceUrl": "https://www.theguardian.com/sport/live/2026/nov/22/las-vegas-grand-prix-formula-one-2026-race-updates-live"
+    },
+    {
+      "time": "2026-11-22T05:14:00Z",
+      "category": "Lap 39",
+      "title": "Antonelli challenges Verstappen for the lead",
+      "body": "Kimi Antonelli worked past George Russell and briefly led before Max Verstappen retook the position at Turn 1.",
+      "sourceLabel": "The Guardian race coverage",
+      "sourceUrl": "https://www.theguardian.com/sport/live/2026/nov/22/las-vegas-grand-prix-formula-one-2026-race-updates-live?page=with%3Ablock-6b0279e78f08d5509ceb6f73"
+    },
+    {
+      "time": "2026-11-22T04:51:00Z",
+      "category": "Lap 25",
+      "title": "Racing resumes after the safety car",
+      "body": "Verstappen led Russell and Isack Hadjar at the restart.",
+      "sourceLabel": "The Guardian race coverage",
+      "sourceUrl": "https://www.theguardian.com/sport/live/2026/nov/22/las-vegas-grand-prix-formula-one-2026-race-updates-live"
+    },
+    {
+      "time": "2026-11-22T04:35:00Z",
+      "category": "Lap 19",
+      "title": "Safety car follows Pérez and Câmara incident",
+      "body": "The safety car was deployed after Sergio Pérez and Rafael Câmara made contact. Pérez retired.",
+      "sourceLabel": "The Guardian race coverage",
+      "sourceUrl": "https://www.theguardian.com/sport/live/2026/nov/22/las-vegas-grand-prix-formula-one-2026-race-updates-live"
+    },
+    {
+      "time": "2026-11-22T04:05:00Z",
+      "category": "Start",
+      "title": "Verstappen stays ahead at lights out",
+      "body": "Max Verstappen held the lead from pole as George Russell followed him through the opening corners.",
+      "sourceLabel": "The Guardian race coverage",
+      "sourceUrl": "https://www.theguardian.com/sport/live/2026/nov/22/las-vegas-grand-prix-formula-one-2026-race-updates-live"
+    },
+    {
+      "time": "2026-11-22T03:00:00Z",
+      "category": "Final grid",
+      "title": "Verstappen and Russell share the front row",
+      "body": "The FIA confirmed pole for Max Verstappen and sixth on the grid for qualifying pacesetter Kimi Antonelli after his five-place penalty.",
+      "sourceLabel": "FIA final starting grid",
+      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_final_starting_grid.pdf"
+    }
+  ]
+}

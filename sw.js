@@ -2,4 +2,7 @@ const CACHE='paddock-command-v2.7.1';
 const SHELL=["/", "/index.html", "/styles.css?v=2.7.1", "/seo.css?v=2.7.1", "/app.js?v=2.7.1", "/monetization-config.js?v=2.7.1", "/monetization.js?v=2.7.1", "/offline.html", "/manifest.webmanifest", "/logo.svg", "/favicon.svg", "/icon-192.png", "/icon-512.png", "/standings.html", "/drivers.html", "/constructors.html", "/calendar.html", "/circuits.html", "/records.html", "/articles.html", "/newsletter.html", "/newsletter.js?v=2.7.1", "/2026-italian-grand-prix-preview.html"];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;const u=new URL(e.request.url);if(u.origin!==location.origin)return;e.respondWith(fetch(e.request).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return r;}).catch(()=>caches.match(e.request).then(r=>r||caches.match('/offline.html'))));});
+self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;const u=new URL(e.request.url);if(u.origin!==location.origin)return;
+  // The race feed uses short-lived URLs so readers can see newly published posts.
+  if(u.pathname==='/race-updates.json')return;
+  e.respondWith(fetch(e.request).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return r;}).catch(()=>caches.match(e.request).then(r=>r||caches.match('/offline.html'))));});

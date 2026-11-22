@@ -178,6 +178,23 @@ ml('account', '2605915');
 #view-live .pc-austin-friday-live .eyebrow{color:#55d7f1}
 @media(max-width:700px){#view-live .pc-austin-friday-live .analytics-panel{padding:16px}}
 </style>
+<style id="pc-race-updates-style">
+#pc-race-updates { margin: 16px 0; }
+#pc-race-updates .pc-race-updates-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 12px; }
+#pc-race-updates .pc-race-updates-head h2 { margin: 0; }
+#pc-race-updates-weekend { margin: 4px 0 0; }
+#pc-race-updates .pc-race-updates-links { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+#pc-race-updates a { color: var(--accent, #55dcff); text-decoration: underline; text-underline-offset: .18em; }
+#pc-race-updates-list { list-style: none; max-height: 32rem; overflow: auto; padding: 0; margin: 12px 0 0; }
+#pc-race-updates-list li { border-top: 1px solid var(--line, #284359); padding: 12px 0; }
+#pc-race-updates-list h3 { margin: 4px 0; font-size: 1rem; }
+#pc-race-updates-list p { margin: 0 0 4px; }
+#pc-race-updates .pc-race-update-meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; font-size: .8rem; }
+#pc-race-updates .pc-race-update-meta span { color: var(--accent, #55dcff); font-weight: 700; }
+#pc-race-updates-status { margin: 12px 0 0; }
+#pc-race-updates-status:empty { margin: 0; }
+</style>
+<script defer src="/race-updates.js?v=1"></script>
 </head>
 <body data-initial-view="live">
 <a class="skip-link" href="#mainContent">Skip to main content</a>
@@ -249,17 +266,32 @@ ml('account', '2605915');
 <section class="view content-view live-center-view active" data-view-panel="live" id="view-live">
 <div class="page-title live-center-title"><div><p class="eyebrow">RACE WEEKEND COMMAND</p><h1>Live Race Weekend Center</h1><p class="page-subtitle">Session clock, latest published classifications, circuit context and weather in one race-weekend view.</p><p class="page-subtitle seo-route-intro">Use the Race Weekend Center for schedules, published classifications, track weather and circuit context without confusing it with official real-time timing.</p></div><span class="season-chip" id="liveSeasonChip"></span></div><section aria-label="Fan Resources and affiliate partners" class="pc-partner-showcase" data-commerce-module="" hidden=""><div class="pc-partner-eyebrow">FAN RESOURCES · OPTIONAL PARTNER LINKS</div><h2>Gear up. Get there. Go further.</h2><p class="pc-partner-intro">Explore optional resources for your next race weekend, at the circuit or at home.</p><div class="pc-partner-grid"><a class="pc-partner-card" data-affiliate-key="simRacing" data-placement="weekend-partner-discovery" hidden=""><small>SIM RACING · THRUSTMASTER</small><strong>Upgrade your sim setup</strong><span>Explore a racing wheel for Formula-style driving →</span></a><a class="pc-partner-card" data-affiliate-key="expediaTravel" data-placement="weekend-partner-discovery" hidden=""><small>RACE TRAVEL · EXPEDIA</small><strong>Plan a Grand Prix trip</strong><span>Explore hotels and travel options →</span></a><a class="pc-partner-card" data-affiliate-key="booksCollectibles" data-placement="weekend-partner-discovery" hidden=""><small>F1 MERCHANDISE · FANATICS</small><strong>F1 gear &amp; collectibles</strong><span>Shop Formula 1 apparel and fan merchandise →</span></a></div><p class="pc-partner-disclosure">These are optional affiliate links. Paddock Command may earn a commission from qualifying purchases at no additional cost to you. <a href="/disclosures.html">Affiliate disclosures</a>.</p></section>
 <div class="live-center-hero" id="liveCenterHero"><div class="skeleton tall"></div></div>
+<section class="analytics-panel" id="pc-race-updates" aria-labelledby="pc-race-updates-title">
+  <div class="pc-race-updates-head">
+    <div>
+      <h2 id="pc-race-updates-title">Race Updates</h2>
+      <p id="pc-race-updates-weekend">Paddock Command race-weekend coverage</p>
+    </div>
+    <div class="pc-race-updates-links">
+      <a href="https://www.formula1.com/en/timing/f1-live">Official F1 Live Timing ↗</a>
+      <a href="https://www.fia.com/documents/championships">FIA Race Documents ↗</a>
+    </div>
+  </div>
+  <p id="pc-race-updates-status" role="status"></p>
+  <ol id="pc-race-updates-list" aria-label="Race updates, newest first" tabindex="0" hidden></ol>
+  <noscript><p>Enable JavaScript to load Paddock Command race updates.</p></noscript>
+</section>
 <section aria-label="2030 Formula 1 power unit regulatory announcement" class="analytics-panel pc-f1-2030-v8-nov21"><div class="analytics-panel-head compact"><div><p class="eyebrow">F1 2030 · REGULATIONS · NOV 21</p><h2>F1 Agrees Proposed Turbo V8 Power-Unit Framework</h2></div></div><p>The FIA, F1, teams and manufacturers have agreed a proposed 2.1-litre turbocharged V8 framework with sustainable fuels and limited hybridisation. Full regulations still require World Motor Sport Council approval. <a href="/f1-2030-turbo-v8-power-unit-framework.html">Read 2030 engine rules intelligence →</a></p></section><section aria-label="Las Vegas Grand Prix qualifying and penalty intelligence" class="analytics-panel pc-las-vegas-qualifying-nov20">
-<div class="analytics-panel-head compact"><div><p class="eyebrow">LAS VEGAS · QUALIFYING COMPLETE · NOV 20</p><h2>Verstappen Heads Published Provisional Grid; Antonelli Starts P6</h2></div></div>
-<p><strong>FIA provisional qualifying top five:</strong> Antonelli 1:33.893 · Verstappen +0.258s · Russell +0.331s · Norris +0.351s · Hadjar +0.699s. These are qualifying positions, not final starting-grid positions.</p>
-<p><strong>Grid penalties:</strong> Antonelli -5, Piastri -10, Sainz -10 and Stroll -10. Bearman qualified outside the 107% threshold and is listed P22 after a cumulative 35-place power-unit penalty; FIA permissions remain authoritative. The provisional grid lists Verstappen P1, Russell P2, Norris P3, Hadjar P4, Lindblad P5 and Antonelli P6; Piastri P17 and Bearman P22. Subject to later FIA decisions.</p>
+<div class="analytics-panel-head compact"><div><p class="eyebrow">LAS VEGAS · QUALIFYING COMPLETE · NOV 20</p><h2>Verstappen Heads Final Grid; Antonelli P6</h2></div></div>
+<p><strong>FIA final qualifying top five:</strong> Antonelli 1:33.893 · Verstappen +0.258s · Russell +0.331s · Norris +0.351s · Hadjar +0.699s. These are qualifying positions, not final starting-grid positions.</p>
+<p><strong>Grid penalties:</strong> Antonelli -5, Piastri -10, Sainz -10 and Stroll -10. The stewards granted Bearman permission to start. The final grid lists Verstappen on pole alongside Russell, with Antonelli sixth.</p>
 <p><strong>Ferrari:</strong> Leclerc was 11th and Hamilton 12th, both eliminated in Q2. <strong>Grand Prix:</strong> Saturday, Nov 21, 8:00 p.m. PST.</p>
 <p><a href="/2026-las-vegas-grand-prix-qualifying-grid-intelligence.html">Read Qualifying Intelligence &amp; Grid Watch →</a> · <a href="https://www.formula1.com/en/results/2026/races/1300/las-vegas/qualifying" rel="noopener noreferrer">Official Qualifying Classification ↗</a></p>
 </section>
 <section aria-label="Las Vegas Grand Prix upcoming weekend briefing" class="analytics-panel pc-upcoming-weekend">
 <div class="analytics-panel-head compact"><div><p class="eyebrow">NEXT RACE · LAS VEGAS · NOV 19–21</p><h2>Las Vegas Weekend Schedule and Tyre Strategy</h2></div></div>
 <p><strong>Friday FP3 final classification.</strong> George Russell led the first dry session in 1:34.041, ahead of Mercedes team-mate Kimi Antonelli (+0.911s), Lando Norris (+0.974s), Charles Leclerc (+1.150s) and Franco Colapinto (+1.157s). Verstappen was sixth. <a href="/2026-las-vegas-grand-prix-practice-intelligence.html">Full FIA top ten and analysis →</a></p>
-<p><strong>Grid-penalty reminder:</strong> Antonelli -5 places; Piastri, Sainz and Stroll -10 each; Bearman carries a cumulative back-of-grid penalty. Await the final FIA starting-grid document after qualifying.</p>
+<p><strong>Grid-penalty reminder:</strong> Antonelli -5 places; Piastri, Sainz and Stroll -10 each; Bearman carries a cumulative back-of-grid penalty. <a href="https://www.fia.com/system/files/decision-document/2026_las_vegas_grand_prix_-_final_starting_grid.pdf">See the FIA final grid ↗</a>.</p>
 <p><strong>Thursday practice complete.</strong> George Russell led wet FP2 with a 1:47.272, 0.071s ahead of Pierre Gasly and 0.333s clear of Charles Leclerc. FP1 produced no official lap times. <a href="/2026-las-vegas-grand-prix-practice-intelligence.html">Read the Las Vegas practice report →</a></p>
 <p><strong>FIA grid watch.</strong> Antonelli drops five places. Piastri, Sainz and Stroll drop 10 each. Bearman’s 35-place penalty sends him to the back if classified in qualifying. <a href="/2026-las-vegas-grand-prix-practice-intelligence.html#las-vegas-grid-penalties">See the FIA grid penalties →</a></p>
 <p><strong>Friday, Nov 20:</strong> FP3 and qualifying completed. See the latest qualifying report above.</p>
