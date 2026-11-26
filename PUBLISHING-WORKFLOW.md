@@ -46,6 +46,6 @@ Paddock Command uses a review-first publishing process that connects the daily E
 - X: https://x.com/PaddockCommand
 - Instagram: https://www.instagram.com/paddockcommand/
 - Facebook: https://www.facebook.com/PaddockCommand
-- YouTube: https://www.youtube.com/@PaddockCommand
+- YouTube: https://www.youtube.com/@paddockcommand
 
 Threads is intentionally omitted while the account is unavailable.

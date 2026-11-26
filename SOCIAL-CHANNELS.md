@@ -7,7 +7,9 @@
 | X | `@PaddockCommand` | Fast race-weekend updates, data, articles, discussion |
 | Instagram | `paddockcommand` | Branded stat cards, previews, circuit/form visuals |
 | Facebook | `Paddock Command` | Articles, previews, debriefs, broader discussion |
-| YouTube | `@PaddockCommand` | Reserved for future Shorts and long-form video |
+| YouTube | [@paddockcommand](https://www.youtube.com/@paddockcommand) | Active: original Formula 1 Shorts and future long-form video |
+
+First published Short: [Qatar Grand Prix strategy](https://www.youtube.com/shorts/T-rkDeHNKOY).
 
 Threads is not listed as active while the account is disabled.
 
