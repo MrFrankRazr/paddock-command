@@ -2,6 +2,22 @@
   "event": "2026 Qatar Grand Prix",
   "updates": [
     {
+      "time": "2026-11-27T18:32:00Z",
+      "category": "FP2 classification",
+      "title": "Antonelli completes a Friday sweep at Lusail",
+      "body": "Kimi Antonelli lowered the Friday benchmark to 1:23.077. George Russell closed to 0.127 seconds, and McLaren took third and fourth with Lando Norris and Oscar Piastri.",
+      "sourceLabel": "FIA FP2 classification",
+      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_qatar_grand_prix_-_free_practice_2_classification.pdf"
+    },
+    {
+      "time": "2026-11-27T14:45:00Z",
+      "category": "FP1 classification",
+      "title": "Mercedes leads opening Qatar practice",
+      "body": "Kimi Antonelli set a 1:23.217 to lead George Russell by 0.507 seconds. Isack Hadjar was third for Red Bull.",
+      "sourceLabel": "FIA FP1 classification",
+      "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_qatar_grand_prix_-_free_practice_1_classification.pdf"
+    },
+    {
       "time": "2026-11-23T21:03:14Z",
       "category": "Weekend preview",
       "title": "Qatar race week opens at Lusail",
